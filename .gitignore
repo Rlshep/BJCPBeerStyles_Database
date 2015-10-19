@@ -1,0 +1,17 @@
+.gradle
+/local.properties
+/.idea
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+*.bak
+bjcp_beer_styles/src/main/res/drawable-mdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-hdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-xhdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-hdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-xxxhdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-xxhdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-xxxhdpi/Thumbs.db
+bjcp_beer_styles/src/main/res/drawable-xxhdpi/Thumbs.db
