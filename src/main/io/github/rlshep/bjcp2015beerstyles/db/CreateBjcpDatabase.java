@@ -19,6 +19,8 @@ import java.util.List;
 
 public class CreateBjcpDatabase {
     private static final String LOCALE = "en_US";
+    private static final String NULL = "NULL";
+
     private Statement stmt;
 
     public final static void main(String[] args) {
@@ -116,7 +118,7 @@ public class CreateBjcpDatabase {
 
     private void addVitalStatistics(Statement stmt, VitalStatistics vitalStatistics) throws SQLException {
         String sql = "INSERT INTO " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_SUB_CAT_ID + ", " + BjcpContract.COLUMN_OG_START + ", " + BjcpContract.COLUMN_OG_END + ", " + BjcpContract.COLUMN_FG_START + ", " + BjcpContract.COLUMN_FG_END + ", " + BjcpContract.COLUMN_IBU_START + ", " + BjcpContract.COLUMN_IBU_END + ", " + BjcpContract.COLUMN_SRM_START + ", " + BjcpContract.COLUMN_SRM_END + ", " + BjcpContract.COLUMN_ABV_START + ", " + BjcpContract.COLUMN_ABV_END + ")";
-        sql += "VALUES(" + vitalStatistics.get_subCategoryId() + ",'" + vitalStatistics.get_ogStart() + "','" + vitalStatistics.get_ogEnd() + "','" + vitalStatistics.get_fgStart() + "','" + vitalStatistics.get_fgEnd() + "','" + vitalStatistics.get_ibuStart() + "','" + vitalStatistics.get_ibuEnd() + "','" + vitalStatistics.get_srmStart() + "','" + vitalStatistics.get_srmEnd() + "','" + vitalStatistics.get_abvStart() + "','" + vitalStatistics.get_abvEnd() + "') ";
+        sql += "VALUES(" + vitalStatistics.get_subCategoryId() + "," + handleNull(vitalStatistics.get_ogStart()) + "," + handleNull(vitalStatistics.get_ogEnd()) + "," + handleNull(vitalStatistics.get_fgStart()) + "," + handleNull(vitalStatistics.get_fgEnd()) + "," + handleNull(vitalStatistics.get_ibuStart()) + "," + handleNull(vitalStatistics.get_ibuEnd()) + "," + handleNull(vitalStatistics.get_srmStart()) + "," + handleNull(vitalStatistics.get_srmEnd()) + "," + handleNull(vitalStatistics.get_abvStart()) + "," + handleNull(vitalStatistics.get_abvEnd()) + ") ";
 
         //Write category to database.
         stmt.executeUpdate(sql);
@@ -154,5 +156,17 @@ public class CreateBjcpDatabase {
         }
 
         return id;
+    }
+
+    private String handleNull(String myString) {
+        String formatted = "";
+
+        if (null != myString) {
+            formatted = "'" + myString + "'";
+        } else {
+            formatted = NULL;
+        }
+
+        return formatted;
     }
 }
