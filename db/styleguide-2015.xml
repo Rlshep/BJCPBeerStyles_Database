@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <styleguide>
   <class type="beer">
-    <introduction>
-      <title>Introduction to Beer Styles</title>
+    <category id="I0">
       <revision number="1">2015</revision>
-      <section>
+      <name>Introduction to Beer Styles</name>
+      <notes>
         <paragraph>In order to reduce the size of style descriptions, we use some basic shorthand or jargon to represent more complex thoughts, and we also omit some items that should only be noted in exception circumstances. Some terminology may have different meanings in certain parts of the world, so we define our usages to avoid confusion. We also identify certain characteristics that are assumed not to be present in all beer styles so we don&#8217;t have to repeat those restrictions in every style.</paragraph>
-      </section>
-      <section>
-        <sectiontitle>Basic Categorization</sectiontitle>
+      </notes>
+      <subcategory id="I0A">
+        <name>Basic Categorization</name>
         <paragraph>
           The most general categorization of beer styles by yeast type is a modern craft brewing phenomenon. American brewers and most other craft brewers call beers <em>ales</em> if they use top-fermenting (ale) yeast and <em>lagers</em>  if they use bottom-fermenting (lager) yeast. Most categorization systems will allow for a third classification, often called spontaneously-fermented because of the method; however, <em>wild</em> is perhaps a more widely-used modern craft beer term for these beers fermented with bacteria or non-saccharomyces yeast. The term <em>wild</em> in this context does not imply spontaneous fermentation; most are directly inoculated with the desired fermentation strains.
         </paragraph>
@@ -19,9 +19,9 @@
         <paragraph>
           These guidelines attempt to use the modern craft beer definitions of <em>ale</em>, <em>lager</em>, and <em>wild</em> as the major groupings of beer styles, but will mention how they might be described in local or regional contexts, if possible.
         </paragraph>
-      </section>
-      <section>
-        <sectiontitle>Common Attributes of All Beer Styles</sectiontitle>
+      </subcategory>
+      <subcategory id="I0B">
+        <name>Common Attributes of All Beer Styles</name>
         <paragraph>
           The attributes discussed in this section are assumed to be present in every beer style description unless otherwise noted. It is not necessary to repeat all these characteristics for every style description. <em>Do not assume that since a characteristic (such as diacetyl) isn&#8217;t mentioned in a style description that somehow it is allowable.</em>
         </paragraph>
@@ -31,13 +31,13 @@
         <paragraph>In mouthfeel, all beers are assumed to be free from astringency, and not be creamy or have any other palate sensations unless otherwise noted. Beers with an alcohol level of 6% or less are assumed to not have the flavor or warming nature of alcohol, unless otherwise noted. Higher-alcohol beers that have a noticeable alcohol presence should not be harsh, hot, solventy, or burning. The alcohol character if noted, should be clean and not have fusel alcohols.</paragraph>
         <paragraph>Lagers tend to be smooth, clean, and free of esters, but may have slight yeast-derived sulfur notes that are often fleeting. Styles made with a large amount of Pilsner malt may have low DMS notes; this is not a fault, but it is also not required unless otherwise noted. In both cases, the small amounts of sulfur and/or DMS should not be taken as meaning that prominent quantities are somehow desirable &#8211; they&#8217;re not. Just be aware that the use of some traditional ingredients often leave small sensory indications of their presence that might be considered faults in other contexts; that is perfectly acceptable, although not required.</paragraph>
         <paragraph>Unless otherwise noted, assume all lagers to not have any fruitiness (esters). Ales tend to be less smooth than lagers, so unless otherwise noted, assume all ales may have some esters (not required, but not a fault).</paragraph>
-      </section>
-      <section>
-        <sectiontitle>Glossary</sectiontitle>
+      </subcategory>
+      <subcategory id="I0C">
+        <name>Glossary</name>
         <paragraph>Some terminology used in the style guidelines may be unfamiliar to some readers. Rather than include a complete dictionary, we have highlighted a few terms that either may not be well understood, or that imply specific meanings within the guidelines. Sometimes ingredient names are used as a shorthand for the character they provide to beer. When judges use these terms, they don&#8217;t necessarily imply that those specific ingredients have been used, just that the perceived characteristics match those commonly provided by the mentioned ingredients.</paragraph>
       </section>
       <section>
-        <sectiontitle>Hop Terms</sectiontitle>
+        <Hop_Terms>
         <definitionlist>
           <definitionitem>
             <definitionterm>American hops</definitionterm>
@@ -56,9 +56,8 @@
             <definition>often called noble hops, traditionally among the finest continental European brewing hops. Often having a lightly floral, spicy, or herbal character; rarely brash and aggressive, typically more subtle and elegant in nature.</definition>
           </definitionitem>
         </definitionlist>
-      </section>
-      <section>
-        <sectiontitle>Malt or Mashing Terms</sectiontitle>
+      </Hop_Terms>
+      <Malt_or_Mashing_Terms>
         <definitionlist>
           <definitionitem>
             <definitionterm>Munich malt</definitionterm>
@@ -81,9 +80,8 @@
             <definition>dry, toasted grain, flour, or dough flavor reminiscent of English digestive biscuits; in brewing, a flavor commonly associated with Biscuit malt and some traditional English malts.</definition>
           </definitionitem>
         </definitionlist>
-      </section>
-      <section>
-        <sectiontitle>Yeast or Fermentation Terms</sectiontitle>
+      </Malt_or_Mashing_Terms>
+      <Yeast_or_Fermentation_Terms>
         <definitionlist>
           <definitionitem>
             <definitionterm>Clean fermentation profile</definitionterm>
@@ -104,9 +102,8 @@
             </definition>
           </definitionitem>
         </definitionlist>
-      </section>
-      <section>
-        <sectiontitle>Quality or Off-Flavor Terms</sectiontitle>
+      </Yeast_or_Fermentation_Terms>
+      <Quality_or_Off-Flavor_Terms>
         <definitionlist>
           <definitionitem>
             <definitionterm>Adjunct quality</definitionterm>
@@ -129,9 +126,8 @@
             <definition>A positive or negative term, depending on the context. If expected or desirable, can often take on a barnyard, wet hay, slightly earthy, horse blanket, or farmyard character. If too intense, unexpected, or undesirable, can take the form of silage, fecal, baby diaper, or horse stall qualities.</definition>
           </definitionitem>
         </definitionlist>
-      </section>
-      <section>
-        <sectiontitle>Appearance Terms</sectiontitle>
+      </Quality_or_Off-Flavor_Terms>
+      <Appearance_Terms>
         <definitionlist>
           <definitionitem>
             <definitionterm>Belgian Lace (Lacing)</definitionterm>
@@ -142,12 +138,11 @@
             <definition>a pattern that a beverage leaves on the inside of a glass after a portion has been consumed. The term refers to the droplets that slowly fall in streams from beverage residue on the side of the glass. Not an indication of quality, but can indicate a higher alcohol, sugar, or glycerol content.</definition>
           </definitionitem>
         </definitionlist>
-      </section>
-      <section>
-        <sectiontitle>Color Reference</sectiontitle>
+      </Appearance_Terms>
+      <subcategory id="I0C">
+        <name>Color Reference</name>
         <paragraph>Note that SRM is a measure of beer color density more than hue/tint. Keep this in mind when attempting to use only SRM numbers when describing beers. Within these Guidelines, beer color descriptors generally follow this mapping to SRM values:</paragraph>
-        <paragraph>
-          <table>
+        <paragraph>Appearance_Terms
             <tr>
               <td>Straw</td>
               <td>2-3</td>
@@ -198,16 +193,16 @@
             </tr>
           </table>
         </paragraph>
-      </section>
-      <section>
-        <sectiontitle>Style Organization</sectiontitle>
+      </subcategory>
+      <subcategory id="I0D">
+        <name>Style Organization</name>
         <paragraph>The beer styles described in the guidelines have been categorized to assist with running homebrew competitions. Categories (the major groupings of styles) are artificial constructs that represent a collection of individual sub-categories (beer styles) that may or may not have any historical, geographic, or traditional relationship with each other. Do not infer that membership in a style category somehow relates beer styles with each other. The only reason why they are grouped together is to assist with managing the scale and complexity of competitions. The names given to the groupings are for competition purposes only, and may not be used in any broader contexts in the beer and brewing industries.</paragraph>
         <paragraph>
            <strong>Competitions do not have to judge each style category separately</strong>; they may be combined, split, or otherwise reorganized for competition purposes. Competition organizers are free to combine style sub-categories into their own competition categories. As long as each submitted beer is judged against the identified sub-category (style), any logical grouping is permitted.
         </paragraph>
-      </section>
-      <section>
-        <sectiontitle>Style Tag Reference</sectiontitle>
+      </subcategory>
+      <subcategory id="I0E">
+        <name>Style Tag Reference</name>
         <paragraph>To assist with regrouping styles for other purposes, we have added informational tags to each style. These tags indicate certain attributes of the beer that may be used for grouping purposes. The &#8216;meaning&#8217; column explains the general intent of the tag, but is not meant to be rigorous, formal definition. In no way do the tags supersede the actual descriptions of the style.</paragraph>
         <paragraph><table>
           <colgroup>
@@ -477,8 +472,8 @@
             <td>noticeable flavor and/or aroma of spices</td>
           </tr>
         </table></paragraph>
-      </section>
-    </introduction>
+      </subcategory>
+    </category>
     <category id="1">
       <revision number="1">2015</revision>
       <name>Standard American Beer</name>

@@ -1,23 +1,22 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
-import io.github.rlshep.bjcp2015beerstyles.domain.Category;
-import io.github.rlshep.bjcp2015beerstyles.domain.Section;
-import io.github.rlshep.bjcp2015beerstyles.domain.SubCategory;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 import org.apache.commons.lang.StringUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.FileInputStream;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+
+import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
+import io.github.rlshep.bjcp2015beerstyles.domain.Category;
+import io.github.rlshep.bjcp2015beerstyles.domain.Section;
+import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class LoadDataFromXML {
     private static final String XML_FILE_NAME = "styleguide-2015.xml";
@@ -50,7 +49,7 @@ public class LoadDataFromXML {
         int eventType = xpp.getEventType();
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
-            if (eventType == XmlPullParser.START_TAG && BjcpContract.COLUMN_CAT.equals(xpp.getName())) {
+            if (eventType == XmlPullParser.START_TAG && BjcpContract.COLUMN_CAT_ID.equals(xpp.getName())) {
                 categories.add(createCategory(xpp, orderNumber));
                 orderNumber++;
             }
@@ -64,56 +63,37 @@ public class LoadDataFromXML {
     private Category createCategory(XmlPullParser xpp, int orderNumber) throws XmlPullParserException, IOException {
         Category category = new Category(xpp.getAttributeValue(null, BjcpContract.XML_ID));
         List<Section> sections = new ArrayList<Section>();
-        List<SubCategory> subCategories = new ArrayList<SubCategory>();
+        List<Category> childCategories = new ArrayList<Category>();
         int sectionOrder = 0;
         int subCatOrder = 0;
 
-       while (isNotTheEnd(xpp,BjcpContract.COLUMN_CAT)) {
+        while (isNotTheEnd(xpp,BjcpContract.COLUMN_CAT_ID)) {
             if (isStartTag(xpp, BjcpContract.COLUMN_NAME)) {
-                category.set_name(getNextText(xpp));
+                category.setName(getNextText(xpp));
             } else if (isStartTag(xpp, BjcpContract.XML_SUBCATEGORY)) {
-                subCategories.add(createSubCategory(xpp, subCatOrder));
+                childCategories.add(createCategory(xpp, subCatOrder));
                 subCatOrder++;
             } else if (isSection(xpp)) {
                 sections.add(createSection(xpp, sectionOrder));
                 sectionOrder++;
+            } else if (isStartTag(xpp, BjcpContract.XML_STATS)) {
+                VitalStatistics vitalStatistics = createVitalStatistics(xpp);
+
+                // If statistics is an exception then add to sections.
+                if (null == vitalStatistics) {
+                    sections.add(createSection(xpp, sectionOrder));
+                    sectionOrder++;
+                }
+
+                category.setVitalStatistics(vitalStatistics);
             }
         }
 
-        category.set_sections(sections);
-        category.set_subCategories(subCategories);
-        category.set_orderNumber(orderNumber);
+        category.setSections(sections);
+        category.setChildCategories(childCategories);
+        category.setOrderNumber(orderNumber);
 
         return category;
-    }
-
-    private SubCategory createSubCategory(XmlPullParser xpp, int orderNumber) throws XmlPullParserException, IOException {
-        SubCategory subCategory = new SubCategory(xpp.getAttributeValue(null, BjcpContract.XML_ID), orderNumber);
-        List<Section> sections = new ArrayList<Section>();
-        int sectionOrder = 1;
-
-        while (isNotTheEnd(xpp,BjcpContract.XML_SUBCATEGORY)){
-           if (isStartTag(xpp, BjcpContract.COLUMN_NAME)) {
-               subCategory.set_name(getNextText(xpp));
-           } else if (isStartTag(xpp, BjcpContract.XML_STATS)) {
-               VitalStatistics vitalStatistics = createVitalStatistics(xpp);
-
-               // If statistics is an exception then add to sections.
-               if (null == vitalStatistics) {
-                   sections.add(createSection(xpp, sectionOrder));
-                   sectionOrder++;
-               }
-
-               subCategory.set_vitalStatistics(vitalStatistics);
-           } else if (isSection(xpp)) {
-               sections.add(createSection(xpp, sectionOrder));
-               sectionOrder++;
-            }
-        }
-
-        subCategory.set_sections(sections);
-
-        return subCategory;
     }
 
     private boolean isSection(XmlPullParser xpp) throws XmlPullParserException {
@@ -136,7 +116,7 @@ public class LoadDataFromXML {
         }
 
         bodyText = bodyText.replaceAll("[\n\r]", "").trim();
-        section.set_body(bodyText);
+        section.setBody(bodyText);
 
         return section;
     }
@@ -162,20 +142,20 @@ public class LoadDataFromXML {
             }
 
             if (isStartTag(xpp, BjcpContract.XML_OG)) {
-                vitalStatistics.set_ogStart(getNextByName(xpp, BjcpContract.XML_LOW));
-                vitalStatistics.set_ogEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+                vitalStatistics.setOgStart(getNextByName(xpp, BjcpContract.XML_LOW));
+                vitalStatistics.setOgEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
             } else if (isStartTag(xpp, BjcpContract.XML_FG)) {
-                vitalStatistics.set_fgStart(getNextByName(xpp, BjcpContract.XML_LOW));
-                vitalStatistics.set_fgEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+                vitalStatistics.setFgStart(getNextByName(xpp, BjcpContract.XML_LOW));
+                vitalStatistics.setFgEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
             } else if (isStartTag(xpp, BjcpContract.XML_IBU)) {
-                vitalStatistics.set_ibuStart(getNextByName(xpp, BjcpContract.XML_LOW));
-                vitalStatistics.set_ibuEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+                vitalStatistics.setIbuStart(getNextByName(xpp, BjcpContract.XML_LOW));
+                vitalStatistics.setIbuEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
             } else if (isStartTag(xpp, BjcpContract.XML_SRM)) {
-                vitalStatistics.set_srmStart(getNextByName(xpp, BjcpContract.XML_LOW));
-                vitalStatistics.set_srmEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+                vitalStatistics.setSrmStart(getNextByName(xpp, BjcpContract.XML_LOW));
+                vitalStatistics.setSrmEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
             } else if (isStartTag(xpp, BjcpContract.XML_ABV)) {
-                vitalStatistics.set_abvStart(getNextByName(xpp, BjcpContract.XML_LOW));
-                vitalStatistics.set_abvEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+                vitalStatistics.setAbvStart(getNextByName(xpp, BjcpContract.XML_LOW));
+                vitalStatistics.setAbvEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
             }
         }
 
