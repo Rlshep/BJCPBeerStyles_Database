@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <styleguide>
   <class type="beer">
-    <category id="I0">
+    <introduction>
+      <title>Introduction to Beer Styles</title>
       <revision number="1">2015</revision>
-      <name>Introduction to Beer Styles</name>
-      <notes>
+      <section>
         <paragraph>In order to reduce the size of style descriptions, we use some basic shorthand or jargon to represent more complex thoughts, and we also omit some items that should only be noted in exception circumstances. Some terminology may have different meanings in certain parts of the world, so we define our usages to avoid confusion. We also identify certain characteristics that are assumed not to be present in all beer styles so we don&#8217;t have to repeat those restrictions in every style.</paragraph>
-      </notes>
-      <subcategory id="I0A">
-        <name>Basic Categorization</name>
+      </section>
+      <section>
+        <sectiontitle>Basic Categorization</sectiontitle>
         <paragraph>
           The most general categorization of beer styles by yeast type is a modern craft brewing phenomenon. American brewers and most other craft brewers call beers <em>ales</em> if they use top-fermenting (ale) yeast and <em>lagers</em>  if they use bottom-fermenting (lager) yeast. Most categorization systems will allow for a third classification, often called spontaneously-fermented because of the method; however, <em>wild</em> is perhaps a more widely-used modern craft beer term for these beers fermented with bacteria or non-saccharomyces yeast. The term <em>wild</em> in this context does not imply spontaneous fermentation; most are directly inoculated with the desired fermentation strains.
         </paragraph>
@@ -19,9 +19,9 @@
         <paragraph>
           These guidelines attempt to use the modern craft beer definitions of <em>ale</em>, <em>lager</em>, and <em>wild</em> as the major groupings of beer styles, but will mention how they might be described in local or regional contexts, if possible.
         </paragraph>
-      </subcategory>
-      <subcategory id="I0B">
-        <name>Common Attributes of All Beer Styles</name>
+      </section>
+      <section>
+        <sectiontitle>Common Attributes of All Beer Styles</sectiontitle>
         <paragraph>
           The attributes discussed in this section are assumed to be present in every beer style description unless otherwise noted. It is not necessary to repeat all these characteristics for every style description. <em>Do not assume that since a characteristic (such as diacetyl) isn&#8217;t mentioned in a style description that somehow it is allowable.</em>
         </paragraph>
@@ -31,13 +31,13 @@
         <paragraph>In mouthfeel, all beers are assumed to be free from astringency, and not be creamy or have any other palate sensations unless otherwise noted. Beers with an alcohol level of 6% or less are assumed to not have the flavor or warming nature of alcohol, unless otherwise noted. Higher-alcohol beers that have a noticeable alcohol presence should not be harsh, hot, solventy, or burning. The alcohol character if noted, should be clean and not have fusel alcohols.</paragraph>
         <paragraph>Lagers tend to be smooth, clean, and free of esters, but may have slight yeast-derived sulfur notes that are often fleeting. Styles made with a large amount of Pilsner malt may have low DMS notes; this is not a fault, but it is also not required unless otherwise noted. In both cases, the small amounts of sulfur and/or DMS should not be taken as meaning that prominent quantities are somehow desirable &#8211; they&#8217;re not. Just be aware that the use of some traditional ingredients often leave small sensory indications of their presence that might be considered faults in other contexts; that is perfectly acceptable, although not required.</paragraph>
         <paragraph>Unless otherwise noted, assume all lagers to not have any fruitiness (esters). Ales tend to be less smooth than lagers, so unless otherwise noted, assume all ales may have some esters (not required, but not a fault).</paragraph>
-      </subcategory>
-      <subcategory id="I0C">
-        <name>Glossary</name>
+      </section>
+      <section>
+        <sectiontitle>Glossary</sectiontitle>
         <paragraph>Some terminology used in the style guidelines may be unfamiliar to some readers. Rather than include a complete dictionary, we have highlighted a few terms that either may not be well understood, or that imply specific meanings within the guidelines. Sometimes ingredient names are used as a shorthand for the character they provide to beer. When judges use these terms, they don&#8217;t necessarily imply that those specific ingredients have been used, just that the perceived characteristics match those commonly provided by the mentioned ingredients.</paragraph>
       </section>
       <section>
-        <Hop_Terms>
+        <sectiontitle>Hop Terms</sectiontitle>
         <definitionlist>
           <definitionitem>
             <definitionterm>American hops</definitionterm>
@@ -56,8 +56,9 @@
             <definition>often called noble hops, traditionally among the finest continental European brewing hops. Often having a lightly floral, spicy, or herbal character; rarely brash and aggressive, typically more subtle and elegant in nature.</definition>
           </definitionitem>
         </definitionlist>
-      </Hop_Terms>
-      <Malt_or_Mashing_Terms>
+      </section>
+      <section>
+        <sectiontitle>Malt or Mashing Terms</sectiontitle>
         <definitionlist>
           <definitionitem>
             <definitionterm>Munich malt</definitionterm>
@@ -80,8 +81,9 @@
             <definition>dry, toasted grain, flour, or dough flavor reminiscent of English digestive biscuits; in brewing, a flavor commonly associated with Biscuit malt and some traditional English malts.</definition>
           </definitionitem>
         </definitionlist>
-      </Malt_or_Mashing_Terms>
-      <Yeast_or_Fermentation_Terms>
+      </section>
+      <section>
+        <sectiontitle>Yeast or Fermentation Terms</sectiontitle>
         <definitionlist>
           <definitionitem>
             <definitionterm>Clean fermentation profile</definitionterm>
@@ -102,8 +104,9 @@
             </definition>
           </definitionitem>
         </definitionlist>
-      </Yeast_or_Fermentation_Terms>
-      <Quality_or_Off-Flavor_Terms>
+      </section>
+      <section>
+        <sectiontitle>Quality or Off-Flavor Terms</sectiontitle>
         <definitionlist>
           <definitionitem>
             <definitionterm>Adjunct quality</definitionterm>
@@ -126,8 +129,9 @@
             <definition>A positive or negative term, depending on the context. If expected or desirable, can often take on a barnyard, wet hay, slightly earthy, horse blanket, or farmyard character. If too intense, unexpected, or undesirable, can take the form of silage, fecal, baby diaper, or horse stall qualities.</definition>
           </definitionitem>
         </definitionlist>
-      </Quality_or_Off-Flavor_Terms>
-      <Appearance_Terms>
+      </section>
+      <section>
+        <sectiontitle>Appearance Terms</sectiontitle>
         <definitionlist>
           <definitionitem>
             <definitionterm>Belgian Lace (Lacing)</definitionterm>
@@ -138,11 +142,12 @@
             <definition>a pattern that a beverage leaves on the inside of a glass after a portion has been consumed. The term refers to the droplets that slowly fall in streams from beverage residue on the side of the glass. Not an indication of quality, but can indicate a higher alcohol, sugar, or glycerol content.</definition>
           </definitionitem>
         </definitionlist>
-      </Appearance_Terms>
-      <subcategory id="I0C">
-        <name>Color Reference</name>
+      </section>
+      <section>
+        <sectiontitle>Color Reference</sectiontitle>
         <paragraph>Note that SRM is a measure of beer color density more than hue/tint. Keep this in mind when attempting to use only SRM numbers when describing beers. Within these Guidelines, beer color descriptors generally follow this mapping to SRM values:</paragraph>
-        <paragraph>Appearance_Terms
+        <paragraph>
+          <table>
             <tr>
               <td>Straw</td>
               <td>2-3</td>
@@ -193,16 +198,16 @@
             </tr>
           </table>
         </paragraph>
-      </subcategory>
-      <subcategory id="I0D">
-        <name>Style Organization</name>
+      </section>
+      <section>
+        <sectiontitle>Style Organization</sectiontitle>
         <paragraph>The beer styles described in the guidelines have been categorized to assist with running homebrew competitions. Categories (the major groupings of styles) are artificial constructs that represent a collection of individual sub-categories (beer styles) that may or may not have any historical, geographic, or traditional relationship with each other. Do not infer that membership in a style category somehow relates beer styles with each other. The only reason why they are grouped together is to assist with managing the scale and complexity of competitions. The names given to the groupings are for competition purposes only, and may not be used in any broader contexts in the beer and brewing industries.</paragraph>
         <paragraph>
-           <strong>Competitions do not have to judge each style category separately</strong>; they may be combined, split, or otherwise reorganized for competition purposes. Competition organizers are free to combine style sub-categories into their own competition categories. As long as each submitted beer is judged against the identified sub-category (style), any logical grouping is permitted.
+          <strong>Competitions do not have to judge each style category separately</strong>; they may be combined, split, or otherwise reorganized for competition purposes. Competition organizers are free to combine style sub-categories into their own competition categories. As long as each submitted beer is judged against the identified sub-category (style), any logical grouping is permitted.
         </paragraph>
-      </subcategory>
-      <subcategory id="I0E">
-        <name>Style Tag Reference</name>
+      </section>
+      <section>
+        <sectiontitle>Style Tag Reference</sectiontitle>
         <paragraph>To assist with regrouping styles for other purposes, we have added informational tags to each style. These tags indicate certain attributes of the beer that may be used for grouping purposes. The &#8216;meaning&#8217; column explains the general intent of the tag, but is not meant to be rigorous, formal definition. In no way do the tags supersede the actual descriptions of the style.</paragraph>
         <paragraph><table>
           <colgroup>
@@ -472,8 +477,8 @@
             <td>noticeable flavor and/or aroma of spices</td>
           </tr>
         </table></paragraph>
-      </subcategory>
-    </category>
+      </section>
+    </introduction>
     <category id="1">
       <revision number="1">2015</revision>
       <name>Standard American Beer</name>
@@ -1551,7 +1556,7 @@
           The entrant will specify whether the entry is a <strong>pale</strong> or a <strong>dark</strong> variant.
         </entryinstructions>
         <examples>
-           <strong>Dark Versions</strong> - Andechser Doppelbock Dunkel, Ayinger Celebrator, Paulaner Salvator, Spaten Optimator, Tr&#246;egs Troegenator, Weihenstephaner Korbinian,; <strong>Pale Versions</strong> - Eggenberg Urbock 23&#186;, EKU 28, Plank Bavarian Heller Doppelbock
+          <strong>Dark Versions</strong> - Andechser Doppelbock Dunkel, Ayinger Celebrator, Paulaner Salvator, Spaten Optimator, Tr&#246;egs Troegenator, Weihenstephaner Korbinian,; <strong>Pale Versions</strong> - Eggenberg Urbock 23&#186;, EKU 28, Plank Bavarian Heller Doppelbock
         </examples>
         <tags>high-strength, amber-color, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty</tags>
         <stats>
@@ -1746,7 +1751,7 @@
           The entrant will specify whether the entry is a <strong>pale</strong> or a <strong>dark</strong> version.
         </entryinstructions>
         <examples>
-           <strong>Dark</strong> -Eisenbahn Weizenbock, Plank Bavarian Dunkler Weizenbock, Penn Weizenbock, Schneider Unser Aventinus; <strong>Pale</strong> -Plank Bavarian Heller Weizenbock, Weihenstephaner Vitus
+          <strong>Dark</strong> -Eisenbahn Weizenbock, Plank Bavarian Dunkler Weizenbock, Penn Weizenbock, Schneider Unser Aventinus; <strong>Pale</strong> -Plank Bavarian Heller Weizenbock, Weihenstephaner Vitus
         </examples>
         <tags>high-strength, amber-color, pale-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty</tags>
         <stats>
@@ -2013,7 +2018,7 @@
         <mouthfeel>Light to medium body. Generally low to medium-low carbonation. Roast-based versions may have a light astringency. Sweeter versions may seem to have a rather full mouthfeel for the gravity.</mouthfeel>
         <comments>Most are low-gravity session beers around 3.2%, although some versions may be made in the stronger (4%+) range for export, festivals, seasonal and/or special occasions. Generally served on cask; session-strength bottled versions don&#8217;t often travel well. A wide range of interpretations are possible. Pale versions exist, but these are even more rare than dark milds; these guidelines only describe the modern dark version.</comments>
         <history>
-          Historically, &#8216;mild&#8217; was simply an unaged beer, and could be used as an adjective to distinguish between aged or more highly hopped keeping beers. Modern milds trace their roots to the weaker X-type ales of the 1800s, although dark milds did not appear until the 20th century. In current usage, the term implies a lower-strength beer with less hop bitterness than bitters. The guidelines describe the modern British version. The term &#8216;mild&#8217; is currently somewhat out of favor with consumers, and many breweries no longer use it. Increasingly rare. <em>There is no historic connection or relationship between Mild and Porter.</em> 
+          Historically, &#8216;mild&#8217; was simply an unaged beer, and could be used as an adjective to distinguish between aged or more highly hopped keeping beers. Modern milds trace their roots to the weaker X-type ales of the 1800s, although dark milds did not appear until the 20th century. In current usage, the term implies a lower-strength beer with less hop bitterness than bitters. The guidelines describe the modern British version. The term &#8216;mild&#8217; is currently somewhat out of favor with consumers, and many breweries no longer use it. Increasingly rare. <em>There is no historic connection or relationship between Mild and Porter.</em>
         </history>
         <comparison>Some versions may seem like lower-gravity modern English porters. Much less sweet than London Brown Ale.</comparison>
         <ingredients>Pale British base malts (often fairly dextrinous), crystal malt, dark malts or dark sugar adjuncts, may also include adjuncts such as flaked maize, and may be colored with brewer&#8217;s caramel. Characterful British ale yeast. Any type of hops, since their character is muted and rarely is noticeable.</ingredients>
@@ -2087,7 +2092,7 @@
         <mouthfeel>Medium-light to medium body. Moderately-low to moderately-high carbonation. Light to moderate creamy texture.</mouthfeel>
         <comments>This style description describes the modern version of English porter, not every possible variation over time in every region where it existed. Historical re-creations should be entered in the Historical style category, with an appropriate description describing the profile of the beer. Modern craft examples in the UK are bigger and hoppier.</comments>
         <history>
-          Originating in London around 300 years ago, porter evolved from earlier sweet, Brown Beer popular at the time. Evolved many times with various technological and ingredient developments and consumer preferences driving these changes. Became a highly-popular, widely-exported style in the 1800s before declining around WWI and disappearing in the 1950s. It was re-introduced in the mid-1970s with the start of the craft beer era. The name is said to have been derived from its popularity with the London working class performing various load-carrying tasks of the day. Parent of various regional interpretations over time, and a predecessor to all stouts (which were originally called &#8220;stout porters&#8221;). <em>There is no historic connection or relationship between Mild and Porter.</em> 
+          Originating in London around 300 years ago, porter evolved from earlier sweet, Brown Beer popular at the time. Evolved many times with various technological and ingredient developments and consumer preferences driving these changes. Became a highly-popular, widely-exported style in the 1800s before declining around WWI and disappearing in the 1950s. It was re-introduced in the mid-1970s with the start of the craft beer era. The name is said to have been derived from its popularity with the London working class performing various load-carrying tasks of the day. Parent of various regional interpretations over time, and a predecessor to all stouts (which were originally called &#8220;stout porters&#8221;). <em>There is no historic connection or relationship between Mild and Porter.</em>
         </history>
         <ingredients>Grists vary, but something producing a dark color is always involved. Chocolate or other dark-roasted malts, caramel malt, brewing sugars, and the like are common. London-type porters often use brown malt as a characteristic flavor.</ingredients>
         <comparison>Differs from an American Porter in that it usually has softer, sweeter and more caramelly flavors, lower gravities, and usually less alcohol; the American Porter will also typically have more of a hop character. More substance and roast than a British Brown Ale. Higher in gravity than a dark mild.</comparison>
@@ -2129,7 +2134,7 @@
         <flavor>Entirely malt-focused, with flavors ranging from pale, bready malt with caramel overtones to rich-toasty malt with roasted accents (but never roasty) or a combination thereof. Fruity esters are not required but add depth yet are never high. Hop bitterness to balance the malt. No to low hop flavor is also allowed and should of traditional English character (earthy, floral, orange-citrus, spicy, etc.). Finish ranges from rich and malty to dry and grainy. A subtle butterscotch character is acceptable; however, burnt sugars are not. The malt-hop balance tilts toward malt. Peat smoke is inappropriate.</flavor>
         <mouthfeel>Medium-low to medium body. Low to moderate carbonation. Can be relatively rich and creamy to dry and grainy.</mouthfeel>
         <comments>
-          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em> 
+          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em>
         </comments>
         <ingredients>Originally used Scottish pale malt, grits or flaked maize, and brewers caramel for color. Later adapted to use additional ingredients, such as amber and brown malts, crystal and wheat malts, and roasted grains or dark sugars for color but not for the &#8216;roasty&#8217; flavor. Sugar adjuncts are traditional. Clean or slightly fruity yeast. Peat-smoked malt is inauthentic and inappropriate.</ingredients>
         <comparison>Similar character to a Wee Heavy, but much smaller. Similar in color to a Dark Mild, but a little weaker in strength.</comparison>
@@ -2166,7 +2171,7 @@
         <flavor>Entirely malt-focused, with flavors ranging from pale, bready malt with caramel overtones to rich-toasty malt with roasted accents (but never roasty) or a combination thereof. Fruity esters are not required but add depth yet are never high. Hop bitterness to balance the malt. No to low hop flavor is also allowed and should of traditional English character (earthy, floral, orange-citrus, spicy, etc.). Finish ranges from rich and malty to dry and grainy. A subtle butterscotch character is acceptable; however, burnt sugars are not. The malt-hop balance tilts toward malt. Peat smoke is inappropriate.</flavor>
         <mouthfeel>Medium-low to medium body. Low to moderate carbonation. Can be relatively rich and creamy to dry and grainy.</mouthfeel>
         <comments>
-          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em> 
+          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em>
         </comments>
         <ingredients>Originally used Scottish pale malt, grits or flaked maize, and brewers caramel for color. Later adapted to use additional ingredients, such as amber and brown malts, crystal and wheat malts, and roasted grains or dark sugars for color but not for the &#8216;roasty&#8217; flavor. Sugar adjuncts are traditional. Clean or slightly fruity yeast. Peat-smoked malt is inauthentic and inappropriate.</ingredients>
         <comparison>Similar character to a Wee Heavy, but much smaller.</comparison>
@@ -2203,7 +2208,7 @@
         <flavor>Entirely malt-focused, with flavors ranging from pale, bready malt with caramel overtones to rich-toasty malt with roasted accents (but never roasty) or a combination thereof. Fruity esters are not required but add depth yet are never high. Hop bitterness to balance the malt. No to low hop flavor is also allowed and should of traditional English character (earthy, floral, orange-citrus, spicy, etc.). Finish ranges from rich and malty to dry and grainy. A subtle butterscotch character is acceptable; however, burnt sugars are not. The malt-hop balance tilts toward malt. Peat smoke is inappropriate.</flavor>
         <mouthfeel>Medium-low to medium body. Low to moderate carbonation. Can be relatively rich and creamy to dry and grainy.</mouthfeel>
         <comments>
-          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em> 
+          Malt-focused ales that gain the vast majority of their character from specialty malts, never the process. Burning malt or wort sugars via &#8216;kettle caramelization&#8217; is not traditional nor is any blatantly &#8216;butterscotch&#8217; character. Most frequently a draught product. Smoke character is inappropriate as any found traditionally would have come from the peat in the source water. Scottish ales with smoke character should be entered as a <em>Classic Style Smoked Beer.</em>
         </comments>
         <ingredients>Originally used Scottish pale malt, grits or flaked maize, and brewers caramel for color. Later adapted to use additional ingredients, such as amber and brown malts, crystal and wheat malts, and roasted grains or dark sugars for color but not for the &#8216;roasty&#8217; flavor. Sugar adjuncts are traditional. Clean or slightly fruity yeast. Peat-smoked malt is inauthentic and inappropriate.</ingredients>
         <comparison>Similar character to a Wee Heavy, but much smaller.</comparison>
@@ -2924,13 +2929,13 @@
         <flavor>Rich, deep, complex and frequently quite intense, with variable amounts of roasted malt/grains, maltiness, fruity esters, hop bitterness and flavor, and alcohol. Medium to aggressively high bitterness. Medium-low to high hop flavor (any variety). Moderate to aggressively high roasted malt/grain flavors can suggest bittersweet or unsweetened chocolate, cocoa, and/or strong coffee. A slightly burnt grain, burnt currant or tarry character may be evident. Fruity esters may be low to intense, and can take on a dark fruit character (raisins, plums, or prunes). Malt backbone can be balanced and supportive to rich and barleywine-like, and may optionally show some supporting caramel, bready or toasty flavors. The palate and finish can vary from relatively dry to moderately sweet, usually with some lingering roastiness, hop bitterness and warming character. The balance and intensity of flavors can be affected by aging, with some flavors becoming more subdued over time and some aged, vinous or port-like qualities developing.</flavor>
         <mouthfeel>Full to very full-bodied and chewy, with a velvety, luscious texture (although the body may decline with long conditioning). Gentle smooth warmth from alcohol should be present and noticeable, but not a primary characteristic; in well-conditioned versions, the alcohol can be deceptive. Should not be syrupy or under-attenuated. Carbonation may be low to moderate, depending on age and conditioning.</mouthfeel>
         <comments>
-           <em>Traditionally an English style, but it is currently much more popular and widely available in America where it is a craft beer favorite, not a curiosity.</em> Variations exist, with English and American interpretations (predictably, the American versions have more bitterness, roasted character, and finishing hops, while the English varieties reflect a more complex specialty malt character and a more forward ester profile). Not all Imperial Stouts have a clearly &#8216;English&#8217; or &#8216;American&#8217; character; anything in between the two variants are allowable as well, which is why it is counter-productive to designate a sub-type when entering a competition. The wide range of allowable characteristics allow for maximum brewer creativity. Judges must be aware of the broad range of the style, and not try to judge all examples as clones of a specific commercial beer.
+          <em>Traditionally an English style, but it is currently much more popular and widely available in America where it is a craft beer favorite, not a curiosity.</em> Variations exist, with English and American interpretations (predictably, the American versions have more bitterness, roasted character, and finishing hops, while the English varieties reflect a more complex specialty malt character and a more forward ester profile). Not all Imperial Stouts have a clearly &#8216;English&#8217; or &#8216;American&#8217; character; anything in between the two variants are allowable as well, which is why it is counter-productive to designate a sub-type when entering a competition. The wide range of allowable characteristics allow for maximum brewer creativity. Judges must be aware of the broad range of the style, and not try to judge all examples as clones of a specific commercial beer.
         </comments>
         <history>A style with a long, although not necessarily continuous, heritage. Traces roots to strong English porters brewed for export in the 1700s, and said to have been popular with the Russian Imperial Court. After the Napoleonic wars interrupted trade, these beers were increasingly sold in England. The style eventually all but died out, until being popularly embraced in the modern craft beer era, both in England as a revival and in the United States as a reinterpretation or re-imagination by extending the style with American characteristics.</history>
         <ingredients>Well-modified pale malt, with generous quantities of roasted malts and/or grain. May have a complex grain bill using virtually any variety of malt. Any type of hops may be used. American or English ale yeast.</ingredients>
         <comparison>Like a black barleywine with every dimension of flavor coming into play. More complex, with a broader range of possible flavors than lower-gravity stouts.</comparison>
         <examples>
-           <strong>American</strong> - Bell&#8217;s Expedition Stout, Cigar City Marshal Zhukov&#8217;s Imperial Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Sierra Nevada Narwhal Imperial Stout; <strong>English</strong> - Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout
+          <strong>American</strong> - Bell&#8217;s Expedition Stout, Cigar City Marshal Zhukov&#8217;s Imperial Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Sierra Nevada Narwhal Imperial Stout; <strong>English</strong> - Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout
         </examples>
         <tags>very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty</tags>
         <stats>
@@ -3010,16 +3015,16 @@
           Entrant <span class="underlined">must</span> specify a <strong>strength</strong> (session, standard, double); if no strength is specified, standard will be assumed. Entrant <span class="underlined">must</span> specify specific <strong>type</strong> of Specialty IPA from the library of known types listed in the Style Guidelines, or as amended by the BJCP web site; or the entrant must describe the type of Specialty IPA and its key characteristics in comment form so judges will know what to expect. Entrants <span class="underlined">may</span> specify specific <strong>hop varieties</strong> used, if entrants feel that judges may not recognize the varietal characteristics of newer hops. <em>Entrants may specify a combination of defined IPA types (e.g., Black Rye IPA) without providing additional descriptions.</em> Entrants may use this category for a different strength version of an IPA defined by its own BJCP subcategory (e.g., session-strength American or English IPA) - except where an existing BJCP subcategory already exists for that style (e.g., double [American] IPA).
         </entryinstructions>
         <notes>
-           <strong>Currently Defined Types:</strong> 
-           <em>Black IPA, Brown IPA, White IPA, Rye IPA, Belgian IPA, Red IPA</em> 
+          <strong>Currently Defined Types:</strong>
+          <em>Black IPA, Brown IPA, White IPA, Rye IPA, Belgian IPA, Red IPA</em>
         </notes>
         <stats>
           <exceptions>
             Variable by type. Strength classifications:<ul>
-              <li>Session &#8211; ABV: 3.0 &#8211; 5.0%</li>
-              <li>Standard &#8211; ABV: 5.0 &#8211; 7.5%</li>
-              <li>Double &#8211; ABV: 7.5 &#8211; 10.0%</li>
-            </ul>
+            <li>Session &#8211; ABV: 3.0 &#8211; 5.0%</li>
+            <li>Standard &#8211; ABV: 5.0 &#8211; 7.5%</li>
+            <li>Double &#8211; ABV: 7.5 &#8211; 10.0%</li>
+          </ul>
           </exceptions>
         </stats>
       </subcategory>
@@ -3813,7 +3818,31 @@
         </entryinstructions>
         <examples>Ellezelloise Saison, Fant&#244;me Saison, Lefebvre Saison 1900, Saison Dupont Vieille Provision, Saison de Pipaix, Saison Regal, Saison Voisin, Boulevard Tank 7 Farmhouse Ale</examples>
         <tags>standard-strength, pale-color, top-fermented, western-europe, traditional-style, bitter</tags>
-        <stats>
+        <stats name="all">
+          <ibu flexible="false">
+            <low>20</low>
+            <high>35</high>
+          </ibu>
+        </stats>
+        <stats name="pale">
+          <srm flexible="false">
+            <low>5</low>
+            <high>14</high>
+          </srm>
+        </stats>
+        <stats name="dark">
+          <srm flexible="false">
+            <low>15</low>
+            <high>22</high>
+          </srm>
+        </stats>
+        <stats name = "table">
+          <abv flexible="false">
+            <low>3.5</low>
+            <high>5.0</high>
+          </abv>
+        </stats>
+        <stats name = "standard">
           <og flexible="false">
             <low>1.048</low>
             <high>1.065</high>
@@ -3822,17 +3851,15 @@
             <low>1.002</low>
             <high>1.008</high>
           </fg>
-          <ibu flexible="false">
-            <low>20</low>
-            <high>35</high>
-          </ibu>
-          <srm flexible="false">
-            <low>5</low>
-            <high>14</high>
-          </srm>
           <abv flexible="false">
-            <low>3.5</low>
-            <high>5.0</high>
+            <low>5.0</low>
+            <high>7.0</high>
+          </abv>
+        </stats>
+        <stats name = "super">
+          <abv flexible="false">
+            <low>7.0</low>
+            <high>9.5</high>
           </abv>
         </stats>
       </subcategory>
@@ -3879,7 +3906,7 @@
       <revision number="1">2015</revision>
       <name>Trappist Ale</name>
       <notes>
-         <strong>Trappist</strong> is a protected legal appellation, and cannot be used commercially except by genuine Trappist monasteries that brew their own beer. However, we can use it to describe the type or styles of beer produced by those breweries and those who make beers of a similar style. Trappist type beers are all characterized by very high attenuation, high carbonation through bottle conditioning, and interesting (and often aggressive) yeast character.
+        <strong>Trappist</strong> is a protected legal appellation, and cannot be used commercially except by genuine Trappist monasteries that brew their own beer. However, we can use it to describe the type or styles of beer produced by those breweries and those who make beers of a similar style. Trappist type beers are all characterized by very high attenuation, high carbonation through bottle conditioning, and interesting (and often aggressive) yeast character.
       </notes>
       <subcategory id="26A">
         <name>Trappist Single</name>
@@ -4041,7 +4068,7 @@
       <name>Historical Beer</name>
       <notes>The Historical Beer category contains styles that either have all but died out in modern times, or that were much more popular in past times and are known only through recreations. This category can also be used for traditional or indigenous beers of cultural importance within certain countries. Placing a beer in the historical category does not imply that it is not currently being produced, just that it is a very minor style or perhaps is in the process of rediscovery by craft brewers.</notes>
       <notes>
-         <strong>Entry Instructions:</strong> The entrant must either specify a style with a BJCP-supplied description from the list below, or specify a different historical beer style that is not described elsewhere in these guidelines. In the case of a style that has changed substantially over the years (such as Porter or Stout), the entrant may specify an existing BJCP style as well as an era (e.g., 1820 English Porter). When the entrant specifies any style not on the BJCP-supplied list, the entrant must provide a description of the style for the judges in sufficient detail to allow the beer to be judged. If a beer is entered with just a style name and no description, it is very unlikely that judges will understand how to judge it. Currently defined examples: <em>Gose, Piwo Grodziskie, Lichtenhainer, Roggenbier, Sahti, Kentucky Common, Pre-Prohibition Lager, Pre-Prohibition Porter, London Brown</em>.
+        <strong>Entry Instructions:</strong> The entrant must either specify a style with a BJCP-supplied description from the list below, or specify a different historical beer style that is not described elsewhere in these guidelines. In the case of a style that has changed substantially over the years (such as Porter or Stout), the entrant may specify an existing BJCP style as well as an era (e.g., 1820 English Porter). When the entrant specifies any style not on the BJCP-supplied list, the entrant must provide a description of the style for the judges in sufficient detail to allow the beer to be judged. If a beer is entered with just a style name and no description, it is very unlikely that judges will understand how to judge it. Currently defined examples: <em>Gose, Piwo Grodziskie, Lichtenhainer, Roggenbier, Sahti, Kentucky Common, Pre-Prohibition Lager, Pre-Prohibition Porter, London Brown</em>.
       </notes>
       <subcategory id="27-gose">
         <name>Historical Beer: Gose</name>
@@ -4537,7 +4564,7 @@
       <subcategory id="30B">
         <name>Autumn Seasonal Beer</name>
         <notes>
-           <strong>Autumn Seasonal Beers</strong> are beers that suggest cool weather and the autumn harvest season, and may include pumpkin or other squashes, and the associated spices. See the <em>Introduction to Specialty-Type Beer</em> section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+          <strong>Autumn Seasonal Beers</strong> are beers that suggest cool weather and the autumn harvest season, and may include pumpkin or other squashes, and the associated spices. See the <em>Introduction to Specialty-Type Beer</em> section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
         </notes>
         <impression>An amber to copper, spiced beer that often has a moderately rich body and slightly warming finish suggesting a good accompaniment for the cool fall season, and often evocative of Thanksgiving traditions.</impression>
         <aroma>A wide range of aromatics is possible, although many examples are reminiscent of pumpkin pie, candied yams, or similar harvest or (US) Thanksgiving themed dishes. Any combination of aromatics that suggests the fall season is welcome. The base beer style often has a malty profile that supports the balanced presentation of the aromatics from spices and possibly other special ingredients. Additional fermentables (e.g., brown sugar, honey, molasses, maple syrup, etc.) may lend their own unique aromatics. Hop aromatics are often absent, subdued, or slightly spicy. Alcohol aromatics may be found in some examples, but this character should be restrained. The overall aroma should be balanced and harmonious, and is often fairly complex and inviting.</aroma>
@@ -4558,7 +4585,7 @@
       <subcategory id="30C">
         <name>Winter Seasonal Beer</name>
         <notes>
-         <strong>Autumn Seasonal Beers</strong> are beers that suggest cold weather and the Christmas holiday season, and may include holiday spices, specialty sugars, and other products that are reminiscent of mulling spices or Christmas holiday desserts. See the <em>Introduction to Specialty-Type Beer</em> section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+          <strong>Winter Seasonal Beers</strong> are beers that suggest cold weather and the Christmas holiday season, and may include holiday spices, specialty sugars, and other products that are reminiscent of mulling spices or Christmas holiday desserts. See the <em>Introduction to Specialty-Type Beer</em> section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
         </notes>
         <impression>A stronger, darker, spiced beer that often has a rich body and warming finish suggesting a good accompaniment for the cold winter season.</impression>
         <aroma>A wide range of aromatics is possible, although many examples are reminiscent of Christmas cookies, gingerbread, English-type Christmas pudding, evergreen trees, or mulling spices. Any combination of aromatics that suggests the holiday season is welcome. The base beer style often has a malty profile that supports the balanced presentation of the aromatics from spices and possibly other special ingredients. Additional fermentables (e.g., honey, molasses, maple syrup, etc.) may lend their own unique aromatics. Hop aromatics are often absent, subdued, or slightly spicy. Some fruit character (often of dried citrus peel, or dried fruit such as raisins or plums) is optional but acceptable. Alcohol aromatics may be found in some examples, but this character should be restrained. The overall aroma should be balanced and harmonious, and is often fairly complex and inviting.</aroma>
@@ -4689,7 +4716,7 @@
         <flavor>Varies with base style. Wood usually contributes a woody or oaky flavor, which can occasionally take on a raw &#8220;green&#8221; flavor if new wood is used. Other flavors that may optionally be present include vanilla (from vanillin in the wood); caramel, butterscotch, toasted bread or almonds (from toasted wood); and coffee, chocolate, cocoa (from charred wood). The wood and/or other cask-derived flavors should be balanced, supportive and noticeable, but should not overpower the base beer style. Some background oxidation character is optional, although this should take on a pleasant, sherry-like character and not be papery or cardboard-like.</flavor>
         <mouthfeel>Varies with base style. Wood can add tannins to the beer, depending on age of the cask. The tannins can lead to additional astringency (which should never be high), or simply a fuller mouthfeel. Tart or acidic characteristics should be low to none, and never distracting.</mouthfeel>
         <comments>
-          The base beer style should be apparent. The wood-based character should be evident, but not so dominant as to unbalance the beer. The intensity of the wood-based flavors is based on the contact time with the wood; the age, condition, and origin and char level of the barrel; and the type of wood. THIS CATEGORY SHOULD NOT BE USED FOR BASE STYLES WHERE WOOD-AGING IS A FUNDAMENTAL REQUIREMENT FOR THE STYLE (e.g., Flanders Red, Lambic, etc.). <em>Beers made using either limited wood aging or products that only provide a subtle background character may be entered in the base beer style categories as long as the wood character isn&#8217;t prominently featured.</em> 
+          The base beer style should be apparent. The wood-based character should be evident, but not so dominant as to unbalance the beer. The intensity of the wood-based flavors is based on the contact time with the wood; the age, condition, and origin and char level of the barrel; and the type of wood. THIS CATEGORY SHOULD NOT BE USED FOR BASE STYLES WHERE WOOD-AGING IS A FUNDAMENTAL REQUIREMENT FOR THE STYLE (e.g., Flanders Red, Lambic, etc.). <em>Beers made using either limited wood aging or products that only provide a subtle background character may be entered in the base beer style categories as long as the wood character isn&#8217;t prominently featured.</em>
         </comments>
         <history>A traditional production method that is rarely used by major breweries, and usually only with specialty products. More popular with modern American craft breweries looking for new, distinctive products. Oak cask and barrels are traditional, although other woods are becoming more popular.</history>
         <ingredients>Varies with base style. Aged in wooden casks or barrels, or using wood-based additives (wood chips, wood staves, oak essence). Fuller-bodied, higher-gravity base styles often are used since they can best stand up to the additional flavors, although experimentation is encouraged.</ingredients>
@@ -4739,7 +4766,7 @@
         <mouthfeel>Based on declared clone beer.</mouthfeel>
         <comments>Intended as a catch-all location for specific beers that are based on unique commercial examples that don&#8217;t fit existing styles.</comments>
         <entryinstructions>
-          The entrant <strong>must</strong> specify the name of the commercial beer being cloned, specifications (vital statistics) for the beer, and either a brief sensory description or a list of ingredients used in making the beer. <em>Without this information, judges who are unfamiliar with the beer have no basis for comparison.</em> 
+          The entrant <strong>must</strong> specify the name of the commercial beer being cloned, specifications (vital statistics) for the beer, and either a brief sensory description or a list of ingredients used in making the beer. <em>Without this information, judges who are unfamiliar with the beer have no basis for comparison.</em>
         </entryinstructions>
         <stats>
           <exceptions>OG, FG, IBUs, SRM and ABV will vary depending on the declared beer.</exceptions>
@@ -4773,7 +4800,7 @@
         <mouthfeel>Varies.</mouthfeel>
         <comments>This style is the ultimate in creativity, since it cannot represent a well-known commercial beer (otherwise it would be a clone beer) and cannot fit into any other existing Specialty-Type style (including those within this major category).</comments>
         <entryinstructions>
-          The entrant <strong>must</strong> specify the special nature of the experimental beer, including the special ingredients or processes that make it not fit elsewhere in the guidelines. The entrant <strong>must</strong> provide vital statistics for the beer, <strong>and</strong> either a brief sensory description or a list of ingredients used in making the beer. <em>Without this information, judges will have no basis for comparison.</em> 
+          The entrant <strong>must</strong> specify the special nature of the experimental beer, including the special ingredients or processes that make it not fit elsewhere in the guidelines. The entrant <strong>must</strong> provide vital statistics for the beer, <strong>and</strong> either a brief sensory description or a list of ingredients used in making the beer. <em>Without this information, judges will have no basis for comparison.</em>
         </entryinstructions>
         <stats>
           <exceptions>OG, FG, IBUs, SRM and ABV will vary depending on the declared beer.</exceptions>
@@ -4796,19 +4823,19 @@
           <definitionitem>
             <definitionterm>Sweetness.</definitionterm>
             <definition>
-              A mead may be <em>dry</em>, <em>semi-sweet</em>, or <em>sweet</em>. Sweetness simply refers to the amount of residual sugar in the mead. Sweetness is often confused with fruitiness in a dry mead. Body is related to sweetness, but dry meads can still have some body. Dry meads do not have to be bone dry. Sweet meads should not be cloyingly sweet, and should not have a raw, unfermented honey character. Sweetness is independent of strength. Note that tannin levels can affect the perceived sweetness of mead (more tannin makes a mead seem drier), but acidity is more related to the quality, balance, and enjoyment of the sweetness. The purpose of identifying a sweetness level is primarily to aid in the ordering of a flight. <em>Minor differences from stated sweetness level should not be heavily-penalized or considered a disqualifying fault.</em> 
+              A mead may be <em>dry</em>, <em>semi-sweet</em>, or <em>sweet</em>. Sweetness simply refers to the amount of residual sugar in the mead. Sweetness is often confused with fruitiness in a dry mead. Body is related to sweetness, but dry meads can still have some body. Dry meads do not have to be bone dry. Sweet meads should not be cloyingly sweet, and should not have a raw, unfermented honey character. Sweetness is independent of strength. Note that tannin levels can affect the perceived sweetness of mead (more tannin makes a mead seem drier), but acidity is more related to the quality, balance, and enjoyment of the sweetness. The purpose of identifying a sweetness level is primarily to aid in the ordering of a flight. <em>Minor differences from stated sweetness level should not be heavily-penalized or considered a disqualifying fault.</em>
             </definition>
           </definitionitem>
           <definitionitem>
             <definitionterm>Carbonation</definitionterm>
             <definition>
-              A mead may be <em>still</em>, <em>petillant</em>, or <em>sparkling</em>. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault</em> 
+              A mead may be <em>still</em>, <em>petillant</em>, or <em>sparkling</em>. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault</em>
             </definition>
           </definitionitem>
           <definitionitem>
             <definitionterm>Strength</definitionterm>
             <definition>
-              A mead may be categorized as <em>hydromel</em>, <em>standard</em>, or <em>sack</em> strength. Strength refers to the alcohol content of the mead (and also, therefore, the amount of honey and fermentables used to make the mead). Stronger meads can have a greater honey character and body (as well as alcohol) than weaker meads, although this is not a strict rule. Well-made stronger examples may have difficult-to-detect strength. <em>Minor differences from stated strength level should not be heavily-penalized or considered a disqualifying fault.</em> 
+              A mead may be categorized as <em>hydromel</em>, <em>standard</em>, or <em>sack</em> strength. Strength refers to the alcohol content of the mead (and also, therefore, the amount of honey and fermentables used to make the mead). Stronger meads can have a greater honey character and body (as well as alcohol) than weaker meads, although this is not a strict rule. Well-made stronger examples may have difficult-to-detect strength. <em>Minor differences from stated strength level should not be heavily-penalized or considered a disqualifying fault.</em>
             </definition>
           </definitionitem>
           <definitionitem>
@@ -4892,7 +4919,7 @@
                       <li>sweet: 1.025 &#8211; 1.050</li>
                     </ul>
                     <paragraph>
-                      <em>Note that the perception ofsweetness is a function of the percentage of residual sugar, so don&#8217;t rely only on FG to determine sweetness. Consider the OG, strength, tannin levels, and to a lesser extent, acidity, in assessing sweetness.</em> 
+                      <em>Note that the perception ofsweetness is a function of the percentage of residual sugar, so don&#8217;t rely only on FG to determine sweetness. Consider the OG, strength, tannin levels, and to a lesser extent, acidity, in assessing sweetness.</em>
                     </paragraph>
                   </definition>
                 </definitionitem>
@@ -4927,7 +4954,7 @@
                 </li>
               </ul>
               <paragraph>
-                 <em>Minor differences from stated levels should not be heavily penalized or be considered a disqualifying fault.</em> 
+                <em>Minor differences from stated levels should not be heavily penalized or be considered a disqualifying fault.</em>
               </paragraph>
             </definition>
           </definitionitem>
@@ -4964,7 +4991,7 @@
           Standard description applies. Traditional Meads feature the character of a blended honey or a blend of honeys. Varietal meads feature the distinctive character of certain honeys. <em>Show meads</em> feature no additives, but this distinction is usually not obvious to judges.
         </ingredients>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be DRY in this category. Entrants <strong>MAY</strong> specify honey varieties.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be DRY in this category. Entrants <strong>MAY</strong> specify honey varieties.
         </entryinstructions>
         <examples>White Winter Dry Mead, Sky River Dry Mead, Intermiel Bouquet Printanier</examples>
       </subcategory>
@@ -4979,7 +5006,7 @@
           Standard description applies. Traditional Meads feature the character of a blended honey or a blend of honeys. Varietal meads feature the distinctive character of certain honeys. <em>Show meads</em> feature no additives, but this distinction is usually not obvious to judges.
         </ingredients>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be SEMI-SWEET in this category. Entrants <strong>MAY</strong> specify honey varieties.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be SEMI-SWEET in this category. Entrants <strong>MAY</strong> specify honey varieties.
         </entryinstructions>
         <examples>Lurgashall English Mead, Redstone Traditional Mountain Honey Wine, Sky River Semi-Sweet Mead, Intermiel Verge d&#8217;Or and M&#233;lilot</examples>
       </subcategory>
@@ -4994,7 +5021,7 @@
           Standard description applies. Traditional Meads feature the character of a blended honey or a blend of honeys. Varietal meads feature the distinctive character of certain honeys. <em>Show meads</em> feature no additives, but this distinction is usually not obvious to judges.
         </ingredients>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be SWEET in this category. Entrants <strong>MAY</strong> specify honey varieties.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level and strength. Sweetness is assumed to be SWEET in this category. Entrants <strong>MAY</strong> specify honey varieties.
         </entryinstructions>
         <examples>Moonlight Sensual, Lurgashall Christmas Mead, Chaucer&#8217;s Mead, Rabbit&#8217;s Foot Sweet Wildflower Honey Mead, Intermiel Beno&#238;te</examples>
       </subcategory>
@@ -5020,7 +5047,7 @@
         <mouthfeel>Standard description applies. Often wine-like. Some natural acidity is usually present (from the blend of apples) and helps balance the overall impression. Some apples can provide natural astringency, but this character should not be excessive.</mouthfeel>
         <ingredients>Standard description applies. Cyser is a mead made with the addition of apples or apple juice. Traditionally, cysers are made by the addition of honey to apple juice without additional water.</ingredients>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MAY</strong> specify the varieties of apple used; if specified, a varietal character will be expected. Products with a relatively low proportion of honey are better entered as a <em>Specialty Cider</em>. A spiced cyser should be entered as a <em>Fruit and Spice Mead</em>. A cyser with other fruit should be entered as a <em>Melomel</em>. A cyser with additional ingredients should be entered as an <em>Experimental Mead</em> 
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MAY</strong> specify the varieties of apple used; if specified, a varietal character will be expected. Products with a relatively low proportion of honey are better entered as a <em>Specialty Cider</em>. A spiced cyser should be entered as a <em>Fruit and Spice Mead</em>. A cyser with other fruit should be entered as a <em>Melomel</em>. A cyser with additional ingredients should be entered as an <em>Experimental Mead</em>
         </entryinstructions>
         <examples>Moonlight Blossom, White Winter Cyser, Rabbit&#8217;s Foot Apple Cyser</examples>
       </subcategory>
@@ -5036,7 +5063,7 @@
         <mouthfeel>Standard description applies. Wine-like. Some natural acidity is usually present (from grapes) and helps balance the overall impression. Grape tannin and/or grape skins can add body as well as some astringency, although this character should not be excessive. Use of oak can also add this character. Longer aging can smooth out tannin-based astringency.</mouthfeel>
         <ingredients>Standard description applies. A pyment is a mead made with the addition of grapes or grape juices. Alternatively, the pyment may be a homemade grape-based wine sweetened with honey, or a mead mixed with homemade grape-based wine after fermentation.</ingredients>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MAY</strong> specify the varieties of grape used; if specified, a varietal character will be expected. A spiced pyment (hippocras) should be entered as a <em>Fruit and Spice Mead.</em> A pyment made with other fruit should be entered as a <em>Melomel</em>. A pyment with other ingredients should be entered as an <em>Experimental Mead.</em> 
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MAY</strong> specify the varieties of grape used; if specified, a varietal character will be expected. A spiced pyment (hippocras) should be entered as a <em>Fruit and Spice Mead.</em> A pyment made with other fruit should be entered as a <em>Melomel</em>. A pyment with other ingredients should be entered as an <em>Experimental Mead.</em>
         </entryinstructions>
         <examples>Celestial Meads Que Syrah, Moonlight Slow Dance, Redstone Pinot Noir and White Pyment Mountain Honey Wines</examples>
       </subcategory>
@@ -5053,7 +5080,7 @@
         <ingredients>Standard description applies. A berry mead is a mead made with the addition of other berries or berry juices, including a blend of berries. There should be an appealing blend of the fruit and honey character but not necessarily an even balance.</ingredients>
         <comments>Generally a good tannin-sweetness balance is desired, though very dry and very sweet examples do exist. Some fruits, notably darker ones like blackberries, may contribute a tannin presence similar to a red wine.</comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength,and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A mead made with both berries and non-berry fruit (including apples and grapes) should be entered as a <em>Melomel</em>. A berry mead that is spiced should be entered as a <em>Fruit and Spice Mead.</em> A berry mead containing other ingredients should be entered as an <em>Experimental Mead</em>.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength,and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A mead made with both berries and non-berry fruit (including apples and grapes) should be entered as a <em>Melomel</em>. A berry mead that is spiced should be entered as a <em>Fruit and Spice Mead.</em> A berry mead containing other ingredients should be entered as an <em>Experimental Mead</em>.
         </entryinstructions>
         <examples>Moonlight Blissful, Wild, Caress, and Mischief, White Winter Blueberry, Raspberry and Strawberry Melomels, Celestial Meads Miel Noir, Redstone Black Raspberry Nectar, Bees Brothers Raspberry Mead, Intermiel Honey Wine and Raspberries, Honey Wine and Blueberries, and Honey Wine and Blackcurrants, Mountain Meadows Cranberry Mead</examples>
       </subcategory>
@@ -5070,7 +5097,7 @@
         <ingredients>Standard description applies. A stone fruit mead is a mead made with the addition of other stone fruit or stone fruit juices. There should be an appealing blend of the fruit and honey character but not necessarily an even balance. A stone fruit mead can be made with a blend of stone fruits, but not other fruit not allowable in this category.</ingredients>
         <comments>Generally a good tannin-sweetness balance is desired, though very dry and very sweet examples do exist.</comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A stone fruit mead that is spiced should be entered as a <em>Fruit and Spice Mead.</em> A stone fruit mead that contains non-stone fruit should be entered as a <em>Melomel</em>. A stone fruit mead that contains other ingredients should be entered as an <em>Experimental Mead</em>.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A stone fruit mead that is spiced should be entered as a <em>Fruit and Spice Mead.</em> A stone fruit mead that contains non-stone fruit should be entered as a <em>Melomel</em>. A stone fruit mead that contains other ingredients should be entered as an <em>Experimental Mead</em>.
         </entryinstructions>
         <examples>Mountain Meadows Cherry Mead, Moonlight Entice, Sumptuous, Flirt, and Smitten, Redstone Sunshine Nectar</examples>
       </subcategory>
@@ -5089,7 +5116,7 @@
         </ingredients>
         <comments>Generally a good tannin-sweetness balance is desired, though very dry and very sweet examples do exist.</comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A melomel that is spiced should be entered as a <em>Fruit and Spice Mead</em>. A melomel containing other ingredients should be entered as an <em>Experimental Mead</em>. Melomels made with either apples or grapes as the only fruit source should be entered as a <em>Cyser</em> or <em>Pyment</em>, respectively. Melomels with apples or grapes, plus other fruit should be entered in this category, not <em>Experimental Mead</em>.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the varieties of fruit used. A melomel that is spiced should be entered as a <em>Fruit and Spice Mead</em>. A melomel containing other ingredients should be entered as an <em>Experimental Mead</em>. Melomels made with either apples or grapes as the only fruit source should be entered as a <em>Cyser</em> or <em>Pyment</em>, respectively. Melomels with apples or grapes, plus other fruit should be entered in this category, not <em>Experimental Mead</em>.
         </entryinstructions>
         <examples>Moonlight Desire, Paramour, and Iniquity</examples>
       </subcategory>
@@ -5115,7 +5142,7 @@
         </ingredients>
         <comments>Often, a blend of fruits and spices may give a character greater than the sum of its parts. The better examples of this style often use spices judiciously; when more than one spice are used, they are carefully selected so that they blend harmoniously with the fruit and with each other.</comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the types of spices used, (although well-known spice blends may be referred to by common name, such as apple pie spices). Entrants <strong>MUST</strong> specify the types of fruits used. If only combinations of spices are used, enter as a <em>Spice, Herb, or Vegetable Mead</em>. If only combinations of fruits are used, enter as a <em>Melomel</em>. If other types of ingredients are used, enter as an <em>Experimental Mead</em>.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the types of spices used, (although well-known spice blends may be referred to by common name, such as apple pie spices). Entrants <strong>MUST</strong> specify the types of fruits used. If only combinations of spices are used, enter as a <em>Spice, Herb, or Vegetable Mead</em>. If only combinations of fruits are used, enter as a <em>Melomel</em>. If other types of ingredients are used, enter as an <em>Experimental Mead</em>.
         </entryinstructions>
         <examples>Moonlight Kurt&#8217;s Apple Pie, Mojo, Flame, Fling, and Deviant, Celestial Meads Scheherazade, Rabbit&#8217;s Foot Private Reserve Pear Mead, Intermiel Ros&#233;e</examples>
       </subcategory>
@@ -5136,7 +5163,7 @@
           Often, a blend of spices may give a character greater than the sum of its parts. The better examples of this style use spices subtly; when more than one spice are used, they are carefully selected so that they blend harmoniously. A mead containing only culinary spices or herbs is known as a <em>metheglin</em>.
         </comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the types of spices used (although well-known spice blends may be referred to by common name, such as apple pie spices).
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the types of spices used (although well-known spice blends may be referred to by common name, such as apple pie spices).
         </entryinstructions>
         <examples>Moonlight Wicked, Breathless, Madagascar, and Seduction, Redstone Vanilla Beans and Cinnamon Sticks Mountain Honey Wine, Bonair Chili Mead, Redstone Juniper Mountain Honey Wine, iQhilika Africa Birds Eye Chili Mead, Mountain Meadows Spice Nectar</examples>
       </subcategory>
@@ -5164,7 +5191,7 @@
           Sometimes known as <em>bracket</em> or <em>brackett</em>. The fermentable sugars come from a balance of malt or malt extract and honey, although the specific balance is open to creative interpretation by brewers.
         </comments>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants <strong>MAY</strong> specify the base style or beer or types of malt used. Products with a relatively low proportion of honey should be entered as an <em>Alternative Sugar Beer</em>.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants <strong>MAY</strong> specify the base style or beer or types of malt used. Products with a relatively low proportion of honey should be entered as an <em>Alternative Sugar Beer</em>.
         </entryinstructions>
         <examples>Rabbit&#8217;s Foot Diabhal and Bi&#232;re de Miele, Magic Hat Braggot, Brother Adams Braggot Barleywine Ale, White Winter Traditional Brackett</examples>
       </subcategory>
@@ -5185,7 +5212,7 @@
         <impression>This mead should exhibit the character of all of the ingredients in varying degrees, and should show a good blending or balance between the various flavor elements. Whatever ingredients are included, the result should be identifiable as a honey-based fermented beverage.</impression>
         <mouthfeel>generally follow the standard descriptions, yet note that all the characteristics may vary. Since a wide range of entries are possible, note that the characteristics may reflect combinations of the respective elements of the various sub-categories used in this style. Refer to Category M1 for a detailed description of the character of dry, semi-sweet and sweet mead. If the entered mead is a combination of other existing mead categories, refer to the constituent categories for a detailed description of the character of the component styles.</mouthfeel>
         <entryinstructions>
-           <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength,and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the special nature of the mead, whether it is a combination of existing styles, an experimental mead, or some other creation. Any special ingredients that impart an identifiable character <strong>MAY</strong> be declared.
+          <em>See</em> Introduction to Mead Guidelines <em>for entry requirements.</em> Entrants <strong>MUST</strong> specify carbonation level, strength,and sweetness. Entrants <strong>MAY</strong> specify honey varieties. Entrants <strong>MUST</strong> specify the special nature of the mead, whether it is a combination of existing styles, an experimental mead, or some other creation. Any special ingredients that impart an identifiable character <strong>MAY</strong> be declared.
         </entryinstructions>
         <examples>Moonlight Utopian, Hanssens/Lurgashall Mead the Gueuze, White Winter Cherry Bracket, Mountain Meadows Trickster&#8217;s Treat Agave Mead</examples>
       </subcategory>
@@ -5198,61 +5225,61 @@
       <section>
         <paragraph>The following discussion applies to all the cider styles, except where explicitly superseded in the sub-category guidelines. This introduction identifies common characteristics and descriptions for all types of cider, and should be used as a reference whenever entering or judging cider.</paragraph>
         <paragraph>
-           <strong>Cider</strong> is fermented apple juice. <strong>Perry</strong> is fermented pear juice. There are two categories for cider and perry: <em>Standard Cider and Perry</em> (Category C1) and <em>Specialty Cider and Perry</em> (Category C2). The Standard category covers ciders and perries made primarily or entirely from the juice of apples or pears (but not both at once). The only adjunct permitted in the Standard category, and only in some sub-categories, is a limited addition of sugar to achieve a suitable starting gravity or to raise sweetness post-fermentation. Note that honey is not a &#8220;sugar&#8221; for this purpose; a cider made with added honey must be entered either as a Specialty cider or as a Cyser under the appropriate mead sub-category. Other sugar sources that also add significant flavors (brown sugar, molasses) would also create a Specialty cider (such as New England style).
+          <strong>Cider</strong> is fermented apple juice. <strong>Perry</strong> is fermented pear juice. There are two categories for cider and perry: <em>Standard Cider and Perry</em> (Category C1) and <em>Specialty Cider and Perry</em> (Category C2). The Standard category covers ciders and perries made primarily or entirely from the juice of apples or pears (but not both at once). The only adjunct permitted in the Standard category, and only in some sub-categories, is a limited addition of sugar to achieve a suitable starting gravity or to raise sweetness post-fermentation. Note that honey is not a &#8220;sugar&#8221; for this purpose; a cider made with added honey must be entered either as a Specialty cider or as a Cyser under the appropriate mead sub-category. Other sugar sources that also add significant flavors (brown sugar, molasses) would also create a Specialty cider (such as New England style).
         </paragraph>
       </section>
       <section>
         <sectiontitle>Aroma and Flavor</sectiontitle>
         <paragraph>
-        <ul>
-          <li>
-            Ciders and perries do not necessarily present overtly fruity aromas or flavors &#8212; in the same sense that a wine does not taste overtly of grapes. Drier styles of cider in particular develop more complex but less fruity characters. A simple <em>apple soda</em> or <em>wine cooler</em> character is not desirable in a cider or perry.
-          </li>
-          <li>
-            Some styles of cider exhibit distinctly <strong>non-</strong> fruity tastes or aromas, such as the <em>smoky ham</em> undertones of a dry English cider.
-          </li>
-          <li>
-            The <strong>sweetness</strong> (residual sugar, or RS) of a cider or perry may vary from absolutely dry (no RS) to as much as a sweet dessert wine (10% or more RS). In sweeter ciders, other components of taste &#8212; particularly acidity &#8212; must balance the sweetness. The level of sweetness must be specified so organizers and judges can arrange flights of tastings and entries within flights. Tasting should always proceed from drier to sweeter. There are five categories of sweetness, expanded from three in earlier guidelines. Note that the numbers for these levels are <strong>not</strong> rigid or restrictive. They are intended to guide the cidermaker on how to enter, not to be used as judging criteria unless a cider is declared at a sweetness level far from its actual sweetness. Judges must realize that sweetness can mask faults. Be more attentive to this in a sweeter cider. Likewise, do not penalize dry ciders excessively for minor faults which may be more evident only because of lack of sweetness. The categories and <em>approximate</em> sugar levels are as follows. Final gravities are particularly rough numbers since they cannot take account of what the SG would be if the cider fermented out completely.<ul>
+          <ul>
+            <li>
+              Ciders and perries do not necessarily present overtly fruity aromas or flavors &#8212; in the same sense that a wine does not taste overtly of grapes. Drier styles of cider in particular develop more complex but less fruity characters. A simple <em>apple soda</em> or <em>wine cooler</em> character is not desirable in a cider or perry.
+            </li>
+            <li>
+              Some styles of cider exhibit distinctly <strong>non-</strong> fruity tastes or aromas, such as the <em>smoky ham</em> undertones of a dry English cider.
+            </li>
+            <li>
+              The <strong>sweetness</strong> (residual sugar, or RS) of a cider or perry may vary from absolutely dry (no RS) to as much as a sweet dessert wine (10% or more RS). In sweeter ciders, other components of taste &#8212; particularly acidity &#8212; must balance the sweetness. The level of sweetness must be specified so organizers and judges can arrange flights of tastings and entries within flights. Tasting should always proceed from drier to sweeter. There are five categories of sweetness, expanded from three in earlier guidelines. Note that the numbers for these levels are <strong>not</strong> rigid or restrictive. They are intended to guide the cidermaker on how to enter, not to be used as judging criteria unless a cider is declared at a sweetness level far from its actual sweetness. Judges must realize that sweetness can mask faults. Be more attentive to this in a sweeter cider. Likewise, do not penalize dry ciders excessively for minor faults which may be more evident only because of lack of sweetness. The categories and <em>approximate</em> sugar levels are as follows. Final gravities are particularly rough numbers since they cannot take account of what the SG would be if the cider fermented out completely.<ul>
               <li>
-                 <strong>Dry:</strong> below 0.4% residual sugar. This corresponds to a final specific gravity less than 1.002. There is no perception of sweetness.
+                <strong>Dry:</strong> below 0.4% residual sugar. This corresponds to a final specific gravity less than 1.002. There is no perception of sweetness.
               </li>
               <li>
-                 <strong>Medium-dry:</strong> 0.4-0.9% residual sugar. This corresponds to a final specific gravity of 1.002-1.004. There is a hint of sweetness but the cider is still perceived primarily as dry. Also known as semi-dry.
+                <strong>Medium-dry:</strong> 0.4-0.9% residual sugar. This corresponds to a final specific gravity of 1.002-1.004. There is a hint of sweetness but the cider is still perceived primarily as dry. Also known as semi-dry.
               </li>
               <li>
-                 <strong>Medium:</strong> in the range between dry and sweet, 0.9-2.0% residual sugar, final gravity 1.004-1.009. Sweetness is now a notable component of the overall character.
+                <strong>Medium:</strong> in the range between dry and sweet, 0.9-2.0% residual sugar, final gravity 1.004-1.009. Sweetness is now a notable component of the overall character.
               </li>
               <li>
-                 <strong>Medium-sweet:</strong> 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is sweet but still refreshing. Also known as semi-sweet.
+                <strong>Medium-sweet:</strong> 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is sweet but still refreshing. Also known as semi-sweet.
               </li>
               <li>
-                 <strong>Sweet:</strong> above 4.0% residual sugar, roughly equivalent to a final gravity of over 1.019. The cider has the character of a dessert wine. It must not be cloying; see notes on balance.
+                <strong>Sweet:</strong> above 4.0% residual sugar, roughly equivalent to a final gravity of over 1.019. The cider has the character of a dessert wine. It must not be cloying; see notes on balance.
               </li>
             </ul>
-          </li>
-          <li>If a cider is close to one of these boundaries, it should be identified by the sweetness category which best describes the overall impression it gives. The five categories above were expanded from the earlier three dry-medium-sweet by splitting the dry and medium categories.</li>
-          <li>
-             <strong>Acidity</strong> is an essential element of cider and perry: it must be sufficient to give a clean, refreshing impression without being puckering. Acidity (from malic and in some cases lactic acids) must not be confused with acetification (from ethyl acetate or acetic acid&#8212;vinegar). The acrid aroma and tingling taste of acetification is a fault.
-          </li>
-          <li>
-            Ciders and perries vary considerably in <strong>tannin</strong> . This affects both bitterness and astringency (see <em>Mouthfeel</em> below). If made from culinary or table fruit, tannins are typically low; nevertheless some tannin is desirable to balance the character. The character contributed by tannin should be mainly astringency rather than bitterness. An overt or forward bitterness is a fault, and is often due to processing techniques rather than fruit character.
-          </li>
-          <li>
-            Cider may go through a <strong>malo-lactic fermentation</strong> (MLF) which converts some or all of the sharp malic acid to softer, less-acidic lactic acid. (Perries should not go through MLF because it will cause undesirable acetification.) In ciders made with tannic apples, the MLF commonly produces ethylphenols which are evident as other flavors: spicy/smoky including smoked meat, phenolic, and farmyard/old-horse. These flavors are desirable although not mandatory in English and French styles, but must not be <em>over the top</em>. The spicy-smoky character is the most desirable of the three. Note that a dominating farmyard character may be the result of a Brettanomyces contamination rather than MLF; this is a serious fault. Also, because MLF reduces the acidity of a cider, the result should not be <em>flabby</em> or too soft; the cider must remain refreshing. Finally, judges should be attentive to the possibility of faults such as mousiness which are more likely in a higher pH cider that has gone through MLF. (Some judges may be unable to detect <em>mouse</em>; an alkaline oral rinse may be needed to confirm and reach agreement among judges.)
-          </li>
-        </ul>
+            </li>
+            <li>If a cider is close to one of these boundaries, it should be identified by the sweetness category which best describes the overall impression it gives. The five categories above were expanded from the earlier three dry-medium-sweet by splitting the dry and medium categories.</li>
+            <li>
+              <strong>Acidity</strong> is an essential element of cider and perry: it must be sufficient to give a clean, refreshing impression without being puckering. Acidity (from malic and in some cases lactic acids) must not be confused with acetification (from ethyl acetate or acetic acid&#8212;vinegar). The acrid aroma and tingling taste of acetification is a fault.
+            </li>
+            <li>
+              Ciders and perries vary considerably in <strong>tannin</strong> . This affects both bitterness and astringency (see <em>Mouthfeel</em> below). If made from culinary or table fruit, tannins are typically low; nevertheless some tannin is desirable to balance the character. The character contributed by tannin should be mainly astringency rather than bitterness. An overt or forward bitterness is a fault, and is often due to processing techniques rather than fruit character.
+            </li>
+            <li>
+              Cider may go through a <strong>malo-lactic fermentation</strong> (MLF) which converts some or all of the sharp malic acid to softer, less-acidic lactic acid. (Perries should not go through MLF because it will cause undesirable acetification.) In ciders made with tannic apples, the MLF commonly produces ethylphenols which are evident as other flavors: spicy/smoky including smoked meat, phenolic, and farmyard/old-horse. These flavors are desirable although not mandatory in English and French styles, but must not be <em>over the top</em>. The spicy-smoky character is the most desirable of the three. Note that a dominating farmyard character may be the result of a Brettanomyces contamination rather than MLF; this is a serious fault. Also, because MLF reduces the acidity of a cider, the result should not be <em>flabby</em> or too soft; the cider must remain refreshing. Finally, judges should be attentive to the possibility of faults such as mousiness which are more likely in a higher pH cider that has gone through MLF. (Some judges may be unable to detect <em>mouse</em>; an alkaline oral rinse may be needed to confirm and reach agreement among judges.)
+            </li>
+          </ul>
         </paragraph>
       </section>
       <section>
         <sectiontitle>Appearance</sectiontitle>
         <paragraph>
-        <ul>
-          <li>Clarity may vary from good to brilliant. The lack of sparkling clarity is not a fault, but visible particles are undesirable. In some styles a &#8220;rustic&#8221; lack of brilliance is common. Perries are notoriously difficult to clear; as a result a slight haze is not a fault. However, a &#8220;sheen&#8221; in either cider or perry generally indicates the early stage of lactic contamination and is a distinct fault.</li>
-          <li>
-            Carbonation may vary from entirely still to a champagne level. No or little carbonation is termed <strong>still</strong> . A still cider may give a slight <em>tickle on the tongue</em>. A moderate carbonation level is termed <strong>petillant</strong> . Highly carbonated is termed <strong>sparkling</strong> . At the higher levels of carbonation, the <em>mousse</em> (head) may be retained for a short time. However, gushing, foaming, and difficult-to-manage heads are faults.
-          </li>
-        </ul></paragraph>
-        </section>
+          <ul>
+            <li>Clarity may vary from good to brilliant. The lack of sparkling clarity is not a fault, but visible particles are undesirable. In some styles a &#8220;rustic&#8221; lack of brilliance is common. Perries are notoriously difficult to clear; as a result a slight haze is not a fault. However, a &#8220;sheen&#8221; in either cider or perry generally indicates the early stage of lactic contamination and is a distinct fault.</li>
+            <li>
+              Carbonation may vary from entirely still to a champagne level. No or little carbonation is termed <strong>still</strong> . A still cider may give a slight <em>tickle on the tongue</em>. A moderate carbonation level is termed <strong>petillant</strong> . Highly carbonated is termed <strong>sparkling</strong> . At the higher levels of carbonation, the <em>mousse</em> (head) may be retained for a short time. However, gushing, foaming, and difficult-to-manage heads are faults.
+            </li>
+          </ul></paragraph>
+      </section>
       <section>
         <sectiontitle>Mouthfeel</sectiontitle>
         <paragraph><ul>
@@ -5314,7 +5341,7 @@
       <subcategory id="C1B">
         <name>English Cider</name>
         <notes>
-           <strong>English Cider</strong> includes the English "West Country" plus ciders inspired by that style. These ciders are made with bittersweet and bitter-sharp apple varieties cultivated specifically for cider making. English ciders are traditionally fermented and aged in wood barrels, which adds some character; however, the barrels used are rarely new, so there is no overt wood character.
+          <strong>English Cider</strong> includes the English "West Country" plus ciders inspired by that style. These ciders are made with bittersweet and bitter-sharp apple varieties cultivated specifically for cider making. English ciders are traditionally fermented and aged in wood barrels, which adds some character; however, the barrels used are rarely new, so there is no overt wood character.
         </notes>
         <impression>Generally dry, full-bodied, austere. Complex flavor profile, long finish.</impression>
         <flavor>
@@ -5346,7 +5373,7 @@
       <subcategory id="C1C">
         <name>French Cider</name>
         <notes>
-           <strong>French Cider</strong> includes Normandy styles plus ciders inspired by those styles, including ciders made by various techniques to achieve the French flavor profile. These ciders are made with bittersweet and bitter-sharp apple varieties cultivated specifically for cider making.
+          <strong>French Cider</strong> includes Normandy styles plus ciders inspired by those styles, including ciders made by various techniques to achieve the French flavor profile. These ciders are made with bittersweet and bitter-sharp apple varieties cultivated specifically for cider making.
         </notes>
         <notes>Traditional French procedures use small amounts of salt and calcium compounds (calcium chloride, calcium carbonate) to aid the process of pectin coagulation. These compounds may be used, pre-fermentation, but in limited quantity. It is a fault if judges can detect a salty or chalky taste. The enzyme PME (pectin methyl esterase) may also be used pre-fermentation for pectin coagulation.</notes>
         <notes>Note that the sweetness/gravity levels indicate an overall tendency, not a sharp delineation between English and French ciders.</notes>
@@ -5380,7 +5407,7 @@
       <subcategory id="C1D">
         <name>New World Perry</name>
         <notes>
-           <strong>New World Perry</strong> is made from culinary/table pears.
+          <strong>New World Perry</strong> is made from culinary/table pears.
         </notes>
         <impression>Mild. Medium to medium-sweet. Still to lightly sparkling. Only very slight acetification is acceptable. Mousiness, ropy/oily characters are serious faults.</impression>
         <flavor>There is a pear character, but not obviously fruity. It tends toward that of a young white wine. No bitterness.</flavor>

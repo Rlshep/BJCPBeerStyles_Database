@@ -6,7 +6,6 @@ apply plugin: 'java'
 sourceCompatibility = 1.5
 
 repositories {
-    mavenLocal()
     mavenCentral()
 }
 
@@ -22,6 +21,6 @@ dependencies {
 sourceSets.main.java.srcDirs = ['src']
 
 task( loadDb, dependsOn: jar, type: JavaExec ) {
-    main = 'CreateBjcpDatabase'
+    main = 'io.github.rlshep.bjcp2015beerstyles.db.CreateBjcpDatabase'
     classpath = sourceSets.main.runtimeClasspath
 }

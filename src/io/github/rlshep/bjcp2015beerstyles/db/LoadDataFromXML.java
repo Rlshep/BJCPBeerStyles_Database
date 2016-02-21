@@ -49,8 +49,8 @@ public class LoadDataFromXML {
         int eventType = xpp.getEventType();
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
-            if (eventType == XmlPullParser.START_TAG && BjcpContract.COLUMN_CAT_ID.equals(xpp.getName())) {
-                categories.add(createCategory(xpp, orderNumber));
+            if (eventType == XmlPullParser.START_TAG && BjcpContract.XML_CATEGORY.equals(xpp.getName())) {
+                categories.add(createCategory(xpp, orderNumber, BjcpContract.XML_CATEGORY));
                 orderNumber++;
             }
 
@@ -60,18 +60,18 @@ public class LoadDataFromXML {
         return categories;
     }
 
-    private Category createCategory(XmlPullParser xpp, int orderNumber) throws XmlPullParserException, IOException {
+    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName) throws XmlPullParserException, IOException {
         Category category = new Category(xpp.getAttributeValue(null, BjcpContract.XML_ID));
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
         int sectionOrder = 0;
         int subCatOrder = 0;
 
-        while (isNotTheEnd(xpp,BjcpContract.COLUMN_CAT_ID)) {
+        while (isNotTheEnd(xpp,tagName)) {
             if (isStartTag(xpp, BjcpContract.COLUMN_NAME)) {
                 category.setName(getNextText(xpp));
             } else if (isStartTag(xpp, BjcpContract.XML_SUBCATEGORY)) {
-                childCategories.add(createCategory(xpp, subCatOrder));
+                childCategories.add(createCategory(xpp, subCatOrder, BjcpContract.XML_SUBCATEGORY));
                 subCatOrder++;
             } else if (isSection(xpp)) {
                 sections.add(createSection(xpp, sectionOrder));
