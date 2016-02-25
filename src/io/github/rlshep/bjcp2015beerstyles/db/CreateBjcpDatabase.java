@@ -12,13 +12,10 @@ import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Section;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
-
 
 public class CreateBjcpDatabase {
     private static final String LOCALE = "en_US";
     private static final String NULL = "NULL";
-
     private Statement stmt;
 
     public final static void main(String[] args) {
@@ -60,7 +57,7 @@ public class CreateBjcpDatabase {
         queries.add("CREATE TABLE " + BjcpContract.TABLE_META + "(" + BjcpContract.COLUMN_LOCALE + " TEXT DEFAULT '" + LOCALE + "')");
         queries.add("CREATE TABLE " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_PARENT_ID + " INTEGER, " + BjcpContract.COLUMN_CATEGORY_CODE + " TEXT, " + BjcpContract.COLUMN_NAME + " TEXT, " + BjcpContract.COLUMN_REVISION + " NUMBER, " + BjcpContract.COLUMN_LANG + " TEXT," + BjcpContract.COLUMN_BOOKMARKED + " BOOLEAN, " + BjcpContract.COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + BjcpContract.COLUMN_PARENT_ID + ") REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
         queries.add("CREATE TABLE " + BjcpContract.TABLE_SECTION + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_CAT_ID + " INTEGER, " + BjcpContract.COLUMN_HEADER + " TEXT, " + BjcpContract.COLUMN_BODY + " TEXT, " + BjcpContract.COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + BjcpContract.COLUMN_CAT_ID + ") REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_CAT_ID + " INTEGER, " + BjcpContract.COLUMN_NAME + " TEXT, " + BjcpContract.COLUMN_OG_START + " TEXT, " + BjcpContract.COLUMN_OG_END + " TEXT, " + BjcpContract.COLUMN_FG_START + " TEXT, " + BjcpContract.COLUMN_FG_END + " TEXT, " + BjcpContract.COLUMN_IBU_START + " TEXT, " + BjcpContract.COLUMN_IBU_END + " TEXT, " + BjcpContract.COLUMN_SRM_START + " TEXT, " + BjcpContract.COLUMN_SRM_END + " TEXT, " + BjcpContract.COLUMN_ABV_START + " TEXT, " + BjcpContract.COLUMN_ABV_END + " TEXT, FOREIGN KEY(" + BjcpContract.COLUMN_CAT_ID + " ) REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_CAT_ID + " INTEGER, " + BjcpContract.COLUMN_HEADER + " TEXT, " + BjcpContract.COLUMN_OG_START + " TEXT, " + BjcpContract.COLUMN_OG_END + " TEXT, " + BjcpContract.COLUMN_FG_START + " TEXT, " + BjcpContract.COLUMN_FG_END + " TEXT, " + BjcpContract.COLUMN_IBU_START + " TEXT, " + BjcpContract.COLUMN_IBU_END + " TEXT, " + BjcpContract.COLUMN_SRM_START + " TEXT, " + BjcpContract.COLUMN_SRM_END + " TEXT, " + BjcpContract.COLUMN_ABV_START + " TEXT, " + BjcpContract.COLUMN_ABV_END + " TEXT, FOREIGN KEY(" + BjcpContract.COLUMN_CAT_ID + " ) REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
 
         for (String query : queries) {
             stmt.executeUpdate(query);
@@ -88,18 +85,19 @@ public class CreateBjcpDatabase {
 
         //Insert sub-tables if available.
         if (null != category.getVitalStatistics()) {
-            category.getVitalStatistics().setSubCategoryId(id);
+            category.getVitalStatistics().setCategoryId(id);
             addVitalStatistics(stmt, category.getVitalStatistics());
         }
 
         addCategories(stmt, category.getChildCategories(), id);
     }
 
-    private void addVitalStatistics(Statement stmt, VitalStatistics vitalStatistics) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_CAT_ID + ", " + BjcpContract.COLUMN_OG_START + ", " + BjcpContract.COLUMN_OG_END + ", " + BjcpContract.COLUMN_FG_START + ", " + BjcpContract.COLUMN_FG_END + ", " + BjcpContract.COLUMN_IBU_START + ", " + BjcpContract.COLUMN_IBU_END + ", " + BjcpContract.COLUMN_SRM_START + ", " + BjcpContract.COLUMN_SRM_END + ", " + BjcpContract.COLUMN_ABV_START + ", " + BjcpContract.COLUMN_ABV_END + ")";
-        sql += "VALUES(" + vitalStatistics.getSubCategoryId() + "," + handleNull(vitalStatistics.getOgStart()) + "," + handleNull(vitalStatistics.getOgEnd()) + "," + handleNull(vitalStatistics.getFgStart()) + "," + handleNull(vitalStatistics.getFgEnd()) + "," + handleNull(vitalStatistics.getIbuStart()) + "," + handleNull(vitalStatistics.getIbuEnd()) + "," + handleNull(vitalStatistics.getSrmStart()) + "," + handleNull(vitalStatistics.getSrmEnd()) + "," + handleNull(vitalStatistics.getAbvStart()) + "," + handleNull(vitalStatistics.getAbvEnd()) + ") ";
+    private void addVitalStatistics(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics vitalStatistics) throws SQLException {
+        String sql = "INSERT INTO " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_CAT_ID + ", " + BjcpContract.COLUMN_OG_START + ", " + BjcpContract.COLUMN_OG_END + ", " + BjcpContract.COLUMN_FG_START + ", " + BjcpContract.COLUMN_FG_END + ", " + BjcpContract.COLUMN_IBU_START + ", " + BjcpContract.COLUMN_IBU_END + ", " + BjcpContract.COLUMN_SRM_START + ", " + BjcpContract.COLUMN_SRM_END + ", " + BjcpContract.COLUMN_ABV_START + ", " + BjcpContract.COLUMN_ABV_END + ", " + BjcpContract.COLUMN_HEADER + ")";
+        sql += "VALUES(" + vitalStatistics.getCategoryId() + "," + handleNull(vitalStatistics.getOgStart()) + "," + handleNull(vitalStatistics.getOgEnd()) + "," + handleNull(vitalStatistics.getFgStart()) + "," + handleNull(vitalStatistics.getFgEnd()) + "," + handleNull(vitalStatistics.getIbuStart()) + "," + handleNull(vitalStatistics.getIbuEnd()) + "," + handleNull(vitalStatistics.getSrmStart()) + "," + handleNull(vitalStatistics.getSrmEnd()) + "," + handleNull(vitalStatistics.getAbvStart()) + "," + handleNull(vitalStatistics.getAbvEnd()) + "," + handleNull(vitalStatistics.getHeader()) + ") ";
 
         //Write category to database.
+//        System.out.println(sql);    //TODO: Remove Debug
         stmt.executeUpdate(sql);
     }
 

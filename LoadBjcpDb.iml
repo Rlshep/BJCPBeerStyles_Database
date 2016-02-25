@@ -13,21 +13,13 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.xerial:sqlite-jdbc:3.8.10.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: xpp3:xpp3:1.1.4c" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: bjcp_beer_styles">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/bjcp_beer_styles.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bjcp_beer_styles" level="project" />
   </component>
 </module>
