@@ -12,6 +12,7 @@ import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Section;
+import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class CreateBjcpDatabase {
     private static final String LOCALE = "en_US";
@@ -72,7 +73,7 @@ public class CreateBjcpDatabase {
 
     private void addCategory(Statement stmt, Category category, long parentId) throws SQLException {
         String sql = "INSERT INTO " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_CATEGORY_CODE + ", " + BjcpContract.COLUMN_PARENT_ID  + ", " + BjcpContract.COLUMN_NAME + ", " + BjcpContract.COLUMN_REVISION + ", " + BjcpContract.COLUMN_LANG + "," + BjcpContract.COLUMN_ORDER + ") ";
-        sql += "VALUES('" + category.getCategory() + "'," + ((0 <= parentId) ? parentId : "NULL") + ",'" + category.getName() + "'," + category.getRevision() + ",'" + category.getLanguage() + "'," + category.getOrderNumber() + ");";
+        sql += "VALUES('" + category.getCategoryCode() + "'," + ((0 <= parentId) ? parentId : "NULL") + ",'" + category.getName() + "'," + category.getRevision() + ",'" + category.getLanguage() + "'," + category.getOrderNumber() + ");";
 
         //Write category to database.
         stmt.executeUpdate(sql);
@@ -84,9 +85,9 @@ public class CreateBjcpDatabase {
         }
 
         //Insert sub-tables if available.
-        if (null != category.getVitalStatistics()) {
-            category.getVitalStatistics().setCategoryId(id);
-            addVitalStatistics(stmt, category.getVitalStatistics());
+        for (VitalStatistics vitalStatistics : category.getVitalStatisticses()) {
+            vitalStatistics.setCategoryId(id);
+            addVitalStatistics(stmt, vitalStatistics);
         }
 
         addCategories(stmt, category.getChildCategories(), id);
@@ -97,7 +98,6 @@ public class CreateBjcpDatabase {
         sql += "VALUES(" + vitalStatistics.getCategoryId() + "," + handleNull(vitalStatistics.getOgStart()) + "," + handleNull(vitalStatistics.getOgEnd()) + "," + handleNull(vitalStatistics.getFgStart()) + "," + handleNull(vitalStatistics.getFgEnd()) + "," + handleNull(vitalStatistics.getIbuStart()) + "," + handleNull(vitalStatistics.getIbuEnd()) + "," + handleNull(vitalStatistics.getSrmStart()) + "," + handleNull(vitalStatistics.getSrmEnd()) + "," + handleNull(vitalStatistics.getAbvStart()) + "," + handleNull(vitalStatistics.getAbvEnd()) + "," + handleNull(vitalStatistics.getHeader()) + ") ";
 
         //Write category to database.
-//        System.out.println(sql);    //TODO: Remove Debug
         stmt.executeUpdate(sql);
     }
 

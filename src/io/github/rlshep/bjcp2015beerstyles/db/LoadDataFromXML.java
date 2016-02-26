@@ -41,6 +41,7 @@ public class LoadDataFromXML {
         VALUES_TO_CONVERT.put("</definition>", "<br><br>");
         VALUES_TO_CONVERT.put("<colgroup>", "");
         VALUES_TO_CONVERT.put("</colgroup>", "");
+        VALUES_TO_CONVERT.put("<4% ABV", "&lt;4% ABV");
     }
 
     public List<Category> loadXmlFromFile() throws XmlPullParserException, IOException {
@@ -75,8 +76,9 @@ public class LoadDataFromXML {
         Category category = new Category(xpp.getAttributeValue(null, BjcpContract.XML_ID));
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
+        List<VitalStatistics> statistics = new ArrayList<VitalStatistics>();
         int sectionOrder = 0;
-        int subCatOrder = 0;
+        int subCatOrder = 1 + (orderNumber * 100);    // Increasing order number for search sort.
 
         while (isNotTheEnd(xpp, tagName)) {
             if (isStartTag(xpp, BjcpContract.COLUMN_NAME)) {
@@ -94,15 +96,16 @@ public class LoadDataFromXML {
                 if (null == vitalStatistics) {
                     sections.add(createSection(xpp, sectionOrder));
                     sectionOrder++;
+                } else {
+                    statistics.add(vitalStatistics);
                 }
-
-                category.setVitalStatistics(vitalStatistics);
             }
         }
 
         category.setSections(sections);
         category.setChildCategories(childCategories);
         category.setOrderNumber(orderNumber);
+        category.setVitalStatisticses(statistics);
 
         return category;
     }
@@ -126,7 +129,7 @@ public class LoadDataFromXML {
             } else if (xpp.getEventType() == XmlPullParser.END_TAG) {
                 bodyText += convertValue(" </" + xpp.getName() + "> ");
             } else {
-                bodyText += xpp.getText();
+                bodyText += convertValue(xpp.getText().trim());
             }
         }
 
