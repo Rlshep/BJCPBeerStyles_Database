@@ -29,6 +29,7 @@ public class CreateBjcpDatabase {
             c = DriverManager.getConnection("jdbc:sqlite:db/" + BjcpConstants.DATABASE_NAME);
             stmt = c.createStatement();
 
+            cbd.setDatabaseVersion(stmt);
             cbd.createTables(stmt);
 
             // Load database from xml file.
@@ -44,6 +45,9 @@ public class CreateBjcpDatabase {
                 System.err.println(e.getClass().getName() + ": " + e.getMessage());
             }
         }
+    }
+    private void setDatabaseVersion(Statement stmt) throws SQLException {
+        stmt.executeUpdate("PRAGMA user_version = " + BjcpConstants.DATABASE_VERSION);
     }
 
     private void createTables(Statement stmt) throws SQLException {
