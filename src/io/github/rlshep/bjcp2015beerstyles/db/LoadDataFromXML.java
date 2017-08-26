@@ -48,7 +48,7 @@ public class LoadDataFromXML {
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
-        InputStream is = new FileInputStream("C://Users//Richard//Documents//GitHub//LoadBjcpDb//db//" + XML_FILE_NAME);
+        InputStream is = new FileInputStream("D://dev//GitHub//LoadBjcpDb//db//" + XML_FILE_NAME);
 
         xpp.setInput(is, null);
 
