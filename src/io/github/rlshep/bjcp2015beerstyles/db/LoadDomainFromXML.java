@@ -18,8 +18,8 @@ import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Section;
 import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
-public class LoadDataFromXML {
-    private static final String XML_FILE_NAME = "styleguide-2015.xml";
+public class LoadDomainFromXML {
+    private static final String XML_HOME = "D://dev//GitHub//LoadBjcpDb//db//";
     private static final String[] ALLOWED_SECTIONS = {"notes", "impression", "aroma", "appearance", "flavor", "mouthfeel", "comments", "history",
             "ingredients", "comparison", "examples", "tags", "entryinstructions", "exceptions"};
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
@@ -44,15 +44,17 @@ public class LoadDataFromXML {
         VALUES_TO_CONVERT.put("<4% ABV", "&lt;4% ABV");
     }
 
-    public List<Category> loadXmlFromFile() throws XmlPullParserException, IOException {
+    public List<Category> loadXmlFromFile(String xmlFileName) throws XmlPullParserException, IOException {
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
-        InputStream is = new FileInputStream("D://dev//GitHub//LoadBjcpDb//db//" + XML_FILE_NAME);
 
+        InputStream is = new FileInputStream(XML_HOME + xmlFileName);
         xpp.setInput(is, null);
 
-        return loadCategoriesFromXml(xpp);
+        List<Category> categories = loadCategoriesFromXml(xpp);
+
+        return categories;
     }
 
     private List<Category> loadCategoriesFromXml(XmlPullParser xpp) throws XmlPullParserException, IOException {
@@ -243,4 +245,5 @@ public class LoadDataFromXML {
 
         return eventType != XmlPullParser.END_DOCUMENT && !(eventType == XmlPullParser.END_TAG && name.equals(xpp.getName()));
     }
+
 }
