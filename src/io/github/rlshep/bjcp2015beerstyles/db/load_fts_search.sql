@@ -34,20 +34,3 @@ FROM CATEGORY C
 JOIN SECTION S ON S.CATEGORY_ID = C._ID
 WHERE C.LANGUAGE = 'English'
 	AND C.revision = 2015;
-
--- CATEGORY KEYWORDS
-INSERT INTO fts_search (result_id
-	,table_name
-	,LANGUAGE
-	,revision
-	,body
-	)
-SELECT c._id
-	,'KEYWORDS'
-	,c.LANGUAGE
-	,c.revision
-	,k.keyword
-FROM CATEGORY C
-JOIN KEYWORDS K ON K.CATEGORY_ID = C._ID
-WHERE C.LANGUAGE = 'English'
-	AND C.revision = 2015;

@@ -17,7 +17,6 @@ import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 public class CreateBjcpDatabase {
 
     private static final String XML_FILE_NAME = "styleguide-2015_en.xml";
-    private static final String XML_FILE_NAME_EXT = "styleguide-2015_en_ext.xml";
 
     public final static void main(String[] args) {
         Connection c = null;
@@ -37,9 +36,6 @@ public class CreateBjcpDatabase {
             List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_FILE_NAME);
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);
-
-            List<Category> categoriesExt =  loadDomainFromXML.loadXmlFromFile(XML_FILE_NAME_EXT);
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
