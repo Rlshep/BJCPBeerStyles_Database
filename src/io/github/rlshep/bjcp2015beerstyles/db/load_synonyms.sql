@@ -2,7 +2,7 @@ DELETE FROM SYNONYMS;
 
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Altenmunster','Altenmünster', 'English');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Biere','Bière', 'English');
-INSERT INTO SYNONYMS (left,right, language) VALUES ('bil','Barleywine', 'English');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('#bil','Barleywine', 'English');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Brau','Bräu', 'English');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Burgerbrau','Bürgerbräu', 'English');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Dollnitzer','Döllnitzer', 'English');
