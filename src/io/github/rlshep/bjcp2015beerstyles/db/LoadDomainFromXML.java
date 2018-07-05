@@ -19,7 +19,7 @@ import io.github.rlshep.bjcp2015beerstyles.domain.Section;
 import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class LoadDomainFromXML {
-    private static final String XML_HOME = "D://dev//GitHub//LoadBjcpDb//db//";
+    private static final String XML_HOME = "db//";
     private static final String[] ALLOWED_SECTIONS = {"notes", "impression", "aroma", "appearance", "flavor", "mouthfeel", "comments", "history",
             "ingredients", "comparison", "examples", "tags", "entryinstructions", "exceptions"};
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
