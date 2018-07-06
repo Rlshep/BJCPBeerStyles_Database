@@ -15,7 +15,7 @@ SELECT C._ID
 	,C.revision
 	,C.NAME
 FROM CATEGORY C
-WHERE C.LANGUAGE = 'English'
+WHERE C.LANGUAGE = 'en'
 	AND C.revision = 2015;
 
 -- CATEGORY SECTIONS
@@ -32,5 +32,5 @@ SELECT c._id
 	,s.body
 FROM CATEGORY C
 JOIN SECTION S ON S.CATEGORY_ID = C._ID
-WHERE C.LANGUAGE = 'English'
+WHERE C.LANGUAGE = 'en'
 	AND C.revision = 2015;
