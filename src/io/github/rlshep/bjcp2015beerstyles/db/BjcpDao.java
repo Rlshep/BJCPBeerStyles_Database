@@ -123,7 +123,7 @@ public class BjcpDao {
 
     public int insertFromFile(Statement stmt, String fileName) throws IOException, SQLException {
         int numberOfRows = 0;
-        // Used to correct special characters.
+        // Used ISO-8859-1 to correct special characters.
         BufferedReader reader  = new BufferedReader(new InputStreamReader(new FileInputStream(fileName),"ISO-8859-1"));
 
         // Iterate through lines (assuming each insert has its own line and theres no other stuff)
