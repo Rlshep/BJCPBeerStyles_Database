@@ -1,5 +1,8 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
+import org.sqlite.SQLiteConfig;
+
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -17,6 +20,8 @@ import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 public class CreateBjcpDatabase {
 
     private static final String XML_FILE_NAME = "styleguide-2015_en.xml";
+    private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
+    private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
 
     public final static void main(String[] args) {
         Connection c = null;
@@ -36,6 +41,9 @@ public class CreateBjcpDatabase {
             List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_FILE_NAME);
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);
+
+            loadSqlFiles(bjcpDao, stmt, SYNONYM_FILE_NAME);
+            loadSqlFiles(bjcpDao, stmt, FTS_FILE_NAME);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -45,6 +53,17 @@ public class CreateBjcpDatabase {
             } catch (Exception e) {
                 System.err.println(e.getClass().getName() + ": " + e.getMessage());
             }
+        }
+    }
+
+    private final static void loadSqlFiles(BjcpDao bjcpDao, Statement stmt, String fileName) {
+        try {
+            int insertCount = bjcpDao.insertFromFile(stmt, fileName);
+            System.out.println("Rows loaded from file= " + fileName + ": " + insertCount);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 

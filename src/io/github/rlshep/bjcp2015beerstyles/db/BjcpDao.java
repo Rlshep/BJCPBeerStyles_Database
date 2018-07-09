@@ -1,7 +1,9 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -117,5 +119,21 @@ public class BjcpDao {
         }
 
         return formatted;
+    }
+
+    public int insertFromFile(Statement stmt, String fileName) throws IOException, SQLException {
+        int numberOfRows = 0;
+        // Used to correct special characters.
+        BufferedReader reader  = new BufferedReader(new InputStreamReader(new FileInputStream(fileName),"ISO-8859-1"));
+
+        // Iterate through lines (assuming each insert has its own line and theres no other stuff)
+        while (reader.ready()) {
+            String insertStmt = reader.readLine();
+            stmt.executeUpdate(insertStmt);
+            numberOfRows++;
+        }
+        reader.close();
+
+        return numberOfRows;
     }
 }

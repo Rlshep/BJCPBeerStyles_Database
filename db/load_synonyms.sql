@@ -1,5 +1,4 @@
 DELETE FROM SYNONYMS;
-
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Altenmunster','Altenmünster', 'en');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Biere','Bière', 'en');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('#bil','Barleywine', 'en');
