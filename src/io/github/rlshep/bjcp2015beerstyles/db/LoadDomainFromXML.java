@@ -44,7 +44,7 @@ public class LoadDomainFromXML {
         VALUES_TO_CONVERT.put("<4% ABV", "&lt;4% ABV");
     }
 
-    public List<Category> loadXmlFromFile(String xmlFileName, String language) throws XmlPullParserException, IOException {
+    public List<Category> loadXmlFromFile(String xmlFileName) throws XmlPullParserException, IOException {
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
@@ -52,19 +52,25 @@ public class LoadDomainFromXML {
         InputStream is = new FileInputStream(XML_HOME + xmlFileName);
         xpp.setInput(is, null);
 
-        List<Category> categories = loadCategoriesFromXml(xpp, language);
+        List<Category> categories = loadCategoriesFromXml(xpp);
 
         return categories;
     }
 
-    private List<Category> loadCategoriesFromXml(XmlPullParser xpp, String language) throws XmlPullParserException, IOException {
+    private List<Category> loadCategoriesFromXml(XmlPullParser xpp) throws XmlPullParserException, IOException {
         List<Category> categories = new ArrayList<Category>();
-        int orderNumber = 0;
         int eventType = xpp.getEventType();
+        Category transferCategory = new Category();
+        int orderNumber = 0;
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
+            if (eventType == XmlPullParser.START_TAG && BjcpContract.XML_HEAD.equals(xpp.getName())) {
+                transferCategory.setLanguage(xpp.getAttributeValue(null, BjcpContract.XML_LANGUAGE));
+                transferCategory.setRevision(xpp.getAttributeValue(null, BjcpContract.XML_REVISION));
+            }
             if (eventType == XmlPullParser.START_TAG && BjcpContract.XML_CATEGORY.equals(xpp.getName())) {
-                categories.add(createCategory(xpp, orderNumber, BjcpContract.XML_CATEGORY, language));
+                categories.add(createCategory(xpp, orderNumber, BjcpContract.XML_CATEGORY, transferCategory));
+                transferCategory.setOrderNumber(transferCategory.getOrderNumber() + 1);
                 orderNumber++;
             }
 
@@ -74,19 +80,20 @@ public class LoadDomainFromXML {
         return categories;
     }
 
-    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, String language) throws XmlPullParserException, IOException {
-        Category category = new Category(xpp.getAttributeValue(null, BjcpContract.XML_ID), language);
+    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory) throws XmlPullParserException, IOException {
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
         List<VitalStatistics> statistics = new ArrayList<VitalStatistics>();
         int sectionOrder = 0;
         int subCatOrder = 1 + (orderNumber * 100);    // Increasing order number for search sort.
+        Category category  = new Category(transferCategory);
+        category.setCategoryCode(xpp.getAttributeValue(null, BjcpContract.XML_ID));
 
         while (isNotTheEnd(xpp, tagName)) {
             if (isStartTag(xpp, BjcpContract.COLUMN_NAME)) {
                 category.setName(getNextText(xpp));
             } else if (isStartTag(xpp, BjcpContract.XML_SUBCATEGORY)) {
-                childCategories.add(createCategory(xpp, subCatOrder, BjcpContract.XML_SUBCATEGORY, language));
+                childCategories.add(createCategory(xpp, subCatOrder, BjcpContract.XML_SUBCATEGORY, transferCategory));
                 subCatOrder++;
             } else if (isSection(xpp)) {
                 sections.add(createSection(xpp, sectionOrder));

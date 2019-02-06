@@ -20,9 +20,7 @@ import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 public class CreateBjcpDatabase {
 
     private static final String XML_ENGLISH = "styleguide-2015_en.xml";
-    private static final String ENGLISH = "en";
     private static final String XML_SPANISH = "styleguide-2015_es.xml";
-    private static final String SPANISH = "es";
     private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
     private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
 
@@ -41,8 +39,8 @@ public class CreateBjcpDatabase {
             bjcpDao.createTables(stmt);
 
             // Load database from xml file.
-            List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH, ENGLISH);
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH, SPANISH));
+            List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH));
 
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);

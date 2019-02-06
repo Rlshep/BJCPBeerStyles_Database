@@ -17,7 +17,7 @@ import io.github.rlshep.bjcp2015beerstyles.domain.Section;
 import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class BjcpDao {
-    private static final String LOCALE = "en_US";
+    private static final String LOCALE = "en_US";   //TODO: What is this?
     private static final String NULL = "NULL";
     private Statement stmt;
 

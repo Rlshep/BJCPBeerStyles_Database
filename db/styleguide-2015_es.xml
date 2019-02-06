@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<styleguide>
+<styleguide revision="2015" language="es">
     <class type="Cerveza">
         <category id="I">
             <revision number="1">2015</revision>
@@ -6717,6 +6717,7 @@
                 historia compartida y un perfil de sabor similar.
             </notes>
             <subcategory id="20A">
+                <name>Porter Americanas</name>
                 Impresión General: Una cerveza maltosa, oscura y sustancial, con carácter complejo y lleno de sabor a
                 malta oscura.
                 <br/>
