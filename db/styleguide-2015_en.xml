@@ -7036,6 +7036,53 @@
                     </abv>
                 </stats>
             </subcategory>
+             <subcategory id="21B-brut">
+                <name>Specialty IPA: Brut IPA</name>
+                <notes><a href="https://www.homebrewersassociation.org/magazine/about-zymurgy/">Zymurgy</a> associate editor Amahl Turczyn developed this Brut IPA style description for the Commercial Calibration section of the Mar/Apr 2019 issue of <a href="https://www.homebrewersassociation.org/magazine/about-zymurgy/">Zymurgy.</a> It has <u>not</u> been endorsed by the BJCP or the Brewers Association for competition purposes, but homebrewers who enter AHA/BJCP-sanctioned competitions are welcome to include the AHA’s description in the comments section when submitting brut IPAs for competition in Category 21B Specialty IPA. Reproduced with permission.
+                </notes>
+                <impression>A very pale, very dry, highly effervescent variant of American IPA, usually highly hopped with aromatic hops, but with far less actual bitterness.
+                </impression>
+                <aroma>Moderate to intense hop aroma featuring one or more characteristics of American or New World hops, including citrus, floral, pine resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style. Most are heavily hopped after flameout, either during whirlpool, dry-hopped, or both. Some “Champagne” styles may incorporate fruit aromatics from additions of actual fruit in addition to or instead of hop-derived fruit; grapes or grape must may be used in these versions to bridge the gap between sparkling wines and beer. A low to medium-low clean malty-grainy aroma may be found in the background. Sweet, grainy aromatics of corn or rice may be present but are not required, as a moderate to high percentage of adjuncts in the grain bill are often used as a means of increasing attenuation. Some brewers have reported aromas of coconut from high amounts of rice in the grain bill.
+                </aroma>
+                <appearance>Very pale to light golden in color; those with added fruit may reflect fruit color, but it’s usually pale. White to off-white foam may be voluminous due to high carbonation and can have good to moderate retention, depending upon alcohol. Clarity can range from brilliant to moderately hazy from late-hop and dry-hop oils.
+                </appearance>
+                <flavor>Initial flavor should primarily reflect hop oils or added fruit. Grape, citrus, tropical, and stone fruit flavors are common, while bitterness should be restrained. Low bittering hops will be exaggerated by the very dry finishing gravity as well as carbonic acid, but there should not be an aggressive bitterness as one would taste in a West Coast–style American IPA. Malt flavor is all but absent; caramel or juicy sweetness should not be present, though alcohol may provide a sensation of sweetness. Hop flavors should exhibit dry, sometimes wine-like fruitiness. Low tartness may be present from the presence of real fruit but is not required. Finish is dry to very dry (1°P or less) with low hop bitterness
+                </flavor>
+                <mouthfeel>Body should be light to very light and, along with high carbonation (up to 3.5 vol.), should lend a Champagne-like quality. Alcohol may be high, with a sensation of sparkling wine-like volatility, but should not be hot or harsh. Residual malt sweetness or dextrin fullness should be absent.
+                </mouthfeel>
+                <comments>Amylase enzymes, specifically glucoamylase or amyloglucosidase, are used in the mash and/or fermenter along with highly fermentable wort and often adjuncts like rice and corn to achieve close to 100% attenuation. Clean, high-attenuating yeast strains are preferred, though the style will likely evolve as more brewers experiment with more characterful strains. Bittering hops should be used with restraint since, even though it is an IPA, the low finishing gravities will accentuate hop bitterness; generally at or below about 20 IBUs.
+                </comments>
+                <history>This is very new subgenre of IPA that has ties to the relatively rare European style bière de Champagne, but is generally attributed to brewer Kim Sturdavant at San Francisco’s Social Kitchen and Brewery. He is said to have used amylase enzymes to make his triple IPA more drinkable and wondered what effect they would have on a standard-strength IPA. Some see it as a bone-dry West Coast backlash to the New England IPA and milkshake IPA trends that favor sweet, full-bodied, “juicy” flavors in a heavily late-hopped beer.
+                </history>
+                <ingredients>Very pale base malt, sometimes married with rice or corn adjuncts, high carbonation and oil-heavy flavor and aroma hops added post-flameout. Mandarina Bavaria, Hüll Melon, and Nelson Sauvin are popular. Sugar additions to aid attenuation are acceptable but must be kept low to avoid hot or harsh alcohols. Amylase enzymes such as Fermfast Glucoamylase, White Labs Ultra-Ferm, or Amylo 300 are used to produce a bone-dry finish, which is further amplified by high carbonation. Crystal or dextrin malts, lactose, or any ingredients that will thicken or sweeten the beer, or prevent complete attenuation, are not to style.
+                </ingredients>
+                <comparison>Hopped in a similar fashion to New England IPA, but without sweetness. Pale, sometimes slightly hazy like a West Coast IPA, but without high bitterness. Highly carbonated like a Belgian Golden Strong ale, but even drier, and without Belgian spice and phenol character.
+                </comparison>
+                <examples>Bear Republic Brut Squad IPA, Blackstack Bottomless Brut, WeldWerks Chardonnay Brut, Matchless Fancy Stuff Brut IPA, Barrel Brothers Champaderade Brut IPA, Three Weavers Postcolonial Friendship, Dangerous Man Brut Bellini, Four Quarters Paddle On
+                </examples>
+                <stats>
+                    <og flexible="false">
+                        <low>1.060</low>
+                        <high>1.080</high>
+                    </og>
+                    <fg flexible="false">
+                        <low>0.990</low>
+                        <high>1.004</high>
+                    </fg>
+                    <ibu flexible="false">
+                        <low>15</low>
+                        <high>25</high>
+                    </ibu>
+                    <srm flexible="false">
+                        <low>5</low>
+                        <high>15</high>
+                    </srm>
+                    <abv flexible="false">
+                        <low>5.5</low>
+                        <high>12</high>
+                    </abv>
+                </stats>
+            </subcategory>
             <subcategory id="21B-new_england">
                 <name>Specialty IPA: New England IPA</name>
                 <impression>An American IPA with intense fruit flavors and aromas, a soft body, and smooth mouthfeel,
