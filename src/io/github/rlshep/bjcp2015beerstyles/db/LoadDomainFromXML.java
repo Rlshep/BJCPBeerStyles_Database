@@ -24,6 +24,7 @@ public class LoadDomainFromXML {
             "ingredients", "comparison", "examples", "tags", "entryinstructions", "exceptions"};
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
     private final static HashMap<String, String> VALUES_TO_CONVERT = new HashMap<String, String>();
+    private static final String LINK_TAG = "a";
 
     static {
         VALUES_TO_CONVERT.put("entryinstructions", "Entry Instructions");
@@ -134,7 +135,7 @@ public class LoadDomainFromXML {
 
         while (isNotTheEnd(xpp, name)) {
             if (xpp.getEventType() == XmlPullParser.START_TAG) {
-                bodyText += convertValue(" <" + xpp.getName() + "> ");
+                bodyText += createSectionStartTag (xpp);
             } else if (xpp.getEventType() == XmlPullParser.END_TAG) {
                 bodyText += convertValue(" </" + xpp.getName() + "> ");
             } else {
@@ -148,6 +149,18 @@ public class LoadDomainFromXML {
         return section;
     }
 
+    private String createSectionStartTag (XmlPullParser xpp) {
+        String startTag = "";
+
+        if (BjcpContract.XML_LINK.equals(xpp.getName())) {
+            startTag += " <" + xpp.getName() + " href='" + getLinkHref(xpp) + "'> ";
+        } else {
+            startTag += convertValue(" <" + xpp.getName() + "> ");
+        }
+
+        return startTag;
+    }
+
     private String getSectionTitle(XmlPullParser xpp) {
         String title = xpp.getAttributeValue(null, BjcpContract.XML_TITLE);
 
@@ -156,6 +169,16 @@ public class LoadDomainFromXML {
         }
 
         return title;
+    }
+
+    private String getLinkHref(XmlPullParser xpp) {
+        String href = xpp.getAttributeValue(null, BjcpContract.XML_HREF);
+
+        if (null == href) {
+            href = convertValue(xpp.getName());
+        }
+
+        return href;
     }
 
     private String convertValue(String value) {
