@@ -1,0 +1,4 @@
+sed 's/[0-9]* Guía de Estilos de Hidromiel – Edición 2015 [0-9]*//; s/Guía de Estilos de Hidromiel – Edición 2015 [0-9]*//; s/\(M[0-9]. \)/<\/category><category id=\"\1\"><name>/; s/. \"/\"/; s/\(M[0-9][A-Z]\)/<\/examples><\/subcategory><subcategory id=\"\1\"><name>/; s/>. />/; s/Impresión General: /<\/name><impresión>/; s/Aroma: /<\/impresión><aroma>/; s/Apariencia: /<\/aroma><apariencia>/; s/Sabor: /<\/apariencia><sabor>/; s/Sensación en Boca: /<\/sabor><sensación_en_boca>/; s/Ingredientes: /<\/sensación_en_boca><ingredientes>/; s/Comentarios: /<\/ingredientes><comentarios>/; s/Ejemplos Comerciales: /<\/comentarios><ejemplos>/g' 2015_Guidelines_Mead_Espanol.txt > 2015_Guidelines_Mead_Espanol.xml
+#echo abcd defg | sed 's/\([a-z]*\) \([a-z]*\)/\2 \1/'
+# echo "M3B. HIDROMIEL con Especias, Hierbas o V" | sed 's/\([A-Z]\)/<subcategory id=\"\1\"><name>/'
+# echo "M1. HIDROMIEL TRADICIONAL"  | sed  's/\(M[0-9]. \)/<\/category><category id=\"\1\"><name>/'
