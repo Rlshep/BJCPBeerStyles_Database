@@ -89,8 +89,8 @@ public class BjcpDao {
 
 
     private void addSection(Statement stmt, Section section) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_SECTION + "(" + BjcpContract.COLUMN_CAT_ID + " , "  + BjcpContract.COLUMN_HEADER + " , " + BjcpContract.COLUMN_BODY + " , " + BjcpContract.COLUMN_ORDER + ") VALUES(";
-        sql += section.getCategoryId() + ",'" + section.getHeader() + "','" + section.getBody().replace("'", "''") + "'," + section.getOrderNumber() + ");";
+        String sql = "INSERT INTO " + BjcpContract.TABLE_SECTION + "(" + BjcpContract.COLUMN_CAT_ID + " , "  + BjcpContract.COLUMN_BODY + " , " + BjcpContract.COLUMN_ORDER + ") VALUES(";
+        sql += section.getCategoryId() + ", '" + section.getBody().replace("'", "''") + "'," + section.getOrderNumber() + ");";
 
         //Write category to database.
         stmt.executeUpdate(sql);

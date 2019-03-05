@@ -20,14 +20,11 @@ import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class LoadDomainFromXML {
     private static final String XML_HOME = "db//";
-    private static final String[] ALLOWED_SECTIONS = {"notes", "impression", "aroma", "appearance", "flavor", "mouthfeel", "comments", "history",
-            "ingredients", "comparison", "examples", "tags", "entryinstructions", "exceptions"};
+    private static final String[] ALLOWED_SECTIONS = {"notes", "body"};
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
     private final static HashMap<String, String> VALUES_TO_CONVERT = new HashMap<String, String>();
-    private static final String LINK_TAG = "a";
 
     static {
-        VALUES_TO_CONVERT.put("entryinstructions", "Entry Instructions");
         VALUES_TO_CONVERT.put("<ul>", "");
         VALUES_TO_CONVERT.put("</ul>", "");
         VALUES_TO_CONVERT.put("<li>", "<br>");
@@ -128,10 +125,6 @@ public class LoadDomainFromXML {
         String name = xpp.getName();
         String bodyText = "";
         Section section = new Section(orderNumber);
-
-        if (isStartTag(xpp, name)) {
-            section.setHeader(getSectionTitle(xpp));
-        }
 
         while (isNotTheEnd(xpp, name)) {
             if (xpp.getEventType() == XmlPullParser.START_TAG) {
