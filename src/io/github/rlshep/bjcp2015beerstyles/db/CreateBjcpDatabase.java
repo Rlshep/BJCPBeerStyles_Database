@@ -40,7 +40,7 @@ public class CreateBjcpDatabase {
 
             // Load database from xml file.
             List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
-           //TODO: READD categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH));
 
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);
