@@ -1,5 +1,6 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
+import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import org.apache.commons.lang.StringUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -55,7 +56,7 @@ public class LoadDomainFromXML {
         return categories;
     }
 
-    private List<Category> loadCategoriesFromXml(XmlPullParser xpp) throws XmlPullParserException, IOException {
+    private List<Category> loadCategoriesFromXml(XmlPullParser xpp) throws Exception {
         List<Category> categories = new ArrayList<Category>();
         int eventType = xpp.getEventType();
         Category transferCategory = new Category();
@@ -63,8 +64,14 @@ public class LoadDomainFromXML {
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
             if (eventType == XmlPullParser.START_TAG && BjcpContract.XML_HEAD.equals(xpp.getName())) {
-                transferCategory.setLanguage(xpp.getAttributeValue(null, BjcpContract.XML_LANGUAGE));
-                transferCategory.setRevision(xpp.getAttributeValue(null, BjcpContract.XML_REVISION));
+                String language = xpp.getAttributeValue(null, BjcpContract.XML_LANGUAGE);
+
+                if (BjcpConstants.allowedLanguages.contains(language)) {
+                    transferCategory.setLanguage(language);
+                    transferCategory.setRevision(xpp.getAttributeValue(null, BjcpContract.XML_REVISION));
+                } else {
+                    throw new Exception("Invalid language");
+                }
             }
             if (eventType == XmlPullParser.START_TAG && BjcpContract.XML_CATEGORY.equals(xpp.getName())) {
                 categories.add(createCategory(xpp, orderNumber, BjcpContract.XML_CATEGORY, transferCategory));
