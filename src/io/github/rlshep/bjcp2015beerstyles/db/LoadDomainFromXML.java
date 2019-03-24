@@ -43,7 +43,7 @@ public class LoadDomainFromXML {
         VALUES_TO_CONVERT.put("<4% ABV", "&lt;4% ABV");
     }
 
-    public List<Category> loadXmlFromFile(String xmlFileName) throws XmlPullParserException, IOException {
+    public List<Category> loadXmlFromFile(String xmlFileName) throws Exception {
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
