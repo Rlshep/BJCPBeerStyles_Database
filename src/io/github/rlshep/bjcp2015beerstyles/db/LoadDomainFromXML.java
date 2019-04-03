@@ -91,7 +91,7 @@ public class LoadDomainFromXML {
         List<VitalStatistics> statistics = new ArrayList<VitalStatistics>();
         int sectionOrder = 0;
         int subCatOrder = 1 + (orderNumber * 100);    // Increasing order number for search sort.
-        Category category  = new Category(transferCategory);
+        Category category = new Category(transferCategory);
         category.setCategoryCode(xpp.getAttributeValue(null, BjcpContract.XML_ID));
 
         while (isNotTheEnd(xpp, tagName)) {
@@ -135,7 +135,7 @@ public class LoadDomainFromXML {
 
         while (isNotTheEnd(xpp, name)) {
             if (xpp.getEventType() == XmlPullParser.START_TAG) {
-                bodyText += createSectionStartTag (xpp);
+                bodyText += createSectionStartTag(xpp);
             } else if (xpp.getEventType() == XmlPullParser.END_TAG) {
                 bodyText += convertValue(" </" + xpp.getName() + "> ");
             } else {
@@ -149,7 +149,7 @@ public class LoadDomainFromXML {
         return section;
     }
 
-    private String createSectionStartTag (XmlPullParser xpp) {
+    private String createSectionStartTag(XmlPullParser xpp) {
         String startTag = "";
 
         if (BjcpContract.XML_LINK.equals(xpp.getName())) {
@@ -213,20 +213,20 @@ public class LoadDomainFromXML {
 
     private VitalStatistics createVitalStatistic(XmlPullParser xpp, VitalStatistics vitalStatistics) throws XmlPullParserException, IOException {
         if (isStartTag(xpp, BjcpContract.XML_OG)) {
-            vitalStatistics.setOgStart(getNextByName(xpp, BjcpContract.XML_LOW));
-            vitalStatistics.setOgEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+            vitalStatistics.setOgStart(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_LOW)));
+            vitalStatistics.setOgEnd(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_HIGH)));
         } else if (isStartTag(xpp, BjcpContract.XML_FG)) {
-            vitalStatistics.setFgStart(getNextByName(xpp, BjcpContract.XML_LOW));
-            vitalStatistics.setFgEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+            vitalStatistics.setFgStart(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_LOW)));
+            vitalStatistics.setFgEnd(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_HIGH)));
         } else if (isStartTag(xpp, BjcpContract.XML_IBU)) {
-            vitalStatistics.setIbuStart(getNextByName(xpp, BjcpContract.XML_LOW));
-            vitalStatistics.setIbuEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+            vitalStatistics.setIbuStart(Integer.parseInt(getNextByName(xpp, BjcpContract.XML_LOW)));
+            vitalStatistics.setIbuEnd(Integer.parseInt(getNextByName(xpp, BjcpContract.XML_HIGH)));
         } else if (isStartTag(xpp, BjcpContract.XML_SRM)) {
-            vitalStatistics.setSrmStart(getNextByName(xpp, BjcpContract.XML_LOW));
-            vitalStatistics.setSrmEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+            vitalStatistics.setSrmStart(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_LOW)));
+            vitalStatistics.setSrmEnd(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_HIGH)));
         } else if (isStartTag(xpp, BjcpContract.XML_ABV)) {
-            vitalStatistics.setAbvStart(getNextByName(xpp, BjcpContract.XML_LOW));
-            vitalStatistics.setAbvEnd(getNextByName(xpp, BjcpContract.XML_HIGH));
+            vitalStatistics.setAbvStart(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_LOW)));
+            vitalStatistics.setAbvEnd(Double.parseDouble(getNextByName(xpp, BjcpContract.XML_HIGH)));
         }
 
         return vitalStatistics;
