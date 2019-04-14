@@ -1,21 +1,16 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
-import org.sqlite.SQLiteConfig;
+import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
+import io.github.rlshep.bjcp2015beerstyles.domain.Category;
+import io.github.rlshep.bjcp2015beerstyles.domain.Synonym;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
-import io.github.rlshep.bjcp2015beerstyles.domain.Category;
-import io.github.rlshep.bjcp2015beerstyles.domain.Section;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class CreateBjcpDatabase {
 
@@ -45,6 +40,9 @@ public class CreateBjcpDatabase {
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);
 
+            List<Synonym> synonyms = getCategoryNameSynonyms(categories);
+            bjcpDao.addSynonyms(stmt, synonyms);
+
             loadSqlFiles(bjcpDao, stmt, SYNONYM_FILE_NAME);
             loadSqlFiles(bjcpDao, stmt, FTS_FILE_NAME);
         } catch (Exception e) {
@@ -70,4 +68,54 @@ public class CreateBjcpDatabase {
         }
     }
 
+    private static List<Synonym> getCategoryNameSynonyms(List<Category> categories) {
+        List<Synonym> synonyms = new ArrayList<>();
+
+        for (Category category : categories) {
+            if (!BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
+               synonyms.add(createSynonym(categories, category));
+
+               //Change if every more than one level
+               for (Category childCategory : category.getChildCategories()) {
+                   synonyms.add(createSynonym(categories, childCategory));
+               }
+            }
+        }
+
+        return synonyms;
+    }
+
+    private static String getDefaultLanguageName(List<Category> categories, Category targetCategory) {
+        String defaultLanguageName = "";
+
+        for (Category category : categories) {
+            if (category.getCategoryCode().equals(targetCategory.getCategoryCode())
+                    && !BjcpConstants.DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
+                    && BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
+                defaultLanguageName = category.getName();
+            } else {
+                for (Category childCategory : category.getChildCategories()) {
+                    if (childCategory.getCategoryCode().equals(targetCategory.getCategoryCode())
+                            && !BjcpConstants.DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
+                            && BjcpConstants.DEFAULT_LANGUAGE.equals(childCategory.getLanguage())) {
+                        defaultLanguageName = childCategory.getName();
+                    }
+                }
+            }
+        }
+
+        return defaultLanguageName;
+    }
+
+    private static Synonym createSynonym(List<Category> categories, Category category) {
+        Synonym synonym = new Synonym();
+
+        if (!BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
+            synonym.setTo(category.getName());
+            synonym.setFrom(getDefaultLanguageName(categories, category));
+            synonym.setLanguage(category.getLanguage());
+        }
+
+        return synonym;
+    }
 }

@@ -5033,7 +5033,7 @@
                 <br/>
                 <br/>
             </subcategory>
-            <subcategory id="7C-Pálida">
+            <subcategory id="7C-pale">
                 <name>Kellerbier: Kellerbier Pálida</name>
                 Una muy común cerveza de temporada de verano elaborada por muchas de las cervecerías en la zona de
                 Munich y servida en los beer gardens, donde son muy populares.
@@ -5170,7 +5170,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="7C-Ámbar">
+            <subcategory id="7C-amber">
                 <name>Kellerbier: Kellerbier Ámbar</name>
                 El estilo original de Kellerbier de la zona de Franconia en Alemania. Un estilo mucho más antiguo en
                 comparación con el relativamente más reciente y pálido Kellerbier estilo Helles que hoy es popular en la
@@ -11407,7 +11407,7 @@
                     </exceptions>
                 </stats>
             </subcategory>
-            <subcategory id="21B-belga">
+            <subcategory id="21B-belgian">
                 <name>IPA Especial: IPA Belga</name>
                 <body>
                     <big>
@@ -11543,7 +11543,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-blanca">
+            <subcategory id="21B-white">
                 <name>IPA Especial: IPA Blanca</name>
                 <body>
                     <big>
@@ -11668,7 +11668,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-de Centeno">
+            <subcategory id="21B-rye">
                 <name>IPA Especial: IPA de Centeno</name>
                 <body>
                     <big>
@@ -11820,7 +11820,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-Marrón">
+            <subcategory id="21B-brown">
                 <name>IPA Especial: IPA Marrón</name>
                 <body>
                     <big>
@@ -11971,7 +11971,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-negra">
+            <subcategory id="21B-black">
                 <name>IPA Especial: IPA Negra</name>
                 <body>
                     <big>
@@ -12119,7 +12119,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-nueva_inglaterra">
+            <subcategory id="21B-new_england">
                 <name>IPA Especialidad: IPA Nueva Inglaterra</name>
                 <body>
                     <big>
@@ -12267,7 +12267,7 @@
                     </abv>
                 </stats>
             </subcategory>
-            <subcategory id="21B-Roja">
+            <subcategory id="21B-red">
                 <name>IPA Especial: IPA Roja</name>
                 <body>
                     <big>

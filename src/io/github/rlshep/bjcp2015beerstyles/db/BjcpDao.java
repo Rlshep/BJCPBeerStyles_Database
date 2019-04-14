@@ -14,6 +14,7 @@ import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Section;
+import io.github.rlshep.bjcp2015beerstyles.domain.Synonym;
 import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 public class BjcpDao {
@@ -122,5 +123,19 @@ public class BjcpDao {
         reader.close();
 
         return numberOfRows;
+    }
+
+    public void addSynonyms(Statement statement, List<Synonym> synonyms) throws SQLException {
+        for (Synonym synonym : synonyms) {
+            addSynonym(statement, synonym);
+        }
+    }
+
+    public void addSynonym(Statement statement, Synonym synonym) throws SQLException {
+        String sql = "INSERT INTO " + BjcpContract.TABLE_SYNONYMS + "(" + BjcpContract.COLUMN_LEFT + " , "  + BjcpContract.COLUMN_RIGHT + " , " + BjcpContract.COLUMN_LANG + ") VALUES('";
+        sql += synonym.getFrom() + "', '" + synonym.getTo() + "','" + synonym.getLanguage() + "');";
+
+        //Write category to database.
+        statement.executeUpdate(sql);
     }
 }
