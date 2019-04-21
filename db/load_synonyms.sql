@@ -70,11 +70,14 @@ INSERT INTO SYNONYMS (left,right, language) VALUES ('Monchshof','Mönchshof', 'es
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Muhlen','Mühlen', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Munchner','Münchner', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Naturtrub','Naturtrüb', 'es');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('New England IPA','IPA Nueva Inglaterra', 'en');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Octoberfest','Märzen', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Oktoberfest','Märzen', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Palida','Pálida', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Pre-Prohibicion','Pre-Prohibición', 'es');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('Pre-Prohibition','Pre-Prohibición', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Prohibicion','Prohibición', 'es');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('Prohibition','Prohibición', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Schlosser','Schlösser', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Schlussel','Schlüssel', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Schonramer','Schönramer', 'es');
