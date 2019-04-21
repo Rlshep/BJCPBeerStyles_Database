@@ -1,5 +1,7 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
+import io.github.rlshep.bjcp2015beerstyles.domain.*;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,38 +12,34 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract;
-import io.github.rlshep.bjcp2015beerstyles.domain.Category;
-import io.github.rlshep.bjcp2015beerstyles.domain.Section;
-import io.github.rlshep.bjcp2015beerstyles.domain.Synonym;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.*;
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
 public class BjcpDao {
     private static final String LOCALE = "en_US";   //TODO: What is this?
-    private static final String NULL = "NULL";
 
     public void setDatabaseVersion(Statement stmt) throws SQLException {
-        stmt.executeUpdate("PRAGMA user_version = " + BjcpConstants.DATABASE_VERSION);
+        stmt.executeUpdate("PRAGMA user_version = " + DATABASE_VERSION);
     }
 
     public void createTables(Statement stmt) throws SQLException {
         List<String> queries = new ArrayList<String>();
 
-        stmt.executeUpdate("DROP TABLE IF EXISTS " + BjcpContract.TABLE_CATEGORY);
-        stmt.executeUpdate("DROP TABLE IF EXISTS " + BjcpContract.TABLE_SECTION);
-        stmt.executeUpdate("DROP TABLE IF EXISTS " + BjcpContract.TABLE_VITALS);
-        stmt.executeUpdate("DROP TABLE IF EXISTS " + BjcpContract.TABLE_META);
-        stmt.executeUpdate("DROP TABLE IF EXISTS " + BjcpContract.TABLE_SYNONYMS);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_CATEGORY);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_SECTION);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_VITALS);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_META);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_SYNONYMS);
+        stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_TAG);
 
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_META + "(" + BjcpContract.COLUMN_LOCALE + " TEXT DEFAULT '" + LOCALE + "')");
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_PARENT_ID + " INTEGER, " + BjcpContract.COLUMN_CATEGORY_CODE + " TEXT, " + BjcpContract.COLUMN_NAME + " TEXT, " + BjcpContract.COLUMN_REVISION + " NUMBER, " + BjcpContract.COLUMN_LANG + " TEXT," + BjcpContract.COLUMN_BOOKMARKED + " BOOLEAN, " + BjcpContract.COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + BjcpContract.COLUMN_PARENT_ID + ") REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_SECTION + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_CAT_ID + " INTEGER, " + BjcpContract.COLUMN_HEADER + " TEXT, " + BjcpContract.COLUMN_BODY + " TEXT, " + BjcpContract.COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + BjcpContract.COLUMN_CAT_ID + ") REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + BjcpContract.COLUMN_CAT_ID + " INTEGER, " + BjcpContract.COLUMN_HEADER + " TEXT, " + BjcpContract.COLUMN_OG_START + " REAL, " + BjcpContract.COLUMN_OG_END + " REAL, " + BjcpContract.COLUMN_FG_START + " REAL, " + BjcpContract.COLUMN_FG_END + " REAL, " + BjcpContract.COLUMN_IBU_START + " INTEGER, " + BjcpContract.COLUMN_IBU_END + " INTEGER, " + BjcpContract.COLUMN_SRM_START + " REAL, " + BjcpContract.COLUMN_SRM_END + " REAL, " + BjcpContract.COLUMN_ABV_START + " REAL, " + BjcpContract.COLUMN_ABV_END + " REAL, FOREIGN KEY(" + BjcpContract.COLUMN_CAT_ID + " ) REFERENCES " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_ID + "));");
-        queries.add("CREATE TABLE " + BjcpContract.TABLE_SYNONYMS + "(" + BjcpContract.COLUMN_LEFT + " TEXT, " + BjcpContract.COLUMN_RIGHT  + " TEXT," + BjcpContract.COLUMN_LANG + " TEXT); ");
+        queries.add("CREATE TABLE " + TABLE_META + "(" + COLUMN_LOCALE + " TEXT DEFAULT '" + LOCALE + "')");
+        queries.add("CREATE TABLE " + TABLE_CATEGORY + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_PARENT_ID + " INTEGER, " + COLUMN_CATEGORY_CODE + " TEXT, " + COLUMN_NAME + " TEXT, " + COLUMN_REVISION + " NUMBER, " + COLUMN_LANG + " TEXT," + COLUMN_BOOKMARKED + " BOOLEAN, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_PARENT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + TABLE_SECTION + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER + " TEXT, " + COLUMN_BODY + " TEXT, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_CAT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + TABLE_VITALS + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER + " TEXT, " + COLUMN_OG_START + " REAL, " + COLUMN_OG_END + " REAL, " + COLUMN_FG_START + " REAL, " + COLUMN_FG_END + " REAL, " + COLUMN_IBU_START + " INTEGER, " + COLUMN_IBU_END + " INTEGER, " + COLUMN_SRM_START + " REAL, " + COLUMN_SRM_END + " REAL, " + COLUMN_ABV_START + " REAL, " + COLUMN_ABV_END + " REAL, FOREIGN KEY(" + COLUMN_CAT_ID + " ) REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + TABLE_SYNONYMS + "(" + COLUMN_LEFT + " TEXT, " + COLUMN_RIGHT  + " TEXT," + COLUMN_LANG + " TEXT); ");
+        queries.add("CREATE TABLE " + TABLE_TAG + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_TAG  + " TEXT, FOREIGN KEY(" + COLUMN_CAT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
 
         for (String query : queries) {
-
             stmt.executeUpdate(query);
         }
     }
@@ -53,12 +51,12 @@ public class BjcpDao {
     }
 
     public void addMetaData(Statement stmt) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_META + " (" + BjcpContract.COLUMN_LOCALE + ") VALUES('" + LOCALE + "');";
+        String sql = "INSERT INTO " + TABLE_META + " (" + COLUMN_LOCALE + ") VALUES('" + LOCALE + "');";
         stmt.executeUpdate(sql);
     }
 
     private void addCategory(Statement stmt, Category category, long parentId) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_CATEGORY + "(" + BjcpContract.COLUMN_CATEGORY_CODE + ", " + BjcpContract.COLUMN_PARENT_ID  + ", " + BjcpContract.COLUMN_NAME + ", " + BjcpContract.COLUMN_REVISION + ", " + BjcpContract.COLUMN_LANG + "," + BjcpContract.COLUMN_ORDER + ") ";
+        String sql = "INSERT INTO " + TABLE_CATEGORY + "(" + COLUMN_CATEGORY_CODE + ", " + COLUMN_PARENT_ID  + ", " + COLUMN_NAME + ", " + COLUMN_REVISION + ", " + COLUMN_LANG + "," + COLUMN_ORDER + ") ";
         sql += "VALUES('" + category.getCategoryCode() + "'," + ((0 <= parentId) ? parentId : "NULL") + ",'" + category.getName() + "'," + category.getRevision() + ",'" + category.getLanguage() + "'," + category.getOrderNumber() + ");";
 
         //Write category to database.
@@ -70,6 +68,11 @@ public class BjcpDao {
             addSection(stmt, section);
         }
 
+        for (Tag tag : category.getTags()) {
+            tag.setCategoryId(id);
+            addTag(stmt, tag);
+        }
+
         //Insert sub-tables if available.
         for (VitalStatistics vitalStatistics : category.getVitalStatisticses()) {
             vitalStatistics.setCategoryId(id);
@@ -79,8 +82,15 @@ public class BjcpDao {
         addCategories(stmt, category.getChildCategories(), id);
     }
 
+    private void addTag(Statement stmt, Tag tag) throws SQLException {
+        String sql = "INSERT INTO " + TABLE_TAG + "(" + COLUMN_CAT_ID + " , "  + COLUMN_TAG + ") VALUES(";
+        sql += tag.getCategoryId() + ", '" + tag.getTag() + "');";
+
+        stmt.executeUpdate(sql);
+    }
+
     private void addVitalStatistics(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics vitalStatistics) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_VITALS + "(" + BjcpContract.COLUMN_CAT_ID + ", " + BjcpContract.COLUMN_OG_START + ", " + BjcpContract.COLUMN_OG_END + ", " + BjcpContract.COLUMN_FG_START + ", " + BjcpContract.COLUMN_FG_END + ", " + BjcpContract.COLUMN_IBU_START + ", " + BjcpContract.COLUMN_IBU_END + ", " + BjcpContract.COLUMN_SRM_START + ", " + BjcpContract.COLUMN_SRM_END + ", " + BjcpContract.COLUMN_ABV_START + ", " + BjcpContract.COLUMN_ABV_END + ", " + BjcpContract.COLUMN_HEADER + ")";
+        String sql = "INSERT INTO " + TABLE_VITALS + "(" + COLUMN_CAT_ID + ", " + COLUMN_OG_START + ", " + COLUMN_OG_END + ", " + COLUMN_FG_START + ", " + COLUMN_FG_END + ", " + COLUMN_IBU_START + ", " + COLUMN_IBU_END + ", " + COLUMN_SRM_START + ", " + COLUMN_SRM_END + ", " + COLUMN_ABV_START + ", " + COLUMN_ABV_END + ", " + COLUMN_HEADER + ")";
         sql += "VALUES(" + vitalStatistics.getCategoryId() + "," + vitalStatistics.getOgStart() + "," + vitalStatistics.getOgEnd() + "," + vitalStatistics.getFgStart() + "," + vitalStatistics.getFgEnd() + "," + vitalStatistics.getIbuStart() + "," + vitalStatistics.getIbuEnd() + "," + vitalStatistics.getSrmStart() + "," + vitalStatistics.getSrmEnd() + "," + vitalStatistics.getAbvStart() + "," + vitalStatistics.getAbvEnd() + ", '" + vitalStatistics.getHeader() + "') ";
 
         //Write category to database.
@@ -89,7 +99,7 @@ public class BjcpDao {
 
 
     private void addSection(Statement stmt, Section section) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_SECTION + "(" + BjcpContract.COLUMN_CAT_ID + " , "  + BjcpContract.COLUMN_BODY + " , " + BjcpContract.COLUMN_ORDER + ") VALUES(";
+        String sql = "INSERT INTO " + TABLE_SECTION + "(" + COLUMN_CAT_ID + " , "  + COLUMN_BODY + " , " + COLUMN_ORDER + ") VALUES(";
         sql += section.getCategoryId() + ", '" + section.getBody().replace("'", "''") + "'," + section.getOrderNumber() + ");";
 
         //Write category to database.
@@ -132,7 +142,7 @@ public class BjcpDao {
     }
 
     public void addSynonym(Statement statement, Synonym synonym) throws SQLException {
-        String sql = "INSERT INTO " + BjcpContract.TABLE_SYNONYMS + "(" + BjcpContract.COLUMN_LEFT + " , "  + BjcpContract.COLUMN_RIGHT + " , " + BjcpContract.COLUMN_LANG + ") VALUES('";
+        String sql = "INSERT INTO " + TABLE_SYNONYMS + "(" + COLUMN_LEFT + " , "  + COLUMN_RIGHT + " , " + COLUMN_LANG + ") VALUES('";
         sql += synonym.getFrom() + "', '" + synonym.getTo() + "','" + synonym.getLanguage() + "');";
 
         //Write category to database.

@@ -33,6 +33,7 @@ INSERT INTO SYNONYMS (left,right, language) VALUES ('Troegs','Tröegs', 'en');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Acidas','Ácidas', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Altenmunster','Altenmünster', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Ambar','Ámbar', 'es');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('américa-del-norte','america-del-norte', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Baltica','Báltica', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Biere','Bière', 'es');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('#bil','Barleywine', 'es');
