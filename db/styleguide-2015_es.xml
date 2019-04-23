@@ -4861,88 +4861,89 @@
 					</abv>
 				</stats>
 			</subcategory>
-			<subcategory id="7C">
-				<name>Kellerbier</name>
-				<big>
-					<b>Aroma</b>
-				</big>
-				<br/>Refleja el estilo base. Típicamente tiene un carácter adicional de la levadura, con subproductos
-                no encontrados con frecuencia en cervezas alemanas de buen acondicionamiento en frío (como
-                diacetilo,
-                azufre y acetaldehído).
-				<br/>
-				<br/>
-				<big>
-					<b>Apariencia</b>
-				</big>
-				<br/>Refleja el estilo base. Por lo general, puede ser algo turbia o nublada y probablemente un
-                poco más oscura en apariencia que el estilo base.
-				<br/>
-				<br/>
-				<big>
-					<b>Sabor</b>
-				</big>
-				<br/>Refleja el estilo base. Típicamente tiene un carácter adicional de la levadura, con algunos
-                sub-productos que no se encuentran con frecuencia en cervezas alemanas bien acondicionadas en frío
-                (tales como diacetilo, azufre y acetaldehído), aunque no a niveles objetables.
-				<br/>
-				<br/>
-				<big>
-					<b>Sensación en Boca</b>
-				</big>
-				<br/>Refleja el estilo base. Tiene un poco más de cuerpo y textura cremosa debido a la
-                levadura en suspensión y puede tener una ligera pesadez si el diacetilo está presente. Puede tener
-                una
-                carbonatación más baja que el estilo base.
-				<br/>
-				<br/>
-				<big>
-					<b>Comentarios</b>
-				</big>
-				<br/>Son versiones jóvenes de estilos tradicionales alemanes, sin filtrar, sin pasteurizar y
-                tradicionalmente servidas directamente de los recipientes de acondicionamiento en frío. El nombre
-                significa literalmente "cerveza de bodega", lo que implica una cerveza servida directamente en la
-                bodega
-                de acondicionamiento en frío. Dado que este método se puede aplicar a una amplia gama de cervezas,
-                el
-                estilo es un tanto difícil de precisar. Sin embargo, hay variantes comunes que pueden ser descritas
-                y
-                utilizadas como plantilla para otras versiones. A veces se describe como Naturtrüb o naturalmente
-                turbia. A veces también es llamada Zwickelbier, debido al nombre de la llave utilizada para degustar
-                desde un tanque de acondicionamiento en frío.
-				<br/>
-				<br/>
-				<big>
-					<b>Historia</b>
-				</big>
-				<br/>Originalmente, Kellerbier se refería a cualquier cerveza lager madurada en las cuevas o
-                sótanos bajo la cervecería. En el siglo XIX, Kellerbier era una cerveza fuerte, envejecida,
-                destinada a
-                durar el verano (Sommerbier), almacenada en bodegas de piedra y servida directamente en ellas. Pero
-                cuando la refrigeración comenzó a ser utilizada, el término pasó a describir las cervezas especiales
-                que
-                eran servidas jóvenes, directamente desde la bodega o los tanques de acondicionamiento en frío. Hoy
-                en
-                día algunas cervecerías utilizan el término puramente con fines de marketing para hacer que sus
-                cervezas
-                parezcan especiales. Mientras que una Kellerbier a veces se considera más un estilo de servicio que
-                un
-                estilo de cerveza, la técnica de servicio todavía se utiliza predominantemente con ciertos estilos
-                en
-                algunas regiones (como Helles alrededor de la zona de Munich, o Märzen en la región de Franconia).
-				<br/>
-				<br/>
-				<big>
-					<b>Instrucciones de Entrada</b>
-				</big>
-				<br/>El participante debe especificar si la entrada es una Kellerbier Pálida
-                (basada en una Helles) o una Kellerbier Ámbar (basada en una Märzen). El participante podrá
-                especificar
-                otro tipo de Kellerbier basada en otros estilos básicos como Pils, Bock, Schwarzbier, pero debe
-                suministrar una descripción del estilo a los jueces.
-				<br/>
-				<br/>
-			</subcategory>
+            <subcategory id="7C">
+                <name>Kellerbier</name>
+                <body>
+                    <big>
+                        <b>Aroma</b>
+                    </big>
+                    <br/>Refleja el estilo base. Típicamente tiene un carácter adicional de la levadura, con
+                    subproductos
+                    no encontrados con frecuencia en cervezas alemanas de buen acondicionamiento en frío (como
+                    diacetilo,
+                    azufre y acetaldehído).
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Apariencia</b>
+                    </big>
+                    <br/>Refleja el estilo base. Por lo general, puede ser algo turbia o nublada y probablemente un
+                    poco más oscura en apariencia que el estilo base.
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Sabor</b>
+                    </big>
+                    <br/>Refleja el estilo base. Típicamente tiene un carácter adicional de la levadura, con algunos
+                    sub-productos que no se encuentran con frecuencia en cervezas alemanas bien acondicionadas en frío
+                    (tales como diacetilo, azufre y acetaldehído), aunque no a niveles objetables.
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Sensación en Boca</b>
+                    </big>
+                    <br/>Refleja el estilo base. Tiene un poco más de cuerpo y textura cremosa debido a la
+                    levadura en suspensión y puede tener una ligera pesadez si el diacetilo está presente. Puede tener
+                    una
+                    carbonatación más baja que el estilo base.
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Comentarios</b>
+                    </big>
+                    <br/>Son versiones jóvenes de estilos tradicionales alemanes, sin filtrar, sin pasteurizar y
+                    tradicionalmente servidas directamente de los recipientes de acondicionamiento en frío. El nombre
+                    significa literalmente "cerveza de bodega", lo que implica una cerveza servida directamente en la
+                    bodega
+                    de acondicionamiento en frío. Dado que este método se puede aplicar a una amplia gama de cervezas,
+                    el
+                    estilo es un tanto difícil de precisar. Sin embargo, hay variantes comunes que pueden ser descritas
+                    y
+                    utilizadas como plantilla para otras versiones. A veces se describe como Naturtrüb o naturalmente
+                    turbia. A veces también es llamada Zwickelbier, debido al nombre de la llave utilizada para degustar
+                    desde un tanque de acondicionamiento en frío.
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Historia</b>
+                    </big>
+                    <br/>Originalmente, Kellerbier se refería a cualquier cerveza lager madurada en las cuevas o
+                    sótanos bajo la cervecería. En el siglo XIX, Kellerbier era una cerveza fuerte, envejecida,
+                    destinada a
+                    durar el verano (Sommerbier), almacenada en bodegas de piedra y servida directamente en ellas. Pero
+                    cuando la refrigeración comenzó a ser utilizada, el término pasó a describir las cervezas especiales
+                    que
+                    eran servidas jóvenes, directamente desde la bodega o los tanques de acondicionamiento en frío. Hoy
+                    en
+                    día algunas cervecerías utilizan el término puramente con fines de marketing para hacer que sus
+                    cervezas
+                    parezcan especiales. Mientras que una Kellerbier a veces se considera más un estilo de servicio que
+                    un
+                    estilo de cerveza, la técnica de servicio todavía se utiliza predominantemente con ciertos estilos
+                    en
+                    algunas regiones (como Helles alrededor de la zona de Munich, o Märzen en la región de Franconia).
+                    <br/>
+                    <br/>
+                    <big>
+                        <b>Instrucciones de Entrada</b>
+                    </big>
+                    <br/>El participante debe especificar si la entrada es una Kellerbier Pálida
+                    (basada en una Helles) o una Kellerbier Ámbar (basada en una Märzen). El participante podrá
+                    especificar
+                    otro tipo de Kellerbier basada en otros estilos básicos como Pils, Bock, Schwarzbier, pero debe
+                    suministrar una descripción del estilo a los jueces.
+                </body>
+            </subcategory>
 			<subcategory id="7C-pale">
 				<name>Kellerbier: Kellerbier Pálida</name>
                 Una muy común cerveza de temporada de verano elaborada por muchas de las cervecerías en la zona de
