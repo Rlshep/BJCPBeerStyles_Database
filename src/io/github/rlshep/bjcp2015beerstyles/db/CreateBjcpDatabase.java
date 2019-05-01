@@ -1,6 +1,5 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
-import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Synonym;
 
@@ -11,6 +10,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.*;
 
 public class CreateBjcpDatabase {
 
@@ -24,27 +25,32 @@ public class CreateBjcpDatabase {
         Statement stmt = null;
         BjcpDao bjcpDao = new BjcpDao();
         LoadDomainFromXML loadDomainFromXML = new LoadDomainFromXML();
+        List<Category> categories;
 
         try {
             Class.forName("org.sqlite.JDBC");
-            c = DriverManager.getConnection("jdbc:sqlite:db/" + BjcpConstants.DATABASE_NAME);
+            c = DriverManager.getConnection("jdbc:sqlite:db/" + DATABASE_NAME);
+            c.setAutoCommit(false);
             stmt = c.createStatement();
 
             bjcpDao.setDatabaseVersion(stmt);
             bjcpDao.createTables(stmt);
 
             // Load database from xml file.
-            List<Category> categories =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH));
+            List<Category> categoriesEnglish =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
+            List<Category> categoriesSpanish =  loadDomainFromXML.loadXmlFromFile(XML_SPANISH);
+
+            categories = createHybridCategories(categoriesEnglish, categoriesSpanish, SPANISH_HYBRID);
+            categories.addAll(categoriesEnglish);
+            categories.addAll(categoriesSpanish);
 
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);
 
-            List<Synonym> synonyms = getCategoryNameSynonyms(categories);
-            bjcpDao.addSynonyms(stmt, synonyms);
-
             loadSqlFiles(bjcpDao, stmt, SYNONYM_FILE_NAME);
             loadSqlFiles(bjcpDao, stmt, FTS_FILE_NAME);
+
+            c.commit();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -68,36 +74,19 @@ public class CreateBjcpDatabase {
         }
     }
 
-    private static List<Synonym> getCategoryNameSynonyms(List<Category> categories) {
-        List<Synonym> synonyms = new ArrayList<>();
-
-        for (Category category : categories) {
-            if (!BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
-               synonyms.add(createSynonym(categories, category));
-
-               //Change if every more than one level
-               for (Category childCategory : category.getChildCategories()) {
-                   synonyms.add(createSynonym(categories, childCategory));
-               }
-            }
-        }
-
-        return synonyms;
-    }
-
     private static String getDefaultLanguageName(List<Category> categories, Category targetCategory) {
         String defaultLanguageName = "";
 
         for (Category category : categories) {
             if (category.getCategoryCode().equals(targetCategory.getCategoryCode())
-                    && !BjcpConstants.DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
-                    && BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
+                    && !DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
+                    && DEFAULT_LANGUAGE.equals(category.getLanguage())) {
                 defaultLanguageName = category.getName();
             } else {
                 for (Category childCategory : category.getChildCategories()) {
                     if (childCategory.getCategoryCode().equals(targetCategory.getCategoryCode())
-                            && !BjcpConstants.DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
-                            && BjcpConstants.DEFAULT_LANGUAGE.equals(childCategory.getLanguage())) {
+                            && !DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
+                            && DEFAULT_LANGUAGE.equals(childCategory.getLanguage())) {
                         defaultLanguageName = childCategory.getName();
                     }
                 }
@@ -107,15 +96,31 @@ public class CreateBjcpDatabase {
         return defaultLanguageName;
     }
 
-    private static Synonym createSynonym(List<Category> categories, Category category) {
-        Synonym synonym = new Synonym();
+    private static List<Category> createHybridCategories(List<Category> defaultCategories, List<Category> languageCategories, String hybridLanguage) {
+        List<Category> categories = new ArrayList<>();
+        Category category;
 
-        if (!BjcpConstants.DEFAULT_LANGUAGE.equals(category.getLanguage())) {
-            synonym.setTo(category.getName());
-            synonym.setFrom(getDefaultLanguageName(categories, category));
-            synonym.setLanguage(category.getLanguage());
+        for (Category languageCategory : languageCategories) {
+            category = createHybridCategory(defaultCategories, languageCategory, hybridLanguage);
+            category.getChildCategories().clear();
+
+            for (Category childCat : languageCategory.getChildCategories()) {
+                category.getChildCategories().add(createHybridCategory(defaultCategories, childCat, hybridLanguage));
+            }
+
+            categories.add(category);
         }
 
-        return synonym;
+        return categories;
     }
+
+    private static Category createHybridCategory(List<Category> defaultCategories, Category languageCategory, String hybridLanguage) {
+        Category category = new Category(languageCategory);
+
+        category.setLanguage(hybridLanguage);
+        category.setName(getDefaultLanguageName(defaultCategories, languageCategory));
+
+        return category;
+    }
+
 }

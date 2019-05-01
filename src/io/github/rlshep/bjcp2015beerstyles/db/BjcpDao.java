@@ -79,7 +79,9 @@ public class BjcpDao {
             addVitalStatistics(stmt, vitalStatistics);
         }
 
-        addCategories(stmt, category.getChildCategories(), id);
+        if (!category.getChildCategories().isEmpty()) {
+            addCategories(stmt, category.getChildCategories(), id);
+        }
     }
 
     private void addTag(Statement stmt, Tag tag) throws SQLException {
