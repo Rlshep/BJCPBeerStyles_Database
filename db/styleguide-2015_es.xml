@@ -1815,7 +1815,7 @@
 		</category>
 		<category id="1">
 			<revision number="1">2015</revision>
-			<name>Cervezas Americanas Estándares</name>
+			<name>Standard American Beer</name>
 			<notes title="">Esta categoría describe cervezas americanas cotidianas que son del gusto de un público
                 masivo. Pueden ser ales y lagers, las cervezas en esta categoría no son típicamente complejas, sus
                 sabores son suaves y fáciles de tomar. Las ales normalmente tienen características parecidas a las
@@ -1881,7 +1881,7 @@
 					<big>
 						<b>Historia</b>
 					</big>
-					<br/>Coors fabricó una Lager Ligera por pocos años en los 40'. Las versiones modernas fueron
+					<br/>Coors fabricó una American Light Lager por pocos años en los 40'. Las versiones modernas fueron
                     originalmente producidas por Rheingold en 1967 para llegar a consumidores que realizaban dieta, pero
                     sólo se convirtió en una cerveza popular en 1973 después de que la cervecería Miller adquiriera la
                     receta y la promoviera fuertemente entre los fanáticos del deporte con el slogan: “sabe muy bien,
@@ -1944,7 +1944,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="1B">
-				<name>Lager Americano</name>
+				<name>American Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -2073,7 +2073,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="1C">
-				<name>Ale Cremosa</name>
+				<name>Cream Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -2201,7 +2201,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="1D">
-				<name>Cerveza de Trigo Americana</name>
+				<name>American Wheat Beer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -2326,8 +2326,8 @@
 		</category>
 		<category id="2">
 			<revision number="1">2015</revision>
-			<name>Lager Internacional</name>
-			<notes>Las Lager Internacionales son lagers premium para un mercado masivo producidas en la mayoría de
+			<name>International Lager</name>
+			<notes>Las International Lageres son lagers premium para un mercado masivo producidas en la mayoría de
                 los
                 países del mundo. Ya sea que fueran desarrolladas a partir de estilos americanos o europeos, todas
                 tienen un carácter bastante uniforme y son fuertemente publicitadas. Libremente desarrolladas a partir
@@ -2338,7 +2338,7 @@
                 mundo.
 			</notes>
 			<subcategory id="2A">
-				<name>Lager Pálida Internacional</name>
+				<name>International Pale Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -2391,7 +2391,7 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>Las Lager Internacionales tienden a tener menos adjuntos que las Lager Americanas Estándar
+					<br/>Las International Lageres tienden a tener menos adjuntos que las Lager Americanas Estándar
                     y pueden ser todo malta, aunque los sabores fuertes siguen siendo una falta. Es una categoría
                     bastante
                     amplia de lagers para el mercado masivo que van desde el rango alto de las Lager Americanas hasta
@@ -2409,7 +2409,7 @@
 						<b>Historia</b>
 					</big>
 					<br/>En USA fueron elaboradas como una versión premium de la Lager Americana Estándar, con una
-                    historia similar. Fuera de USA, se desarrollaron como una imitación del estilo Lager Americano o
+                    historia similar. Fuera de USA, se desarrollaron como una imitación del estilo American Lager o
                     como
                     una versión más accesible (normalmente más seca y menos amarga) de una cerveza estilo Pilsner. A
                     menudo
@@ -2472,7 +2472,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="2B">
-				<name>Lager Ámbar Internacional</name>
+				<name>International Amber Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -2534,7 +2534,7 @@
 					<big>
 						<b>Historia</b>
 					</big>
-					<br/>Varía por país, pero generalmente representa una adaptación de la Lager Internacional de
+					<br/>Varía por país, pero generalmente representa una adaptación de la International Lager de
                     consumo masivo o una evolución de estilos autóctonos a un producto más genérico.
 					<br/>
 					<br/>
@@ -2590,12 +2590,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="2C">
-				<name>Lager Oscura Internacional</name>
+				<name>International Dark Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una versión más oscura y quizás más dulce de la Lager Pálida Internacional con un
+					<br/>Una versión más oscura y quizás más dulce de la International Pale Lager con un
                     poco más de cuerpo y sabor, pero igualmente restringida en amargor. El bajo amargor deja a la malta
                     como
                     elemento de sabor primario y los bajos niveles de lúpulo aportan poco al balance general.
@@ -2651,7 +2651,7 @@
 					<big>
 						<b>Historia</b>
 					</big>
-					<br/>Son versiones más oscuras de la Lager Pálida Internacional, frecuentemente creadas por las
+					<br/>Son versiones más oscuras de la International Pale Lager, frecuentemente creadas por las
                     mismas cervecerías industriales con la intención de apelar a una mayor audiencia. A menudo una
                     adaptación más colorida o endulzada de una lager pálida industrial, o una versión más accesible (y
                     más
@@ -2712,7 +2712,7 @@
 		</category>
 		<category id="3">
 			<revision number="1">2015</revision>
-			<name>Lager Checa</name>
+			<name>Czech Lager</name>
 			<notes>
                 Las cervezas checas se dividen generalmente por densidad (draft, lager, especial) y color (pálida,
                 ámbar, oscura). Los nombres checos para estas categorías son svetlé (pálida), polotmavé (ámbar), y tmavé
@@ -2736,7 +2736,7 @@
                 fermentación más limpio, mientras que las lagers checas suelen fermentar más frías (7-10 °C) y por más
                 tiempo, y pueden tener una ligera, apenas perceptible cantidad de diacetilo (cerca del umbral) que a
                 menudo se percibe más como un redondeo de cuerpo que abiertamente como aroma y sabor [diacetilo
-                significativo a mantequilla es un defecto]. Las cepas de levadura lager checas no son siempre tan
+                significativo a mantequilla es un defecto]. Las cepas de levadura Czech Lagers no son siempre tan
                 limpias y atenuativas como las cepas alemanas, lo que ayuda a lograr una mayor densidad final (junto
                 con
                 los métodos de maceración y fermentación más fríos). Las lagers checas se elaboran tradicionalmente con
@@ -2747,12 +2747,12 @@
                 lagers checas.
 			</notes>
 			<subcategory id="3A">
-				<name>Lager Pálida Checa</name>
+				<name>Czech Pale Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una lager checa pálida, de cuerpo ligero, rica, refrescante, lupulada y amarga, que
+					<br/>Una Czech Lager pálida, de cuerpo ligero, rica, refrescante, lupulada y amarga, que
                     posee los sabores familiares de la versión más fuerte Lager Pálida Premium Checa (tipo Pilsner) pero
                     con
                     menos alcohol, menos cuerpo y un formato menos intenso.
@@ -2813,7 +2813,7 @@
 						<b>Ingredientes</b>
 					</big>
 					<br/>Agua blanda con bajo contenido de sulfatos y carbonatos, lúpulos tipo
-                    Saaz, malta Pilsner checa, levadura lager checa. El agua baja en iones proporciona un distintivo
+                    Saaz, malta Pilsner checa, levadura Czech Lager. El agua baja en iones proporciona un distintivo
                     perfil
                     de lúpulo suave y redondeado a pesar de las altas tasas de lupulado.
 					<br/>
@@ -2863,12 +2863,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="3B">
-				<name>Lager Pálida Premium Checa</name>
+				<name>Czech Premium Pale Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una lager checa rica, con mucho carácter a malta y lúpulo, y con un final largo y
+					<br/>Una Czech Lager rica, con mucho carácter a malta y lúpulo, y con un final largo y
                     redondeado. Compleja pero bien equilibrada y refrescante. Los sabores de malta son complejos para
                     una
                     cerveza tipo Pilsner y el amargor es fuerte pero limpio y sin asperezas, lo que da una impresión
@@ -2941,7 +2941,7 @@
 						<b>Ingredientes</b>
 					</big>
 					<br/>Agua blanda con bajo contenido de sulfatos y carbonatos, lúpulos tipo
-                    Saaz, malta y levadura lager checa. El agua baja en iones proporciona un distintivo perfil lupulado,
+                    Saaz, malta y levadura Czech Lager. El agua baja en iones proporciona un distintivo perfil lupulado,
                     suave y redondeado a pesar de las altas tasas de lúpulo usadas. El nivel de amargor de algunos
                     extendidos ejemplos comerciales se ha reducido en los últimos años, aunque no tanto como en muchos
                     ejemplos alemanes contemporáneos.
@@ -2951,7 +2951,7 @@
 						<b>Comparación</b>
 					</big>
 					<br/>Más color, riqueza de malta y cuerpo que una Pilsner Alemana, con un final más
-                    pleno y una impresión más limpia y suave. Más fuerte que una Lager Pálida Checa.
+                    pleno y una impresión más limpia y suave. Más fuerte que una Czech Pale Lager.
 					<br/>
 					<br/>
 					<big>
@@ -2992,12 +2992,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="3C">
-				<name>Lager Ámbar Checa</name>
+				<name>Czech Amber Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una lager ámbar checa orientada a la malta, con un carácter a lúpulo que puede variar
+					<br/>Una Czech Amber Lager orientada a la malta, con un carácter a lúpulo que puede variar
                     de bajo a muy significativo. Los sabores a malta pueden variar un poco, dando lugar a diferentes
                     interpretaciones que van desde pan y suave bizcocho, a dulce y algo de caramelo.
 					<br/>
@@ -3061,7 +3061,7 @@
 						<b>Ingredientes</b>
 					</big>
 					<br/>Malta Pilsner y caramelo, pero se pueden utilizar también maltas Vienna y
-                    Múnich. Agua de bajo contenido mineral, lúpulos tipo Saaz, levadura lager checa.
+                    Múnich. Agua de bajo contenido mineral, lúpulos tipo Saaz, levadura Czech Lager.
 					<br/>
 					<br/>
 					<big>
@@ -3114,12 +3114,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="3D">
-				<name>Lager Oscura Checa</name>
+				<name>Czech Dark Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una rica, oscura y maltosa lager checa con un carácter tostado que puede variar desde
+					<br/>Una rica, oscura y maltosa Czech Lager con un carácter tostado que puede variar desde
                     ausente a bastante prominente. Maltosidad con un perfil de sabor interesante y complejo, con niveles
                     variables de lupulado que proporcionan un rango de interpretaciones.
 					<br/>
@@ -3189,7 +3189,7 @@
 					<br/>Maltas Pilsner y caramelo oscuro con la adición de maltas tostadas
                     desamargadas son lo más común, pero adiciones de malta Vienna o Munich también son apropiadas. Agua
                     baja
-                    en contenido mineral, lúpulos tipo Saaz, levadura lager checa. Cualquier éster frutal proviene
+                    en contenido mineral, lúpulos tipo Saaz, levadura Czech Lager. Cualquier éster frutal proviene
                     típicamente de la malta y no de la levadura.
 					<br/>
 					<br/>
@@ -3244,7 +3244,7 @@
 		</category>
 		<category id="4">
 			<revision number="1">2015</revision>
-			<name>Lager Pálida Maltosa Europea</name>
+			<name>Pale Malty European Lager</name>
 			<notes>Esta categoría de estilo contiene Pilsner lager alemanas maltosas y pálidas, orientadas a la malta,
                 de intensidad vollbier a starkbier. Aun cuando son maltosas, están bien atenuadas y son lagers limpias,
                 al igual que la mayoría de las cervezas alemanas.
@@ -3470,7 +3470,7 @@
 					<br/>Menos intensa y menos ricamente tostada que una Märzen. Más ricamente pesada en
                     cuerpo que una Helles, con más sabor a lúpulo y mayor alcohol. Menos rica en intensidad de malta
                     que una
-                    Maibock. La complejidad de malta es similar a una Lager Pálida Premium Checa de mayor densidad,
+                    Maibock. La complejidad de malta es similar a una Czech Premium Pale Lager de mayor densidad,
                     aunque
                     sin los lúpulos asociados.
 					<br/>
@@ -3643,14 +3643,14 @@
 		</category>
 		<category id="5">
 			<revision number="1">2015</revision>
-			<name>Cerveza Pálida Amarga Europea</name>
+			<name>Pale Bitter European Beer</name>
 			<notes>Esta categoría describe cervezas de origen alemán que son pálidas y aún tienen un balance amargo, con
                 un leve a moderadamente fuerte carácter lupulado que exhibe lúpulos alemanes clásicos. Por lo general,
                 son de fermentación baja o son acondicionadas en frío (lagered) para proporcionar un perfil suave, bien
                 atenuado, como la mayoría de las cervezas alemanas.
 			</notes>
 			<subcategory id="5A">
-				<name>Leichtbier Alemana</name>
+				<name>German Leichtbier</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -3858,7 +3858,7 @@
                     trigo, pero esto es bastante raro en las versiones auténticas. La práctica comercial actual es
                     fermentar
                     cálido, acondicionar en frío por un corto período de tiempo y servir joven.
-                    Comparación de Estilo: Para el catador inexperto, fácilmente confundible con un Ale Cremosa o una
+                    Comparación de Estilo: Para el catador inexperto, fácilmente confundible con un Cream Ale o una
                     Pils
                     algo sutil.
 					<br/>
@@ -3901,7 +3901,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="5C">
-				<name>Helles Exportbier Alemana</name>
+				<name>German Helles Exportbier</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -4016,7 +4016,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="5D">
-				<name>Pils Alemana</name>
+				<name>German Pils</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -4113,9 +4113,9 @@
 						<b>Comparación</b>
 					</big>
 					<br/>Más ligera en cuerpo y color, más seca, más nítida y más plenamente atenuada,
-                    con más de un amargor persistente y con mayor carbonatación que una Lager Pálida Premium Checa.
+                    con más de un amargor persistente y con mayor carbonatación que una Czech Premium Pale Lager.
                     Más
-                    carácter a lúpulo, sabor a malta y amargor que la Lager Pálida Internacional. Más carácter a lúpulo
+                    carácter a lúpulo, sabor a malta y amargor que la International Pale Lager. Más carácter a lúpulo
                     y
                     amargor con un final más seco y más nítido que una Munich Helles; la Helles tiene más sabor a malta,
                     pero del mismo carácter que la Pils.
@@ -4161,7 +4161,7 @@
 		</category>
 		<category id="6">
 			<revision number="1">2015</revision>
-			<name>Lager Ámbar maltosa Europea</name>
+			<name>Amber Malty European Lager</name>
 			<notes>Esta categoría agrupa lagerbiers de color ámbar, origen alemán y fermentación baja que tienen un
                 balance maltoso y son de intensidad vollbier a starkbier.
 			</notes>
@@ -4266,7 +4266,7 @@
 					</big>
 					<br/>No tan fuerte y rica como una Dunkles Bock. Más profundidad de malta y riqueza
                     que una Festbier, con un cuerpo más pesado y ligeramente menos lúpulo. Menos lupulada e igualmente
-                    maltosa que una Lager Ámbar Checa.
+                    maltosa que una Czech Amber Lager.
 					<br/>
 					<br/>
 					<big>
@@ -4529,7 +4529,7 @@
 					</big>
 					<br/>Más oscura, con un sabor a malta más rico y un amargor menos evidente que una
                     Helles Bock. Menos alcohol y riqueza a malta que una Doppelbock. Sabores de malta más fuertes y más
-                    alcohol que una Märzen. Más rica, menos atenuada y menos lupulada que una Lager Ámbar Checa.
+                    alcohol que una Märzen. Más rica, menos atenuada y menos lupulada que una Czech Amber Lager.
 					<br/>
 					<br/>
 					<big>
@@ -4572,7 +4572,7 @@
 		</category>
 		<category id="7">
 			<revision number="1">2015</revision>
-			<name>Cerveza Amarga Ámbar Europea</name>
+			<name>Amber Bitter European Beer</name>
 			<notes>Esta categoría agrupa cervezas de origen alemán o austríaco de color ámbar, de balance equilibrado o
                 amargo.
 			</notes>
@@ -4818,7 +4818,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Más amarga y maltosa que una Lager Ámbar Internacional. Algo similar a la
+					<br/>Más amarga y maltosa que una International Amber Lager. Algo similar a la
                     California Common, tanto en la técnica de producción como en el sabor y color final, aunque no en
                     los
                     ingredientes.
@@ -4945,7 +4945,7 @@
                 </body>
             </subcategory>
 			<subcategory id="7C-pale">
-				<name>Kellerbier: Kellerbier Pálida</name>
+				<name>Kellerbier: Pale Kellerbier</name>
                 Una muy común cerveza de temporada de verano elaborada por muchas de las cervecerías en la zona de
                 Munich y servida en los beer gardens, donde son muy populares.
 				<body>
@@ -5078,7 +5078,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="7C-amber">
-				<name>Kellerbier: Kellerbier Ámbar</name>
+				<name>Kellerbier: Amber Kellerbier</name>
                 El estilo original de Kellerbier de la zona de Franconia en Alemania. Un estilo mucho más antiguo en
                 comparación con el relativamente más reciente y pálido Kellerbier estilo Helles que hoy es popular en la
                 zona de Munich.
@@ -5228,7 +5228,7 @@
 		</category>
 		<category id="8">
 			<revision number="1">2015</revision>
-			<name>Lager Oscura Europea</name>
+			<name>Dark European Lager</name>
 			<notes>Esta categoría incluye lagers alemanas vollbier más oscuras que ámbar-marrón.
 			</notes>
 			<subcategory id="8A">
@@ -5331,7 +5331,7 @@
 					<br/>No tan intensa en dulzor como una Bock (y por ende más fácil de tomar en mayores
                     cantidades). Carece de sabores más tostados (y a menudo del amargor del lúpulo) de una Schwarzbier.
                     Más
-                    rica, maltosa y menos lupulada que una Lager Oscura Checa.
+                    rica, maltosa y menos lupulada que una Czech Dark Lager.
 					<br/>
 					<br/>
 					<big>
@@ -5461,7 +5461,7 @@
                     ligera, con notables (pero no altas) notas tostadas para balancear la malta base. No debe tener el
                     sabor
                     de una Porter Americana hecha con levadura lager. Más seca, menos maltosa y con menos carácter del
-                    lúpulo que una Lager Oscura Checa.
+                    lúpulo que una Czech Dark Lager.
 					<br/>
 					<br/>
 					<big>
@@ -5504,7 +5504,7 @@
 		</category>
 		<category id="9">
 			<revision number="1">2015</revision>
-			<name>Cerveza Fuerte Europea</name>
+			<name>Strong European Beer</name>
 			<notes>Esta categoría contiene lagers con sabores más fuertes y grados alcohólicos más altos de Alemania y
                 de la región Báltica. Casi todas son oscuras, pero se conocen algunas versiones más pálidas.
 			</notes>
@@ -5803,12 +5803,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="9C">
-				<name>Porter Báltica</name>
+				<name>Baltic Porter</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una Porter Báltica a menudo tiene sabores a malta reminiscentes a una Porter Inglesa
+					<br/>Una Baltic Porter a menudo tiene sabores a malta reminiscentes a una Porter Inglesa
                     y el tostado restringido de una Schwarzbier, pero con una densidad inicial (OG) mayor y más
                     alcohol que
                     cualquiera de éstas. Muy compleja, con múltiples capas de sabores a malta y a frutos oscuros.
@@ -5939,7 +5939,7 @@
 		</category>
 		<category id="10">
 			<revision number="1">2015</revision>
-			<name>Cerveza de Trigo Alemana</name>
+			<name>German Wheat Beer</name>
 			<notes>Esta categoría contiene cervezas alemanas de trigo de intensidad vollbier y starkbier, sin acidez, en
                 colores claros y oscuros.
 			</notes>
@@ -5949,7 +5949,7 @@
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una cerveza de trigo alemana pálida y refrescante, con alta carbonatación, final
+					<br/>Una German Wheat Beer pálida y refrescante, con alta carbonatación, final
                     seco, sensación en boca cremosa, con notas a banana y clavo de olor producto de la levadura.
 					<br/>
 					<br/>
@@ -6086,7 +6086,7 @@
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una cerveza de trigo alemana oscura con un distintivo carácter de levadura a banana y
+					<br/>Una German Wheat Beer oscura con un distintivo carácter de levadura a banana y
                     clavo de olor, sostenido por sabores de malta a pan tostado o caramelo. Altamente carbonatada y
                     refrescante, con una cremosa y esponjosa textura, con un final suave que invita a beber.
 					<br/>
@@ -6381,8 +6381,8 @@
 		</category>
 		<category id="11">
 			<revision number="1">2015</revision>
-			<name>Bitter Británica</name>
-			<notes>La familia de las Bitter Británicas surgió de las Ales Pálidas Inglesas como un producto de barril a
+			<name>British Bitter</name>
+			<notes>La familia de las British Bitters surgió de las Ales Pálidas Inglesas como un producto de barril a
                 finales del 1800. El uso de malta cristal en las Bitter se volvió masivo después de la Primera Guerra
                 Mundial. Tradicionalmente servida muy fresca y con baja presión (sólo por densidad o bombeo manual) y a
                 temperaturas de bodega (por ejemplo “real ale”). La mayor parte de las versiones en botella o barril
@@ -6398,7 +6398,7 @@
                 negativos). No asumir que ese sabor derivado de la oxidación es tradicional o requerido para el estilo.
 			</notes>
 			<subcategory id="11A">
-				<name>Bitter Ordinaria (o Común)</name>
+				<name>Ordinary Bitter</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -6449,8 +6449,8 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>El miembro con menor densidad de la familia de las Bitter Británicas, conocida típicamente
-                    por los consumidores como “Bitter” (algunas cervecerías se refieren a ella como Bitter Ordinaria o
+					<br/>El miembro con menor densidad de la familia de las British Bitters, conocida típicamente
+                    por los consumidores como “Bitter” (algunas cervecerías se refieren a ella como Ordinary Bitter o
                     Común
                     para distinguirla de otros miembros de la familia).
 					<br/>
@@ -6571,7 +6571,7 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>Más sabor a malta evidente que en una Bitter Ordinaria; una ale de intensidad-baja más
+					<br/>Más sabor a malta evidente que en una Ordinary Bitter; una ale de intensidad-baja más
                     fuerte.
 					<br/>
 					<br/>
@@ -6595,7 +6595,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Más alcohol que una Bitter Ordinaria y a menudo utilizando ingredientes de mayor
+					<br/>Más alcohol que una Ordinary Bitter y a menudo utilizando ingredientes de mayor
                     calidad. Menos alcohol que una Bitter Fuerte. Más carácter de malta base o caramelo y más color que
                     una
                     Ale Dorada Británica. El énfasis está en la adición de lúpulo de amargor en contraparte del agresivo
@@ -6640,7 +6640,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="11C">
-				<name>Bitter Fuerte</name>
+				<name>Strong Bitter</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -6699,7 +6699,7 @@
                     un
                     perfil de maltas muy fuerte y complejo no encontrado en otros ejemplos, a menudo llevando a los
                     jueces a
-                    sobrepenalizar las Bitter Fuertes inglesas tradicionales. En Estados Unidos, ESB ha sido usado para
+                    sobrepenalizar las Strong Bitters inglesas tradicionales. En Estados Unidos, ESB ha sido usado para
                     describir una Ale Pálida Británica maltosa, amarga, rojiza, de intensidad estándar (para Estados
                     Unidos), siendo un popular estilo de cerveza artesanal. Esto puede causar que algunos jueces piensen
                     que
@@ -6709,7 +6709,7 @@
 					<big>
 						<b>Historia</b>
 					</big>
-					<br/>Ver comentario en la introducción a la categoría. La Bitter Fuerte pueden verse como una
+					<br/>Ver comentario en la introducción a la categoría. La Strong Bitter pueden verse como una
                     versión con mayor densidad de la Best Bitter (aunque no necesariamente “más premium” ya que la
                     Best
                     Bitter es tradicionalmente elaborada con ingredientes más finos). Las ales pálidas británicas son en
@@ -6741,7 +6741,7 @@
 					</big>
 					<br/>Sabores a malta y lúpulo más evidentes que una Special o Best Bitter, así como
                     más alcohol. Las versiones más fuertes pueden superponerse un poco con las Ales Fuertes Británicas,
-                    aunque las Bitter Fuertes tenderán a ser más pálidas y más amargas. Más sabor a malta
+                    aunque las Strong Bitters tenderán a ser más pálidas y más amargas. Más sabor a malta
                     (particularmente
                     caramelo) y ésteres que una Ale Americana Pálida (APA), con un carácter diferente del lúpulo de
                     finalización.
@@ -6789,12 +6789,12 @@
 		</category>
 		<category id="12">
 			<revision number="1">2015</revision>
-			<name>Cervezas Mancomunadas Pálidas</name>
+			<name>Pale Commonwealth Beer</name>
 			<notes>Esta categoría incluye bitter ales pálidas, moderadamente fuertes, orientadas al lúpulo, de países
                 dentro del antiguo Imperio Británico.
 			</notes>
 			<subcategory id="12A">
-				<name>Ale Dorada Británica</name>
+				<name>British Golden Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -6879,7 +6879,7 @@
 					<br/>Más similar a una Ale Americana Pálida (APA) que cualquiera otra, aunque a
                     menudo más baja en alcohol y por lo general con características a ingredientes ingleses. Poco a nada
                     de
-                    caramelo y ésteres comparada con las Bitter británicas y las Ales Pálidas. Seca como las Bitter pero
+                    caramelo y ésteres comparada con las British Bitters y las Ales Pálidas. Seca como las Bitter pero
                     con
                     menos carácter a malta para sostener a los lúpulos, logrando un balance diferente. Utiliza a menudo
                     lúpulos (y características) americanos, mucho más que la mayoría de los estilos ingleses
@@ -6924,7 +6924,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="12B">
-				<name>Ale Espumosa Australianana</name>
+				<name>Australian Sparkling Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7082,7 +7082,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="12C">
-				<name>IPA Inglés</name>
+				<name>English IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7249,7 +7249,7 @@
 		</category>
 		<category id="13">
 			<revision number="1">2015</revision>
-			<name>Cerveza Marrón Británica</name>
+			<name>Brown British Beer</name>
 			<notes>Si bien las Mild Oscuras, Ales Marrones y Porter Inglesas pueden tener una larga y famosa historia,
                 esta Guía describe las versiones modernas. Se agrupan con el propósito de ser juzgadas ya que a menudo
                 tienen sabores y balances similares, no porque exista algún ancestro común. Las características
@@ -7261,7 +7261,7 @@
                 importante y no está relacionado con el nombre de la categoría.
 			</notes>
 			<subcategory id="13A">
-				<name>Mild Oscura</name>
+				<name>Dark Mild</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7318,7 +7318,7 @@
                     y/u ocasiones especiales. Generalmente servidas de barril; las versiones embotelladas con intensidad
                     de
                     sesión a menudo no viajan bien. Una amplia gama de interpretaciones son posibles. Existen versiones
-                    pálidas, pero éstas son aún más raras que las Mild Oscuras; estas directrices sólo describen la
+                    pálidas, pero éstas son aún más raras que las Dark Milds; estas directrices sólo describen la
                     versión
                     oscura moderna.
 					<br/>
@@ -7330,7 +7330,7 @@
                     un adjetivo para distinguir entre cervezas de edad o más altamente lupuladas. Las Mild modernas
                     tienen
                     sus raíces en las cervezas
-                    más débiles tipo X de la década de 1800, aunque las Mild Oscuras no aparecieron hasta el siglo XX.
+                    más débiles tipo X de la década de 1800, aunque las Dark Milds no aparecieron hasta el siglo XX.
                     En el
                     uso actual, el término implica una cerveza de menor intensidad con menos amargor del lúpulo que las
                     bitters. Las directrices describen la versión británica moderna. El término "mild" es actualmente un
@@ -7393,7 +7393,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="13B">
-				<name>Ale Marrón Británica</name>
+				<name>British Brown Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7476,8 +7476,8 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Más balance hacia la malta que las Bitter Británicas, con más sabores a malta de
-                    los granos más oscuros. Más fuerte que una Mild Oscura. Menos tostada que una Porter Inglesa. Más
+					<br/>Más balance hacia la malta que las British Bitters, con más sabores a malta de
+                    los granos más oscuros. Más fuerte que una Dark Mild. Menos tostada que una Porter Inglesa. Más
                     fuerte
                     y mucho menos dulce que una Ale Marrón Londinense.
 					<br/>
@@ -7520,7 +7520,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="13C">
-				<name>Porter Inglés</name>
+				<name>English Porter</name>
                 Llamada simplemente "Porter" en Gran Bretaña, el nombre "Porter Inglesa" se utiliza para diferenciarla
                 de otras porters descritas en esta Guía.
 				<body>
@@ -7622,7 +7622,7 @@
                     suaves, dulces y caramelizados, densidades más bajas y usualmente menos alcohol; la Porter Americana
                     también suele tener más de un carácter a lúpulo. Más sustancial y tostada que una Ale Marrón
                     Británica.
-                    mayor densidad que una Mild Oscura.
+                    mayor densidad que una Dark Mild.
 					<br/>
 					<br/>
 					<big>
@@ -7665,7 +7665,7 @@
 		</category>
 		<category id="14">
 			<revision number="1">2015</revision>
-			<name>Ale Escocesa</name>
+			<name>Scottish Ale</name>
 			<notes>El significado original de ‘schilling' (/-) ales ha sido descrito incorrectamente durante años. Un
                 estilo único de cerveza que nunca fue señalado como 60/-, 70/- u 80/-. Schillings sólo se refieren al
                 costo del barril de cerveza. El significado era 54/- Stouts y 86/- IPAs y así en adelante. Las Ales
@@ -7680,7 +7680,7 @@
                 Mundial) tienden a usar recetas de granos más complejas.
 			</notes>
 			<subcategory id="14A">
-				<name>Escocesa Ligera</name>
+				<name>Scottish Light</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7749,7 +7749,7 @@
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>Originalmente utilizaba maltas pale escocesas, sémola o maíz en hojuelas,
+					<br/>Originalmente utilizaba maltas pScottish Ales, sémola o maíz en hojuelas,
                     y caramelo de cervecería para el color. Más tarde adaptó el uso de ingredientes adicionales tales
                     como
                     maltas ámbar o marrones, maltas cristal y de trigo, granos tostados o azúcares oscuras para el
@@ -7763,7 +7763,7 @@
 						<b>Comparación</b>
 					</big>
 					<br/>Carácter similar a una Wee Heavy, pero mucho más ligera. Similar en color a una
-                    Mild Oscura, pero un poco más débil en intensidad.
+                    Dark Mild, pero un poco más débil en intensidad.
 					<br/>
 					<br/>
 					<big>
@@ -7803,7 +7803,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="14B">
-				<name>Escocesa Fuerte</name>
+				<name>Scottish Heavy</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7872,7 +7872,7 @@
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>Originalmente utilizaba maltas pale escocesas, sémola o maíz en hojuelas y
+					<br/>Originalmente utilizaba maltas pScottish Ales, sémola o maíz en hojuelas y
                     caramelo de cervecería para el color. Más tarde adaptó el uso de ingredientes adicionales tales como
                     maltas ámbar o marrones, maltas cristal y de trigo, granos tostados o azúcares oscuras para color,
                     pero
@@ -7925,7 +7925,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="14C">
-				<name>Escocesa de Exportación</name>
+				<name>Scottish Export</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -7993,7 +7993,7 @@
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>Originalmente utilizaba maltas pale escocesas, sémola o maíz en hojuelas y
+					<br/>Originalmente utilizaba maltas pScottish Ales, sémola o maíz en hojuelas y
                     caramelo de cervecería para el color. Más tarde adaptó el uso de ingredientes adicionales tales como
                     maltas ámbar o marrones, maltas cristal y de trigo, granos tostados o azúcares oscuras para color,
                     pero
@@ -8048,14 +8048,14 @@
 		</category>
 		<category id="15">
 			<revision number="1">2015</revision>
-			<name>Cerveza Irlandesa</name>
+			<name>Irish Beer</name>
             Las cervezas tradicionales de Irlanda contenidas en esta categoría son de color ámbar a oscuro, de
             fermentación alta, de intensidad ligera a moderada, a menudo ampliamente incomprendidas debido a las
             diferencias en las versiones de exportación o excesivamente centradas en los atributos específicos de las
             cervezas producidas en gran volumen por cervecerías bien conocidas. Cada uno de los estilos en esta
             agrupación tiene una gama más amplia de lo que comúnmente se cree.
 			<subcategory id="15A">
-				<name>Ale Irlandesa Roja</name>
+				<name>Irish Red Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8117,7 +8117,7 @@
                     irlandeses. Una emergente escena de cerveza artesanal irlandesa está explorando versiones más
                     amargas de
                     ejemplos tradicionales. Por último, hay algunos ejemplos comerciales que suenan irlandeses, pero son
-                    esencialmente una Lager Ámbar Internacional, con paladares dulzones y poco amargor. Estas
+                    esencialmente una International Amber Lager, con paladares dulzones y poco amargor. Estas
                     directrices se
                     han escrito alrededor de los ejemplos tradicionales irlandeses, con extensiones ligeras para las
                     versiones irlandesas de exportación y las versiones irlandesas artesanales modernas.
@@ -8191,7 +8191,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="15B">
-				<name>Stout Irlandesa</name>
+				<name>Irish Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8277,7 +8277,7 @@
                     comenzó
                     elaborando sólo Porter en 1799 y un “tipo más corpulento (stouter) de cerveza” alrededor de 1810.
                     Las
-                    Stout Irlandesas divergen de la Stout Simples de Londres (o simplemente Porter) a finales de 1800,
+                    Irish Stouts divergen de la Stout Simples de Londres (o simplemente Porter) a finales de 1800,
                     con
                     un énfasis en las maltas más oscuras. Guinness fue de las primeras cervecerías en usar malta black
                     patent para Porters y Stouts en la década de 1820. Guinness comenzó a usar cebada tostada después de
@@ -8304,15 +8304,15 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Menos intensidad que una Extra Stout Irlandesa, pero con sabores similares. De
+					<br/>Menos intensidad que una Extra Irish Stout, pero con sabores similares. De
                     color más oscuro (negro) que una Porter Inglesa (marrón).
 					<br/>
 					<br/>
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
-					<br/>Beamish Stout Irlandesa, Guinness Draught, Harpoon Boston Stout Irlandesa,
-                    Murphy's Stout Irlandesa, O'Hara's Stout Irlandesa, Porterhouse Wrasslers 4X.
+					<br/>Beamish Irish Stout, Guinness Draught, Harpoon Boston Irish Stout,
+                    Murphy's Irish Stout, O'Hara's Irish Stout, Porterhouse Wrasslers 4X.
 					<br/>
 					<br/>
 					<big>
@@ -8346,7 +8346,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="15C">
-				<name>Extra Stout Irlandesa</name>
+				<name>Irish Extra Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8422,21 +8422,21 @@
                     Guinness.
                     Tenga en cuenta que en la actualidad, Guinness Extra Stout tiene diferentes intensidades en
                     diferentes
-                    regiones; la versión europea tiene alrededor de 4,2% y se adapta al estilo Stout Irlandesa.
+                    regiones; la versión europea tiene alrededor de 4,2% y se adapta al estilo Irish Stout.
 					<br/>
 					<br/>
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>Similar a la Stout Irlandesa.
+					<br/>Similar a la Irish Stout.
 					<br/>
 					<br/>
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>A medio camino entre una Stout Irlandesa y una Extra Stout Extranjera en
+					<br/>A medio camino entre una Irish Stout y una Extra Stout Extranjera en
                     intensidad y fuerza de sabor, aunque con un balance similar. Más cuerpo, riqueza y
-                    a menudo mayor complejidad de maltas que una Stout Irlandesa. Negra en color, no marrón como una
+                    a menudo mayor complejidad de maltas que una Irish Stout. Negra en color, no marrón como una
                     Porter.
 					<br/>
 					<br/>
@@ -8479,14 +8479,14 @@
 		</category>
 		<category id="16">
 			<revision number="1">2015</revision>
-			<name>Cerveza Británica Oscura</name>
+			<name>Dark British Beer</name>
 			<notes>Esta categoría incluye stouts irlandesas y británicas modernas que van de intensidad media a fuerte,
                 de amargas a dulces, originadas en Inglaterra, incluso si hoy en día algunas están más asociadas con
                 Irlanda. En este caso, “Británico” hace referencia amplia a las Islas Británicas y no sólo a Gran
                 Bretaña.
 			</notes>
 			<subcategory id="16A">
-				<name>Stout Dulce</name>
+				<name>Sweet Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8558,7 +8558,7 @@
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>El dulzor en la mayoría de las Stout Dulces proviene de un nivel de
+					<br/>El dulzor en la mayoría de las Sweet Stouts proviene de un nivel de
                     amargor más bajo que la mayoría de las demás Stout y de un alto porcentaje de dextrinas no
                     fermentables.
                     La lactosa, un azúcar no fermentable, se añade con frecuencia para proporcionar un dulzor residual
@@ -8614,7 +8614,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="16B">
-				<name>Stout de Avena</name>
+				<name>Oatmeal Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8666,7 +8666,7 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>Generalmente con un dulzor entre la Stout Dulce y la Stout Irlandesa. Existen variaciones
+					<br/>Generalmente con un dulzor entre la Sweet Stout y la Irish Stout. Existen variaciones
                     que van desde versiones bastante dulces a muy secas, inglesas y americanas (las versiones americanas
                     tienden a ser más lupuladas, menos dulces y menos frutales). El nivel de amargor también varía, al
                     igual
@@ -8681,10 +8681,10 @@
 						<b>Historia</b>
 					</big>
 					<br/>Una variante de las Stout nutritivas de finales del 1800 utilizando avena en la receta de
-                    granos, similar al desarrollo de las Stout Dulces que utilizan lactosa. La versión original escocesa
+                    granos, similar al desarrollo de las Sweet Stouts que utilizan lactosa. La versión original escocesa
                     utilizaba una significativa cantidad de malta de avena. Más tarde pasó por una fase sombría en donde
                     algunos cerveceros ingleses lanzaban un puñado de avena en sus Stout parti-gyled para producir
-                    legalmente una Stout de Avena “saludable” con propósitos de marketing. Fue popular en Inglaterra
+                    legalmente una Oatmeal Stout “saludable” con propósitos de marketing. Fue popular en Inglaterra
                     entre
                     las guerras mundiales y revivida para exportación en la era de la cerveza artesanal, lo que ayudó a
                     que
@@ -8704,10 +8704,10 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>La mayoría son como un cruce entre una Extra Stout Irlandesa y una Stout Dulce
-                    con avena añadida. Existen múltiples variantes, siendo las versiones más dulces como una Stout Dulce
+					<br/>La mayoría son como un cruce entre una Irish Extra Stout y una Sweet Stout
+                    con avena añadida. Existen múltiples variantes, siendo las versiones más dulces como una Sweet Stout
                     con
-                    avena en lugar de lactosa, y las versiones más secas más como una Extra Stout Irlandesa sabrosa y
+                    avena en lugar de lactosa, y las versiones más secas más como una Irish Extra Stout sabrosa y
                     con
                     sabor a nuez. Ambas tienden a hacer hincapié en el cuerpo y la sensación en boca.
 					<br/>
@@ -8751,7 +8751,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="16C">
-				<name>Stout Tropical</name>
+				<name>Tropical Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8814,7 +8814,7 @@
 					<big>
 						<b>Ingredientes</b>
 					</big>
-					<br/>Similar a una Stout Dulce, pero con mayor densidad. Maltas pale, granos y
+					<br/>Similar a una Sweet Stout, pero con mayor densidad. Maltas pale, granos y
                     maltas oscuras tostadas. Lúpulo sobre todo para amargor. Puede utilizar adjuntos y azúcar para
                     aumentar
                     la densidad. Por lo general elaborada con levadura lager fermentada a temperaturas cálidas.
@@ -8823,7 +8823,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Sabe como una corpulenta Stout Dulce con mayor frutosidad. Similar a algunas
+					<br/>Sabe como una corpulenta Sweet Stout con mayor frutosidad. Similar a algunas
                     Stouts Imperiales pero sin el alto amargor, el fuerte carácter tostado/quemado y de lúpulos de
                     última
                     adición, con un menor nivel de alcohol. Mucho más dulce y menos lupulada que la Stout Americana.
@@ -8868,7 +8868,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="16D">
-				<name>Extra Stout Extranjera</name>
+				<name>Foreign Extra Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -8927,7 +8927,7 @@
 					</big>
 					<br/>Stouts más fuertes elaboradas para los mercados de exportación actuales, pero con una historia
                     que se remonta a los siglos XVIII y XIX cuando eran versiones altamente lupuladas de stouts de
-                    exportación más fuertes. La Guinness Extra Stout Extranjera (originalmente, West India Porter, más
+                    exportación más fuertes. La Guinness Foreign Extra Stout (originalmente, West India Porter, más
                     tarde
                     Foreign Extra Double Stout) fue elaborada por primera vez en 1801 según Guinness con “lúpulos extra
                     para
@@ -8949,10 +8949,10 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Similar en balance a un Extra Stout Irlandesa, pero con más alcohol. No tan
+					<br/>Similar en balance a un Irish Extra Stout, pero con más alcohol. No tan
                     fuerte e intensa como una Stout Imperial Rusa (Imperial Stout). Carece del fuerte amargor y del uso
                     de
-                    lúpulos de última adición de las Stouts Americanas. Densidad similar a una Stout Tropical, pero con
+                    lúpulos de última adición de las Stouts Americanas. Densidad similar a una Tropical Stout, pero con
                     un
                     final más seco, más amargo y menos esteroso.
 					<br/>
@@ -8960,7 +8960,7 @@
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
-					<br/>Coopers Best Extra Stout, Guinness Extra Stout Extranjera, The Kernel Export
+					<br/>Coopers Best Extra Stout, Guinness Foreign Extra Stout, The Kernel Export
                     Stout, Ridgeway Foreign Export Stout, Southwark Old Stout.
 					<br/>
 					<br/>
@@ -8997,11 +8997,11 @@
 		</category>
 		<category id="17">
 			<revision number="1">2015</revision>
-			<name>Ale Británica Fuerte</name>
+			<name>Strong British Ale</name>
 			<notes>Esta categoría incluye las cervezas más fuertes, no tostadas, de las Islas Británicas.
 			</notes>
 			<subcategory id="17A">
-				<name>Ale Británica Fuerte</name>
+				<name>Strong British Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -9277,7 +9277,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="17B">
-				<name>Ale Antigua</name>
+				<name>Old Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -9355,7 +9355,7 @@
                     características son aceptables. De ninguna manera estas características permisibles deben
                     interpretarse
                     como el poder elaborar una cerveza imbebible que esté de alguna manera ajustada al estilo. La Old
-                    Peculier es un tipo bastante único de cerveza que es muy diferente a otras Ale Antigua (Ale
+                    Peculier es un tipo bastante único de cerveza que es muy diferente a otras Old Ale (Ale
                     Antigua).
 					<br/>
 					<br/>
@@ -9387,17 +9387,17 @@
 					<br/>Se superpone de forma aproximada a las Ales Fuertes Británicas y en el rango
                     inferior del estilo Barleywine Inglés, pero siempre con una cualidad de edad. La distinción entre
                     una
-                    Ale Antigua (Ale Antigua) y un Barleywine es algo arbitraria por encima de los 7% ABV y generalmente
+                    Old Ale (Old Ale) y un Barleywine es algo arbitraria por encima de los 7% ABV y generalmente
                     significa que tiene una cualidad envejecida mayor (en particular a partir de la madera). Los
                     Barleywine
-                    tienden a desarrollar más una cualidad “madura”, mientras que las Ale Antigua pueden mostrar más las
+                    tienden a desarrollar más una cualidad “madura”, mientras que las Old Ale pueden mostrar más las
                     cualidades del barril (láctico, Brett, vinoso, etc.).
 					<br/>
 					<br/>
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
-					<br/>Burton Bridge Olde Expensive, Gale's Prize Ale Antigua, Greene King Fuerte Suffolk
+					<br/>Burton Bridge Olde Expensive, Gale's Prize Old Ale, Greene King Fuerte Suffolk
                     Ale, Marston Owd Roger, Theakston Old Peculier.
 					<br/>
 					<br/>
@@ -9493,10 +9493,10 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>También conocida como “Ale Escocesa Fuerte”. El término “wee heavy” significa “pequeña
+					<br/>También conocida como “Scottish Ale Fuerte”. El término “wee heavy” significa “pequeña
                     fuerte” y se vincula a la cerveza que hizo famoso el término, la Fowler´s Wee Heavy, una 12 Guinea
                     Ale.
-                    Históricamente, la cerveza más fuerte de un parti-gyle de Ale Escocesa.
+                    Históricamente, la cerveza más fuerte de un parti-gyle de Scottish Ale.
 					<br/>
 					<br/>
 					<big>
@@ -9564,7 +9564,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="17D">
-				<name>Barleywine Inglés</name>
+				<name>English Barleywine</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -9679,11 +9679,11 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Aunque a menudo una cerveza lupulada, el estilo Barleywine Inglés pone menos
+					<br/>Aunque a menudo una cerveza lupulada, el estilo English Barleywine pone menos
                     énfasis en el carácter a lúpulo que el Barleywine Americano, con características a lúpulo inglés. La
                     versión inglesa pueden ser más oscura, maltosa, frutal y con ricos sabores a maltas especiales que
                     el
-                    Barleywine Americano. Tiene cierta superposición con la Ale Antigua (Ale Antigua) británica en el
+                    Barleywine Americano. Tiene cierta superposición con la Old Ale (Old Ale) británica en el
                     extremo inferior, pero por lo general no tiene las cualidades
                     vinosas de la edad; más bien, tiende a mostrar los signos maduros y elegantes de ella.
 					<br/>
@@ -9691,7 +9691,7 @@
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
-					<br/>Adnams Tally-Ho, Burton Bridge Thomas Sykes Ale Antigua, Coniston No. 9 Barley
+					<br/>Adnams Tally-Ho, Burton Bridge Thomas Sykes Old Ale, Coniston No. 9 Barley
                     Wine, Fuller's Dorada Pride, J.W. Lee's Vintage Harvest Ale, Robinson's Old Tom.
 					<br/>
 					<br/>
@@ -9728,12 +9728,12 @@
 		</category>
 		<category id="18">
 			<revision number="1">2015</revision>
-			<name>Ale Americano Pálida</name>
+			<name>Pale American Ale</name>
 			<notes>Esta categoría contiene ales americanas modernas de intensidad promedio y color ligero que son
                 moderadamente maltosas y moderadamente amargas.
 			</notes>
 			<subcategory id="18A">
-				<name>Ale Rubia</name>
+				<name>Blonde Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -9817,7 +9817,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Típicamente tiene más sabor que una Lager Americana y una Ale Cremosa. Menos
+					<br/>Típicamente tiene más sabor que una Lager Americana y una Cream Ale. Menos
                     amargor que una Ale Americana Pálida (APA).
 					<br/>
 					<br/>
@@ -9859,7 +9859,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="18B">
-				<name>Ale Americano Pálida</name>
+				<name>Pale American Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10018,12 +10018,12 @@
 		</category>
 		<category id="19">
 			<revision number="1">2015</revision>
-			<name>Ámbar and Marrón Cerveza Americano</name>
+			<name>Amber and Brown American Beer</name>
 			<notes>Esta categoría contiene cervezas ámbar y marrones americanas modernas fermentadas a temperaturas
                 cálidas de intensidad estándar que pueden estar balanceadas hacia lo amargo.
 			</notes>
 			<subcategory id="19A">
-				<name>Ale Americano Ámbar</name>
+				<name>American Amber Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10281,7 +10281,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="19C">
-				<name>Ale Americano Marrón</name>
+				<name>American Brown Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10421,14 +10421,14 @@
 		</category>
 		<category id="20">
 			<revision number="1">2015</revision>
-			<name>Porter Y Stout Americanas</name>
+			<name>American Porter and Stout</name>
 			<notes>Todas estas cervezas evolucionaron de sus homónimos ingleses para ser totalmente transformadas por
                 los cerveceros artesanales americanos. En general, estos estilos son más intensos, fuertes, orientados
                 al tostado y centrados en el lúpulo que sus primos anglosajones. Estos estilos se agrupan debido a una
                 historia compartida y un perfil de sabor similar.
 			</notes>
 			<subcategory id="20A">
-				<name>Porter Americanas</name>
+				<name>American Porter</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10564,7 +10564,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="20B">
-				<name>Stout Americano</name>
+				<name>American Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10629,7 +10629,7 @@
 						<b>Historia</b>
 					</big>
 					<br/>Una cerveza artesanal moderna de estilo casero que aplica un agresivo régimen de lupulado
-                    americano a una muy tradicional Stout Irlandesa o Inglesa. La versión casera era conocida como Stout
+                    americano a una muy tradicional Irish Stout o Inglesa. La versión casera era conocida como Stout
                     de
                     la Costa Oeste, que es un esquema de nombres común para una cerveza más altamente lupulada.
 					<br/>
@@ -10689,7 +10689,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="20C">
-				<name>Stout Imperial</name>
+				<name>Imperial Stout</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -10873,7 +10873,7 @@
                 balanza en las cervezas artesanales modernas.
 			</notes>
 			<subcategory id="21A">
-				<name>IPA Americano</name>
+				<name>American IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11025,13 +11025,13 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B">
-				<name>IPA Especial</name>
+				<name>Specialty IPA</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    IPA Especial no es un estilo distinto, pero se considera más apropiada como una categoría de entrada
+                    Specialty IPA no es un estilo distinto, pero se considera más apropiada como una categoría de entrada
                     para competiciones. Las cervezas registradas en este estilo no son cervezas experimentales; son una
                     colección de tipos de cerveza producidas actualmente que pueden o no tener antigüedad en el mercado.
                     Esta categoría también permite la expansión a potenciales variantes (St. Patrick's Day, Green IPA,
@@ -11041,7 +11041,7 @@
                     una IPA (típicamente, una IPA Americana), pero con un ajuste menor.
                     El término “IPA” se utiliza como un descriptor singular de un tipo de cerveza lupulada y amarga. No
                     está
-                    pensado para ser explicado como “India Pale Ale” cuando se utiliza en el contexto de IPA Especial.
+                    pensado para ser explicado como “India Pale Ale” cuando se utiliza en el contexto de Specialty IPA.
                     Ninguna de estas cervezas históricamente fue a la India y muchas no son pálidas, pero el mercado de
                     la
                     cerveza artesanal sabe qué esperar en balance cuando una cerveza se describe como “IPA” - por lo que
@@ -11064,14 +11064,14 @@
 						<b>Aroma</b>
 					</big>
 					<br/>Un detectable aroma a lúpulo es necesario; la caracterización del lúpulo depende del tipo
-                    específico de IPA Especial. Si bien otros compuestos aromáticos pueden estar presentes; el aroma a
+                    específico de Specialty IPA. Si bien otros compuestos aromáticos pueden estar presentes; el aroma a
                     lúpulo es normalmente el elemento más fuerte.
 					<br/>
 					<br/>
 					<big>
 						<b>Apariencia</b>
 					</big>
-					<br/>El color depende del tipo específico de IPA Especial. La mayoría deben ser claras, aunque
+					<br/>El color depende del tipo específico de Specialty IPA. La mayoría deben ser claras, aunque
                     ciertos estilos con altas cantidades de adjuntos de almidón, o versiones sin filtrar con
                     Seca-hopping,
                     pueden ser ligeramente turbias. Los tipos más oscuros pueden ser opacos, haciendo la claridad
@@ -11085,15 +11085,15 @@
 					</big>
 					<br/>El sabor a lúpulo es típicamente medio-bajo a alto, con cualidades que dependen de las
                     variedades
-                    típicas utilizadas en la IPA Especial específica. El amargor es típicamente medio-alto a muy alto,
+                    típicas utilizadas en la Specialty IPA específica. El amargor es típicamente medio-alto a muy alto,
                     con
-                    cualidades que dependen de las variedades típicas utilizadas en la IPA Especial específica. El sabor
+                    cualidades que dependen de las variedades típicas utilizadas en la Specialty IPA específica. El sabor
                     a
                     malta generalmente es bajo a medio, con cualidades que dependen de las variedades típicas utilizadas
                     en
-                    la IPA Especial específica. Comúnmente tendrá un final medio-seco a seco. Puede observarse algún
+                    la Specialty IPA específica. Comúnmente tendrá un final medio-seco a seco. Puede observarse algún
                     sabor
-                    limpio a alcohol en las versiones más fuertes. Varios tipos de IPA Especial pueden mostrar
+                    limpio a alcohol en las versiones más fuertes. Varios tipos de Specialty IPA pueden mostrar
                     características adicionales a malta y levadura, dependiendo de su tipo.
 					<br/>
 					<br/>
@@ -11109,9 +11109,9 @@
 					</big>
 					<br/>
                     El participante debe especificar la intensidad (sesión, estándar, doble); si no se especifica la
-                    intensidad, se asumirá estándar. El participante debe especificar el tipo específico de IPA Especial
+                    intensidad, se asumirá estándar. El participante debe especificar el tipo específico de Specialty IPA
                     de la biblioteca de tipos conocidos que figuran en la Guía de Estilo, o en su versión modificada
-                    para el sitio web BJCP; o el participante debe describir el tipo de IPA Especial y sus
+                    para el sitio web BJCP; o el participante debe describir el tipo de Specialty IPA y sus
                     características principales en un comentario para que los jueces sepan a qué atenerse. Los
                     participantes pueden especificar las variedades de lúpulo utilizadas si sienten que los jueces
                     podrían no reconocer las características varietales de nuevos lúpulos. Los participantes pueden
@@ -11147,7 +11147,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-belgian">
-				<name>IPA Especial: IPA Belga</name>
+				<name>Specialty IPA: Belgian IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11279,7 +11279,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-white">
-				<name>IPA Especial: IPA Blanca</name>
+				<name>Specialty IPA: White IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11400,7 +11400,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-rye">
-				<name>IPA Especial: IPA de Centeno</name>
+				<name>Specialty IPA: Rye IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11482,7 +11482,7 @@
 						<b>Historia</b>
 					</big>
 					<br/>Observando como agregar complejidad y variedad a sus IPA, los cerveceros artesanales y caseros
-                    sustituyeron con malta de centeno una parte de su malta base. IPA de Centeno (Rye IPA), Pale Ale de
+                    sustituyeron con malta de centeno una parte de su malta base. Rye IPA (Rye IPA), Pale Ale de
                     Centeno (RyePA) o RIPA han encontrado un lugar en muchas rotaciones estacionales de cervecerías
                     artesanales.
 					<br/>
@@ -11548,7 +11548,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-brown">
-				<name>IPA Especial: IPA Marrón</name>
+				<name>Specialty IPA: Brown IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11695,7 +11695,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-black">
-				<name>IPA Especial: IPA Negra</name>
+				<name>Specialty IPA: Black IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11797,14 +11797,14 @@
 					</big>
 					<br/>El balance y la impresión general de una IPA Americana o Doble IPA con un
                     tostado restringido similar al encontrado en las Schwarzbier. Sin el carácter torrado-quemado de las
-                    Porter y Stout Americanas, con menos cuerpo y una aumentada suavidad y tomabilidad.
+                    American Porter and Stout, con menos cuerpo y una aumentada suavidad y tomabilidad.
 					<br/>
 					<br/>
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
 					<br/>21st Amendment Back in Black (estándar), Deschutes Hop in the Dark CDA (estándar),
-                    Rogue Dad's Little Helper (estándar), Southern Tier Iniquity (doble), Widmer Pitch IPA Negra
+                    Rogue Dad's Little Helper (estándar), Southern Tier Iniquity (doble), Widmer Pitch Black IPA
                     (estándar).
 					<br/>
 					<br/>
@@ -11839,7 +11839,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-new_england">
-				<name>IPA Especialidad: IPA Nueva Inglaterra</name>
+				<name>Specialty IPA: New England IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -11936,7 +11936,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>En comparación con la American IPA, la NIPA Nueva Inglaterra tiene una sensación en boca más
+					<br/>En comparación con la American IPA, la NNew England IPA tiene una sensación en boca más
                     plena y más suave, una expresión de lúpulo tardío más frutal, un equilibrio de amargor percibido más
                     moderado y una apariencia más brumosa. Muchas American IPA modernas son frutales y algo brumosas. Si
                     tienen un acabado seco y fresco, a lo sumo un cuerpo medio y un alto amargor percibido, estos
@@ -11983,14 +11983,14 @@
 				</stats>
 			</subcategory>
 			<subcategory id="21B-red">
-				<name>IPA Especial: IPA Roja</name>
+				<name>Specialty IPA: Red IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
 					<br/>Como una IPA Americana lupulada, amarga y moderadamente fuerte, pero con carácter a
                     malta con algo de caramelo, toffee y/o frutos secos. Conserva el final seco y el cuerpo magro que
-                    hace a las IPA tan bebibles, una IPA Roja es un poco más sabrosa y maltosa que una IPA Americana sin
+                    hace a las IPA tan bebibles, una Red IPA es un poco más sabrosa y maltosa que una IPA Americana sin
                     ser
                     dulce o pesada.
 					<br/>
@@ -12086,12 +12086,12 @@
 						<b>Comparación</b>
 					</big>
 					<br/>Similar a la diferencia entre una Ale Americana Ámbar y una Ale Americana Pálida
-                    (APA), una IPA Roja diferirá de una IPA Americana por la adición de algunas maltas cristal más
+                    (APA), una Red IPA diferirá de una IPA Americana por la adición de algunas maltas cristal más
                     oscuras
-                    que dan un poco más de dulzor, caramelo y balance a base de frutas oscuras. Una IPA Roja difiere de
+                    que dan un poco más de dulzor, caramelo y balance a base de frutas oscuras. Una Red IPA difiere de
                     una
-                    Ale Americana Fuerte en que el perfil de malta es menos intenso y tiene menos cuerpo; una IPA Roja
-                    todavía tiene un balance IPA y no tiende hacia un carácter a malta como un Barleywine. Una IPA Roja
+                    Ale Americana Fuerte en que el perfil de malta es menos intenso y tiene menos cuerpo; una Red IPA
+                    todavía tiene un balance IPA y no tiende hacia un carácter a malta como un Barleywine. Una Red IPA
                     es
                     como una Ale Americana Ámbar más fuerte y lupulada, con el característico final seco, cuerpo
                     medio-ligero y fuerte carácter a lúpulo de finalización.
@@ -12137,12 +12137,12 @@
 		</category>
 		<category id="22">
 			<revision number="1">2015</revision>
-			<name>Ale Americano Fuerte</name>
+			<name>Strong American Ale</name>
 			<notes>Esta categoría incluye la moderna Ale Americana Fuerte con un balance que varía entre la malta y el
                 lúpulo. La categoría es definida mayormente por la fuerza alcohólica y la falta de tostado.
 			</notes>
 			<subcategory id="22A">
-				<name>Doble IPA</name>
+				<name>Double IPA</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -12294,12 +12294,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="22B">
-				<name>Ale Americana Fuerte</name>
+				<name>American Strong Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una Ale Americana Fuerte y llena de sabor, que desafía y recompensa el paladar con
+					<br/>Una American Strong Ale y llena de sabor, que desafía y recompensa el paladar con
                     sabores a malta y lúpulo que satisfacen, con un amargor substancial. Los sabores son pronunciados
                     pero
                     complementarios, más fuertes y ricos que en una típica Ale Americana Pálida (APA) o una Ale
@@ -12410,7 +12410,7 @@
 						<b>Comparación</b>
 					</big>
 					<br/>Generalmente no tan fuerte ni rica como un Barleywine Americano. Más balanceada
-                    hacia la malta que una IPA Americana o Doble IPA, con más intensidad de lúpulos americanos que lo
+                    hacia la malta que una IPA Americana o Double IPA, con más intensidad de lúpulos americanos que lo
                     que
                     una Ale Fuerte Inglesa pudiera tolerar.
 					<br/>
@@ -12453,7 +12453,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="22C">
-				<name>Barleywine Americano</name>
+				<name>American Barleywine</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -12560,15 +12560,15 @@
 						<b>Comparación</b>
 					</big>
 					<br/>La versión americana del Barleywine tiende a tener un gran énfasis en el
-                    amargor, sabor y aroma a lúpulo, mayor que en un Barleywine Inglés, a menudo con características
+                    amargor, sabor y aroma a lúpulo, mayor que en un English Barleywine, a menudo con características
                     de
-                    variedades de lúpulo americano. Típicamente más pálidas que un Barleywine Inglés (y por lo mismo sin
+                    variedades de lúpulo americano. Típicamente más pálidas que un English Barleywine (y por lo mismo sin
                     los
                     sabores maltosos profundos), pero más oscuras que los Barleywine Dorados Ingleses. Se diferencian de
                     la
-                    Doble IPA en que los lúpulos no son extremos, las maltas relucen más y el cuerpo es más pleno y rico
+                    Double IPA en que los lúpulos no son extremos, las maltas relucen más y el cuerpo es más pleno y rico
                     en
-                    general. Un Barleywine Americano tiene típicamente más azúcares residuales que una Doble IPA, lo que
+                    general. Un American Barleywine tiene típicamente más azúcares residuales que una Double IPA, lo que
                     afecta su tomabilidad (sorbetear versus tomar).
 					<br/>
 					<br/>
@@ -12705,7 +12705,7 @@
 					</big>
 					<br/>Más que simplemente un Barleywine basado en trigo, muchas versiones son bastante
                     expresivas en notas frutales y lupuladas, mientras que otras desarrollan complejidades mediante el
-                    añejamiento en barrica. Menos énfasis en los lúpulos de última adición que un Barleywine Americano.
+                    añejamiento en barrica. Menos énfasis en los lúpulos de última adición que un American Barleywine.
                     Sus
                     raíces se relacionan más con las Cervezas de Trigo Americanas que con cualquiera de los estilos
                     alemanes
@@ -12752,7 +12752,7 @@
 		</category>
 		<category id="23">
 			<revision number="1">2015</revision>
-			<name>Ale Ácida Europea</name>
+			<name>European Sour Ale</name>
 			<notes>Esta categoría incluye a los tradicionales estilos europeos de cervezas agria que todavía se
                 producen, muchos (pero no todos) con un componente de trigo. La mayoría tiene bajo amargor, con la
                 acidez de la cerveza proporcionando el balance que de otra forma otorgaría el amargor del lúpulo.
@@ -12764,7 +12764,7 @@
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una cerveza de trigo alemana muy pálida, refrescante, de bajo contenido alcohólico
+					<br/>Una German Wheat Beer muy pálida, refrescante, de bajo contenido alcohólico
                     con una acidez láctica limpia y un nivel muy alto de carbonatación. Un ligero sabor a masa de pan
                     apoya
                     la acidez, que no debe parecer artificial. Cualquier carácter Brettanomyces funky está restringido.
@@ -12893,7 +12893,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="23B">
-				<name>Ale Roja de Flandes</name>
+				<name>Flanders Red Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -13117,7 +13117,7 @@
 					<big>
 						<b>Historia</b>
 					</big>
-					<br/>Una “Ale Antigua” originaria de Flandes Oriental, tipificada por los productos de la
+					<br/>Una “Old Ale” originaria de Flandes Oriental, tipificada por los productos de la
                     cervecería Liefmans (ahora propiedad de Riva) con raíces por el año 1600. Históricamente elaborada
                     como
                     una “cerveza de provisión” que desarrollaría alguna acidez con la edad. Estas cervezas eran
@@ -13503,7 +13503,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="23F">
-				<name>Lambic de Fruta</name>
+				<name>Fruit Lambic</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -13547,7 +13547,7 @@
                     mordaz en el final. Las clásicas características a establo pueden ser de bajas a altas. Cuando
                     joven, la
                     cerveza presentará un sabor frutal pleno. A medida que envejece, el sabor lambic se convertirá en
-                    dominante a expensas del carácter de la fruta, estas Lambic de Fruta no están diseñadas para un
+                    dominante a expensas del carácter de la fruta, estas Fruit Lambic no están diseñadas para un
                     largo
                     envejecimiento. El final es habitualmente seco y agrio, pero un dulzor bajo y complementario puede
                     estar
@@ -13577,7 +13577,7 @@
                     edad
                     tiene el sabor “salvaje” característico del valle del Río Senne. La fruta es comúnmente añadida a la
                     mitad del envejecimiento para que la levadura y las bacterias fermenten todos sus azúcares. La fruta
-                    también se puede añadir a Lambics sin mezclar. Los estilos más tradicionales de Lambic de Frutas
+                    también se puede añadir a Lambics sin mezclar. Los estilos más tradicionales de Fruit Lambics
                     incluyen kriek (cerezas), framboise (frambuesa) y druivenlambik (uva moscatel). Los IBU son
                     aproximados
                     ya que se utilizan lúpulos añejos; Los belgas utilizan el lúpulo por sus propiedades
@@ -13626,7 +13626,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Un Lambic de Fruta, no sólo una Cerveza con Fruta; el carácter salvaje Lambic
+					<br/>Un Fruit Lambic, no sólo una Cerveza con Fruta; el carácter salvaje Lambic
                     debe ser evidente.
 					<br/>
 					<br/>
@@ -13683,7 +13683,7 @@
 		</category>
 		<category id="24">
 			<revision number="1">2015</revision>
-			<name>Ale Belga</name>
+			<name>Belgian Ale</name>
 			<notes>Esta categoría contiene ales belgas y francesas altamente saborizadas, maltosas a balanceadas.
 			</notes>
 			<subcategory id="24A">
@@ -13833,12 +13833,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="24B">
-				<name>Ale Belga Pálida</name>
+				<name>Belgian Pale Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una ale belga moderadamente maltosa, algo frutal, fácil de beber, de color cobrizo
+					<br/>Una Belgian Ale moderadamente maltosa, algo frutal, fácil de beber, de color cobrizo
                     que es algo menos agresiva en el perfil de sabor que muchas otras cervezas belgas. El carácter a
                     malta
                     tiende a ser un poco a bizcocho con un ligero tostado, similar a la miel o al caramelo. El carácter
@@ -13924,7 +13924,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Bastante similar a las Ale Pálida de Inglaterra (categoría Bitter Fuerte),
+					<br/>Bastante similar a las Ale Pálida de Inglaterra (categoría Strong Bitter),
                     típicamente con un carácter ligeramente diferente a levadura y un perfil de malta más variado. Sin
                     embargo, menos carácter de levadura que muchas otras cervezas belgas.
 					<br/>
@@ -14127,13 +14127,13 @@
 		</category>
 		<category id="25">
 			<revision number="1">2015</revision>
-			<name>Ale Fuerte Belga</name>
+			<name>Strong Belgian Ale</name>
 			<notes>Esta categoría contiene cervezas pálidas, bien atenuadas, balanceadas hacia lo amargo, a menudo más
                 impulsadas por el carácter a levadura que los sabores de malta, con alcohol generalmente más alto
                 (aunque existe un rango dentro de los estilos).
 			</notes>
 			<subcategory id="25A">
-				<name>Ale Belga Rubia</name>
+				<name>Belgian Blond Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -14259,7 +14259,7 @@
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Comúnmente una ale belga pálida, refrescante, altamente atenuada, moderadamente
+					<br/>Comúnmente una Belgian Pale Ale, refrescante, altamente atenuada, moderadamente
                     amarga, de intensidad moderada y con un final muy seco. Por lo general altamente carbonatada,
                     utilizando
                     granos de cereales no-cebada y especias opcionales para la complejidad, como complemento del
@@ -14482,7 +14482,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="25C">
-				<name>Ale Belga Dorada Fuerte</name>
+				<name>Belgian Golden Strong Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -14615,7 +14615,7 @@
 		</category>
 		<category id="26">
 			<revision number="1">2015</revision>
-			<name>Trapista Ale</name>
+			<name>Trappist Ale</name>
 			<notes>Trapense es una denominación legalmente protegida y no puede ser utilizada comercialmente, excepto
                 por auténticos monasterios Trapenses que elaboran su propia cerveza. Sin embargo, podemos usarla para
                 describir el tipo o estilos de cerveza producidos por estas cervecerías y quienes elaboran cervezas de
@@ -14624,7 +14624,7 @@
                 de la levadura.
 			</notes>
 			<subcategory id="26A">
-				<name>Trapista Simple</name>
+				<name>Trappist Single</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -14705,7 +14705,7 @@
                     belga.
                     Tiene menos dulzor, mayor atenuación, menos carácter a malta y está más centrada en el lúpulo que
                     una
-                    Pale Ale Belga. Más como una disminuida y más altamente lupulada Tripel que una disminuida Ale Belga
+                    Pale Belgian Ale. Más como una disminuida y más altamente lupulada Tripel que una disminuida Belgian Ale
                     Rubia.
 					<br/>
 					<br/>
@@ -14746,7 +14746,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="26B">
-				<name>Dubbel Belga</name>
+				<name>Belgian Dubbel</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -14832,7 +14832,7 @@
 					<br/>No debería ser tan maltosa como un Bock y no debería tener dulzor a maltas tipo
                     cristal. Similar en intensidad y equilibrio a una Rubia Belga, pero con perfil de malta y ésteres
                     más
-                    ricos. Menos fuerte e intensa que una Ale Belga Oscura Fuerte.
+                    ricos. Menos fuerte e intensa que una Belgian Ale Oscura Fuerte.
 					<br/>
 					<br/>
 					<big>
@@ -14873,7 +14873,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="26C">
-				<name>Tripel Belga</name>
+				<name>Belgian Tripel</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -14968,7 +14968,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Puede parecerse a una Ale Belga Dorada Fuerte, pero es un poco más oscura y un
+					<br/>Puede parecerse a una Belgian Golden Strong Ale, pero es un poco más oscura y un
                     poco más plena de cuerpo, con más énfasis en los compuestos fenólicos y menos en los ésteres. Por lo
                     general, tiene un sabor a malta más redondeado, pero nunca debe ser dulce.
 					<br/>
@@ -15011,12 +15011,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="26D">
-				<name>Ale Belga Oscura Fuerte</name>
+				<name>Belgian Dark Strong Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una ale belga oscura, compleja y muy fuerte, con una deliciosa mezcla de riqueza de
+					<br/>Una Belgian Ale oscura, compleja y muy fuerte, con una deliciosa mezcla de riqueza de
                     malta, sabores a frutos negros y elementos especiados. Compleja, rica, suave y peligrosa.
 					<br/>
 					<br/>
@@ -15146,8 +15146,8 @@
 		</category>
 		<category id="27">
 			<revision number="1">2015</revision>
-			<name>Cerveza Histórica</name>
-			<notes>La categoría Cervezas Históricas contiene estilos que o bien han desaparecido del todo en la
+			<name>Historical Beer</name>
+			<notes>La categoría Historical Beer contiene estilos que o bien han desaparecido del todo en la
                 actualidad, o que fueron mucho más populares en el pasado y ahora son conocidos sólo por recreaciones.
                 Esta categoría puede también ser usada para cervezas tradicionales o autóctonas y de importancia
                 cultural en ciertos países. El poner a una cerveza en la categoría histórica no implica que no esté
@@ -15168,7 +15168,7 @@
                 Kentucky Common, Lager Pre-Prohibición, Porter Pre-Prohibición, Ale Marrón Londinense.
 			</notes>
 			<subcategory id="27-gose">
-				<name>Cerveza Histórica: Gose</name>
+				<name>Historical Beer: Gose</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -15295,7 +15295,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-ky">
-				<name>Cerveza Histórica: Kentucky Common</name>
+				<name>Historical Beer: Kentucky Common</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -15374,7 +15374,7 @@
                     en
                     la bodega de almacenamiento. Hay algunas especulaciones de que fue una variante de la más ligera
                     Common
-                    o una Ale Cremosa producida a través de gran parte del Este antes de la Guerra Civil y que los
+                    o una Cream Ale producida a través de gran parte del Este antes de la Guerra Civil y que los
                     granos
                     más oscuros fueron agregados en su mayoría por cerveceros alemanes para ayudar a acidificar la
                     típica
@@ -15410,11 +15410,11 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Como una Ale Cremosa más oscura enfatizada en el maíz, pero con un carácter
+					<br/>Como una Cream Ale más oscura enfatizada en el maíz, pero con un carácter
                     ligero de sabor a malta. Los sabores a malta y el balance están probablemente más cercanos a los
-                    modernos adjuntos que definen a la Ámbar Internacional, la Lager Oscura, la Ale Irlandesa Roja o la
+                    modernos adjuntos que definen a la Ámbar Internacional, la Lager Oscura, la Irish Red Ale o la
                     Pale
-                    Ale Belga.
+                    Belgian Ale.
                     Estadísticas Vitales: OG: 1.044 – 1.055
                     IBUs: 15 – 30 FG: 1.010 – 1.018
                     SRM: 11 – 20 ABV: 4.0 – 5.5%
@@ -15457,12 +15457,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-Lichtenhainer">
-				<name>Cerveza Histórica: Lichtenhainer</name>
+				<name>Historical Beer: Lichtenhainer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una cerveza histórica de trigo alemana ácida, ahumada y de baja densidad. Con un
+					<br/>Una Historical Beer de trigo alemana ácida, ahumada y de baja densidad. Con un
                     carácter complejo aunque refrescante debido a la alta atenuación y carbonatación, junto a un bajo
                     amargor y moderada acidez.
 					<br/>
@@ -15529,7 +15529,7 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>En la misma familia general de cervezas históricas de trigo de fermentación alta
+					<br/>En la misma familia general de Historical Beer de trigo de fermentación alta
                     y bajo alcohol de Europa Central como Gose, Grodziskie y Berliner Weisse, tiene elementos de todas
                     los
                     anteriores, pero con su propio y único balance, la acidez y el ahumado no se encuentran en ninguna
@@ -15570,7 +15570,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-Londinense-Marrón">
-				<name>Cerveza Histórica: Ale Marrón Londinense</name>
+				<name>Historical Beer: London Brown Ale</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -15657,8 +15657,8 @@
 					<big>
 						<b>Comparación</b>
 					</big>
-					<br/>Puede parecer una versión menos tostada de una Stout Dulce (y de menor densidad,
-                    al menos para los ejemplos Stout Dulce de USA) o una versión dulce de una Mild Oscura.
+					<br/>Puede parecer una versión menos tostada de una Sweet Stout (y de menor densidad,
+                    al menos para los ejemplos Sweet Stout de USA) o una versión dulce de una Dark Mild.
 					<br/>
 					<br/>
 					<big>
@@ -15698,7 +15698,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-piwo">
-				<name>Cerveza Histórica: Piwo Grodziskie</name>
+				<name>Historical Beer: Piwo Grodziskie</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -15830,7 +15830,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-pre18">
-				<name>Cerveza Histórica: Pre-Prohibición Lager</name>
+				<name>Historical Beer: Pre-Prohibition Lager</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -15969,7 +15969,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-pre18-porter">
-				<name>Cerveza Histórica: Porter Pre-Prohibición</name>
+				<name>Historical Beer: Pre-Prohibition Porter</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16092,7 +16092,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-roggenbier">
-				<name>Cerveza Histórica: Roggenbier</name>
+				<name>Historical Beer: Roggenbier</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16215,7 +16215,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="27-sahti">
-				<name>Cerveza Histórica: Sahti</name>
+				<name>Historical Beer: Sahti</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16342,8 +16342,8 @@
 		</category>
 		<category id="28">
 			<revision number="1">2015</revision>
-			<name>Ale Salvaje Americana</name>
-			<notes>El nombre Ale Salvaje Americana es de uso común por los cerveceros artesanales y los cerveceros
+			<name>American Wild Ale</name>
+			<notes>El nombre American Wild Ale es de uso común por los cerveceros artesanales y los cerveceros
                 caseros. Sin embargo, la palabra Salvaje no implica que estas cervezas sean necesariamente de
                 fermentación espontánea, más bien, indica que están influenciados por microorganismos adicionales a las
                 tradicionales levaduras de cerveza. Esta categoría está destinada a una amplia gama de cervezas que no
@@ -16359,7 +16359,7 @@
                 si no en las comunicaciones formales.
 			</notes>
 			<subcategory id="28A">
-				<name>Cervezas con Brettanomyces</name>
+				<name>Brett Beer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16438,7 +16438,7 @@
 						<b>Historia</b>
 					</big>
 					<br/>Interpretaciones modernas de Ales Belgas Salvajes realizadas por cerveceros artesanales
-                    americanos, o experimentaciones inspiradas en Ales Salvajes Belgas o cervezas históricas inglesas
+                    americanos, o experimentaciones inspiradas en Ales Salvajes Belgas o Historical Beer inglesas
                     con
                     Brett. Las cervezas 100% Brett han ganado popularidad después del año 2000; Port Brewing Mo Betta
                     Bretta
@@ -16491,7 +16491,7 @@
 				<br/>
 			</subcategory>
 			<subcategory id="28B">
-				<name>Cervezas Ácidas de Fermentación Mixta</name>
+				<name>Mixed-Fermentation Sour Beer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16586,7 +16586,7 @@
 				</body>
 			</subcategory>
 			<subcategory id="28C">
-				<name>Cerveza Especial Salvaje</name>
+				<name>Wild Specialty Beer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -16709,9 +16709,9 @@
 		</category>
 		<category id="29">
 			<revision number="1">2015</revision>
-			<name>Cerveza con Fruta</name>
+			<name>Fruit Beer</name>
 			<notes>
-                Cerveza con Fruta es una categoría para cervezas hechas con cualquier fruta o combinación de frutas bajo
+                Fruit Beer es una categoría para cervezas hechas con cualquier fruta o combinación de frutas bajo
                 las definiciones de esta categoría. Aquí se utiliza la definición culinaria, no botánica -estructuras
                 asociadas a semillas, carnosas, de plantas que son dulces o ácidas y comestibles en estado natural. Los
                 ejemplos incluyen frutas de semilla (manzana, pera, membrillo), frutas de carozo (cereza, ciruela,
@@ -16723,7 +16723,7 @@
                 descripción, entonces eso no es lo que queremos decir.
 			</notes>
 			<subcategory id="29A">
-				<name>Cerveza Frutada</name>
+				<name>Fruit Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -16804,7 +16804,7 @@
 					<big>
 						<b>Comentarios</b>
 					</big>
-					<br/>El balance general es la clave para presentar una Cerveza Frutada bien hecha. La fruta debe
+					<br/>El balance general es la clave para presentar una Fruit Beer bien hecha. La fruta debe
                     complementar el estilo original y no abrumarlo. Los atributos clave del estilo subyacente serán
                     diferentes con la adición de fruta; no espere en la cerveza base el gusto de la misma sin adulterar.
                     Juzgar la cerveza basado en la amenidad y el balance de la combinación resultante.
@@ -16816,7 +16816,7 @@
 					<br/>El participante debe especificar un estilo base, pero el estilo declarado no
                     tiene que ser un Estilo Clásico. El participante debe especificar el tipo(s) de fruta(s)
                     utilizada(s).
-                    Cervezas de fruta ácidas que no son Lambic deben introducirse en la categoría Ale Salvaje Americana.
+                    Cervezas de fruta ácidas que no son Lambic deben introducirse en la categoría American Wild Ale.
                     Estadísticas Vitales: OG, FG, IBUs, SRM y ABV variarán dependiendo de los lineamientos de la cerveza
                     base, pero la fruta a menudo se verá reflejada en el color.
 					<br/>
@@ -16836,7 +16836,7 @@
                 <tags>cerveza-especial, frutal</tags>
 			</subcategory>
 			<subcategory id="29B">
-				<name>Cerveza con Frutas y Especias</name>
+				<name>Fruit and Spice Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -16959,7 +16959,7 @@
                     manzana).
 				</body>
 				<stats>
-					<exceptions>OEstadísticas Vitales: OG, FG, IBUs, SRM y ABV variarán dependiendo del estilo
+					<exceptions>Estadísticas Vitales: OG, FG, IBUs, SRM y ABV variarán dependiendo del estilo
                         subyacente de cerveza base, pero la fruta a menudo se verá reflejada en el color.
 					</exceptions>
 				</stats>
@@ -16971,12 +16971,12 @@
 				<br/>
 			</subcategory>
 			<subcategory id="29C">
-				<name>Cervezas Frutadas Especiales</name>
+				<name>Specialty Fruit Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Una Cerveza Frutada Especial es una Cerveza Frutada con algunos ingredientes o procesos
+					<br/>Una Fruit Beer Especial es una Fruit Beer con algunos ingredientes o procesos
                     adicionales, tales como azúcares fermentables agregados (miel, azúcar morena, azúcar invertida,
                     etc.).
                     Vea la Introducción a las Cervezas Especiales para comentarios adicionales, particularmente en
@@ -16995,7 +16995,7 @@
 					<big>
 						<b>Aroma</b>
 					</big>
-					<br/>Igual que las Cerveza Frutada, excepto que algunos fermentables adicionales (miel, melaza,
+					<br/>Igual que las Fruit Beer, excepto que algunos fermentables adicionales (miel, melaza,
                     etc.)
                     pueden añadir un componente aromático. Cualquier componente de aroma adicional presente debe estar
                     en
@@ -17005,7 +17005,7 @@
 					<big>
 						<b>Apariencia</b>
 					</big>
-					<br/>Igual a las Cerveza Frutadas.
+					<br/>Igual a las Fruit Beers.
 					<br/>
 					<br/>
 					<big>
@@ -17026,7 +17026,7 @@
 					<big>
 						<b>Sensación en Boca</b>
 					</big>
-					<br/>Igual que una Cerveza Frutada, aunque dependiendo del tipo de azúcar añadido,
+					<br/>Igual que una Fruit Beer, aunque dependiendo del tipo de azúcar añadido,
                     podría aumentar o disminuir el cuerpo.
 					<br/>
 					<br/>
@@ -17034,7 +17034,7 @@
 						<b>Comentarios</b>
 					</big>
 					<br/>Si los fermentables o procesos adicionales no añaden un carácter distinguible a la cerveza,
-                    ingrésela como una 29A Cerveza Frutada y omita una descripción de los ingredientes o procesos
+                    ingrésela como una 29A Fruit Beer y omita una descripción de los ingredientes o procesos
                     adicionales.
 					<br/>
 					<br/>
@@ -17066,7 +17066,7 @@
 		</category>
 		<category id="30">
 			<revision number="1">2015</revision>
-			<name>Cervezas Especiadas</name>
+			<name>Spiced Beer</name>
 			<notes>Usamos las definiciones comunes o culinarias de especias, hierbas y vegetales, no las botánicas o
                 científicas. En general, las especias son semillas deshidratadas, vainas, frutas, raíces, cortezas, etc.
                 de plantas, usadas para condimentar las comidas. Las hierbas son plantas frondosas o partes de plantas
@@ -17082,7 +17082,7 @@
                 y ejemplos de frutas.
 			</notes>
 			<subcategory id="30A">
-				<name>Cervezas con Vegetales, Hierbas o Especias</name>
+				<name>Spice, Herb, or Vegetable Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -17197,12 +17197,12 @@
                 <tags>cerveza-especial, especiada</tags>
 			</subcategory>
 			<subcategory id="30B">
-				<name>Cervezas de Temporada de Otoño</name>
+				<name>Autumn Seasonal Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Las Cervezas de Temporada de Otoño son cervezas que sugieren un clima fresco y la temporada de
+					<br/>Las Autumn Seasonal Beer son cervezas que sugieren un clima fresco y la temporada de
                     cosecha de otoño, pudiendo incluir zapallo u otras calabazas y las especias asociadas. Consulte la
                     sección Introducción a las Cervezas Especiales para comentarios adicionales, en particular sobre la
                     evaluación del balance de los ingredientes agregados con la cerveza base.
@@ -17341,13 +17341,13 @@
                 <tags>cerveza-especial, especiada</tags>
 			</subcategory>
 			<subcategory id="30C">
-				<name>Cervezas de Temporada de Invierno</name>
+				<name>Winter Seasonal Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    Las Cervezas de Temporada de Invierno son cervezas que sugieren un clima frío y la época Navideña y
+                    Las Winter Seasonal Beer son cervezas que sugieren un clima frío y la época Navideña y
                     pueden incluir especias de fiestas, azúcares especiales y otros productos que recuerdan la mezcla de
                     especias o postres de la época Navideña. Consulte la sección de Introducción a las Cervezas
                     Especiales
@@ -17507,12 +17507,12 @@
 		</category>
 		<category id="31">
 			<revision number="1">2015</revision>
-			<name>Cerveza De Fermentables Alternativos</name>
+			<name>Alternative Fermentables Beer</name>
 			<notes>Esta categoría contiene cervezas especiales que tienen algunos ingredientes adicionales (granos o
                 azúcar) que añaden un carácter distintivo.
 			</notes>
 			<subcategory id="31A">
-				<name>Cerveza con Granos Alternativos</name>
+				<name>Alternative Grain Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -17578,9 +17578,9 @@
 					</big>
 					<br/>Si el grano alternativo no ofrece un carácter distinguido y notable a la cerveza,
                     ingresarla en el estilo base. Este estilo no debe ser utilizado para los estilos donde el grano
-                    alternativo es fundamental para la definición de estilo (por ejemplo, IPA de Centeno, Stout de Avena
+                    alternativo es fundamental para la definición de estilo (por ejemplo, Rye IPA, Oatmeal Stout
                     o
-                    Lager Internacional basada en arroz o maíz). Tenga en cuenta que el Sake no es cerveza y no se
+                    International Lager basada en arroz o maíz). Tenga en cuenta que el Sake no es cerveza y no se
                     pretende
                     para esta categoría.
 					<br/>
@@ -17610,7 +17610,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="31B">
-				<name>Cerveza con Azúcares Alternativos</name>
+				<name>Alternative Sugar Beer</name>
 				<body>
 					<big>
 						<b>Comentarios</b>
@@ -17708,11 +17708,11 @@
 		</category>
 		<category id="32">
 			<revision number="1">2015</revision>
-			<name>Cerveza Ahumada</name>
+			<name>Smoked Beer</name>
 			<notes>Esta categoría incluye cervezas especiales que tienen un carácter ahumado.
 			</notes>
 			<subcategory id="32A">
-				<name>Cerveza Ahumada de Estilo Clásico</name>
+				<name>Classic Style Smoked Beer</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -17816,7 +17816,7 @@
                     de la
                     cerveza varían con el estilo base. Si se combinan maltas ahumadas con otros ingredientes inusuales
                     (frutas, verduras, especias, miel, etc.) en cantidades apreciables, la cerveza resultante debe
-                    introducirse en la categoría Cerveza Ahumada Especial.
+                    introducirse en la categoría Smoked Beer Especial.
 					<br/>
 					<br/>
 					<big>
@@ -17842,21 +17842,21 @@
                 <tags>cerveza-especial, ahumada</tags>
 			</subcategory>
 			<subcategory id="32B">
-				<name>Cerveza Ahumada Especial</name>
+				<name>Specialty Smoked Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    Una Cerveza Ahumada Especial es o bien una cerveza ahumada basada en algo más que un Estilo Clásico,
-                    o cualquier tipo de cerveza ahumada con ingredientes adicionales (frutas, verduras, especias), o una
+                    Una Specialty Smoked Beer es o bien una Smoked Beer basada en algo más que un Estilo Clásico,
+                    o cualquier tipo de Smoked Beer con ingredientes adicionales (frutas, verduras, especias), o una
                     que emplee procesos que transformen la cerveza en algo único.
 					<br/>
 					<br/>
 					<big>
 						<b>Impresión General</b>
 					</big>
-					<br/>Una cerveza ahumada potenciada que muestra un buen balance entre el carácter ahumado,
+					<br/>Una Smoked Beer potenciada que muestra un buen balance entre el carácter ahumado,
                     el carácter de la cerveza y los ingredientes agregados, sin dejar de ser agradable de beber. Los
                     mejores
                     ejemplos exhiben un balance entre el ahumado, el lúpulo y el carácter de la malta.
@@ -17952,7 +17952,7 @@
                     un Estilo Clásico. La entrada debe especificar el tipo de madera o ahumado si un carácter varietal
                     ahumado es evidente. La entrada debe especificar los ingredientes adicionales o procesos que hacen
                     de
-                    ésta una Cerveza Ahumada Especial.
+                    ésta una Specialty Smoked Beer.
 					<br/>
 					<br/>
 					<big>
@@ -17968,12 +17968,12 @@
 		</category>
 		<category id="33">
 			<revision number="1">2015</revision>
-			<name>Cervezas En Madera</name>
+			<name>Wood Beer</name>
 			<notes>Esta categoría incluye cervezas especiales con un carácter añejado en madera, con o sin carácter de
                 alcohol añadido.
 			</notes>
 			<subcategory id="33A">
-				<name>Cerveza Añejada en Madera</name>
+				<name>Wood-Aged Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -17983,7 +17983,7 @@
                     Este estilo está destinado para una cerveza envejecida en madera sin carácter de alcohol añadido del
                     uso
                     previo del barril. Cervezas en barril de whisky u otras cervezas similares deben registrarse como
-                    Cerveza Añejada en Madera Especial.
+                    Wood-Aged Beer Especial.
 					<br/>
 					<br/>
 					<big>
@@ -18115,7 +18115,7 @@
                 <tags>cerveza-especial, madera</tags>
 			</subcategory>
 			<subcategory id="33B">
-				<name>Cerveza Añejada en Madera Especial</name>
+				<name>Specialty Wood-Aged Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -18201,7 +18201,7 @@
                     NO
                     DEBE SER UTILIZADA PARA ESTILOS BASE DONDE EL AÑEJAMIENTO EN BARRIL ES UN REQUISITO FUNDAMENTAL DEL
                     ESTILO (por ejemplo, Roja de Flandes, Lambic, etc.). Cervezas salvajes añejadas en madera se deben
-                    introducir en el estilo Cerveza Especial Salvaje
+                    introducir en el estilo Wild Specialty Beer
 					<br/>
 					<br/>
 					<big>
@@ -18254,21 +18254,21 @@
 		</category>
 		<category id="34">
 			<revision number="1">2015</revision>
-			<name>Cerveza Especial</name>
-			<notes>Si bien hay muchas cervezas especiales en estas directrices, la categoría Cerveza Especial está
+			<name>Specialty Beer</name>
+			<notes>Si bien hay muchas cervezas especiales en estas directrices, la categoría Specialty Beer está
                 dirigida a aquellas cervezas que no encajan en ninguna otra parte. Como el número de categorías
                 especiales es bastante grande, se espera que la mayoría de las cervezas sea ingresada en otro lugar a
                 menos que haya algo bastante inusual o único acerca de ella. Por favor verifique primero las otras
                 categorías especiales antes de decidirse a ingresar una cerveza en uno de estos estilos.
 			</notes>
 			<subcategory id="34A">
-				<name>Cerveza Clonada</name>
+				<name>Clone Beer</name>
                 Este estilo está diseñado para reproducciones de cervezas comerciales específicas que no son buenas
                 representaciones de estilos existentes. El uso de la palabra clon no implica una copia exacta; implica
                 una interpretación de un estilo representado por una cerveza específica que no tiene un estilo definido
                 dentro de las directrices. La cerveza debe ser juzgada en cuanto a lo bien que se adapta al estilo más
                 amplio representado por la cerveza de ejemplo, no que tan exacta es la copia de un producto comercial
-                específico. Si una “Cerveza Clonada” encaja en otro estilo, no la registre aquí.
+                específico. Si una “Clone Beer” encaja en otro estilo, no la registre aquí.
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -18329,14 +18329,14 @@
 
 			</subcategory>
 			<subcategory id="34B">
-				<name>Cerveza de Estilo Mixto</name>
+				<name>Mixed-Style Beer</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
                     Este estilo pretende ser una combinación de estilos existentes (Cervezas Clásicas o Especiales ) que
-                    no están definidas en ninguna parte de esta Guía. Si una “Cerveza de Estilo Mixto” encaja en otro
+                    no están definidas en ninguna parte de esta Guía. Si una “Mixed-Style Beer” encaja en otro
                     estilo, no la registre aquí.
 					<br/>
 					<br/>
@@ -18394,7 +18394,7 @@
                 <tags>cerveza-especial</tags>
 			</subcategory>
 			<subcategory id="34C">
-				<name>Cerveza Experimental</name>
+				<name>Experimental Beer</name>
                 Esta es explícitamente una ubicación para cualquier cerveza que no encaja en una descripción de estilo
                 existente. Ninguna cerveza esta siempre “fuera de estilo” en este estilo, a menos que se ajuste a otro
                 lugar. Este es el último recurso para cualquier cerveza registrada en una competencia.
@@ -18433,7 +18433,7 @@
 						<b>Comentarios</b>
 					</big>
 					<br/>Este estilo es lo último en creatividad, ya que no puede representar una cerveza comercial
-                    conocida (de lo contrario sería una Cerveza Clonada) y no puede adaptarse a cualquier otros estilos
+                    conocida (de lo contrario sería una Clone Beer) y no puede adaptarse a cualquier otros estilos
                     Especiales existente (incluyendo aquellos dentro de esta categoría principal).
 					<br/>
 					<br/>
@@ -18465,7 +18465,7 @@
 			</subcategory>
 		</category>
 		<category id="X">
-			<name>Estilos Locales</name>
+			<name>Local Styles</name>
 			<notes>Este apéndice contiene estilos presentados por capítulos locales del BJCP para estilos que aún no
                 están
                 establecidos, pero son
@@ -18476,7 +18476,7 @@
                 validadas por el BJCP.
 			</notes>
 			<subcategory id="X1">
-				<name>Estilos Argentinos Dorada Pampeana</name>
+				<name>Argentine Pampas Golden Ale</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -18578,7 +18578,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="X2">
-				<name>IPA Argenta</name>
+				<name>Argentine IPA</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -18688,7 +18688,7 @@
 					<big>
 						<b>Ejemplos Comerciales</b>
 					</big>
-					<br/>Antares Ipa Argenta, Kerze Ipa Argenta.
+					<br/>Antares Argentine IPA, Kerze Argentine IPA.
 				</body>
 				<stats>
 					<og flexible="false">
@@ -18714,7 +18714,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="X3">
-				<name>Ale italiana de uva</name>
+				<name>Italian Grape Ale</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -18743,7 +18743,7 @@
                     puede variar de medio-bajo a ausente. Algunos ejemplos
                     pueden tener un carácter salvaje bajo a moderadamente-bajo
                     descrito como a establo, terroso, caprino, pero no debe ser tan
-                    intensa como en una Lambic o una Lambic de Fruta. Sin
+                    intensa como en una Lambic o una Fruit Lambic. Sin
                     diacetilo.
 					<br/>
 					<br/>
@@ -18852,7 +18852,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="X4">
-				<name>Catharina Agrio</name>
+				<name>Catharina Sour</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -19134,7 +19134,7 @@
 	</class>
 	<class type="Sidra">
 		<category id="C1">
-			<name>Sidra Y Perada Estándar</name>
+			<name>Standard Cider and Perry</name>
 			<notes>
                 Los estilos representados en esta categoría son los estilos establecidos principales. “Nuevo Mundo” es
                 simplemente un cambio de nombre desde “Común” en las versiones anteriores. Hay estilos conocidos no
@@ -19154,12 +19154,12 @@
                 introducir como Perada del Nuevo Mundo.
 			</notes>
 			<subcategory id="C1A">
-				<name>Sidra del Nuevo Mundo</name>
+				<name>New World Cider</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Una Sidra del Nuevo Mundo está elaborada de manzanas culinarias/de mesa, con manzanas salvajes
+					<br/>Una New World Cider está elaborada de manzanas culinarias/de mesa, con manzanas salvajes
                     o
                     silvestres a menudo utilizadas para mantener el equilibrio acidez/taninos. En comparación con otros
                     estilos en esta categoría, estas sidras son en general relativamente más bajas en taninos y tienen
@@ -19251,12 +19251,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C1B">
-				<name>Sidra Inglesa</name>
+				<name>English Cider</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>La Sidra Inglesa incluye también a las sidras inglesas de"País del Oeste" inspiradas por el
+					<br/>La English Cider incluye también a las sidras inglesas de"País del Oeste" inspiradas por el
                     estilo.
                     Estas sidras se elaboran con variedades de manzana agridulce y amargor- agudo cultivadas
                     específicamente
@@ -19358,12 +19358,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C1C">
-				<name>Sidra Francesa</name>
+				<name>French Cider</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>La Sidra Francesa incluye estilos de Normandía más sidras inspiradas en esos estilos,
+					<br/>La French Cider incluye estilos de Normandía más sidras inspiradas en esos estilos,
                     incluyendo
                     sidras realizadas con diversas técnicas para lograr el perfil de sabor francés. Estas sidras son
                     elaboradas con variedades de manzana agridulce y amargor-agudo cultivadas específicamente para la
@@ -19459,12 +19459,12 @@
 
 			</subcategory>
 			<subcategory id="C1D">
-				<name>Perada del Nuevo Mundo</name>
+				<name>New World Perry</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>La Perada del Nuevo Mundo es elaborada con peras culinarias/de mesa.
+					<br/>La New World Perry es elaborada con peras culinarias/de mesa.
 					<br/>
 					<br/>
 					<big>
@@ -19539,12 +19539,12 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C1E">
-				<name>Perada Tradicional</name>
+				<name>Traditional Perry</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>La Perada Tradicional se elabora a partir de peras cultivadas específicamente con ese fin y no
+					<br/>La Traditional Perry se elabora a partir de peras cultivadas específicamente con ese fin y no
                     para
                     comer o cocinar. Mucha"peras para perada" son casi incomibles debido a los altos taninos; algunas
                     también son bastante duras. Las peras para perada pueden contener cantidades sustanciales de
@@ -19631,7 +19631,7 @@
 			</subcategory>
 		</category>
 		<category id="C2">
-			<name>Sidra y Perada de Especialidad</name>
+			<name>Specialty Cider and Perry</name>
 			<notes>Sidra/Perada de Especialidad incluye a las bebidas elaboradas con sabores añadidos (especias y/o
                 otras frutas), a las elaboradas con cantidades sustanciales de fuentes de azúcar para aumentar
                 densidades
@@ -19640,7 +19640,7 @@
                 a las sidras estándar (categoría anterior), con la excepción de los ingredientes añadidos permitidos.
 			</notes>
 			<subcategory id="C2A">
-				<name>Sidra de Nueva Inglaterra</name>
+				<name>New England Cider</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -19727,13 +19727,13 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C2B">
-				<name>Sidra con Otras Frutas</name>
+				<name>Cider with Other Fruit</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    Esta es una sidra con otras frutas o jugos de fruta añadidos - por ejemplo, bayas. Este es el estilo
+                    Esta es una Cider with Other Fruit o jugos de fruta añadidos - por ejemplo, bayas. Este es el estilo
                     correcto para registrar una bebida fermentada a partir de una combinación de jugo de manzana y pera.
 					<br/>
 					<br/>
@@ -19799,7 +19799,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C2C">
-				<name>Vino de Manzana</name>
+				<name>Applewine</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -19822,7 +19822,7 @@
 					<big>
 						<b>Sabor</b>
 					</big>
-					<br/>Comparable a una Sidra del Nuevo Mundo. El carácter a sidra debe ser distintivo. Muy seca a
+					<br/>Comparable a una New World Cider. El carácter a sidra debe ser distintivo. Muy seca a
                     dulce,
                     a
                     menudo seca.
@@ -19871,7 +19871,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C2D">
-				<name>Sidra de Hielo</name>
+				<name>Ice Cider</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -19879,9 +19879,9 @@
 					<br/>Este es un estilo de sidra en el que el jugo es concentrado antes de la fermentación, ya sea
                     mediante
                     la congelación antes de ser prensada o congelando el jugo y eliminando el agua. La fermentación se
-                    detiene o interrumpe antes de llegar a la sequedad. El carácter difiere del Vino de Manzana en que
+                    detiene o interrumpe antes de llegar a la sequedad. El carácter difiere del Applewine en que
                     el
-                    proceso de la sidra de hielo aumenta no sólo el azúcar (por lo tanto, el alcohol), sino tambien la
+                    proceso de la Ice Cider aumenta no sólo el azúcar (por lo tanto, el alcohol), sino tambien la
                     acidez y todos los componentes de sabor de la fruta proporcionalmente. Los aditivos no están
                     permitidos
                     en este estilo; en particular, los edulcorantes no pueden ser utilizados para aumentar la densidad.
@@ -19946,7 +19946,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C2E">
-				<name>Sidra con Hierbas/Especias</name>
+				<name>Cider with Herbs/Spices</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -20024,7 +20024,7 @@
 				</stats>
 			</subcategory>
 			<subcategory id="C2F">
-				<name>Sidra/Perada de Especialidad</name>
+				<name>Specialty Cider/Perry</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -20101,13 +20101,13 @@
 	</class>
 	<class type="Hidromiel">
 		<category id="M1">
-			<name>Hidromiel Tradicional</name>
+			<name>Traditional Mead</name>
 			<notes>
                 Vea la Introduccion a la Guía de Hidromiel para descripciones detalladas de características de una
                 hidromiel estándar, una explicación de los términos estándar e instrucciones de entrada.
 			</notes>
 			<subcategory id="M1A">
-				<name>Hidromiel Seca</name>
+				<name>Dry Mead</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -20186,7 +20186,7 @@
 				</body>
 			</subcategory>
 			<subcategory id="M1B">
-				<name>Hidromiel Semi-Dulce</name>
+				<name>Semi-Sweet Mead</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -20267,7 +20267,7 @@
 				</body>
 			</subcategory>
 			<subcategory id="M1C">
-				<name>Hidromiel Dulce</name>
+				<name>Sweet Mead</name>
 				<body>
 					<big>
 						<b>Impresión General</b>
@@ -20354,7 +20354,7 @@
 			</subcategory>
 		</category>
 		<category id="M2">
-			<name>Hidromiel Con Frutas</name>
+			<name>Fruit Mead</name>
 			<notes>
                 Una hidromiel elaborada con frutas es llamada Melomel, aunque algunas melomel también tienen otros
                 nombres (cyser, pyment). Introdujimos nombres de categorías para determinados tipos de melomel en base a
@@ -20374,7 +20374,7 @@
                 un criterio secundario.
 			</notes>
 			<subcategory id="M2A">
-				<name>Cyser (Hidromiel con Manzanas)</name>
+				<name>Cyser</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -20476,7 +20476,7 @@
                     especificar las variedades de miel. Los participantes PUEDEN especificar las variedades de mazana
                     utilizadas; si se específica, el carácter varietal será esperado. Productos con relativamente baja
                     proporción de miel son mejor registrados como Sidra de Especialidad. Una cyser especiada debería ser
-                    registrada como Hidromiel con Frutas y Especias. Una cyser con otras frutas debería ser registrada
+                    registrada como Fruit Mead y Especias. Una cyser con otras frutas debería ser registrada
                     como
                     Melomel. Una cyser con ingredientes adicionales debería ser registrada como Hidromiel Experimental.
 					<br/>
@@ -20488,7 +20488,7 @@
 				</body>
 			</subcategory>
 			<subcategory id="M2B">
-				<name>Pyment (Hidromiel con Uvas)</name>
+				<name>Pyment</name>
 				<body>
 					<big>
 						<b>Notas</b>
@@ -20609,7 +20609,7 @@
                     miel. Los participantes PUEDEN especificar las variedades de
                     uva utilizadas; si se específica, el carácter varietal será esperado.
                     Una pyment especiada (Hippocras) debería ser registrada como
-                    Hidromiel con Frutas y Especias. Una pyment elaborada con
+                    Fruit Mead y Especias. Una pyment elaborada con
                     otras frutas debería ser registrada como Melomel. Una pyment
                     con otros ingredientes debería ser registrada como Hidromiel
                     Experimental.
@@ -20624,13 +20624,13 @@
 				</body>
 			</subcategory>
 			<subcategory id="M2C">
-				<name>Hidromiel con Bayas</name>
+				<name>Berry Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    Una Hidromiel con Bayas es una categoría de entrada para melomels elaboradas
+                    Una Berry Mead es una categoría de entrada para melomels elaboradas
                     con
                     bayas como frambuesas, arándanos, moras, grosellas (negras, rojas y blancas), fresas, zarzas,
                     saúcos,
@@ -20757,9 +20757,9 @@
                     especificar las variedades de miel. Los participantes DEBEN especificar las variedades de fruta
                     utilizadas. Una hidromiel elaborada tanto con frutas bayas como no (incluyendo manzanas y uvas)
                     debería
-                    ser registrada como Melomel. Una hidromiel con bayas y especias debería ser registrada como
+                    ser registrada como Melomel. Una Berry Mead y especias debería ser registrada como
                     Hidromiel
-                    con Frutas y Especias. Una hidromiel con bayas que contenga otros ingredientes debería ser
+                    con Frutas y Especias. Una Berry Mead que contenga otros ingredientes debería ser
                     registrada
                     como Hidromiel Experimental.
 					<br/>
@@ -20776,12 +20776,12 @@
 				</body>
 			</subcategory>
 			<subcategory id="M2D">
-				<name>Hidromiel con Frutas Carozas</name>
+				<name>Stone Fruit Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Una Hidromiel con Frutas Carozas es una categoría de entrada para melomels elaboradas con
+					<br/>Una Stone Fruit Mead es una categoría de entrada para melomels elaboradas con
                     frutas
                     tales como cerezas, ciruelas, melocotones, albaricoques y mangos. Las frutas carozas son frutas
                     carnosas
@@ -20862,7 +20862,7 @@
                     el
                     alcohol. Los niveles de taninos pueden hacer que algunas hidromieles parezcan más secas que lo que
                     el
-                    dulzor residual podría sugerir. Un hidromiel con frutas carozas puede tener un sutil a fuerte
+                    dulzor residual podría sugerir. Un Stone Fruit Mead puede tener un sutil a fuerte
                     carácter
                     de miel y puede exhibir un notable a prominente carácter varietal si se declara una miel varietal
                     (diferentes variedades tienen diferentes intensidades). El carácter distintivo de sabor asociado con
@@ -20915,7 +20915,7 @@
                     PUEDEN
                     especificar las variedades de miel. Los participantes DEBEN especificar las variedades de frutas
                     utilizadas. Una hidromiel de frutas carozas con especias debería ser registrada como Hidromiel con
-                    Frutas y Especias. Una hidromiel con frutas carozas que contenga frutas no carozas debería ser
+                    Frutas y Especias. Una Stone Fruit Mead que contenga frutas no carozas debería ser
                     registrada como Melomel. Una hidromiel de frutas carozas que contenga otros ingredientes debería ser
                     registrada como Hidromiel Experimental.
 					<br/>
@@ -20936,8 +20936,8 @@
 					</big>
 					<br/>
                     La subcategoría melomel es para hidromieles con fruta elaboradas con cualquier fruta no se
-                    asocie a otra subcategoría de hidromiel con frutas, o con una combinación de frutas de múltiples
-                    subcategorías de hidromiel con frutas (como uvas y frutas carozas). Algunos ejemplos incluyen
+                    asocie a otra subcategoría de Fruit Mead, o con una combinación de frutas de múltiples
+                    subcategorías de Fruit Mead (como uvas y frutas carozas). Algunos ejemplos incluyen
                     cítricos,
                     frutos secos (dátiles, ciruelas pasas, uvas pasas, etc.), peras, higos, granadas, tunas, bananas,
                     piñas
@@ -21077,7 +21077,7 @@
                     DEBEN especificar el nivel de carbonatación, intensidad y dulzor. Los participantes PUEDEN
                     especificar
                     las variedades de miel. Los participantes DEBEN especificar las variedades de frutas utilizadas. Una
-                    melomel con especias debería ser registrada como Hidromiel con Frutas y Especias. Una melomel que
+                    melomel con especias debería ser registrada como Fruit Mead y Especias. Una melomel que
                     contenga otros ingredientes debería ser registrada como Hidromiel Experimental. Una melomel
                     elaborada
                     sólo con manzanas o uvas debería ser registrada como Cyser o Pyment respectivamente. Una melomel con
@@ -21093,7 +21093,7 @@
 			</subcategory>
 		</category>
 		<category id="M3">
-			<name>Hidromiel Con Especias</name>
+			<name>Spiced Mead</name>
 			<notes>
                 Vea la Introduccion a la Guía de Hidromiel para descripciones detalladas de características de la
                 hidromiel
@@ -21107,20 +21107,20 @@
                 secundario.
 			</notes>
 			<subcategory id="M3A">
-				<name>Hidromiel con Frutas y Especias</name>
+				<name>Fruit and Spice Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
 					<br/>
-                    Una Hidromiel con Frutas y Especias es una hidromiel que contiene
+                    Una Fruit and Spice Mead es una hidromiel que contiene
                     una
                     o más frutas y una o más especias. Vea las definiciones de fruta utilizadas en las distintas
-                    subcategorías de Hidromiel con Frutas; cualquier ingrediente que califique ahi cumple con el
+                    subcategorías de Fruit Mead; cualquier ingrediente que califique ahi cumple con el
                     requisito
                     d"fruta" aquí. Para los propósitos de esta subcategoría, cualquier ingrediente que califique para
                     uso en
-                    la subcategoría Hidromiel con Especias, Hierbas o Vegetales también cumple con el requisito de
+                    la subcategoría Spiced Mead, Hierbas o Vegetales también cumple con el requisito de
                     "especia"
                     aquí.
 					<br/>
@@ -21235,7 +21235,7 @@
 						<b>Ingredientes</b>
 					</big>
 					<br/>Aplica la descripción estándar. Vea las diferentes descripciones de Hidromiel con Fruta, así
-                    como las de Hidromiel con Especias, Hierbas o Vegetales para detalles adicionales.
+                    como las de Spiced Mead, Hierbas o Vegetales para detalles adicionales.
 					<br/>
 					<br/>
 					<big>
@@ -21259,7 +21259,7 @@
                     (aunque las mezclas de especias conocidas se pueden denominar por su nombre común, como las especias
                     para el pastel de manzana). Los participantes DEBEN especificar los tipos de fruta utilizada. Si
                     sólo se
-                    utilizan combinaciones de especias, registrarla como Hidromiel con Especias, Hierbas o Vegetales. Si
+                    utilizan combinaciones de especias, registrarla como Spiced Mead, Hierbas o Vegetales. Si
                     sólo se utilizan combinaciones de fruta, registrarla como Melomel. Si se utilizan otros tipos de
                     ingredientes, registrarla como Hidromiel Experimental.
 					<br/>
@@ -21272,12 +21272,12 @@
 				</body>
 			</subcategory>
 			<subcategory id="M3B">
-				<name>Hidromiel con Especias, Hierbas o Vegetales</name>
+				<name>Spice, Herb or Vegetable Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Una Hidromiel con Especias, Hierbas o Vegetales contiene una o más especias, hierbas o
+					<br/>Una Spice, Herb or Vegetable Mead contiene una o más especias, hierbas o
                     vegetales
                     (en
                     esta definición de estilo, conocidos colectivamente com"especias"). Aquí se utiliza la definición
@@ -21385,7 +21385,7 @@
 					<br/>Aplica la descripción estándar. Si las especias son utilizadas en conjunto con otros
                     ingredientes como frutas, sidra u otros fermentados basados en fruta, entonces la hidromiel debería
                     ser
-                    registrada como Hidromiel con Frutas y Especias. Si las especias son usadas en combinación con otros
+                    registrada como Fruit and Spice Mead. Si las especias son usadas en combinación con otros
                     ingredientes, entonces la hidromiel debería ser registrada como Hidromiel Experimental.
 					<br/>
 					<br/>
@@ -21422,7 +21422,7 @@
 			</subcategory>
 		</category>
 		<category id="M4">
-			<name>Hidromiel De Especialidad</name>
+			<name>Specialty Mead</name>
 			<notes>
                 Vea la Introduccion a la Guía de Hidromiel para descripciones detalladas de características de la
                 hidromiel
@@ -21546,7 +21546,7 @@
                     registrar
                     como Hidromiel Experimental. Braggots ahumados pueden consignarse en esta categoría si se utiliza
                     malta
-                    ahumada o una cerveza ahumada como estilo base; braggots elaborados con otros ingredientes ahumados
+                    ahumada o una Smoked Beer como estilo base; braggots elaborados con otros ingredientes ahumados
                     (por
                     ejemplo, humo líquido, chipotles) deberían registrarse como Hidromiel Experimental.
 					<br/>
@@ -21570,7 +21570,7 @@
                     especificar las variedades de miel. Los participantes PUEDEN especificar el estilo de cerveza base o
                     los
                     tipos de malta utilizados. Productos con una relativamente baja proporción de miel deberían ser
-                    registrados como Cerveza con Azúcares Alternativos.
+                    registrados como Alternative Sugar Beer.
 					<br/>
 					<br/>
 					<big>
@@ -21582,12 +21582,12 @@
 				</body>
 			</subcategory>
 			<subcategory id="M4B">
-				<name>Hidromiel Histórica</name>
+				<name>Historical Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Una Hidromiel Histórica es una hidromiel histórica o autóctona que no se ajusta a otra
+					<br/>Una Historical Mead es una Historical Mead o autóctona que no se ajusta a otra
                     subcategoría
                     (por ejemplo, tej etíope, hidromieles polacas). El BJCP invita a presentar escritos sobre estilos
                     históricos o autóctonos que puedan ajustarse a esta categoría.
@@ -21612,7 +21612,7 @@
                     que las características pueden reflejar combinaciones de los
                     respectivos elementos de las diferentes subcategorías utilizadas
                     en este estilo. Consulte la categoría M1 para una descripción
-                    detallada de la naturaleza de una hidromiel seca, semi-dulce y
+                    detallada de la naturaleza de una Dry Mead, semi-dulce y
                     dulce. Si la hidromiel registrada es una combinación de otras
                     categorías existentes, refierase a las categorías constitutivas para
                     una descripción detallada de la naturaleza de los estilos de
@@ -21637,16 +21637,16 @@
 				</body>
 			</subcategory>
 			<subcategory id="M4C">
-				<name>Hidromiel Experimental</name>
+				<name>Experimental Mead</name>
 				<body>
 					<big>
 						<b>Notas</b>
 					</big>
-					<br/>Un Hidromiel Experimental es una hidromiel que no encaja en ninguna otra subcategoría. Esto
+					<br/>Un Experimental Mead es una hidromiel que no encaja en ninguna otra subcategoría. Esto
                     podría
                     aplicarse a hidromieles que mezclan varias subcategorías (a menos que la combinación se ajuste en
                     otro
-                    lugar, como Melomel o Hidromiel con Frutas y Especias). Cualquier hidromiel experimental utilizando
+                    lugar, como Melomel o Fruit and Spice Mead). Cualquier Experimental Mead utilizando
                     fuentes adicionales de fermentables (por ejemplo, jarabe de arce, melaza, azúcar morena o miel de
                     agave), ingredientes adicionales (por ejemplo, licores, humo, etc.), procesos alternativos (por
                     ejemplo,
@@ -21654,7 +21654,7 @@
                     lambic
                     belga, etc.) u otro ingrediente inusual, proceso o técnica, también podría ser apropiada en esta
                     categoría. El añejamiento en roble no necesariamente obliga a una hidromiel a pertenecer al estilo
-                    Hidromiel Experimental a menos que el barril tenga características adicionales (como bourbon),
+                    Experimental Mead a menos que el barril tenga características adicionales (como bourbon),
                     además de
                     la madera. Ninguna hidromiel está “fuera de estilo” en esta categoría a menos que se ajuste en otra
                     categoría existente.
@@ -21670,7 +21670,7 @@
                     que las características pueden reflejar combinaciones de los
                     elementos correspondientes a las diferentes subcategorías
                     utilizadas en este estilo. Consulte la categoría M1 para una
-                    descripción detallada de la naturaleza de una hidromiel seca,
+                    descripción detallada de la naturaleza de una Dry Mead,
                     semi-dulce y dulce. Si la hidromiel registrada es una
                     combinación de otras categorías existentes, refierase a las
                     categorías constitutivas para una descripción detallada de la
@@ -21684,7 +21684,7 @@
                     participantes DEBEN especificar el nivel de carbonatación, intensidad y dulzor. Los participantes
                     PUEDEN
                     especificar las variedades de miel. Los participantes DEBEN especificar la naturaleza especial de la
-                    hidromiel, ya sea como una combinación de estilos existentes, una hidromiel experimental o alguna
+                    hidromiel, ya sea como una combinación de estilos existentes, una Experimental Mead o alguna
                     otra
                     creación.
                     Cualquier ingrediente especial que imparta un carácter identificable PUEDE ser declarado.
@@ -21714,27 +21714,27 @@
 				<name>Estilos ordenados usando categorías de 2008 (estricto)</name>
 				<notes title="">Este sistema usa las categorías de 2008 con los estilos equivalentes de Cerveza de las
                     directrices de 2015. Cualquier estilo de 2015 que no esté presente en las directrices de 2008 se
-                    clasifica como Categoría 23 Cerveza Especial.
+                    clasifica como Categoría 23 Specialty Beer.
 				</notes>
 				<notes title="">
                     1. Ligera Lager
-					<br/>&#160;&#160;&#160;&#160;A. 1A. Lager Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 1B. Lager Americano
-					<br/>&#160;&#160;&#160;&#160;C. 2A. Lager Pálida Internacional
+					<br/>&#160;&#160;&#160;&#160;A. 1A. American Light Lager
+					<br/>&#160;&#160;&#160;&#160;B. 1B. American Lager
+					<br/>&#160;&#160;&#160;&#160;C. 2A. International Pale Lager
 					<br/>&#160;&#160;&#160;&#160;D. 4A. Munich Helles
-					<br/>&#160;&#160;&#160;&#160;E. 5C. Helles de Exportaciónbier
+					<br/>&#160;&#160;&#160;&#160;E. 5C. Helles Exportbier
 
                     2. Pilsner
-					<br/>&#160;&#160;&#160;&#160;A. 5D. Pils Alemana
-					<br/>&#160;&#160;&#160;&#160;B. 3B. Lager Pálida Premium Checa
-					<br/>&#160;&#160;&#160;&#160;C. 27. Cerveza Histórica (Pre-Prohibición Lager)
+					<br/>&#160;&#160;&#160;&#160;A. 5D. German Pils
+					<br/>&#160;&#160;&#160;&#160;B. 3B. Czech Premium Pale Lager
+					<br/>&#160;&#160;&#160;&#160;C. 27. Historical Beer (Pre-Prohibition Lager)
 
                     3. Europea Lager Ámbar
 					<br/>&#160;&#160;&#160;&#160;A. 7A. Vienna Lager
 					<br/>&#160;&#160;&#160;&#160;B. 6A. Märzen
 
                     4. Lager Oscura
-					<br/>&#160;&#160;&#160;&#160;A. 2C. Lager Oscura Internacional
+					<br/>&#160;&#160;&#160;&#160;A. 2C. International Dark Lager
 					<br/>&#160;&#160;&#160;&#160;B. 8A. Munich Dunkel
 					<br/>&#160;&#160;&#160;&#160;C. 8B. Schwarzbier
 
@@ -21745,132 +21745,132 @@
 					<br/>&#160;&#160;&#160;&#160;D. 9B. Eisbock
 
                     6. Ligera Hybrid Cerveza
-					<br/>&#160;&#160;&#160;&#160;A. 1C. Ale Cremosa
-					<br/>&#160;&#160;&#160;&#160;B. 18A. Ale Rubia
+					<br/>&#160;&#160;&#160;&#160;A. 1C. Cream Ale
+					<br/>&#160;&#160;&#160;&#160;B. 18A. Blonde Ale
 					<br/>&#160;&#160;&#160;&#160;C. 5B. Kölsch
-					<br/>&#160;&#160;&#160;&#160;D. 1D. Cerveza de Trigo Americana
+					<br/>&#160;&#160;&#160;&#160;D. 1D. American Wheat Beer
 
                     7. Ámbar Hybrid Cerveza
-					<br/>&#160;&#160;&#160;&#160;A. 2B. Lager Ámbar Internacional
+					<br/>&#160;&#160;&#160;&#160;A. 2B. International Amber Lager
 					<br/>&#160;&#160;&#160;&#160;B. 19B. California Common
 					<br/>&#160;&#160;&#160;&#160;C. 7B. Altbier
 
                     8. Ale Pálida Inglés
-					<br/>&#160;&#160;&#160;&#160;A. 11A. Bitter Ordinaria
+					<br/>&#160;&#160;&#160;&#160;A. 11A. Ordinary Bitter
 					<br/>&#160;&#160;&#160;&#160;B. 11B. Best Bitter
-					<br/>&#160;&#160;&#160;&#160;C. 11C. Bitter Fuerte
+					<br/>&#160;&#160;&#160;&#160;C. 11C. Strong Bitter
 
                     9. and Escocesa Ale Irlandesa
-					<br/>&#160;&#160;&#160;&#160;A. 14A. Escocesa Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 14B. Escocesa Fuerte
-					<br/>&#160;&#160;&#160;&#160;C. 14C. Escocesa de Exportación
-					<br/>&#160;&#160;&#160;&#160;D. 15A. Ale Irlandesa Roja
+					<br/>&#160;&#160;&#160;&#160;A. 14A. Scottish Light
+					<br/>&#160;&#160;&#160;&#160;B. 14B. Scottish Heavy
+					<br/>&#160;&#160;&#160;&#160;C. 14C. Scottish Export
+					<br/>&#160;&#160;&#160;&#160;D. 15A. Irish Red Ale
 					<br/>&#160;&#160;&#160;&#160;E. 17C. Wee Heavy
 
                     10. Ale Americano
-					<br/>&#160;&#160;&#160;&#160;A. 18B. Ale Americano Pálida
-					<br/>&#160;&#160;&#160;&#160;B. 19A. Ale Americano Ámbar
-					<br/>&#160;&#160;&#160;&#160;C. 19C. Ale Americano Marrón
+					<br/>&#160;&#160;&#160;&#160;A. 18B. Pale American Ale
+					<br/>&#160;&#160;&#160;&#160;B. 19A. American Amber Ale
+					<br/>&#160;&#160;&#160;&#160;C. 19C. American Brown Ale
 
                     11. Marrón Inglés Ale
-					<br/>&#160;&#160;&#160;&#160;A. 13A. Mild Oscura
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Ale Marrón Londinense)
-					<br/>&#160;&#160;&#160;&#160;C. 13B. Ale Marrón Británica
+					<br/>&#160;&#160;&#160;&#160;A. 13A. Dark Mild
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (London Brown Ale)
+					<br/>&#160;&#160;&#160;&#160;C. 13B. British Brown Ale
 
                     12. Porter
-					<br/>&#160;&#160;&#160;&#160;A. 13C. Porter Inglés
+					<br/>&#160;&#160;&#160;&#160;A. 13C. English Porter
 					<br/>&#160;&#160;&#160;&#160;B. 20A. Porter Americano
-					<br/>&#160;&#160;&#160;&#160;C. 9C. Porter Báltica
+					<br/>&#160;&#160;&#160;&#160;C. 9C. Baltic Porter
 
                     13. Stout
-					<br/>&#160;&#160;&#160;&#160;A. 15B. Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;B. 16A. Stout Dulce
-					<br/>&#160;&#160;&#160;&#160;C. 16B. Stout de Avena
-					<br/>&#160;&#160;&#160;&#160;D. 16D. de Exportación Extra Stoutnjera
-					<br/>&#160;&#160;&#160;&#160;E. 20B. Stout Americano
-					<br/>&#160;&#160;&#160;&#160;F. 20C. Stout Imperial
+					<br/>&#160;&#160;&#160;&#160;A. 15B. Irish Stout
+					<br/>&#160;&#160;&#160;&#160;B. 16A. Sweet Stout
+					<br/>&#160;&#160;&#160;&#160;C. 16B. Oatmeal Stout
+					<br/>&#160;&#160;&#160;&#160;D. 16D. Foreign Export Stout
+					<br/>&#160;&#160;&#160;&#160;E. 20B. American Stout
+					<br/>&#160;&#160;&#160;&#160;F. 20C. Imperial Stout
 
                     14. India Ale Pálida (IPA)
-					<br/>&#160;&#160;&#160;&#160;A. 12C. IPA Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 21A. IPA Americano
-					<br/>&#160;&#160;&#160;&#160;C. 22A. Doble IPA
+					<br/>&#160;&#160;&#160;&#160;A. 12C. English IPA
+					<br/>&#160;&#160;&#160;&#160;B. 21A. American IPA
+					<br/>&#160;&#160;&#160;&#160;C. 22A. Double IPA
 
                     15. Cerveza Trigo y Centeno Alemana
 					<br/>&#160;&#160;&#160;&#160;A. 10A. Weissbier
 					<br/>&#160;&#160;&#160;&#160;B. 10B. Dunkles Weissbier
 					<br/>&#160;&#160;&#160;&#160;C. 10C. Weizenbock
-					<br/>&#160;&#160;&#160;&#160;D. 27. Cerveza Histórica (Roggenbier)
+					<br/>&#160;&#160;&#160;&#160;D. 27. Historical Beer (Roggenbier)
 
                     16. and Belga French Ale
 					<br/>&#160;&#160;&#160;&#160;A. 24A. Witbier
-					<br/>&#160;&#160;&#160;&#160;B. 24B. Ale Belga Pálida
+					<br/>&#160;&#160;&#160;&#160;B. 24B. Belgian Pale Ale
 					<br/>&#160;&#160;&#160;&#160;C. 25B. Saison
 					<br/>&#160;&#160;&#160;&#160;D. 24C. Bière de Garde
-					<br/>&#160;&#160;&#160;&#160;E. 34A. Cerveza de Estilo Mixto (Sólo estilos Belgas)
+					<br/>&#160;&#160;&#160;&#160;E. 34A. Mixed-Style Beer (Sólo estilos Belgas)
 
                     17. Sour Ale
 					<br/>&#160;&#160;&#160;&#160;A. 23A. Berliner Weisse
-					<br/>&#160;&#160;&#160;&#160;B. 23B. Ale Roja de Flandes
+					<br/>&#160;&#160;&#160;&#160;B. 23B. Flanders Red Ale
 					<br/>&#160;&#160;&#160;&#160;C. 23C. Oud Bruin
 					<br/>&#160;&#160;&#160;&#160;D. 23D. Lambic
 					<br/>&#160;&#160;&#160;&#160;E. 23E. Gueuze
-					<br/>&#160;&#160;&#160;&#160;F. 23F. Lambic de Fruta
+					<br/>&#160;&#160;&#160;&#160;F. 23F. Fruit Lambic
 
-                    18. Ale Belga Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 25A. Ale Belga Rubia
-					<br/>&#160;&#160;&#160;&#160;B. 26B. Dubbel Belga
-					<br/>&#160;&#160;&#160;&#160;C. 26C. Tripel Belga
-					<br/>&#160;&#160;&#160;&#160;D. 25C. Ale Belga Dorada Fuerte
-					<br/>&#160;&#160;&#160;&#160;E. 26D. Ale Belga Oscura Fuerte
+                    18. Belgian Ale Fuerte
+					<br/>&#160;&#160;&#160;&#160;A. 25A. Belgian Blond Ale
+					<br/>&#160;&#160;&#160;&#160;B. 26B. Belgian Dubbel
+					<br/>&#160;&#160;&#160;&#160;C. 26C. Belgian Tripel
+					<br/>&#160;&#160;&#160;&#160;D. 25C. Belgian Golden Strong Ale
+					<br/>&#160;&#160;&#160;&#160;E. 26D. Belgian Dark Strong Ale
 
                     19. Ale Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 17B. Ale Antigua
-					<br/>&#160;&#160;&#160;&#160;B. 17D. Barleywine Inglés
-					<br/>&#160;&#160;&#160;&#160;C. 22C. Barleywine Americano
+					<br/>&#160;&#160;&#160;&#160;A. 17B. Old Ale
+					<br/>&#160;&#160;&#160;&#160;B. 17D. English Barleywine
+					<br/>&#160;&#160;&#160;&#160;C. 22C. American Barleywine
 
-                    20. Cerveza con Fruta
-					<br/>&#160;&#160;&#160;&#160;A. 29A. Cerveza con Fruta
+                    20. Fruit Beer
+					<br/>&#160;&#160;&#160;&#160;A. 29A. Fruit Beer
 
-                    21. Cervezas o Especias/Hierbas /on Vegetales
-					<br/>&#160;&#160;&#160;&#160;A. 30A. Cervezas con Vegetales, Hierbas o Especias
-					<br/>&#160;&#160;&#160;&#160;B. 30C. Cervezas de Temporada de Invierno
+                    21. Spice, Herb, or Vegetable Beer
+					<br/>&#160;&#160;&#160;&#160;A. 30A. Spice, Herb, or Vegetable Beer
+					<br/>&#160;&#160;&#160;&#160;B. 30C. Winter Seasonal Beer
 
-                    22. Smoke-FlavoRoja and Cerveza Añejada en Madera
+                    22. Smoke-Flavored and Wood-Aged Beer
 					<br/>&#160;&#160;&#160;&#160;A. 6B. Rauchbier
-					<br/>&#160;&#160;&#160;&#160;B. 32A. Cerveza Ahumada de Estilo Clásico
-					<br/>&#160;&#160;&#160;&#160;C. 33A. Cerveza Añejada en Madera
+					<br/>&#160;&#160;&#160;&#160;B. 32A. Classic Style Smoked Beer
+					<br/>&#160;&#160;&#160;&#160;C. 33A. Wood-Aged Beer
 
-                    23. Cervezas Especiadas
-					<br/>&#160;&#160;&#160;&#160;A. 3A. Lager Pálida Checa
-					<br/>&#160;&#160;&#160;&#160;B. 2B. Lager Ámbar Internacional
-					<br/>&#160;&#160;&#160;&#160;C. 3C. Lager Ámbar Checa
+                    23. Specialty Beer
+					<br/>&#160;&#160;&#160;&#160;A. 3A. Czech Pale Lager
+					<br/>&#160;&#160;&#160;&#160;B. 2B. International Amber Lager
+					<br/>&#160;&#160;&#160;&#160;C. 3C. Czech Amber Lager
 					<br/>&#160;&#160;&#160;&#160;D. 4B. Festbier
-					<br/>&#160;&#160;&#160;&#160;E. 3D. Lager Oscura Checa
-					<br/>&#160;&#160;&#160;&#160;F. 5A. Leichtbier Alemana
+					<br/>&#160;&#160;&#160;&#160;E. 3D. Czech Dark Lager
+					<br/>&#160;&#160;&#160;&#160;F. 5A. German Leichtbier
 					<br/>&#160;&#160;&#160;&#160;G. 7C. Kellerbier
-					<br/>&#160;&#160;&#160;&#160;H. 12A. Ale Dorada Británica
-					<br/>&#160;&#160;&#160;&#160;I. 12B. Ale Espumosa Australianana
-					<br/>&#160;&#160;&#160;&#160;J. 21B. IPA Especial (todas)
-					<br/>&#160;&#160;&#160;&#160;K. 15C. Extra Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;L. 16C. Stout Tropical
+					<br/>&#160;&#160;&#160;&#160;H. 12A. British Golden Ale
+					<br/>&#160;&#160;&#160;&#160;I. 12B. Australian Sparkling Ale
+					<br/>&#160;&#160;&#160;&#160;J. 21B. Specialty IPA (todas)
+					<br/>&#160;&#160;&#160;&#160;K. 15C. Irish Extra Stout
+					<br/>&#160;&#160;&#160;&#160;L. 16C. Tropical Stout
 					<br/>&#160;&#160;&#160;&#160;M. 26A. Trapista Simple
 					<br/>&#160;&#160;&#160;&#160;N. 17A. Fuerte Inglés Ale
-					<br/>&#160;&#160;&#160;&#160;O. 22B. Ale Americana Fuerte
+					<br/>&#160;&#160;&#160;&#160;O. 22B. American Strong Ale
 					<br/>&#160;&#160;&#160;&#160;P. 22D. Wheatwine
-					<br/>&#160;&#160;&#160;&#160;Q. 27. Cerveza Histórica (los que no están en la lista)
-					<br/>&#160;&#160;&#160;&#160;R. 28A. Cervezas con Brettanomyces
-					<br/>&#160;&#160;&#160;&#160;S. 28B. Cervezas Ácidas de Fermentación Mixta
-					<br/>&#160;&#160;&#160;&#160;T. 28C. Cerveza Especial Salvaje
-					<br/>&#160;&#160;&#160;&#160;U. 29B. Cerveza con Frutas y Especias
-					<br/>&#160;&#160;&#160;&#160;V. 29C. Cervezas Frutadas Especiales
-					<br/>&#160;&#160;&#160;&#160;W. 30B. Cervezas de Temporada de Otoño
-					<br/>&#160;&#160;&#160;&#160;X. 31A. Cerveza con Granos Alternativos
-					<br/>&#160;&#160;&#160;&#160;Y. 31B. Cerveza con Azúcares Alternativos
-					<br/>&#160;&#160;&#160;&#160;Z. 32B. Cerveza Ahumada Especial
-					<br/>&#160;&#160;&#160;&#160;AA. 33B. Cerveza Añejada en Madera Especial
-					<br/>&#160;&#160;&#160;&#160;BB. 34A. Cerveza de Estilo Mixto (no estilos Belga)
-					<br/>&#160;&#160;&#160;&#160;CC. 34B. Cerveza de Estilo Mixto
-					<br/>&#160;&#160;&#160;&#160;DD. 34C. Cerveza Experimental
+					<br/>&#160;&#160;&#160;&#160;Q. 27. Historical Beer (los que no están en la lista)
+					<br/>&#160;&#160;&#160;&#160;R. 28A. Brett Beer
+					<br/>&#160;&#160;&#160;&#160;S. 28B. Mixed-Fermentation Sour Beer
+					<br/>&#160;&#160;&#160;&#160;T. 28C. Wild Specialty Beer
+					<br/>&#160;&#160;&#160;&#160;U. 29B. Fruit Beers y Especias
+					<br/>&#160;&#160;&#160;&#160;V. 29C. Specialty Fruit Beer
+					<br/>&#160;&#160;&#160;&#160;W. 30B. Autumn Seasonal Beer
+					<br/>&#160;&#160;&#160;&#160;X. 31A. Alternative Grain Beer
+					<br/>&#160;&#160;&#160;&#160;Y. 31B. Alternative Sugar Beer
+					<br/>&#160;&#160;&#160;&#160;Z. 32B. Specialty Smoked Beer
+					<br/>&#160;&#160;&#160;&#160;AA. 33B. Specialty Wood-Aged Beer
+					<br/>&#160;&#160;&#160;&#160;BB. 34A. Mixed-Style Beer (no estilos Belga)
+					<br/>&#160;&#160;&#160;&#160;CC. 34B. Mixed-Style Beer
+					<br/>&#160;&#160;&#160;&#160;DD. 34C. Experimental Beer
 				</notes>
 			</subcategory>
 			<subcategory id="A2">
@@ -21884,30 +21884,30 @@
 				</notes>
 				<notes title="">
                     1. Ligera Lager
-					<br/>&#160;&#160;&#160;&#160;A. 1A. Lager Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 1B. Lager Americano
-					<br/>&#160;&#160;&#160;&#160;C. 2A. Lager Pálida Internacional
+					<br/>&#160;&#160;&#160;&#160;A. 1A. American Light Lager
+					<br/>&#160;&#160;&#160;&#160;B. 1B. American Lager
+					<br/>&#160;&#160;&#160;&#160;C. 2A. International Pale Lager
 					<br/>&#160;&#160;&#160;&#160;D. 4A. Munich Helles
 					<br/>&#160;&#160;&#160;&#160;E. 4B. Festbier
-					<br/>&#160;&#160;&#160;&#160;F. 5C. Helles de Exportaciónbier
+					<br/>&#160;&#160;&#160;&#160;F. 5C. Helles Exportbier
 
                     2. Pilsner
-					<br/>&#160;&#160;&#160;&#160;A. 5A. Leichtbier Alemana
-					<br/>&#160;&#160;&#160;&#160;B. 3A. Lager Pálida Checa
-					<br/>&#160;&#160;&#160;&#160;C. 5D. Pils Alemana
-					<br/>&#160;&#160;&#160;&#160;D. 3B. Lager Pálida Premium Checa
-					<br/>&#160;&#160;&#160;&#160;E. 27. Cerveza Histórica (Lager Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;A. 5A. German Leichtbier
+					<br/>&#160;&#160;&#160;&#160;B. 3A. Czech Pale Lager
+					<br/>&#160;&#160;&#160;&#160;C. 5D. German Pils
+					<br/>&#160;&#160;&#160;&#160;D. 3B. Czech Premium Pale Lager
+					<br/>&#160;&#160;&#160;&#160;E. 27. Historical Beer (Lager Pre-Prohibición)
 
                     3. Europea Lager Ámbar
 					<br/>&#160;&#160;&#160;&#160;A. 7A. Vienna Lager
-					<br/>&#160;&#160;&#160;&#160;B. 3C. Lager Ámbar Checa
+					<br/>&#160;&#160;&#160;&#160;B. 3C. Czech Amber Lager
 					<br/>&#160;&#160;&#160;&#160;C. 6A. Märzen
 					<br/>&#160;&#160;&#160;&#160;D. 7C. Kellerbier
 
                     4. Lager Oscura
-					<br/>&#160;&#160;&#160;&#160;A. 2C. Lager Oscura Internacional
+					<br/>&#160;&#160;&#160;&#160;A. 2C. International Dark Lager
 					<br/>&#160;&#160;&#160;&#160;B. 8A. Munich Dunkel
-					<br/>&#160;&#160;&#160;&#160;C. 3D. Lager Oscura Checa
+					<br/>&#160;&#160;&#160;&#160;C. 3D. Czech Dark Lager
 					<br/>&#160;&#160;&#160;&#160;D. 8B. Schwarzbier
 
                     5. Bock
@@ -21917,130 +21917,130 @@
 					<br/>&#160;&#160;&#160;&#160;D. 9B. Eisbock
 
                     6. Ligera Hybrid Cerveza
-					<br/>&#160;&#160;&#160;&#160;A. 1C. Ale Cremosa
-					<br/>&#160;&#160;&#160;&#160;B. 18A. Ale Rubia
+					<br/>&#160;&#160;&#160;&#160;A. 1C. Cream Ale
+					<br/>&#160;&#160;&#160;&#160;B. 18A. Blonde Ale
 					<br/>&#160;&#160;&#160;&#160;C. 5B. Kölsch
-					<br/>&#160;&#160;&#160;&#160;D. 1D. Cerveza de Trigo Americana
+					<br/>&#160;&#160;&#160;&#160;D. 1D. American Wheat Beer
 
                     7. Ámbar Hybrid Cerveza
-					<br/>&#160;&#160;&#160;&#160;A. 2B. Lager Ámbar Internacional
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Kentucky Common)
+					<br/>&#160;&#160;&#160;&#160;A. 2B. International Amber Lager
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Kentucky Common)
 					<br/>&#160;&#160;&#160;&#160;C. 19B. California Common
 					<br/>&#160;&#160;&#160;&#160;D. 7B. Altbier
 
                     8. Ale Pálida Inglés
-					<br/>&#160;&#160;&#160;&#160;A. 11A. Bitter Ordinaria
+					<br/>&#160;&#160;&#160;&#160;A. 11A. Ordinary Bitter
 					<br/>&#160;&#160;&#160;&#160;B. 11B. Best Bitter
-					<br/>&#160;&#160;&#160;&#160;C. 11C. Bitter Fuerte
-					<br/>&#160;&#160;&#160;&#160;D. 12A. Ale Dorada Británica
-					<br/>&#160;&#160;&#160;&#160;E. 12B. Ale Espumosa Australianana
+					<br/>&#160;&#160;&#160;&#160;C. 11C. Strong Bitter
+					<br/>&#160;&#160;&#160;&#160;D. 12A. British Golden Ale
+					<br/>&#160;&#160;&#160;&#160;E. 12B. Australian Sparkling Ale
 
                     9. and Escocesa Ale Irlandesa
-					<br/>&#160;&#160;&#160;&#160;A. 14A. Escocesa Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 14B. Escocesa Fuerte
-					<br/>&#160;&#160;&#160;&#160;C. 14C. Escocesa de Exportación
-					<br/>&#160;&#160;&#160;&#160;D. 15A. Ale Irlandesa Roja
+					<br/>&#160;&#160;&#160;&#160;A. 14A. Scottish Light
+					<br/>&#160;&#160;&#160;&#160;B. 14B. Scottish Heavy
+					<br/>&#160;&#160;&#160;&#160;C. 14C. Scottish Export
+					<br/>&#160;&#160;&#160;&#160;D. 15A. Irish Red Ale
 					<br/>&#160;&#160;&#160;&#160;E. 17C. Wee Heavy
 
                     10. Ale Americano
-					<br/>&#160;&#160;&#160;&#160;A. 18B. Ale Americano Pálida
-					<br/>&#160;&#160;&#160;&#160;B. 19A. Ale Americano Ámbar
-					<br/>&#160;&#160;&#160;&#160;C. 19C. Ale Americano Marrón
+					<br/>&#160;&#160;&#160;&#160;A. 18B. Pale American Ale
+					<br/>&#160;&#160;&#160;&#160;B. 19A. American Amber Ale
+					<br/>&#160;&#160;&#160;&#160;C. 19C. American Brown Ale
 
                     11. Marrón Inglés Ale
-					<br/>&#160;&#160;&#160;&#160;A. 13A. Mild Oscura
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Ale Marrón Londinense)
-					<br/>&#160;&#160;&#160;&#160;C. 13B. Ale Marrón Británica
+					<br/>&#160;&#160;&#160;&#160;A. 13A. Dark Mild
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (London Brown Ale)
+					<br/>&#160;&#160;&#160;&#160;C. 13B. British Brown Ale
 
                     12. Porter
-					<br/>&#160;&#160;&#160;&#160;A. 13C. Porter Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Porter Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;A. 13C. English Porter
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Pre-Prohibition Porter)
 					<br/>&#160;&#160;&#160;&#160;C. 20A. Porter Americano
-					<br/>&#160;&#160;&#160;&#160;D. 9C. Porter Báltica
+					<br/>&#160;&#160;&#160;&#160;D. 9C. Baltic Porter
 
                     13. Stout
-					<br/>&#160;&#160;&#160;&#160;A. 15B. Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;B. 15C. Extra Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;C. 16A. Stout Dulce
-					<br/>&#160;&#160;&#160;&#160;D. 16B. Stout de Avena
-					<br/>&#160;&#160;&#160;&#160;E. 16C. Stout Tropical
-					<br/>&#160;&#160;&#160;&#160;F. 16D. de Exportación Extra Stoutnjera
-					<br/>&#160;&#160;&#160;&#160;G. 20B. Stout Americano
-					<br/>&#160;&#160;&#160;&#160;H. 20C. Stout Imperial
+					<br/>&#160;&#160;&#160;&#160;A. 15B. Irish Stout
+					<br/>&#160;&#160;&#160;&#160;B. 15C. Irish Extra Stout
+					<br/>&#160;&#160;&#160;&#160;C. 16A. Sweet Stout
+					<br/>&#160;&#160;&#160;&#160;D. 16B. Oatmeal Stout
+					<br/>&#160;&#160;&#160;&#160;E. 16C. Tropical Stout
+					<br/>&#160;&#160;&#160;&#160;F. 16D. Foreign Export Stout
+					<br/>&#160;&#160;&#160;&#160;G. 20B. American Stout
+					<br/>&#160;&#160;&#160;&#160;H. 20C. Imperial Stout
 
                     14. India Ale Pálida (IPA)
-					<br/>&#160;&#160;&#160;&#160;A. 12C. IPA Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 21A. IPA Americano
-					<br/>&#160;&#160;&#160;&#160;C. 22A. Doble IPA
-					<br/>&#160;&#160;&#160;&#160;D. 21B. IPA Especial (todas)
+					<br/>&#160;&#160;&#160;&#160;A. 12C. English IPA
+					<br/>&#160;&#160;&#160;&#160;B. 21A. American IPA
+					<br/>&#160;&#160;&#160;&#160;C. 22A. Double IPA
+					<br/>&#160;&#160;&#160;&#160;D. 21B. Specialty IPA (todas)
 
                     15. Cerveza Trigo y Centeno Alemana
 					<br/>&#160;&#160;&#160;&#160;A. 10A. Weissbier
 					<br/>&#160;&#160;&#160;&#160;B. 10B. Dunkles Weissbier
 					<br/>&#160;&#160;&#160;&#160;C. 10C. Weizenbock
-					<br/>&#160;&#160;&#160;&#160;D. 27. Cerveza Histórica (Roggenbier)
-					<br/>&#160;&#160;&#160;&#160;E. 27. Cerveza Histórica (Sahti)
+					<br/>&#160;&#160;&#160;&#160;D. 27. Historical Beer (Roggenbier)
+					<br/>&#160;&#160;&#160;&#160;E. 27. Historical Beer (Sahti)
 
                     16. and Belga French Ale
 					<br/>&#160;&#160;&#160;&#160;A. 24A. Witbier
 					<br/>&#160;&#160;&#160;&#160;B. 26A. Trapista Simple
-					<br/>&#160;&#160;&#160;&#160;C. 24B. Ale Belga Pálida
+					<br/>&#160;&#160;&#160;&#160;C. 24B. Belgian Pale Ale
 					<br/>&#160;&#160;&#160;&#160;D. 25B. Saison
 					<br/>&#160;&#160;&#160;&#160;E. 24C. Bière de Garde
-					<br/>&#160;&#160;&#160;&#160;F. 34A. Cerveza de Estilo Mixto (styles Belga only)
+					<br/>&#160;&#160;&#160;&#160;F. 34A. Mixed-Style Beer (styles Belga only)
 
                     17. Sour Ale
 					<br/>&#160;&#160;&#160;&#160;A. 23A. Berliner Weisse
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Gose)
-					<br/>&#160;&#160;&#160;&#160;C. 23B. Ale Roja de Flandes
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Gose)
+					<br/>&#160;&#160;&#160;&#160;C. 23B. Flanders Red Ale
 					<br/>&#160;&#160;&#160;&#160;D. 23C. Oud Bruin
 					<br/>&#160;&#160;&#160;&#160;E. 23D. Lambic
 					<br/>&#160;&#160;&#160;&#160;F. 23E. Gueuze
-					<br/>&#160;&#160;&#160;&#160;G. 23F. Lambic de Fruta
+					<br/>&#160;&#160;&#160;&#160;G. 23F. Fruit Lambic
 
-                    18. Ale Belga Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 25A. Ale Belga Rubia
-					<br/>&#160;&#160;&#160;&#160;B. 26B. Dubbel Belga
-					<br/>&#160;&#160;&#160;&#160;C. 26C. Tripel Belga
-					<br/>&#160;&#160;&#160;&#160;D. 25C. Ale Belga Dorada Fuerte
-					<br/>&#160;&#160;&#160;&#160;E. 26D. Ale Belga Oscura Fuerte
+                    18. Belgian Ale Fuerte
+					<br/>&#160;&#160;&#160;&#160;A. 25A. Belgian Blond Ale
+					<br/>&#160;&#160;&#160;&#160;B. 26B. Belgian Dubbel
+					<br/>&#160;&#160;&#160;&#160;C. 26C. Belgian Tripel
+					<br/>&#160;&#160;&#160;&#160;D. 25C. Belgian Golden Strong Ale
+					<br/>&#160;&#160;&#160;&#160;E. 26D. Belgian Dark Strong Ale
 
                     19. Ale Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 17B. Ale Antigua
+					<br/>&#160;&#160;&#160;&#160;A. 17B. Old Ale
 					<br/>&#160;&#160;&#160;&#160;B. 17A. Fuerte Inglés Ale
-					<br/>&#160;&#160;&#160;&#160;C. 22B. Ale Americana Fuerte
-					<br/>&#160;&#160;&#160;&#160;D. 17D. Barleywine Inglés
-					<br/>&#160;&#160;&#160;&#160;E. 22C. Barleywine Americano
+					<br/>&#160;&#160;&#160;&#160;C. 22B. American Strong Ale
+					<br/>&#160;&#160;&#160;&#160;D. 17D. English Barleywine
+					<br/>&#160;&#160;&#160;&#160;E. 22C. American Barleywine
 					<br/>&#160;&#160;&#160;&#160;F. 22D. Wheatwine
 
-                    20. Cerveza con Fruta
-					<br/>&#160;&#160;&#160;&#160;A. 29A. Cerveza con Fruta
+                    20. Fruit Beer
+					<br/>&#160;&#160;&#160;&#160;A. 29A. Fruit Beer
 
-                    21. Cervezas o Especias/Hierbas /on Vegetales
-					<br/>&#160;&#160;&#160;&#160;A. 30A. Cervezas con Vegetales, Hierbas o Especias
-					<br/>&#160;&#160;&#160;&#160;B. 30B. Cervezas de Temporada de Otoño
-					<br/>&#160;&#160;&#160;&#160;C. 30C. Cervezas de Temporada de Invierno
+                    21. Spice, Herb, or Vegetable Beer
+					<br/>&#160;&#160;&#160;&#160;A. 30A. Spice, Herb, or Vegetable Beer
+					<br/>&#160;&#160;&#160;&#160;B. 30B. Autumn Seasonal Beer
+					<br/>&#160;&#160;&#160;&#160;C. 30C. Winter Seasonal Beer
 
-                    22. Smoke-FlavoRoja and Cerveza Añejada en Madera
-					<br/>&#160;&#160;&#160;&#160;A. 27. Cerveza Histórica (Piwo Grodziskie)
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Lichtenhainer)
+                    22. Smoke-Flavored and Wood-Aged Beer
+					<br/>&#160;&#160;&#160;&#160;A. 27. Historical Beer (Piwo Grodziskie)
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Lichtenhainer)
 					<br/>&#160;&#160;&#160;&#160;C. 6B. Rauchbier
-					<br/>&#160;&#160;&#160;&#160;D. 32A. Cerveza Ahumada de Estilo Clásico
-					<br/>&#160;&#160;&#160;&#160;E. 33A. Cerveza Añejada en Madera
+					<br/>&#160;&#160;&#160;&#160;D. 32A. Classic Style Smoked Beer
+					<br/>&#160;&#160;&#160;&#160;E. 33A. Wood-Aged Beer
 
-                    23. Cervezas Especiadas
-					<br/>&#160;&#160;&#160;&#160;A. 28A. Cervezas con Brettanomyces
-					<br/>&#160;&#160;&#160;&#160;B. 28B. Cervezas Ácidas de Fermentación Mixta
-					<br/>&#160;&#160;&#160;&#160;C. 28C. Cerveza Especial Salvaje
-					<br/>&#160;&#160;&#160;&#160;D. 29B. Cerveza con Frutas y Especias
-					<br/>&#160;&#160;&#160;&#160;E. 29C. Cervezas Frutadas Especiales
-					<br/>&#160;&#160;&#160;&#160;F. 31A. Cerveza con Granos Alternativos
-					<br/>&#160;&#160;&#160;&#160;G. 31B. Cerveza con Azúcares Alternativos
-					<br/>&#160;&#160;&#160;&#160;H. 32B. Cerveza Ahumada Especial
-					<br/>&#160;&#160;&#160;&#160;I. 33B. Cerveza Añejada en Madera Especial
-					<br/>&#160;&#160;&#160;&#160;J. 34A. Cerveza de Estilo Mixto (no estilos Belga)
-					<br/>&#160;&#160;&#160;&#160;K. 34B. Cerveza de Estilo Mixto
-					<br/>&#160;&#160;&#160;&#160;L. 34C. Cerveza Experimental
+                    23. Specialty Beer
+					<br/>&#160;&#160;&#160;&#160;A. 28A. Brett Beer
+					<br/>&#160;&#160;&#160;&#160;B. 28B. Mixed-Fermentation Sour Beer
+					<br/>&#160;&#160;&#160;&#160;C. 28C. Wild Specialty Beer
+					<br/>&#160;&#160;&#160;&#160;D. 29B. Fruit Beers y Especias
+					<br/>&#160;&#160;&#160;&#160;E. 29C. Specialty Fruit Beer
+					<br/>&#160;&#160;&#160;&#160;F. 31A. Alternative Grain Beer
+					<br/>&#160;&#160;&#160;&#160;G. 31B. Alternative Sugar Beer
+					<br/>&#160;&#160;&#160;&#160;H. 32B. Specialty Smoked Beer
+					<br/>&#160;&#160;&#160;&#160;I. 33B. Specialty Wood-Aged Beer
+					<br/>&#160;&#160;&#160;&#160;J. 34A. Mixed-Style Beer (no estilos Belga)
+					<br/>&#160;&#160;&#160;&#160;K. 34B. Mixed-Style Beer
+					<br/>&#160;&#160;&#160;&#160;L. 34C. Experimental Beer
 				</notes>
 			</subcategory>
 			<subcategory id="A3">
@@ -22052,34 +22052,34 @@
                     Tiene menos, categorías más amplias.
 				</notes>
 				<notes title="">
-                    1. Lager Pálida
-					<br/>&#160;&#160;&#160;&#160;A. 1A. Lager Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 1B. Lager Americano
-					<br/>&#160;&#160;&#160;&#160;C. 2A. Lager Pálida Internacional
-					<br/>&#160;&#160;&#160;&#160;D. 3A. Lager Pálida Checa
+                    1. Pale Lager
+					<br/>&#160;&#160;&#160;&#160;A. 1A. American Light Lager
+					<br/>&#160;&#160;&#160;&#160;B. 1B. American Lager
+					<br/>&#160;&#160;&#160;&#160;C. 2A. International Pale Lager
+					<br/>&#160;&#160;&#160;&#160;D. 3A. Czech Pale Lager
 					<br/>&#160;&#160;&#160;&#160;E. 4A. Munich Helles
 					<br/>&#160;&#160;&#160;&#160;F. 4B. Festbier
-					<br/>&#160;&#160;&#160;&#160;G. 5A. Leichtbier Alemana
-					<br/>&#160;&#160;&#160;&#160;H. 5C. Helles de Exportaciónbier
+					<br/>&#160;&#160;&#160;&#160;G. 5A. German Leichtbier
+					<br/>&#160;&#160;&#160;&#160;H. 5C. Helles Exportbier
 					<br/>&#160;&#160;&#160;&#160;I. 7C. Kellerbier (Kellerbier Pálida)
 
                     2. Pilsner
-					<br/>&#160;&#160;&#160;&#160;A. 3B. Lager Pálida Premium Checa
-					<br/>&#160;&#160;&#160;&#160;B. 5D. Pils Alemana
-					<br/>&#160;&#160;&#160;&#160;C. 27. Cerveza Histórica (Pre-Prohibición Lager)
+					<br/>&#160;&#160;&#160;&#160;A. 3B. Czech Premium Pale Lager
+					<br/>&#160;&#160;&#160;&#160;B. 5D. German Pils
+					<br/>&#160;&#160;&#160;&#160;C. 27. Historical Beer (Pre-Prohibition Lager)
 
-                    3. Lager Ámbar
-					<br/>&#160;&#160;&#160;&#160;A. 2B. Lager Ámbar Internacional
-					<br/>&#160;&#160;&#160;&#160;B. 3C. Lager Ámbar Checa
+                    3. Amber Lager
+					<br/>&#160;&#160;&#160;&#160;A. 2B. International Amber Lager
+					<br/>&#160;&#160;&#160;&#160;B. 3C. Czech Amber Lager
 					<br/>&#160;&#160;&#160;&#160;C. 6A. Märzen
 					<br/>&#160;&#160;&#160;&#160;D. 6B. Rauchbier
 					<br/>&#160;&#160;&#160;&#160;E. 7A. Vienna Lager
 					<br/>&#160;&#160;&#160;&#160;F. 7C. Kellerbier (Kellerbier Ámbar)
 					<br/>&#160;&#160;&#160;&#160;G. 19B. California Common
 
-                    4. Lager Oscura
-					<br/>&#160;&#160;&#160;&#160;A. 2C. Lager Oscura Internacional
-					<br/>&#160;&#160;&#160;&#160;B. 3D. Lager Oscura Checa
+                    4. Dark Lager
+					<br/>&#160;&#160;&#160;&#160;A. 2C. International Dark Lager
+					<br/>&#160;&#160;&#160;&#160;B. 3D. Czech Dark Lager
 					<br/>&#160;&#160;&#160;&#160;C. 8A. Munich Dunkel
 					<br/>&#160;&#160;&#160;&#160;D. 8B. Schwarzbier
 
@@ -22089,176 +22089,176 @@
 					<br/>&#160;&#160;&#160;&#160;C. 9A. Doppelbock
 					<br/>&#160;&#160;&#160;&#160;D. 9B. Eisbock
 
-                    6. Ale Pálida
-					<br/>&#160;&#160;&#160;&#160;A. 1C. Ale Cremosa
+                    6. Pale Ale
+					<br/>&#160;&#160;&#160;&#160;A. 1C. Cream Ale
 					<br/>&#160;&#160;&#160;&#160;B. 5B. Kölsch
-					<br/>&#160;&#160;&#160;&#160;C. 12A. Ale Dorada Británica
-					<br/>&#160;&#160;&#160;&#160;D. 12B. Ale Espumosa Australianana
-					<br/>&#160;&#160;&#160;&#160;E. 18A. Ale Rubia
-					<br/>&#160;&#160;&#160;&#160;F. 18B. Ale Americano Pálida
-					<br/>&#160;&#160;&#160;&#160;G. 24B. Ale Belga Pálida
-					<br/>&#160;&#160;&#160;&#160;H. 25A. Ale Belga Rubia
+					<br/>&#160;&#160;&#160;&#160;C. 12A. British Golden Ale
+					<br/>&#160;&#160;&#160;&#160;D. 12B. Australian Sparkling Ale
+					<br/>&#160;&#160;&#160;&#160;E. 18A. Blonde Ale
+					<br/>&#160;&#160;&#160;&#160;F. 18B. Pale American Ale
+					<br/>&#160;&#160;&#160;&#160;G. 24B. Belgian Pale Ale
+					<br/>&#160;&#160;&#160;&#160;H. 25A. Belgian Blond Ale
 					<br/>&#160;&#160;&#160;&#160;I. 25B. Saison
-					<br/>&#160;&#160;&#160;&#160;J. 26A. Trapista Simple
+					<br/>&#160;&#160;&#160;&#160;J. 26A. Trappist Singlee
 
 
                     7. IPA
-					<br/>&#160;&#160;&#160;&#160;A. 12C. IPA Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 21A. IPA Americano
-					<br/>&#160;&#160;&#160;&#160;C. 21B. IPA Especial (todas)
-					<br/>&#160;&#160;&#160;&#160;D. 22A. Doble IPA
+					<br/>&#160;&#160;&#160;&#160;A. 12C. English IPA
+					<br/>&#160;&#160;&#160;&#160;B. 21A. American IPA
+					<br/>&#160;&#160;&#160;&#160;C. 21B. Specialty IPA (todas)
+					<br/>&#160;&#160;&#160;&#160;D. 22A. Double IPA
 
-                    8. Ámbar Ale
+                    8. Amber Ale
 					<br/>&#160;&#160;&#160;&#160;A. 7B. Altbier
-					<br/>&#160;&#160;&#160;&#160;B. 11A. Bitter Ordinaria
+					<br/>&#160;&#160;&#160;&#160;B. 11A. Ordinary Bitter
 					<br/>&#160;&#160;&#160;&#160;C. 11B. Best Bitter
-					<br/>&#160;&#160;&#160;&#160;D. 11C. Bitter Fuerte
-					<br/>&#160;&#160;&#160;&#160;E. 14A. Escocesa Ligera
-					<br/>&#160;&#160;&#160;&#160;F. 14B. Escocesa Fuerte
-					<br/>&#160;&#160;&#160;&#160;G. 14C. Escocesa de Exportación
-					<br/>&#160;&#160;&#160;&#160;H. 15A. Ale Irlandesa Roja
-					<br/>&#160;&#160;&#160;&#160;I. 19A. Ale Americano Ámbar
+					<br/>&#160;&#160;&#160;&#160;D. 11C. Strong Bitter
+					<br/>&#160;&#160;&#160;&#160;E. 14A. Scottish Light
+					<br/>&#160;&#160;&#160;&#160;F. 14B. Scottish Heavy
+					<br/>&#160;&#160;&#160;&#160;G. 14C. Scottish Export
+					<br/>&#160;&#160;&#160;&#160;H. 15A. Irish Red Ale
+					<br/>&#160;&#160;&#160;&#160;I. 19A. American Amber Ale
 					<br/>&#160;&#160;&#160;&#160;J. 24C. Bière de Garde
-					<br/>&#160;&#160;&#160;&#160;K. 26B. Dubbel Belga
-					<br/>&#160;&#160;&#160;&#160;L. 27. Cerveza Histórica (Kentucky Common)
+					<br/>&#160;&#160;&#160;&#160;K. 26B. Belgian Dubbel
+					<br/>&#160;&#160;&#160;&#160;L. 27. Historical Beer (Kentucky Common)
 
-                    9. Marrón Ale
-					<br/>&#160;&#160;&#160;&#160;A. 13A. Mild Oscura
-					<br/>&#160;&#160;&#160;&#160;B. 13B. Ale Marrón Británica
-					<br/>&#160;&#160;&#160;&#160;C. 19C. Ale Americano Marrón
-					<br/>&#160;&#160;&#160;&#160;D. 27. Cerveza Histórica (Ale Marrón Londinense)
+                    9. Brown Ale
+					<br/>&#160;&#160;&#160;&#160;A. 13A. Dark Mild
+					<br/>&#160;&#160;&#160;&#160;B. 13B. British Brown Ale
+					<br/>&#160;&#160;&#160;&#160;C. 19C. American Brown Ale
+					<br/>&#160;&#160;&#160;&#160;D. 27. Historical Beer (London Brown Ale)
 
                     10. Porter
-					<br/>&#160;&#160;&#160;&#160;A. 9C. Porter Báltica
-					<br/>&#160;&#160;&#160;&#160;B. 13C. Porter Inglés
+					<br/>&#160;&#160;&#160;&#160;A. 9C. Baltic Porter
+					<br/>&#160;&#160;&#160;&#160;B. 13C. English Porter
 					<br/>&#160;&#160;&#160;&#160;C. 20A. Porter Americano
-					<br/>&#160;&#160;&#160;&#160;D. 27. Cerveza Histórica (Porter Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;D. 27. Historical Beer (Pre-Prohibition Porter)
 
                     11. Stout
-					<br/>&#160;&#160;&#160;&#160;A. 15B. Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;B. 15C. Extra Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;C. 16A. Stout Dulce
-					<br/>&#160;&#160;&#160;&#160;D. 16B. Stout de Avena
-					<br/>&#160;&#160;&#160;&#160;E. 16C. Stout Tropical
-					<br/>&#160;&#160;&#160;&#160;F. 16D. Extra Stout Extranjera
-					<br/>&#160;&#160;&#160;&#160;G. 20B. Stout Americano
-					<br/>&#160;&#160;&#160;&#160;H. 20C. Stout Imperial
+					<br/>&#160;&#160;&#160;&#160;A. 15B. Irish Stout
+					<br/>&#160;&#160;&#160;&#160;B. 15C. Irish Extra Stout
+					<br/>&#160;&#160;&#160;&#160;C. 16A. Sweet Stout
+					<br/>&#160;&#160;&#160;&#160;D. 16B. Oatmeal Stout
+					<br/>&#160;&#160;&#160;&#160;E. 16C. Tropical Stout
+					<br/>&#160;&#160;&#160;&#160;F. 16D. Foreign Extra Stout
+					<br/>&#160;&#160;&#160;&#160;G. 20B. American Stout
+					<br/>&#160;&#160;&#160;&#160;H. 20C. Imperial Stout
 
-                    12. Ale Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 17A. Ale Británica Fuerte
-					<br/>&#160;&#160;&#160;&#160;B. 17B. Ale Antigua
+                    12. Strong Ale
+					<br/>&#160;&#160;&#160;&#160;A. 17A. Strong British Ale
+					<br/>&#160;&#160;&#160;&#160;B. 17B. Old Ale
 					<br/>&#160;&#160;&#160;&#160;C. 17C. Wee Heavy
-					<br/>&#160;&#160;&#160;&#160;D. 17D. Barleywine Inglés
-					<br/>&#160;&#160;&#160;&#160;E. 22B. Ale Americana Fuerte
-					<br/>&#160;&#160;&#160;&#160;F. 22C. Barleywine Americano
+					<br/>&#160;&#160;&#160;&#160;D. 17D. English Barleywine
+					<br/>&#160;&#160;&#160;&#160;E. 22B. American Strong Ale
+					<br/>&#160;&#160;&#160;&#160;F. 22C. American Barleywine
 					<br/>&#160;&#160;&#160;&#160;G. 22D. Wheatwine
-					<br/>&#160;&#160;&#160;&#160;H. 25C. Ale Belga Dorada Fuerte
-					<br/>&#160;&#160;&#160;&#160;I. 26C. Tripel Belga
-					<br/>&#160;&#160;&#160;&#160;J. 26D. Ale Belga Oscura Fuerte
+					<br/>&#160;&#160;&#160;&#160;H. 25C. Belgian Golden Strong Ale
+					<br/>&#160;&#160;&#160;&#160;I. 26C. Belgian Tripel
+					<br/>&#160;&#160;&#160;&#160;J. 26D. Belgian Dark Strong Ale
 
                     13. Cerveza de Trigo
-					<br/>&#160;&#160;&#160;&#160;A. 1D. Cerveza de Trigo Americana
+					<br/>&#160;&#160;&#160;&#160;A. 1D. American Wheat Beer
 					<br/>&#160;&#160;&#160;&#160;B. 10A. Weissbier
 					<br/>&#160;&#160;&#160;&#160;C. 10B. Dunkles Weissbier
 					<br/>&#160;&#160;&#160;&#160;D. 10C. Weizenbock
 					<br/>&#160;&#160;&#160;&#160;E. 23A. Berliner Weisse
 					<br/>&#160;&#160;&#160;&#160;F. 23D. Lambic
 					<br/>&#160;&#160;&#160;&#160;G. 23E. Gueuze
-					<br/>&#160;&#160;&#160;&#160;H. 23F. Lambic de Fruta
+					<br/>&#160;&#160;&#160;&#160;H. 23F. Fruit Lambic
 
                     24A. Witbier
-					<br/>&#160;&#160;&#160;&#160;J. 27. Cerveza Histórica (Gose)
-					<br/>&#160;&#160;&#160;&#160;K. 27. Cerveza Histórica (Piwo Grodziskie)
-					<br/>&#160;&#160;&#160;&#160;L. 27. Cerveza Histórica (Lichtenhainer)
-					<br/>&#160;&#160;&#160;&#160;M. 27. Cerveza Histórica (Roggenbier)
-					<br/>&#160;&#160;&#160;&#160;N. 27. Cerveza Histórica (Sahti)
+					<br/>&#160;&#160;&#160;&#160;J. 27. Historical Beer (Gose)
+					<br/>&#160;&#160;&#160;&#160;K. 27. Historical Beer (Piwo Grodziskie)
+					<br/>&#160;&#160;&#160;&#160;L. 27. Historical Beer (Lichtenhainer)
+					<br/>&#160;&#160;&#160;&#160;M. 27. Historical Beer (Roggenbier)
+					<br/>&#160;&#160;&#160;&#160;N. 27. Historical Beer (Sahti)
 
                     14. Sour Ale
-					<br/>&#160;&#160;&#160;&#160;A. 23B. Roja de Flandes
+					<br/>&#160;&#160;&#160;&#160;A. 23B. Flanders Red
 					<br/>&#160;&#160;&#160;&#160;B. 23C. Oud Bruin
 
-                    15. Cerveza Especial
+                    15. Specialty Beer
 					<br/>&#160;&#160;&#160;&#160;A. Toda la cerveza restante en Categorías 28-34
 				</notes>
 			</subcategory>
 			<subcategory id="A4">
 				<name>Estilos ordenados con el país de origen</name>
-				<notes title="">Este sistema usa nuevas categorías basadas en el país de origen. Cerveza Especials
+				<notes title="">Este sistema usa nuevas categorías basadas en el país de origen. Specialty Beers
                     omitido.
 				</notes>
 				<notes title="">
                     1. Estados Unidos
-					<br/>&#160;&#160;&#160;&#160;A. 1A. Lager Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 1B. Lager Americano
-					<br/>&#160;&#160;&#160;&#160;C. 1C. Ale Cremosa
-					<br/>&#160;&#160;&#160;&#160;D. 1D. Cerveza de Trigo Americana
-					<br/>&#160;&#160;&#160;&#160;E. 18A. Ale Rubia
-					<br/>&#160;&#160;&#160;&#160;F. 18B. Ale Americano Pálida
-					<br/>&#160;&#160;&#160;&#160;G. 19A. Ale Americano Ámbar
+					<br/>&#160;&#160;&#160;&#160;A. 1A. American Light Lager
+					<br/>&#160;&#160;&#160;&#160;B. 1B. American Lager
+					<br/>&#160;&#160;&#160;&#160;C. 1C. Cream Ale
+					<br/>&#160;&#160;&#160;&#160;D. 1D. American Wheat Beer
+					<br/>&#160;&#160;&#160;&#160;E. 18A. Blonde Ale
+					<br/>&#160;&#160;&#160;&#160;F. 18B. Pale American Ale
+					<br/>&#160;&#160;&#160;&#160;G. 19A. American Amber Ale
 					<br/>&#160;&#160;&#160;&#160;H. 19B. California Common
-					<br/>&#160;&#160;&#160;&#160;I. 19C. Ale Americano Marrón
+					<br/>&#160;&#160;&#160;&#160;I. 19C. American Brown Ale
 					<br/>&#160;&#160;&#160;&#160;J. 20A. Porter Americano
-					<br/>&#160;&#160;&#160;&#160;K. 20B. Stout Americano
-					<br/>&#160;&#160;&#160;&#160;L. 21A. IPA Americano
-					<br/>&#160;&#160;&#160;&#160;M. 21B. IPA Especial
-					<br/>&#160;&#160;&#160;&#160;N. 22A. Doble IPA
-					<br/>&#160;&#160;&#160;&#160;O. 22B. Ale Americana Fuerte
-					<br/>&#160;&#160;&#160;&#160;P. 22C. Barleywine Americano
+					<br/>&#160;&#160;&#160;&#160;K. 20B. American Stout
+					<br/>&#160;&#160;&#160;&#160;L. 21A. American IPA
+					<br/>&#160;&#160;&#160;&#160;M. 21B. Specialty IPA
+					<br/>&#160;&#160;&#160;&#160;N. 22A. Double IPA
+					<br/>&#160;&#160;&#160;&#160;O. 22B. American Strong Ale
+					<br/>&#160;&#160;&#160;&#160;P. 22C. American Barleywine
 					<br/>&#160;&#160;&#160;&#160;Q. 22D. Wheatwine
-					<br/>&#160;&#160;&#160;&#160;R. 27. Cerveza Histórica (Kentucky Common)
-					<br/>&#160;&#160;&#160;&#160;S. 27. Cerveza Histórica (Lager Pre-Prohibición)
-					<br/>&#160;&#160;&#160;&#160;T. 27. Cerveza Histórica (Porter Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;R. 27. Historical Beer (Kentucky Common)
+					<br/>&#160;&#160;&#160;&#160;S. 27. Historical Beer (Lager Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;T. 27. Historical Beer (Pre-Prohibition Porter)
 
-                    2. Internacional
-					<br/>&#160;&#160;&#160;&#160;A. 2A. Lager Pálida Internacional
-					<br/>&#160;&#160;&#160;&#160;B. 2B. Lager Ámbar Internacional
-					<br/>&#160;&#160;&#160;&#160;C. 2C. Lager Oscura Internacional
+                    2. International
+					<br/>&#160;&#160;&#160;&#160;A. 2A. International Pale Lager
+					<br/>&#160;&#160;&#160;&#160;B. 2B. International Amber Lager
+					<br/>&#160;&#160;&#160;&#160;C. 2C. International Dark Lager
 
-                    3. Inglaterra
-					<br/>&#160;&#160;&#160;&#160;A. 11A. Bitter Ordinaria
+                    3. English
+					<br/>&#160;&#160;&#160;&#160;A. 11A. Ordinary Bitter
 					<br/>&#160;&#160;&#160;&#160;B. 11B. Best Bitter
-					<br/>&#160;&#160;&#160;&#160;C. 11C. Bitter Fuerte
-					<br/>&#160;&#160;&#160;&#160;D. 12A. Ale Dorada Británica
-					<br/>&#160;&#160;&#160;&#160;E. 12C. IPA Inglés
-					<br/>&#160;&#160;&#160;&#160;F. 13A. Mild Oscura
-					<br/>&#160;&#160;&#160;&#160;G. 13B. Ale Marrón Británica
-					<br/>&#160;&#160;&#160;&#160;H. 13C. Porter Inglés
-					<br/>&#160;&#160;&#160;&#160;I. 16A. Stout Dulce
-					<br/>&#160;&#160;&#160;&#160;J. 16B. Stout de Avena
-					<br/>&#160;&#160;&#160;&#160;K. 16C. Stout Tropical
-					<br/>&#160;&#160;&#160;&#160;L. 16D. Extra Stout Extranjera
-					<br/>&#160;&#160;&#160;&#160;M. 17A. Ale Británica Fuerte
-					<br/>&#160;&#160;&#160;&#160;N. 17B. Ale Antigua
-					<br/>&#160;&#160;&#160;&#160;O. 17D. Barleywine Inglés
-					<br/>&#160;&#160;&#160;&#160;P. 20C. Stout Imperial
-					<br/>&#160;&#160;&#160;&#160;Q. 27. Cerveza Histórica (Ale Marrón Londinense)
+					<br/>&#160;&#160;&#160;&#160;C. 11C. Strong Bitter
+					<br/>&#160;&#160;&#160;&#160;D. 12A. British Golden Ale
+					<br/>&#160;&#160;&#160;&#160;E. 12C. English IPA
+					<br/>&#160;&#160;&#160;&#160;F. 13A. Dark Mild
+					<br/>&#160;&#160;&#160;&#160;G. 13B. British Brown Ale
+					<br/>&#160;&#160;&#160;&#160;H. 13C. English Porter
+					<br/>&#160;&#160;&#160;&#160;I. 16A. Sweet Stout
+					<br/>&#160;&#160;&#160;&#160;J. 16B. Oatmeal Stout
+					<br/>&#160;&#160;&#160;&#160;K. 16C. Tropical Stout
+					<br/>&#160;&#160;&#160;&#160;L. 16D. Foreign Extra Stout
+					<br/>&#160;&#160;&#160;&#160;M. 17A. Strong British Ale
+					<br/>&#160;&#160;&#160;&#160;N. 17B. Old Ale
+					<br/>&#160;&#160;&#160;&#160;O. 17D. English Barleywine
+					<br/>&#160;&#160;&#160;&#160;P. 20C. Imperial Stout
+					<br/>&#160;&#160;&#160;&#160;Q. 27. Historical Beer (London Brown Ale)
 
-                    4. Escocia
-					<br/>&#160;&#160;&#160;&#160;A. 14A. Escocesa Ligera
-					<br/>&#160;&#160;&#160;&#160;B. 14B. Escocesa Fuerte
-					<br/>&#160;&#160;&#160;&#160;C. 14C. Escocesa de Exportación
+                    4. Scottish
+					<br/>&#160;&#160;&#160;&#160;A. 14A. Scottish Light
+					<br/>&#160;&#160;&#160;&#160;B. 14B. Scottish Heavy
+					<br/>&#160;&#160;&#160;&#160;C. 14C. Scottish Export
 					<br/>&#160;&#160;&#160;&#160;D. 17C. Wee Heavy
 
-                    5. Irlanda
-					<br/>&#160;&#160;&#160;&#160;A. 15A. Ale Irlandesa Roja
-					<br/>&#160;&#160;&#160;&#160;B. 15B. Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;C. 15C. Extra Stout Irlandesa
+                    5. Irish
+					<br/>&#160;&#160;&#160;&#160;A. 15A. Irish Red Ale
+					<br/>&#160;&#160;&#160;&#160;B. 15B. Irish Stout
+					<br/>&#160;&#160;&#160;&#160;C. 15C. Irish Extra Stout
 
                     6. Belgium
-					<br/>&#160;&#160;&#160;&#160;A. 23B. Ale Roja de Flandes
+					<br/>&#160;&#160;&#160;&#160;A. 23B. Flanders Red Ale
 					<br/>&#160;&#160;&#160;&#160;B. 23C. Oud Bruin
 					<br/>&#160;&#160;&#160;&#160;C. 23D. Lambic
 					<br/>&#160;&#160;&#160;&#160;D. 23E. Gueuze
-					<br/>&#160;&#160;&#160;&#160;E. 23F. Lambic de Fruta
+					<br/>&#160;&#160;&#160;&#160;E. 23F. Fruit Lambic
 					<br/>&#160;&#160;&#160;&#160;F. 24A. Witbier
-					<br/>&#160;&#160;&#160;&#160;G. 24B. Ale Belga Pálida
-					<br/>&#160;&#160;&#160;&#160;H. 25A. Ale Belga Rubia
+					<br/>&#160;&#160;&#160;&#160;G. 24B. Belgian Pale Ale
+					<br/>&#160;&#160;&#160;&#160;H. 25A. Belgian Blond Ale
 					<br/>&#160;&#160;&#160;&#160;I. 25B. Saison
-					<br/>&#160;&#160;&#160;&#160;J. 25C. Ale Belga Dorada Fuerte
-					<br/>&#160;&#160;&#160;&#160;K. 26A. Trapista Simple
-					<br/>&#160;&#160;&#160;&#160;L. 26B. Dubbel Belga
-					<br/>&#160;&#160;&#160;&#160;M. 26C. Tripel Belga
-					<br/>&#160;&#160;&#160;&#160;N. 26D. Ale Belga Oscura Fuerte
+					<br/>&#160;&#160;&#160;&#160;J. 25C. Belgian Golden Strong Ale
+					<br/>&#160;&#160;&#160;&#160;K. 26A. Trappist Singlee
+					<br/>&#160;&#160;&#160;&#160;L. 26B. Belgian Dubbel
+					<br/>&#160;&#160;&#160;&#160;M. 26C. Belgian Tripel
+					<br/>&#160;&#160;&#160;&#160;N. 26D. Belgian Dark Strong Ale
 
                     7. France
 					<br/>&#160;&#160;&#160;&#160;A. 24C. Bière de Garde
@@ -22267,10 +22267,10 @@
 					<br/>&#160;&#160;&#160;&#160;A. 4A. Munich Helles
 					<br/>&#160;&#160;&#160;&#160;B. 4B. Festbier
 					<br/>&#160;&#160;&#160;&#160;C. 4C. Helles Bock
-					<br/>&#160;&#160;&#160;&#160;D. 5A. Leichtbier Alemana
+					<br/>&#160;&#160;&#160;&#160;D. 5A. German Leichtbier
 					<br/>&#160;&#160;&#160;&#160;E. 5B. Kölsch
-					<br/>&#160;&#160;&#160;&#160;F. 5C. Helles de Exportaciónbier
-					<br/>&#160;&#160;&#160;&#160;G. 5D. Pils Alemana
+					<br/>&#160;&#160;&#160;&#160;F. 5C. Helles Exportbier
+					<br/>&#160;&#160;&#160;&#160;G. 5D. German Pils
 					<br/>&#160;&#160;&#160;&#160;H. 6A. Märzen
 					<br/>&#160;&#160;&#160;&#160;I. 6B. Rauchbier
 					<br/>&#160;&#160;&#160;&#160;J. 6C. Dunkles Bock
@@ -22284,28 +22284,28 @@
 					<br/>&#160;&#160;&#160;&#160;R. 10B. Dunkles Weissbier
 					<br/>&#160;&#160;&#160;&#160;S. 10C. Weizenbock
 					<br/>&#160;&#160;&#160;&#160;T. 23A. Berliner Weisse
-					<br/>&#160;&#160;&#160;&#160;U. 27. Cerveza Histórica (Gose)
-					<br/>&#160;&#160;&#160;&#160;V. 27. Cerveza Histórica (Lichtenhainer)
-					<br/>&#160;&#160;&#160;&#160;W. 27. Cerveza Histórica (Roggenbier)
+					<br/>&#160;&#160;&#160;&#160;U. 27. Historical Beer (Gose)
+					<br/>&#160;&#160;&#160;&#160;V. 27. Historical Beer (Lichtenhainer)
+					<br/>&#160;&#160;&#160;&#160;W. 27. Historical Beer (Roggenbier)
 
                     9. Austria
 					<br/>&#160;&#160;&#160;&#160;A. 7A. Vienna Lager
 
                     10. Czech Republic
-					<br/>&#160;&#160;&#160;&#160;A. 3A. Lager Pálida Checa
-					<br/>&#160;&#160;&#160;&#160;B. 3B. Lager Pálida Premium Checa
-					<br/>&#160;&#160;&#160;&#160;C. 3C. Lager Ámbar Checa
-					<br/>&#160;&#160;&#160;&#160;D. 3D. Lager Oscura Checa
+					<br/>&#160;&#160;&#160;&#160;A. 3A. Czech Pale Lager
+					<br/>&#160;&#160;&#160;&#160;B. 3B. Czech Premium Pale Lager
+					<br/>&#160;&#160;&#160;&#160;C. 3C. Czech Amber Lager
+					<br/>&#160;&#160;&#160;&#160;D. 3D. Czech Dark Lager
 
                     11. Polonia
-					<br/>&#160;&#160;&#160;&#160;A. 27. Cerveza Histórica (Piwo Grodziskie)
+					<br/>&#160;&#160;&#160;&#160;A. 27. Historical Beer (Piwo Grodziskie)
 
                     12. Scandinavia
-					<br/>&#160;&#160;&#160;&#160;A. 9C. Porter Báltica
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Sahti)
+					<br/>&#160;&#160;&#160;&#160;A. 9C. Baltic Porter
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Sahti)
 
                     13. Australiana
-					<br/>&#160;&#160;&#160;&#160;A. 12B. Ale Espumosa Australianana
+					<br/>&#160;&#160;&#160;&#160;A. 12B. Australian Sparkling Ale
 				</notes>
 			</subcategory>
 			<subcategory id="A5">
@@ -22315,125 +22315,125 @@
 				</notes>
 				<notes title="">
                     1. Pilsner
-					<br/>&#160;&#160;&#160;&#160;A. 3A. Lager Pálida Checa
-					<br/>&#160;&#160;&#160;&#160;B. 3B. Lager Pálida Premium Checa
-					<br/>&#160;&#160;&#160;&#160;C. 5D. Pils Alemana
+					<br/>&#160;&#160;&#160;&#160;A. 3A. Czech Pale Lager
+					<br/>&#160;&#160;&#160;&#160;B. 3B. Czech Premium Pale Lager
+					<br/>&#160;&#160;&#160;&#160;C. 5D. German Pils
 					<br/>&#160;&#160;&#160;&#160;D. 7C. Kellerbier (Kellerbier Pálida)
-					<br/>&#160;&#160;&#160;&#160;E. 27. Cerveza Histórica (Lager Pre-Prohibición)
-					<br/>&#160;&#160;&#160;&#160;F. 5A. Leichtbier Alemana2. Lager Pálida Mercado de masas
-					<br/>&#160;&#160;&#160;&#160;A. 1B. Lager Americano
-					<br/>&#160;&#160;&#160;&#160;B. 2A. Lager Pálida Internacional
-					<br/>&#160;&#160;&#160;&#160;C. 1A. Lager Ligera3. Europea Lager Pálida
-					<br/>&#160;&#160;&#160;&#160;A. 5C. Helles de Exportaciónbier
+					<br/>&#160;&#160;&#160;&#160;E. 27. Historical Beer (Lager Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;F. 5A. German Leichtbier2. Pale Lager Mercado de masas
+					<br/>&#160;&#160;&#160;&#160;A. 1B. American Lager
+					<br/>&#160;&#160;&#160;&#160;B. 2A. International Pale Lager
+					<br/>&#160;&#160;&#160;&#160;C. 1A. American Light Lager3. Europea Pale Lager
+					<br/>&#160;&#160;&#160;&#160;A. 5C. Helles Exportbier
 					<br/>&#160;&#160;&#160;&#160;B. 4A. Munich Helles
 					<br/>&#160;&#160;&#160;&#160;C. 4B. Festbier
 					<br/>&#160;&#160;&#160;&#160;D. 4C. Helles Bock
 
-                    4. Lager Ámbar
+                    4. Amber Lager
 					<br/>&#160;&#160;&#160;&#160;A. 7A. Vienna Lager
 					<br/>&#160;&#160;&#160;&#160;B. 6A. Märzen
 					<br/>&#160;&#160;&#160;&#160;C. 7C. Kellerbier (Kellerbier Ámbar)
-					<br/>&#160;&#160;&#160;&#160;D. 3C. Lager Ámbar Checa
-					<br/>&#160;&#160;&#160;&#160;E. 2B. Lager Ámbar Internacional5. Cerveza Europea Smoked
-					<br/>&#160;&#160;&#160;&#160;A. 27. Cerveza Histórica (Piwo Grodziskie)
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Lichtenhainer)
-					<br/>&#160;&#160;&#160;&#160;C. 6B. Rauchbier6. Cervezas Americanas Estándares
-					<br/>&#160;&#160;&#160;&#160;A. 1C. Ale Cremosa
+					<br/>&#160;&#160;&#160;&#160;D. 3C. Czech Amber Lager
+					<br/>&#160;&#160;&#160;&#160;E. 2B. International Amber Lager5. Cerveza Europea Smoked
+					<br/>&#160;&#160;&#160;&#160;A. 27. Historical Beer (Piwo Grodziskie)
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Lichtenhainer)
+					<br/>&#160;&#160;&#160;&#160;C. 6B. Rauchbier6. Standard American Beer
+					<br/>&#160;&#160;&#160;&#160;A. 1C. Cream Ale
 					<br/>&#160;&#160;&#160;&#160;B. 19B. California Common
-					<br/>&#160;&#160;&#160;&#160;C. 27. Cerveza Histórica (Kentucky Common)
-					<br/>&#160;&#160;&#160;&#160;D. 18A. Ale Rubia7. Lager Oscura
+					<br/>&#160;&#160;&#160;&#160;C. 27. Historical Beer (Kentucky Common)
+					<br/>&#160;&#160;&#160;&#160;D. 18A. Blonde Ale7. Dark Lager
 					<br/>&#160;&#160;&#160;&#160;A. 8A. Munich Dunkel
-					<br/>&#160;&#160;&#160;&#160;B. 3D. Lager Oscura Checa
+					<br/>&#160;&#160;&#160;&#160;B. 3D. Czech Dark Lager
 					<br/>&#160;&#160;&#160;&#160;C. 8B. Schwarzbier
-					<br/>&#160;&#160;&#160;&#160;D. 2C. Lager Oscura Internacional8. Bock
+					<br/>&#160;&#160;&#160;&#160;D. 2C. International Dark Lager8. Bock
 					<br/>&#160;&#160;&#160;&#160;A. 6C. Dunkles Bock
 					<br/>&#160;&#160;&#160;&#160;B. 9A. Doppelbock
-					<br/>&#160;&#160;&#160;&#160;C. 9B. Eisbock9. Ale Pálida Inglés
-					<br/>&#160;&#160;&#160;&#160;A. 11A. Bitter Ordinaria
+					<br/>&#160;&#160;&#160;&#160;C. 9B. Eisbock9. Pale Ale Inglés
+					<br/>&#160;&#160;&#160;&#160;A. 11A. Ordinary Bitter
 					<br/>&#160;&#160;&#160;&#160;B. 11B. Best Bitter
-					<br/>&#160;&#160;&#160;&#160;C. 11C. Bitter Fuerte
-					<br/>&#160;&#160;&#160;&#160;D. 12C. IPA Inglés10. Ale Pálidas (derivado de Ale Pálida Inglés)
-					<br/>&#160;&#160;&#160;&#160;A. 15A. Ale Irlandesa Roja
-					<br/>&#160;&#160;&#160;&#160;B. 12B. Ale Espumosa Australianana
-					<br/>&#160;&#160;&#160;&#160;C. 24B. Ale Belga Pálida
-					<br/>&#160;&#160;&#160;&#160;D. 12A. Ale Dorada Británica11. Pálida Americano Cerveza (derivado de
+					<br/>&#160;&#160;&#160;&#160;C. 11C. Strong Bitter
+					<br/>&#160;&#160;&#160;&#160;D. 12C. English IPA10. Pale Ales (derivado de Pale Ale Inglés)
+					<br/>&#160;&#160;&#160;&#160;A. 15A. Irish Red Ale
+					<br/>&#160;&#160;&#160;&#160;B. 12B. Australian Sparkling Ale
+					<br/>&#160;&#160;&#160;&#160;C. 24B. Belgian Pale Ale
+					<br/>&#160;&#160;&#160;&#160;D. 12A. British Golden Ale11. Pálida Americano Cerveza (derivado de
                     styles Inglés)
-					<br/>&#160;&#160;&#160;&#160;A. 18B. Ale Americano Pálida
-					<br/>&#160;&#160;&#160;&#160;B. 19A. Ale Americano Ámbar
-					<br/>&#160;&#160;&#160;&#160;C. 21A. IPA Americano12. amarga Americano Cerveza (derivado de IPA
+					<br/>&#160;&#160;&#160;&#160;A. 18B. Pale American Ale
+					<br/>&#160;&#160;&#160;&#160;B. 19A. American Amber Ale
+					<br/>&#160;&#160;&#160;&#160;C. 21A. American IPA12. amarga Americano Cerveza (derivado de IPA
                     Americano)
-					<br/>&#160;&#160;&#160;&#160;A. 21B. IPA Especial (todas)
-					<br/>&#160;&#160;&#160;&#160;B. 22A. Doble IPA13. Lagers Alemana alta fermentada
+					<br/>&#160;&#160;&#160;&#160;A. 21B. Specialty IPA (todas)
+					<br/>&#160;&#160;&#160;&#160;B. 22A. Double IPA13. Lagers Alemana alta fermentada
 					<br/>&#160;&#160;&#160;&#160;A. 5B. Kölsch
 					<br/>&#160;&#160;&#160;&#160;B. 7B. Altbier
 
                     14. Cerveza Europea Casa de Campo
 					<br/>&#160;&#160;&#160;&#160;A. 24C. Bière de Garde
 					<br/>&#160;&#160;&#160;&#160;B. 25B. Saison
-					<br/>&#160;&#160;&#160;&#160;C. 27. Cerveza Histórica (Sahti)
+					<br/>&#160;&#160;&#160;&#160;C. 27. Historical Beer (Sahti)
 
-                    15. Mild Inglés
-					<br/>&#160;&#160;&#160;&#160;A. 13A. Mild Oscura
+                    15. English Milde
+					<br/>&#160;&#160;&#160;&#160;A. 13A. Dark Mild
 
                     16. Oscura Cerveza Americano (derivado de los estilos ingléses)
-					<br/>&#160;&#160;&#160;&#160;A. 19C. Ale Americano Marrón
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Porter Pre-Prohibición)
+					<br/>&#160;&#160;&#160;&#160;A. 19C. American Brown Ale
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Pre-Prohibition Porter)
 					<br/>&#160;&#160;&#160;&#160;C. 20A. Porter Americano
-					<br/>&#160;&#160;&#160;&#160;D. 20B. Stout Americano
+					<br/>&#160;&#160;&#160;&#160;D. 20B. American Stout
 
                     17. Porter
-					<br/>&#160;&#160;&#160;&#160;A. 13C. Porter Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 9C. Porter Báltica
+					<br/>&#160;&#160;&#160;&#160;A. 13C. English Porter
+					<br/>&#160;&#160;&#160;&#160;B. 9C. Baltic Porter
 
-                    18. Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;A. 16D. Extra Stout Extranjera
-					<br/>&#160;&#160;&#160;&#160;B. 15C. Extra Stout Irlandesa
-					<br/>&#160;&#160;&#160;&#160;C. 15B. Stout Irlandesa
+                    18. Irish Stout
+					<br/>&#160;&#160;&#160;&#160;A. 16D. Foreign Extra Stout
+					<br/>&#160;&#160;&#160;&#160;B. 15C. Irish Extra Stout
+					<br/>&#160;&#160;&#160;&#160;C. 15B. Irish Stout
 
                     19. Stout Inglés
-					<br/>&#160;&#160;&#160;&#160;A. 20C. Stout Imperial
-					<br/>&#160;&#160;&#160;&#160;B. 16B. Stout de Avena
-					<br/>&#160;&#160;&#160;&#160;C. 16A. Stout Dulce
-					<br/>&#160;&#160;&#160;&#160;D. 16C. Stout Tropical
+					<br/>&#160;&#160;&#160;&#160;A. 20C. Imperial Stout
+					<br/>&#160;&#160;&#160;&#160;B. 16B. Oatmeal Stout
+					<br/>&#160;&#160;&#160;&#160;C. 16A. Sweet Stout
+					<br/>&#160;&#160;&#160;&#160;D. 16C. Tropical Stout
 
-                    20. Ale Fuerte
-					<br/>&#160;&#160;&#160;&#160;A. 17B. Ale Antigua
-					<br/>&#160;&#160;&#160;&#160;B. 17A. Ale Británica Fuerte
-					<br/>&#160;&#160;&#160;&#160;C. 22B. Ale Americana Fuerte
+                    20. Strong Ale
+					<br/>&#160;&#160;&#160;&#160;A. 17B. Old Ale
+					<br/>&#160;&#160;&#160;&#160;B. 17A. Strong British Ale
+					<br/>&#160;&#160;&#160;&#160;C. 22B. American Strong Ale
 
                     21. Barleywine
-					<br/>&#160;&#160;&#160;&#160;A. 17D. Barleywine Inglés
-					<br/>&#160;&#160;&#160;&#160;B. 22C. Barleywine Americano
+					<br/>&#160;&#160;&#160;&#160;A. 17D. English Barleywine
+					<br/>&#160;&#160;&#160;&#160;B. 22C. American Barleywine
 					<br/>&#160;&#160;&#160;&#160;C. 22D. Wheatwine
 
-                    22. Ale Belga
-					<br/>&#160;&#160;&#160;&#160;A. 25A. Ale Belga Rubia
-					<br/>&#160;&#160;&#160;&#160;B. 26A. Trapista Simple
-					<br/>&#160;&#160;&#160;&#160;C. 26B. Dubbel Belga
+                    22. Belgian Ale
+					<br/>&#160;&#160;&#160;&#160;A. 25A. Belgian Blond Ale
+					<br/>&#160;&#160;&#160;&#160;B. 26A. Trappist Singlee
+					<br/>&#160;&#160;&#160;&#160;C. 26B. Belgian Dubbel
 
-                    23. Ale Fuerte Belga
-					<br/>&#160;&#160;&#160;&#160;A. 26C. Tripel Belga
-					<br/>&#160;&#160;&#160;&#160;B. 25C. Ale Belga Dorada Fuerte
-					<br/>&#160;&#160;&#160;&#160;C. 26D. Ale Belga Oscura Fuerte
+                    23. Strong Belgian Ale
+					<br/>&#160;&#160;&#160;&#160;A. 26C. Belgian Tripel
+					<br/>&#160;&#160;&#160;&#160;B. 25C. Belgian Golden Strong Ale
+					<br/>&#160;&#160;&#160;&#160;C. 26D. Belgian Dark Strong Ale
 
                     24. Cerveza de Trigo
 					<br/>&#160;&#160;&#160;&#160;A. 10A. Weissbier
 					<br/>&#160;&#160;&#160;&#160;B. 10B. Dunkles Weissbier
 					<br/>&#160;&#160;&#160;&#160;C. 10C. Weizenbock
 					<br/>&#160;&#160;&#160;&#160;D. 24A. Witbier
-					<br/>&#160;&#160;&#160;&#160;E. 27. Cerveza Histórica (Roggenbier)
+					<br/>&#160;&#160;&#160;&#160;E. 27. Historical Beer (Roggenbier)
 					<br/>&#160;&#160;&#160;&#160;F. 1D. Cerveza de Trigo Americano
 
                     25. Ale Ácida Alemana
 					<br/>&#160;&#160;&#160;&#160;A. 23A. Berliner Weisse
-					<br/>&#160;&#160;&#160;&#160;B. 27. Cerveza Histórica (Gose)
+					<br/>&#160;&#160;&#160;&#160;B. 27. Historical Beer (Gose)
 
                     26. Ale Ácida Belga
-					<br/>&#160;&#160;&#160;&#160;A. 23B. Roja de Flandes
+					<br/>&#160;&#160;&#160;&#160;A. 23B. Flanders Red
 					<br/>&#160;&#160;&#160;&#160;B. 23C. Oud Bruin
 					<br/>&#160;&#160;&#160;&#160;C. 23D. Lambic
 					<br/>&#160;&#160;&#160;&#160;D. 23E. Gueuze
-					<br/>&#160;&#160;&#160;&#160;E. 23F. Lambic de Fruta
+					<br/>&#160;&#160;&#160;&#160;E. 23F. Fruit Lambic
 
                     27. Specialty Cerveza
 					<br/>&#160;&#160;&#160;&#160;A. Todas las cervezas restantes en Categorías 28-34
