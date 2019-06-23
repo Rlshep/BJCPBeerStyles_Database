@@ -25,7 +25,7 @@ public class CreateBjcpDatabase {
         Statement stmt = null;
         BjcpDao bjcpDao = new BjcpDao();
         LoadDomainFromXML loadDomainFromXML = new LoadDomainFromXML();
-        List<Category> categories;
+        List<Category> categories = new ArrayList<>();
 
         try {
             Class.forName("org.sqlite.JDBC");
@@ -40,7 +40,6 @@ public class CreateBjcpDatabase {
             List<Category> categoriesEnglish =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
             List<Category> categoriesSpanish =  loadDomainFromXML.loadXmlFromFile(XML_SPANISH);
 
-            categories = createHybridCategories(categoriesEnglish, categoriesSpanish, SPANISH_HYBRID);
             categories.addAll(categoriesEnglish);
             categories.addAll(categoriesSpanish);
 
@@ -73,54 +72,4 @@ public class CreateBjcpDatabase {
             e.printStackTrace();
         }
     }
-
-    private static String getDefaultLanguageName(List<Category> categories, Category targetCategory) {
-        String defaultLanguageName = "";
-
-        for (Category category : categories) {
-            if (category.getCategoryCode().equals(targetCategory.getCategoryCode())
-                    && !DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
-                    && DEFAULT_LANGUAGE.equals(category.getLanguage())) {
-                defaultLanguageName = category.getName();
-            } else {
-                for (Category childCategory : category.getChildCategories()) {
-                    if (childCategory.getCategoryCode().equals(targetCategory.getCategoryCode())
-                            && !DEFAULT_LANGUAGE.equals(targetCategory.getLanguage())
-                            && DEFAULT_LANGUAGE.equals(childCategory.getLanguage())) {
-                        defaultLanguageName = childCategory.getName();
-                    }
-                }
-            }
-        }
-
-        return defaultLanguageName;
-    }
-
-    private static List<Category> createHybridCategories(List<Category> defaultCategories, List<Category> languageCategories, String hybridLanguage) {
-        List<Category> categories = new ArrayList<>();
-        Category category;
-
-        for (Category languageCategory : languageCategories) {
-            category = createHybridCategory(defaultCategories, languageCategory, hybridLanguage);
-            category.getChildCategories().clear();
-
-            for (Category childCat : languageCategory.getChildCategories()) {
-                category.getChildCategories().add(createHybridCategory(defaultCategories, childCat, hybridLanguage));
-            }
-
-            categories.add(category);
-        }
-
-        return categories;
-    }
-
-    private static Category createHybridCategory(List<Category> defaultCategories, Category languageCategory, String hybridLanguage) {
-        Category category = new Category(languageCategory);
-
-        category.setLanguage(hybridLanguage);
-        category.setName(getDefaultLanguageName(defaultCategories, languageCategory));
-
-        return category;
-    }
-
 }

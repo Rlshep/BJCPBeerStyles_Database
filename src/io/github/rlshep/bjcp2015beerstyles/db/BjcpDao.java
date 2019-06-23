@@ -20,7 +20,7 @@ public class BjcpDao {
 
     public void setDatabaseVersion(Statement stmt) throws SQLException {
         stmt.executeUpdate("PRAGMA user_version = " + DATABASE_VERSION);
-    }
+}
 
     public void createTables(Statement stmt) throws SQLException {
         List<String> queries = new ArrayList<String>();
