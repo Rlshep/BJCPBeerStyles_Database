@@ -1,7 +1,10 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
 import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
+import io.github.rlshep.bjcp2015beerstyles.domain.Category;
+import io.github.rlshep.bjcp2015beerstyles.domain.Section;
 import io.github.rlshep.bjcp2015beerstyles.domain.Tag;
+import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 import org.apache.commons.lang.StringUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -14,10 +17,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-
-import io.github.rlshep.bjcp2015beerstyles.domain.Category;
-import io.github.rlshep.bjcp2015beerstyles.domain.Section;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
