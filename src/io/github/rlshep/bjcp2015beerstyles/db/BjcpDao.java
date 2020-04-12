@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -123,8 +124,8 @@ public class BjcpDao {
 
     public int insertFromFile(Statement stmt, String fileName) throws IOException, SQLException {
         int numberOfRows = 0;
-        // Used ISO-8859-1 to correct special characters.
-        BufferedReader reader  = new BufferedReader(new InputStreamReader(new FileInputStream(fileName),"ISO-8859-1"));
+        // Used UTF-8 to correct special characters.
+        BufferedReader reader  = new BufferedReader(new InputStreamReader(new FileInputStream(fileName), StandardCharsets.UTF_8));
 
         // Iterate through lines (assuming each insert has its own line and theres no other stuff)
         while (reader.ready()) {
