@@ -111,6 +111,7 @@ INSERT INTO SYNONYMS (left,right, language) VALUES ('Schonramer','Schönramer', 
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Sunner','Sünner', 'uk');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Troegs','Tröegs', 'uk');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('ІПА','IPA', 'uk');
+INSERT INTO SYNONYMS (left,right, language) VALUES ('ІРА','IPA', 'uk');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Браун','Brown', 'uk');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Гозе','Gose', 'uk');
 INSERT INTO SYNONYMS (left,right, language) VALUES ('Дабл','Double', 'uk');
