@@ -15,9 +15,10 @@ import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.*;
 
 public class CreateBjcpDatabase {
 
-    private static final String XML_ENGLISH = "styleguide-2015_en.xml";
-    private static final String XML_SPANISH = "styleguide-2015_es.xml";
-    private static final String XML_UKRAINIAN = "styleguide-2015_uk.xml";
+    private static final String XML_ENGLISH_2015 = "styleguide-2015_en.xml";
+    private static final String XML_SPANISH_2015 = "styleguide-2015_es.xml";
+    private static final String XML_UKRAINIAN_2015 = "styleguide-2015_uk.xml";
+    private static final String XML_BA_2021 = "brewers_association_2021_en.xml";
     private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
     private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
 
@@ -38,13 +39,10 @@ public class CreateBjcpDatabase {
             bjcpDao.createTables(stmt);
 
             // Load database from xml file.
-            List<Category> categoriesEnglish =  loadDomainFromXML.loadXmlFromFile(XML_ENGLISH);
-            List<Category> categoriesSpanish =  loadDomainFromXML.loadXmlFromFile(XML_SPANISH);
-            List<Category> categoriesUkrainian = loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN);
-
-            categories.addAll(categoriesEnglish);
-            categories.addAll(categoriesSpanish);
-            categories.addAll(categoriesUkrainian);
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_ENGLISH_2015));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH_2015));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN_2015));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021));
 
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);

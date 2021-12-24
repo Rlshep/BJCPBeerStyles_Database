@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<styleguide revision="2015" language="es">
+<styleguide revision="BJCP_2015" language="es">
 	<class type="Cerveza">
 		<category id="I">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Introducción</name>
 			<subcategory id="I1">
 				<name>Introducción A La Guía 2015</name>
@@ -1814,7 +1814,7 @@
 			</subcategory>
 		</category>
 		<category id="1">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Standard American Beer</name>
 			<notes title="">Esta categoría describe cervezas americanas cotidianas que son del gusto de un público
                 masivo. Pueden ser ales y lagers, las cervezas en esta categoría no son típicamente complejas, sus
@@ -2325,7 +2325,7 @@
 			</subcategory>
 		</category>
 		<category id="2">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>International Lager</name>
 			<notes>Las International Lageres son lagers premium para un mercado masivo producidas en la mayoría de
                 los
@@ -2711,7 +2711,7 @@
 			</subcategory>
 		</category>
 		<category id="3">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Czech Lager</name>
 			<notes>
                 Las cervezas checas se dividen generalmente por densidad (draft, lager, especial) y color (pálida,
@@ -3243,7 +3243,7 @@
 			</subcategory>
 		</category>
 		<category id="4">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Pale Malty European Lager</name>
 			<notes>Esta categoría de estilo contiene Pilsner lager alemanas maltosas y pálidas, orientadas a la malta,
                 de intensidad vollbier a starkbier. Aun cuando son maltosas, están bien atenuadas y son lagers limpias,
@@ -3642,7 +3642,7 @@
 			</subcategory>
 		</category>
 		<category id="5">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Pale Bitter European Beer</name>
 			<notes>Esta categoría describe cervezas de origen alemán que son pálidas y aún tienen un balance amargo, con
                 un leve a moderadamente fuerte carácter lupulado que exhibe lúpulos alemanes clásicos. Por lo general,
@@ -4160,7 +4160,7 @@
 			</subcategory>
 		</category>
 		<category id="6">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Amber Malty European Lager</name>
 			<notes>Esta categoría agrupa lagerbiers de color ámbar, origen alemán y fermentación baja que tienen un
                 balance maltoso y son de intensidad vollbier a starkbier.
@@ -4571,7 +4571,7 @@
 			</subcategory>
 		</category>
 		<category id="7">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Amber Bitter European Beer</name>
 			<notes>Esta categoría agrupa cervezas de origen alemán o austríaco de color ámbar, de balance equilibrado o
                 amargo.
@@ -5227,7 +5227,7 @@
 			</subcategory>
 		</category>
 		<category id="8">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Dark European Lager</name>
 			<notes>Esta categoría incluye lagers alemanas vollbier más oscuras que ámbar-marrón.
 			</notes>
@@ -5503,7 +5503,7 @@
 			</subcategory>
 		</category>
 		<category id="9">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Strong European Beer</name>
 			<notes>Esta categoría contiene lagers con sabores más fuertes y grados alcohólicos más altos de Alemania y
                 de la región Báltica. Casi todas son oscuras, pero se conocen algunas versiones más pálidas.
@@ -5938,7 +5938,7 @@
 			</subcategory>
 		</category>
 		<category id="10">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>German Wheat Beer</name>
 			<notes>Esta categoría contiene cervezas alemanas de trigo de intensidad vollbier y starkbier, sin acidez, en
                 colores claros y oscuros.
@@ -6380,7 +6380,7 @@
 			</subcategory>
 		</category>
 		<category id="11">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>British Bitter</name>
 			<notes>La familia de las British Bitters surgió de las Ales Pálidas Inglesas como un producto de barril a
                 finales del 1800. El uso de malta cristal en las Bitter se volvió masivo después de la Primera Guerra
@@ -6788,7 +6788,7 @@
 			</subcategory>
 		</category>
 		<category id="12">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Pale Commonwealth Beer</name>
 			<notes>Esta categoría incluye bitter ales pálidas, moderadamente fuertes, orientadas al lúpulo, de países
                 dentro del antiguo Imperio Británico.
@@ -7248,7 +7248,7 @@
 			</subcategory>
 		</category>
 		<category id="13">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Brown British Beer</name>
 			<notes>Si bien las Mild Oscuras, Ales Marrones y Porter Inglesas pueden tener una larga y famosa historia,
                 esta Guía describe las versiones modernas. Se agrupan con el propósito de ser juzgadas ya que a menudo
@@ -7664,7 +7664,7 @@
 			</subcategory>
 		</category>
 		<category id="14">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Scottish Ale</name>
 			<notes>El significado original de ‘schilling' (/-) ales ha sido descrito incorrectamente durante años. Un
                 estilo único de cerveza que nunca fue señalado como 60/-, 70/- u 80/-. Schillings sólo se refieren al
@@ -8047,7 +8047,7 @@
 			</subcategory>
 		</category>
 		<category id="15">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Irish Beer</name>
             Las cervezas tradicionales de Irlanda contenidas en esta categoría son de color ámbar a oscuro, de
             fermentación alta, de intensidad ligera a moderada, a menudo ampliamente incomprendidas debido a las
@@ -8478,7 +8478,7 @@
 			</subcategory>
 		</category>
 		<category id="16">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Dark British Beer</name>
 			<notes>Esta categoría incluye stouts irlandesas y británicas modernas que van de intensidad media a fuerte,
                 de amargas a dulces, originadas en Inglaterra, incluso si hoy en día algunas están más asociadas con
@@ -8996,7 +8996,7 @@
 			</subcategory>
 		</category>
 		<category id="17">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Strong British Ale</name>
 			<notes>Esta categoría incluye las cervezas más fuertes, no tostadas, de las Islas Británicas.
 			</notes>
@@ -9727,7 +9727,7 @@
 			</subcategory>
 		</category>
 		<category id="18">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Pale American Ale</name>
 			<notes>Esta categoría contiene ales americanas modernas de intensidad promedio y color ligero que son
                 moderadamente maltosas y moderadamente amargas.
@@ -10017,7 +10017,7 @@
 			</subcategory>
 		</category>
 		<category id="19">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Amber and Brown American Beer</name>
 			<notes>Esta categoría contiene cervezas ámbar y marrones americanas modernas fermentadas a temperaturas
                 cálidas de intensidad estándar que pueden estar balanceadas hacia lo amargo.
@@ -10420,7 +10420,7 @@
 			</subcategory>
 		</category>
 		<category id="20">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>American Porter and Stout</name>
 			<notes>Todas estas cervezas evolucionaron de sus homónimos ingleses para ser totalmente transformadas por
                 los cerveceros artesanales americanos. En general, estos estilos son más intensos, fuertes, orientados
@@ -10862,7 +10862,7 @@
 			</subcategory>
 		</category>
 		<category id="21">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>IPA</name>
 			<notes>IPA es una categoría para las moderna IPA Americana y sus derivadas. Esto no implica que la IPA
                 Inglesa no sea IPA propiamente tal o que no haya una relación entre ellas. Es simplemente un método para
@@ -12136,7 +12136,7 @@
 			</subcategory>
 		</category>
 		<category id="22">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Strong American Ale</name>
 			<notes>Esta categoría incluye la moderna Ale Americana Fuerte con un balance que varía entre la malta y el
                 lúpulo. La categoría es definida mayormente por la fuerza alcohólica y la falta de tostado.
@@ -12751,7 +12751,7 @@
 			</subcategory>
 		</category>
 		<category id="23">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>European Sour Ale</name>
 			<notes>Esta categoría incluye a los tradicionales estilos europeos de cervezas agria que todavía se
                 producen, muchos (pero no todos) con un componente de trigo. La mayoría tiene bajo amargor, con la
@@ -13682,7 +13682,7 @@
 			</subcategory>
 		</category>
 		<category id="24">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Belgian Ale</name>
 			<notes>Esta categoría contiene ales belgas y francesas altamente saborizadas, maltosas a balanceadas.
 			</notes>
@@ -14126,7 +14126,7 @@
 			</subcategory>
 		</category>
 		<category id="25">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Strong Belgian Ale</name>
 			<notes>Esta categoría contiene cervezas pálidas, bien atenuadas, balanceadas hacia lo amargo, a menudo más
                 impulsadas por el carácter a levadura que los sabores de malta, con alcohol generalmente más alto
@@ -14614,7 +14614,7 @@
 			</subcategory>
 		</category>
 		<category id="26">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Trappist Ale</name>
 			<notes>Trapense es una denominación legalmente protegida y no puede ser utilizada comercialmente, excepto
                 por auténticos monasterios Trapenses que elaboran su propia cerveza. Sin embargo, podemos usarla para
@@ -15145,7 +15145,7 @@
 			</subcategory>
 		</category>
 		<category id="27">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Historical Beer</name>
 			<notes>La categoría Historical Beer contiene estilos que o bien han desaparecido del todo en la
                 actualidad, o que fueron mucho más populares en el pasado y ahora son conocidos sólo por recreaciones.
@@ -16341,7 +16341,7 @@
 			</subcategory>
 		</category>
 		<category id="28">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>American Wild Ale</name>
 			<notes>El nombre American Wild Ale es de uso común por los cerveceros artesanales y los cerveceros
                 caseros. Sin embargo, la palabra Salvaje no implica que estas cervezas sean necesariamente de
@@ -16708,7 +16708,7 @@
 			</subcategory>
 		</category>
 		<category id="29">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Fruit Beer</name>
 			<notes>
                 Fruit Beer es una categoría para cervezas hechas con cualquier fruta o combinación de frutas bajo
@@ -17065,7 +17065,7 @@
 			</subcategory>
 		</category>
 		<category id="30">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Spiced Beer</name>
 			<notes>Usamos las definiciones comunes o culinarias de especias, hierbas y vegetales, no las botánicas o
                 científicas. En general, las especias son semillas deshidratadas, vainas, frutas, raíces, cortezas, etc.
@@ -17506,7 +17506,7 @@
 			</subcategory>
 		</category>
 		<category id="31">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Alternative Fermentables Beer</name>
 			<notes>Esta categoría contiene cervezas especiales que tienen algunos ingredientes adicionales (granos o
                 azúcar) que añaden un carácter distintivo.
@@ -17707,7 +17707,7 @@
 			</subcategory>
 		</category>
 		<category id="32">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Smoked Beer</name>
 			<notes>Esta categoría incluye cervezas especiales que tienen un carácter ahumado.
 			</notes>
@@ -17967,7 +17967,7 @@
 			</subcategory>
 		</category>
 		<category id="33">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Wood Beer</name>
 			<notes>Esta categoría incluye cervezas especiales con un carácter añejado en madera, con o sin carácter de
                 alcohol añadido.
@@ -18253,7 +18253,7 @@
 			</subcategory>
 		</category>
 		<category id="34">
-			<revision number="1">2015</revision>
+			<revision number="1">BJCP_2015</revision>
 			<name>Specialty Beer</name>
 			<notes>Si bien hay muchas cervezas especiales en estas directrices, la categoría Specialty Beer está
                 dirigida a aquellas cervezas que no encajan en ninguna otra parte. Como el número de categorías

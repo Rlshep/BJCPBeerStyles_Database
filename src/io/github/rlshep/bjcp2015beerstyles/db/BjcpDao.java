@@ -34,7 +34,7 @@ public class BjcpDao {
         stmt.executeUpdate("DROP TABLE IF EXISTS " + TABLE_TAG);
 
         queries.add("CREATE TABLE " + TABLE_META + "(" + COLUMN_LOCALE + " TEXT DEFAULT '" + LOCALE + "')");
-        queries.add("CREATE TABLE " + TABLE_CATEGORY + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_PARENT_ID + " INTEGER, " + COLUMN_CATEGORY_CODE + " TEXT, " + COLUMN_NAME + " TEXT, " + COLUMN_REVISION + " NUMBER, " + COLUMN_LANG + " TEXT," + COLUMN_BOOKMARKED + " BOOLEAN, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_PARENT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + TABLE_CATEGORY + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_PARENT_ID + " INTEGER, " + COLUMN_CATEGORY_CODE + " TEXT, " + COLUMN_NAME + " TEXT, " + COLUMN_REVISION + " TEXT, " + COLUMN_LANG + " TEXT," + COLUMN_BOOKMARKED + " BOOLEAN, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_PARENT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
         queries.add("CREATE TABLE " + TABLE_SECTION + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER + " TEXT, " + COLUMN_BODY + " TEXT, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_CAT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
         queries.add("CREATE TABLE " + TABLE_VITALS + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER + " TEXT, " + COLUMN_OG_START + " REAL, " + COLUMN_OG_END + " REAL, " + COLUMN_FG_START + " REAL, " + COLUMN_FG_END + " REAL, " + COLUMN_IBU_START + " INTEGER, " + COLUMN_IBU_END + " INTEGER, " + COLUMN_SRM_START + " REAL, " + COLUMN_SRM_END + " REAL, " + COLUMN_ABV_START + " REAL, " + COLUMN_ABV_END + " REAL, FOREIGN KEY(" + COLUMN_CAT_ID + " ) REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
         queries.add("CREATE TABLE " + TABLE_SYNONYMS + "(" + COLUMN_LEFT + " TEXT, " + COLUMN_RIGHT  + " TEXT," + COLUMN_LANG + " TEXT); ");
@@ -58,7 +58,7 @@ public class BjcpDao {
 
     private void addCategory(Statement stmt, Category category, long parentId) throws SQLException {
         String sql = "INSERT INTO " + TABLE_CATEGORY + "(" + COLUMN_CATEGORY_CODE + ", " + COLUMN_PARENT_ID  + ", " + COLUMN_NAME + ", " + COLUMN_REVISION + ", " + COLUMN_LANG + "," + COLUMN_ORDER + ") ";
-        sql += "VALUES('" + category.getCategoryCode() + "'," + ((0 <= parentId) ? parentId : "NULL") + ",'" + category.getName() + "'," + category.getRevision() + ",'" + category.getLanguage() + "'," + category.getOrderNumber() + ");";
+        sql += "VALUES('" + category.getCategoryCode() + "'," + ((0 <= parentId) ? parentId : "NULL") + ",'" + category.getName() + "', '" + category.getRevision() + "','" + category.getLanguage() + "'," + category.getOrderNumber() + ");";
 
         //Write category to database.
         stmt.executeUpdate(sql);

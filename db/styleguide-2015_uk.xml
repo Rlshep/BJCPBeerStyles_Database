@@ -1,6 +1,6 @@
-<styleguide language="uk" revision="2015">
+<styleguide language="uk" revision="BJCP_2015">
     <category id="I">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Вступ</name>
         <subcategory id="I1">
             <name>Вступ до версії довідника 2015 року</name>
@@ -1005,7 +1005,7 @@
         </subcategory>
     </category>
     <category id="1">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Типове американське пиво / Standard American Beer</name>
         <notes title="">Ця категорія описує звичайне американське пиво, що користується широкою
             популярністю серед усіх верств населення. У неї входять як елі, так і лагери. Пиво цієї
@@ -1507,7 +1507,7 @@
         </subcategory>
     </category>
     <category id="2">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Міжнародний лагер / International Lager</name>
         <notes>Міжнародні лагери - це преміальний сегмент масмаркету, пиво, яке виготовляють у
             більшості країн світу. Усі вони (незалежно від якого стилю походять, американського чи
@@ -1882,7 +1882,7 @@
         </subcategory>
     </category>
     <category id="3">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Чеський лагер / Czech lager</name>
         <notes>Чеські лагери зазвичай ділять на групи за щільністю (розливний, лагер, спеціальний) і
             кольором (світлий, бурштиновий [напівтемний], темний). Чеські назви наступні:
@@ -2402,7 +2402,7 @@
         </subcategory>
     </category>
     <category id="4">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Світлий солодовий європейський лагер / Pale Malty European Lager</name>
         <notes>До цієї категорії входять солодові, світлі німецькі лагери пільзенського типу,
             міцністю від фольбіра (vollbier, “повне пиво”) до штаркбіра (starkbier, “міцне пиво”).
@@ -2789,7 +2789,7 @@
         </subcategory>
     </category>
     <category id="5">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Світле гірке європейське пиво / Pale Bitter European Beer</name>
         <notes>Ця категорія об'єднує пиво німецького походження, що має світлий колір і баланс від
             нейтрального до гіркого з хмелевим характером класичних німецьких хмелів від м'якого до
@@ -3294,7 +3294,7 @@
         </subcategory>
     </category>
     <category id="6">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Бурштиновий солодовий європейський лагер / Amber Malty European Lager</name>
         <notes>Ця категорія об'єднує пиво, що має солодовий ухил в балансі, міцність в рамках
             фольбір-штаркбір (vollbier-starkbier), низове бродіння, бурштинового забарвлення і
@@ -3684,7 +3684,7 @@
         </subcategory>
     </category>
     <category id="7">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Бурштинове гірке європейське пиво / Amber Bitter European Beer</name>
         <notes>До цієї групи входить бурштинове пиво з нейтральним чи гірким балансом німецького і
             австрійського походження.
@@ -4299,7 +4299,7 @@
         </subcategory>
     </category>
     <category id="8">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Темний європейський лагер / Dark European Lager</name>
         <notes>У цю категорію входять темні - темніші, за бурштиново-брунатні - німецькі лагери типу
             фольбір (vollbier).
@@ -4562,7 +4562,7 @@
         </subcategory>
     </category>
     <category id="9">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Міцне європейське пиво / Strong European Beer</name>
         <notes>До цієї категорії входять насиченіші й алькогольніші німецькі й балтійські лагери.
             Більшість з них мають темне забарвлення, але існують і світлі версії.
@@ -4966,7 +4966,7 @@
         </subcategory>
     </category>
     <category id="10">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Німецьке пшеничне пиво / German Wheat Beer</name>
         <notes>До цієї категорії належать німецькі сорти пива міцності фольбір (vollbier) і штаркбір
             (starkbier) і світлі, і темні, не кислі.
@@ -5389,7 +5389,7 @@
         </subcategory>
     </category>
     <category id="11">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Британський бітер / British Bitter</name>
         <notes>Родина британських бітерів виросла з англійських світлих елів як окремий тип продукту
             — розливного пива — наприкінці 1800-х. Використання кришталевих солодів у бітерах
@@ -5790,7 +5790,7 @@
         </subcategory>
     </category>
     <category id="12">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Світле пиво країн Співдружності націй / Pale Commonwealth beer</name>
         <notes>До цієї категорії входять світлі, помірно міцні, з ухилом в хмелевий бік, гіркі елі з
             країн, що раніше входили до складу Британської імперії.
@@ -6214,7 +6214,7 @@
         </subcategory>
     </category>
     <category id="13">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Брунатне британське пиво / Brown British Beer</name>
         <notes>Не дивлячись на те, що темний майлд, брунатний ель і англійський портер мають давню і
             відому історію, цей довідник описує сучасні їх версії. Вони об'єднані в одну групу
@@ -6609,7 +6609,7 @@
         </subcategory>
     </category>
     <category id="14">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Шотландський ель / Scottish Ale</name>
         <notes>Значення позначки шилінга ( /-) на елях роками тлумачилося невірно. Ніколи не було
             стилів пива, які б називалися 60/-, 70/- чи 80/-. Шилінги лише означали вартість бочки
@@ -6982,7 +6982,7 @@
         </subcategory>
     </category>
     <category id="15">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Ірландське пиво / Irish beer</name>
         <notes>Ця категорія охоплює традиційне пиво Ірландії: верхового бродіння, помірної чи трохи
             вищої алкогольності, що має забарвлення від бурштинового до темного, і яке часто-густо
@@ -7387,7 +7387,7 @@
         </subcategory>
     </category>
     <category id="16">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Темне британське пиво / Dark British Beer</name>
         <notes>До цієї категорії входить пиво з міцністю від середньої до високої, як гірке, так і
             солодке, сучасні британські й ірландські стаути, які з'явилися в Англії, навіть якщо
@@ -7894,7 +7894,7 @@
         </subcategory>
     </category>
     <category id="17">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Міцний британський ель / Strong British Ale</name>
         <notes>До цієї категорії входять міцні, не палені стилі Британських островів.</notes>
         <subcategory id="17A">
@@ -8568,7 +8568,7 @@
         </subcategory>
     </category>
     <category id="18">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Світлий американський ель / Pale American Ale</name>
         <notes>До цієї категорії входять сучасні світлі американські елі середньої міцності, від
             помірно солодових до помірно гірких.
@@ -8834,7 +8834,7 @@
         </subcategory>
     </category>
     <category id="19">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Бурштинове і брунатне американське пиво / Amber and brown American beer</name>
         <notes>Ця категорія об'єднує сучасне американське пиво теплого бродіння, бурштинового і
             брунатного забарвлення стандартної міцності, від збалансованих до гірких.
@@ -9220,7 +9220,7 @@
         </subcategory>
     </category>
     <category id="20">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Американський портер і стаут / American Porter and Stout</name>
         <notes>Ці сорти - нащадки британських пращурів, повністю трансформовані американськими
             крафтовиками. В цілому вони потужніші, міцніші, більш палені, більш охмелені, ніж
@@ -9639,7 +9639,7 @@
         </subcategory>
     </category>
     <category id="21">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>IPA</name>
         <notes>Ця категорія охоплює сучасні американські IPA та їхні похідні. Це не означає, що
             англійські IPA не є правдивими IPA чи ніяк не пов'язані з американськими. Це просто
@@ -10831,7 +10831,7 @@
         </subcategory>
     </category>
     <category id="22">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Міцний американський ель / Strong American Ale</name>
         <notes>До цієї категорії входять сучасні американські міцні сорти пива, з різним балансом
             хмелю і солоду. Цю категорію визначають в основному вміст алкоголю і відсутність палених
@@ -11390,7 +11390,7 @@
         </subcategory>
     </category>
     <category id="23">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Європейський кислий ель / European Sour Ale</name>
         <notes>До цієї категорії входять традиційні кислі пивні стилі Європи, що й досі
             виробляються, переважно (але не винятково) з використанням пшениці. Більшість з них має
@@ -12232,7 +12232,7 @@
         </subcategory>
     </category>
     <category id="24">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Бельгійський ель / Belgian Ale</name>
         <notes>До цієї категорії входять виразні французькі й бельгійські елі з балансом від
             солодових до врівноважених.
@@ -12646,7 +12646,7 @@
         </subcategory>
     </category>
     <category id="25">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Міцний бельгійський ель / Strong Belgian Ale</name>
         <notes>До цієї категорії входить світле, добре виброджене пиво з балансом від нейтрального
             до гіркого, де часто на перший план виходить дріжджовий, а не солодовий профіль,
@@ -13098,7 +13098,7 @@
         </subcategory>
     </category>
     <category id="26">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Трапістський ель / Trappist Ale</name>
         <notes>“Трапіст” є захищеним найменуванням, і його не може використовувати з комерційною
             метою ніхто, крім справжніх трапістських монастирів, які варять власне пиво. Однак,
@@ -13613,7 +13613,7 @@
         </subcategory>
     </category>
     <category id="27">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Історичне пиво / Historical beer</name>
         <notes>Категорія історичного пива включає стилі, які або зникли, або були значно популярніше
             раніше і знані лише по відтвореним зразкам. До категорії може входити традиційне чи
@@ -14740,7 +14740,7 @@
         </subcategory>
     </category>
     <category id="28">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Американський дикий ель / American Wild Ale</name>
         <notes>Ця назва широко вживана і крафтовими, і домашніми пивоварами. Однак слово “дикий” не
             обов'язково означає, що це пиво спонтанного бродіння, це радше ознака того, що у процесі
@@ -15085,7 +15085,7 @@
         </subcategory>
     </category>
     <category id="29">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Фруктове пиво</name>
         <notes>Категорія фруктового пива об'єднує зразки з додаванням будь-яких фруктів, що
             підпадають під визначення цієї категорії. Йдеться про <b>кулінарне, а не ботанічне</b>
@@ -15392,7 +15392,7 @@
         </subcategory>
     </category>
     <category id="30">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Пиво зі спеціями</name>
         <notes>Ми використовуємо не ботанічні чи наукові, а кулінарні чи поширені назви спецій, трав
             і овочів. В цілому, спеції — це висушене насіння, коробочки насіння, плоди, коріння,
@@ -15770,7 +15770,7 @@
         </subcategory>
     </category>
     <category id="31">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Пиво з альтернативними джерелами зброджуваних цукрів (Alternative Fermentables Beer)
         </name>
         <notes>До цієї категорії входить пиво з додатковими складниками (зерновими чи цукрами), які
@@ -15944,7 +15944,7 @@
         </subcategory>
     </category>
     <category id="32">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Димне пиво / Smoked Beer</name>
         <notes>До цієї категорії входить пиво з димним характером.</notes>
         <subcategory id="32A">
@@ -16166,7 +16166,7 @@
         </subcategory>
     </category>
     <category id="33">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Пиво, витримане на/у дереві / Wood Beer</name>
         <notes>У цю категорію подається спеціальне пиво з деревним характером, з/без додаткового
             алкогольного характеру.
@@ -16420,7 +16420,7 @@
         </subcategory>
     </category>
     <category id="34">
-        <revision number="1">2015</revision>
+        <revision number="1">BJCP_2015</revision>
         <name>Спеціальне пиво / Specialty Beer</name>
         <notes>У довіднику є багато різновидів спеціального пива, але саме в цю категорію подається
             пиво, яке не вписується в жодну іншу. І хоча спеціального пива дуже багато, більшість
