@@ -26,6 +26,8 @@ public class LoadDomainFromXML {
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
     private final static HashMap<String, String> VALUES_TO_CONVERT = new HashMap<String, String>();
     private final static String DELIM = ",";
+    private final static String BREAK = "br";
+    private boolean allowHeaderTarget = false;
 
     static {
         VALUES_TO_CONVERT.put("<ul>", "");
@@ -144,7 +146,9 @@ public class LoadDomainFromXML {
             if (xpp.getEventType() == XmlPullParser.START_TAG) {
                 bodyText += createSectionStartTag(xpp);
             } else if (xpp.getEventType() == XmlPullParser.END_TAG) {
-                bodyText += convertValue(" </" + xpp.getName() + "> ");
+                if (!BREAK.equalsIgnoreCase( xpp.getName())) {
+                    bodyText += convertValue(" </" + xpp.getName() + "> ");
+                }
             } else {
                 bodyText += convertValue(xpp.getText().trim());
             }
@@ -161,21 +165,13 @@ public class LoadDomainFromXML {
 
         if (XML_LINK.equals(xpp.getName())) {
             startTag += " <" + xpp.getName() + " href='" + getLinkHref(xpp) + "'> ";
+        } else if (BREAK.equalsIgnoreCase(xpp.getName())) {
+            startTag += convertValue(" <" + xpp.getName() + "/> ");
         } else {
             startTag += convertValue(" <" + xpp.getName() + "> ");
         }
 
         return startTag;
-    }
-
-    private String getSectionTitle(XmlPullParser xpp) {
-        String title = xpp.getAttributeValue(null, XML_TITLE);
-
-        if (null == title) {
-            title = convertValue(xpp.getName());
-        }
-
-        return title;
     }
 
     private String getLinkHref(XmlPullParser xpp) {
@@ -245,18 +241,24 @@ public class LoadDomainFromXML {
         if (isStartTag(xpp, XML_OG)) {
             vitalStatistics.setOgStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
             vitalStatistics.setOgEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
+            vitalStatistics.setHeaderTarget(XML_OG);
+
         } else if (isStartTag(xpp, XML_FG)) {
             vitalStatistics.setFgStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
             vitalStatistics.setFgEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
+            vitalStatistics.setHeaderTarget(XML_FG);
         } else if (isStartTag(xpp, XML_IBU)) {
             vitalStatistics.setIbuStart(Integer.parseInt(getNextByName(xpp, XML_LOW)));
             vitalStatistics.setIbuEnd(Integer.parseInt(getNextByName(xpp, XML_HIGH)));
+            vitalStatistics.setHeaderTarget(XML_IBU);
         } else if (isStartTag(xpp, XML_SRM)) {
             vitalStatistics.setSrmStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
             vitalStatistics.setSrmEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
+            vitalStatistics.setHeaderTarget(XML_SRM);
         } else if (isStartTag(xpp, XML_ABV)) {
             vitalStatistics.setAbvStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
             vitalStatistics.setAbvEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
+            vitalStatistics.setHeaderTarget(XML_ABV);
         }
 
         return vitalStatistics;

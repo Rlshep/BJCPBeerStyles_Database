@@ -1,7 +1,6 @@
 package io.github.rlshep.bjcp2015beerstyles.db;
 
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
-import io.github.rlshep.bjcp2015beerstyles.domain.Synonym;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -11,14 +10,14 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.*;
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.DATABASE_NAME;
 
 public class CreateBjcpDatabase {
 
     private static final String XML_ENGLISH_2015 = "styleguide-2015_en.xml";
     private static final String XML_SPANISH_2015 = "styleguide-2015_es.xml";
     private static final String XML_UKRAINIAN_2015 = "styleguide-2015_uk.xml";
-    private static final String XML_BA_2021 = "brewers_association_2021_en.xml";
+    private static final String XML_BA_2021 = "2021_BA_Beer_Style_Guidelines_Final.xml";
     private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
     private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
 
