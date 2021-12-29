@@ -86,15 +86,15 @@ flavor attributes. In order of increasing intensity, the descriptions used inclu
 
  
 
-● None 
-● Very low 
-● Low 
-● Medium-low 
-● Medium 
-● Medium-high 
-● High 
-● Very high 
-● Intense 
+* None 
+* Very low 
+* Low 
+* Medium-low 
+* Medium 
+* Medium-high 
+* High 
+* Very high 
+* Intense 
 
 
  

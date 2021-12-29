@@ -24,17 +24,19 @@ public class BrewersAssociationTextToXML {
     private static final String NAME_END = "</name>\n";
 
     private static final String[] IGNORED_LINES = {"LAGER STYLES", "HYBRID/MIXED LAGERS OR ALE"};
-    private static final List ignoredLines = Arrays.asList(IGNORED_LINES);
+    private static final List<String> ignoredLines = Arrays.asList(IGNORED_LINES);
 
     private static final String[] CATEGORIES = {"BRITISH ORIGIN ALE STYLES", "NORTH AMERICAN ORIGIN ALE STYLES", "BELGIAN AND FRENCH ORIGIN ALE STYLES", "IRISH ORIGIN ALE STYLES", "GERMAN ORIGIN ALE STYLES", "OTHER ORIGIN ALE STYLES", "EUROPEAN ORIGIN LAGER STYLES", "NORTH AMERICAN ORIGIN LAGER STYLES", "OTHER ORIGIN LAGER STYLES", "ALL ORIGIN HYBRID/MIXED LAGERS OR ALE"};
-    private static final List categories = Arrays.asList(CATEGORIES);
+    private static final List<String> categories = Arrays.asList(CATEGORIES);
 
-    private static final String[] SUB_CATEGORIES = {"Ordinary Bitter", "Special Bitter or Best Bitter", "Extra Special Bitter", "Scottish-Style Light Ale", "Scottish-Style Heavy Ale", "Scottish-Style Export Ale", "English-Style Summer Ale", "Classic English-Style Pale Ale", "English-Style India Pale Ale", "Strong Ale", "Old Ale", "English-Style Pale Mild Ale", "English-Style Dark Mild Ale", "English-Style Brown Ale", "Brown Porter", "Robust Porter", "Sweet Stout or Cream Stout", "Oatmeal Stout", "Scotch Ale or Wee Heavy", "British-Style Imperial Stout", "British-Style Barley Wine Ale", "Irish-Style Red Ale", "Classic Irish-Style Dry Stout", "Export-Style Stout", "Golden or Blonde Ale", "Session India Pale Ale", "American-Style Amber/Red Ale", "American-Style Pale Ale", "Juicy or Hazy Pale Ale", "American-Style Strong Pale Ale", "Juicy or Hazy Strong Pale Ale", "American-Style India Pale Ale", "Juicy or Hazy India Pale Ale", "American-Belgo-Style Ale", "American-Style Brown Ale", "American-Style Black Ale", "American-Style Stout", "American-Style Imperial Porter", "American-Style Imperial Stout", "Double Hoppy Red Ale", "Imperial Red Ale", "American-Style Imperial or Double India Pale Ale", "Juicy or Hazy Imperial or Double India Pale Ale", "American-Style Barley Wine Ale", "American-Style Wheat Wine Ale", "Smoke Porter", "American-Style Sour Ale", "American-Style Fruited Sour Ale", "German-Style Koelsch", "German-Style Altbier", "Berliner-Style Weisse", "Leipzig-Style Gose", "Contemporary-Style Gose", "South German-Style Hefeweizen", "South German-Style Kristal Weizen", "German-Style Leichtes Weizen", "South German-Style Bernsteinfarbenes Weizen", "South German-Style Dunkel Weizen", "South German-Style Weizenbock", "German-Style Rye Ale", "Bamberg-Style Weiss Rauchbier", "Belgian-Style Table Beer", "Belgian-Style Session Ale", "Belgian-Style Speciale Belge", "Belgian-Style Blonde Ale", "Belgian-Style Strong Blonde Ale", "Belgian-Style Strong Dark Ale", "Belgian-Style Dubbel", "Belgian-Style Tripel", "Belgian-Style Quadrupel", "Belgian-Style Witbier", "Classic French &amp; Belgian-Style Saison", "Specialty Saison", "French-Style Bière de Garde", "Belgian-Style Flanders Oud Bruin or Oud Red Ale", "Belgian-Style Lambic", "Traditional Belgian-Style Gueuze", "Contemporary Belgian-Style Spontaneous Fermented Ale", "Belgian-Style Fruit Lambic", "Other Belgian-Style Ale", "Grodziskie", "Adambier", "Dutch-Style Kuit, Kuyt or Koyt", "International-Style Pale Ale", "Classic Australian-Style Pale Ale", "Australian-Style Pale Ale", "New Zealand-Style Pale Ale", "New Zealand-Style India Pale Ale", "Finnish-Style Sahti", "Swedish-Style Gotlandsdricke", "Breslau-Style Schoeps", "Lager Styles", "German-Style Leichtbier", "German-Style Pilsener", "Bohemian-Style Pilsener", "Munich-Style Helles", "Dortmunder/European-Style Export", "Vienna-Style Lager", "Franconian-Style Rotbier", "German-Style Maerzen", "German-Style Oktoberfest/Wiesn", "Munich-Style Dunkel", "European-Style Dark Lager", "German-Style Schwarzbier", "Bamberg-Style Helles Rauchbier", "Bamberg-Style Maerzen Rauchbier", "Bamberg-Style Bock Rauchbier", "German-Style Heller Bock/Maibock", "Traditional German-Style Bock", "German-Style Doppelbock", "German-Style Eisbock", "American-Style Lager", "Contemporary American-Style Lager", "American-Style Light Lager", "Contemporary American-Style Light Lager", "American-Style Pilsener", "Contemporary American-Style Pilsener", "American-Style India Pale Lager", "American-Style Malt Liquor", "American-Style Amber Lager", "American-Style Maerzen/Oktoberfest", "American-Style Dark Lager", "Australasian, Latin American or Tropical-Style Light Lager", "International-Style Pilsener", "Baltic-Style Porter", "Hybrid/Mixed Lagers or Ale", "Session Beer", "American-Style Cream Ale", "California Common Beer", "Kentucky Common Beer", "American-Style Wheat Beer", "Kellerbier or Zwickelbier", "American-Style Fruit Beer", "Fruit Wheat Beer", "Belgian-Style Fruit Beer", "Field Beer", "Pumpkin Spice Beer", "Pumpkin/Squash Beer", "Chocolate or Cocoa Beer", "Coffee Beer", "Chili Pepper Beer", "Herb and Spice Beer", "Specialty Beer", "Specialty Honey Beer", "Rye Beer", "Brett Beer", "Mixed-Culture Brett Beer", "Ginjo Beer or Sake-Yeast Beer", "Fresh Hop Beer", "Wood- and Barrel-Aged Beer", "Wood- and Barrel-Aged Sour Beer", "Aged Beer", "Experimental Beer", "Experimental India Pale Ale", "Historical Beer", "Wild Beer", "Smoke Beer", "Other Strong Ale or Lager", "Gluten-Free Beer", "Non-Alcohol Malt Beverage"};     //TODO: BETTER WAY?
-    private static final List subCategories = Arrays.asList(SUB_CATEGORIES);
+    private static final String[] SUB_CATEGORIES = {"Ordinary Bitter", "Special Bitter or Best Bitter", "Extra Special Bitter", "Scottish-Style Light Ale", "Scottish-Style Heavy Ale", "Scottish-Style Export Ale", "English-Style Summer Ale", "Classic English-Style Pale Ale", "English-Style India Pale Ale", "Strong Ale", "Old Ale", "English-Style Pale Mild Ale", "English-Style Dark Mild Ale", "English-Style Brown Ale", "Brown Porter", "Robust Porter", "Sweet Stout or Cream Stout", "Oatmeal Stout", "Scotch Ale or Wee Heavy", "British-Style Imperial Stout", "British-Style Barley Wine Ale", "Irish-Style Red Ale", "Classic Irish-Style Dry Stout", "Export-Style Stout", "Golden or Blonde Ale", "Session India Pale Ale", "American-Style Amber / Red Ale", "American-Style Pale Ale", "Juicy or Hazy Pale Ale", "American-Style Strong Pale Ale", "Juicy or Hazy Strong Pale Ale", "American-Style India Pale Ale", "Juicy or Hazy India Pale Ale", "American-Belgo-Style Ale", "American-Style Brown Ale", "American-Style Black Ale", "American-Style Stout", "American-Style Imperial Porter", "American-Style Imperial Stout", "Double Hoppy Red Ale", "Imperial Red Ale", "American-Style Imperial or Double India Pale Ale", "Juicy or Hazy Imperial or Double India Pale Ale", "American-Style Barley Wine Ale", "American-Style Wheat Wine Ale", "Smoke Porter", "American-Style Sour Ale", "American-Style Fruited Sour Ale", "German-Style Koelsch", "German-Style Altbier", "Berliner-Style Weisse", "Leipzig-Style Gose", "Contemporary-Style Gose", "South German-Style Hefeweizen", "South German-Style Kristal Weizen", "German-Style Leichtes Weizen", "South German-Style Bernsteinfarbenes Weizen", "South German-Style Dunkel Weizen", "South German-Style Weizenbock", "German-Style Rye Ale", "Bamberg-Style Weiss Rauchbier", "Belgian-Style Table Beer", "Belgian-Style Session Ale", "Belgian-Style Speciale Belge", "Belgian-Style Blonde Ale", "Belgian-Style Strong Blonde Ale", "Belgian-Style Strong Dark Ale", "Belgian-Style Dubbel", "Belgian-Style Tripel", "Belgian-Style Quadrupel", "Belgian-Style Witbier", "Classic French &amp; Belgian-Style Saison", "Specialty Saison", "French-Style Bière de Garde", "Belgian-Style Flanders Oud Bruin or Oud Red Ale", "Belgian-Style Lambic", "Traditional Belgian-Style Gueuze", "Contemporary Belgian-Style Spontaneous Fermented Ale", "Belgian-Style Fruit Lambic", "Other Belgian-Style Ale", "Grodziskie", "Adambier", "Dutch-Style Kuit, Kuyt or Koyt", "International-Style Pale Ale", "Classic Australian-Style Pale Ale", "Australian-Style Pale Ale", "New Zealand-Style Pale Ale", "New Zealand-Style India Pale Ale", "Finnish-Style Sahti", "Swedish-Style Gotlandsdricke", "Breslau-Style Schoeps", "Lager Styles", "German-Style Leichtbier", "German-Style Pilsener", "Bohemian-Style Pilsener", "Munich-Style Helles", "Dortmunder / European-Style Export", "Vienna-Style Lager", "Franconian-Style Rotbier", "German-Style Maerzen", "German-Style Oktoberfest / Wiesn", "Munich-Style Dunkel", "European-Style Dark Lager", "German-Style Schwarzbier", "Bamberg-Style Helles Rauchbier", "Bamberg-Style Maerzen Rauchbier", "Bamberg-Style Bock Rauchbier", "German-Style Heller Bock / Maibock", "Traditional German-Style Bock", "German-Style Doppelbock", "German-Style Eisbock", "American-Style Lager", "Contemporary American-Style Lager", "American-Style Light Lager", "Contemporary American-Style Light Lager", "American-Style Pilsener", "Contemporary American-Style Pilsener", "American-Style India Pale Lager", "American-Style Malt Liquor", "American-Style Amber Lager", "American-Style Maerzen / Oktoberfest", "American-Style Dark Lager", "Australasian, Latin American or Tropical-Style Light Lager", "International-Style Pilsener", "Baltic-Style Porter", "Hybrid / Mixed Lagers or Ale", "Session Beer", "American-Style Cream Ale", "California Common Beer", "Kentucky Common Beer", "American-Style Wheat Beer", "Kellerbier or Zwickelbier", "American-Style Fruit Beer", "Fruit Wheat Beer", "Belgian-Style Fruit Beer", "Field Beer", "Pumpkin Spice Beer", "Pumpkin / Squash Beer", "Chocolate or Cocoa Beer", "Coffee Beer", "Chili Pepper Beer", "Herb and Spice Beer", "Specialty Beer", "Specialty Honey Beer", "Rye Beer", "Brett Beer", "Mixed-Culture Brett Beer", "Ginjo Beer or Sake-Yeast Beer", "Fresh Hop Beer", "Wood- and Barrel-Aged Beer", "Wood- and Barrel-Aged Sour Beer", "Aged Beer", "Experimental Beer", "Experimental India Pale Ale", "Historical Beer", "Wild Beer", "Smoke Beer", "Other Strong Ale or Lager", "Gluten-Free Beer", "Non-Alcohol Malt Beverage"};
+    private static final List<String> subCategories = Arrays.asList(SUB_CATEGORIES);
 
-    private static final String[] BOLD_WORDS = {"Color:", "Clarity:", "Body:", "Additional notes:", "Fermentation Characteristics:", "Perceived Malt Aroma &amp; Flavor:", "Perceived Hop Aroma &amp; Flavor:", "Perceived bitterness:"};
-    private final List boldWords = Arrays.asList(BOLD_WORDS);
+    private static final String[] BOLD_WORDS = {"Intensity Level Terminology:", "Color Ranges:", "Bitterness:", "Notes on Beer Competitions: ", "Competition Categories: ", "Notes on Beer Style Guidelines:", "Beer Style Guidelines:", "Pouring:"};
+    private final List<String> boldWords = Arrays.asList(BOLD_WORDS);
 
+    private static final String[] HEADER_WORDS = {"Color:", "Clarity:", "Body:", "Additional notes:", "Fermentation Characteristics:", "Perceived Malt Aroma &amp; Flavor:", "Perceived Hop Aroma &amp; Flavor:", "Perceived bitterness:"};
+    private final List<String> headerWords = Arrays.asList(HEADER_WORDS);
 
     private boolean skipNextLine = false;
     private BufferedReader br;
@@ -72,10 +74,16 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
+        cleaned = cleaned.replace("\n\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("CupSM", "Cup&#8480;");
         cleaned = cleaned.replace("&", "&amp;");
         cleaned = cleaned.replace("American-Style Brown Ale", "\nAmerican-Style Brown Ale");
         cleaned = cleaned.replace("American-Style Imperial or Double \nIndia Pale Ale", "American-Style Imperial or Double India Pale Ale");
+        cleaned = cleaned.replace("American-Style Amber/Red Ale", "American-Style Amber / Red Ale");
+        cleaned = cleaned.replace("American-Style \nMaerzen/Oktoberfest", "American-Style Maerzen / Oktoberfest");
+        cleaned = cleaned.replace("American-Style Wheat Beer", "\nAmerican-Style Wheat Beer");
+        cleaned = cleaned.replace("American-Style Fruit Beer", "\nAmerican-Style Fruit Beer");
+        cleaned = cleaned.replace("Hybrid/Mixed Lagers or Ale", "Hybrid / Mixed Lagers or Ale");
         cleaned = cleaned.replace("Juicy or Hazy Imperial or Double \nIndia Pale Ale", "Juicy or Hazy Imperial or Double India Pale Ale");
         cleaned = cleaned.replace("South German-Style \nBernsteinfarbenes Weizen", "South German-Style Bernsteinfarbenes Weizen");
         cleaned = cleaned.replace("South German-Style Dunkel \nWeizen", "South German-Style Dunkel Weizen");
@@ -84,15 +92,15 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("Contemporary Belgian-Style \nSpontaneous Fermented Ale", "Contemporary Belgian-Style Spontaneous Fermented Ale");
         cleaned = cleaned.replace("Belgian-Style Fruit Lambic", "\nBelgian-Style Fruit Lambic");
         cleaned = cleaned.replace("New Zealand-Style Pale Ale", "\nNew Zealand-Style Pale Ale");
-        cleaned = cleaned.replace("Dortmunder/European-Style \nExport", "Dortmunder/European-Style Export");
+        cleaned = cleaned.replace("Dortmunder/European-Style \nExport", "Dortmunder / European-Style Export");
+        cleaned = cleaned.replace("German-Style Oktoberfest/Wiesn", "German-Style Oktoberfest / Wiesn");
+        cleaned = cleaned.replace("German-Style Heller Bock/Maibock", "German-Style Heller Bock / Maibock");
         cleaned = cleaned.replace("German-Style Doppelbock", "\nGerman-Style Doppelbock");
         cleaned = cleaned.replace("Contemporary American-Style \nLager", "Contemporary American-Style Lager");
         cleaned = cleaned.replace("Contemporary American-Style \nLight Lager", "Contemporary American-Style Light Lager");
         cleaned = cleaned.replace("Contemporary American-Style \nPilsener", "Contemporary American-Style Pilsener");
-        cleaned = cleaned.replace("American-Style \nMaerzen/Oktoberfest", "American-Style Maerzen/Oktoberfest");
         cleaned = cleaned.replace("Australasian, Latin American or \nTropical-Style Light Lager", "Australasian, Latin American or Tropical-Style Light Lager");
-        cleaned = cleaned.replace("American-Style Wheat Beer", "\nAmerican-Style Wheat Beer");
-        cleaned = cleaned.replace("American-Style Fruit Beer", "\nAmerican-Style Fruit Beer");
+        cleaned = cleaned.replace("Pumpkin/Squash Beer", "Pumpkin / Squash Beer");
         cleaned = cleaned.replace("\nField Beer \n", "\n\nField Beer\n");
         cleaned = cleaned.replace("temperatures. \nPerceived Malt Aroma", "temperatures. \n\nPerceived Malt Aroma");
         cleaned = cleaned.replace("Plato) 1.030-1.140+ ", "Plato) 1.030-1.140 ");
@@ -115,14 +123,23 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("Alcohol by Weight (Volume) 6.4%+ (8%+)", "Alcohol by Weight (Volume) 6.4%-100.0% (8.0%-100.0%)");
         cleaned = cleaned.replace("(Volume) 2.0%-20+% (2.5%-25+%)", "(Volume) 2.0%-20.0% (2.5%-25.0%)");
         cleaned = cleaned.replace(" <0.5% abv.", " &#60;0.5% abv.");
-        cleaned = cleaned.replace(" \nAdditional notes:", " \n\nAdditional notes:");
         cleaned = cleaned.replace("\n\nOriginal Gravity (°Plato)", "\nOriginal Gravity (°Plato)");
         cleaned = cleaned.replace("brewers-\nassociation-beer-style-guidelines", "brewers-association-beer-style-guidelines");
-        cleaned = cleaned.replace("● None \n● Very low \n● Low \n● Medium-low \n● Medium \n● Medium-high \n● High \n● Very high \n● Intense", "<ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul>");
-        cleaned = cleaned.replace("Color Description \n\nSRM \n\nVery light \n\n1-1.5 \n\nStraw \n\n2-3 \n\nPale \n\n4 \n\nGold \n\n5-6 \n\nLight amber \n\n7 \n\nAmber \n\n8 \n\nMedium amber \n\n9 \n\nCopper/garnet \n\n10-12 \n\nLight brown \n\n13-15 \n\nBrown/Reddish brown/chestnut brown \n\n16-17 \n\nDark brown \n\n18-24 \n\nVery dark \n\n25-39 \n\nBlack \n\n40+ ","<table> <tr> <td> <b>Color Description</b> </td> <td> <b>SRM</b> </td> </tr> <tr> <td>Very light</td> <td>1-1.5</td> </tr> <tr> <td>Straw</td> <td>2-3</td> </tr> <tr> <td>Pale</td> <td>4</td> </tr> <tr> <td>Gold</td> <td>5-6</td> </tr> <tr> <td>Light amber</td> <td>7</td> </tr> <tr> <td>Amber </td> <td>8</td> </tr> <tr> <td>Medium amber </td> <td>9</td> </tr> <tr> <td>Copper/garnet </td> <td>10-12</td> </tr> <tr> <td>Light brown </td> <td>13-15</td> </tr> <tr> <td>Brown/Reddish brown/chestnut brown </td> <td>16-17</td> </tr> <tr> <td>Dark brown </td> <td>18-24</td> </tr> <tr> <td>Very dark </td> <td>25-39</td> </tr> <tr> <td>Black </td> <td>40+</td> </tr> </table>");
+        cleaned = cleaned.replace("* None \n* Very low \n* Low \n* Medium-low \n* Medium \n* Medium-high \n* High \n* Very high \n* Intense", "<ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul>");
+        cleaned = cleaned.replace("Color Description \n\nSRM \n\nVery light \n\n1-1.5 \n\nStraw \n\n2-3 \n\nPale \n\n4 \n\nGold \n\n5-6 \n\nLight amber \n\n7 \n\nAmber \n\n8 \n\nMedium amber \n\n9 \n\nCopper/garnet \n\n10-12 \n\nLight brown \n\n13-15 \n\nBrown/Reddish brown/chestnut brown \n\n16-17 \n\nDark brown \n\n18-24 \n\nVery dark \n\n25-39 \n\nBlack \n\n40+ ","<b>Color Description: </b> <b>SRM </b><br />\nVery light: 1-1.5<br />\nStraw: 2-3\n<br />Pale: 4\n<br />Gold: 5-6\n<br />Light amber: 7\n<br />Amber : 8\n<br />Medium amber : 9\n<br />Copper/garnet : 10-12\n<br />Light brown : 13-15\n<br />Brown/Reddish brown/chestnut brown : 16-17\n<br />Dark brown : 18-24\n<br />Very dark : 25-39\n<br />Black : 40+");
+        cleaned = cleaned.replace(" \n3. Pouring:", " \n\n3. Pouring:");
 
         cleaned = addHtmlLinks(cleaned);
+        cleaned = fixSectionHeaders(cleaned);
         return cleaned;
+    }
+
+    private String fixSectionHeaders(String str) {
+        for (String title : headerWords) {
+            str = str.replace(" \n" + title, " \n\n" + title);
+        }
+
+        return str;
     }
 
     public void convertToXml() throws IOException {
@@ -169,6 +186,8 @@ public class BrewersAssociationTextToXML {
             formattedLine.append(formatCategory(str));
         } else if (subCategories.contains(str.trim())) {
             formattedLine.append(formatSubCategory(str));
+        } else if (isInList(headerWords, str)) {
+            formattedLine.append(formatSectionHeader(str));
         } else if (isInList(boldWords, str)) {
             formattedLine.append(formatBoldWords(str));
         } else if (str.startsWith("Original Gravity (°Plato)")) {
@@ -236,10 +255,20 @@ public class BrewersAssociationTextToXML {
     }
 
     private String formatBoldWords(String str) {
+        final String BOLD_START = "<b>";
+        final String BOLD_END = "</b>";
+
+        String word = getWordFromList(boldWords, str);
+        str = str.replace(word, BOLD_START + word + BOLD_END);
+
+        return str;
+    }
+
+    private String formatSectionHeader(String str) {
         final String BIG_START = "<big><b>";
         final String BIG_END = "</b></big><br/>";
 
-        String word = getWordFromList(boldWords, str);
+        String word = getWordFromList(headerWords, str);
         str = str.replace(word, BIG_START + word + BIG_END);
         str = str.replace(":", "");
 

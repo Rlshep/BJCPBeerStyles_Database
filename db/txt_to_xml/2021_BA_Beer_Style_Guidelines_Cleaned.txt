@@ -64,9 +64,7 @@ guidelines are often referenced in terms of relative intensity. These attributes
 include bitterness, flavor, aroma, body, malt, sweetness, and hundreds of individual 
 flavor attributes. In order of increasing intensity, the descriptions used include: 
 
-
 <ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul> 
-
 
 2. Color Ranges: The American SRM (Standard Reference Method) and EBC (European 
 
@@ -75,9 +73,20 @@ wavelength of light. These numerical values do not always coincide with our visu
 perception of color lightness and darkness or hue. When in doubt the description of 
 color has priority. In order from lightest descriptor to darkest descriptor: 
 
-
-<table> <tr> <td> <b>Color Description</b> </td> <td> <b>SRM</b> </td> </tr> <tr> <td>Very light</td> <td>1-1.5</td> </tr> <tr> <td>Straw</td> <td>2-3</td> </tr> <tr> <td>Pale</td> <td>4</td> </tr> <tr> <td>Gold</td> <td>5-6</td> </tr> <tr> <td>Light amber</td> <td>7</td> </tr> <tr> <td>Amber </td> <td>8</td> </tr> <tr> <td>Medium amber </td> <td>9</td> </tr> <tr> <td>Copper/garnet </td> <td>10-12</td> </tr> <tr> <td>Light brown </td> <td>13-15</td> </tr> <tr> <td>Brown/Reddish brown/chestnut brown </td> <td>16-17</td> </tr> <tr> <td>Dark brown </td> <td>18-24</td> </tr> <tr> <td>Very dark </td> <td>25-39</td> </tr> <tr> <td>Black </td> <td>40+</td> </tr> </table>
-
+<b>Color Description: </b> <b>SRM </b><br />
+Very light: 1-1.5<br />
+Straw: 2-3
+<br />Pale: 4
+<br />Gold: 5-6
+<br />Light amber: 7
+<br />Amber : 8
+<br />Medium amber : 9
+<br />Copper/garnet : 10-12
+<br />Light brown : 13-15
+<br />Brown/Reddish brown/chestnut brown : 16-17
+<br />Dark brown : 18-24
+<br />Very dark : 25-39
+<br />Black : 40+
 
 
 3. Bitterness: In the beer world bitterness is analytically measured as “bittering units” or 
@@ -95,9 +104,6 @@ hops, or other hop formats can greatly alter the perception of bitterness intens
 
 
 
-
- 
-
 Notes on Beer Competitions: Brewers Association Beer Style Guidelines form the basis for 
 the guidelines at the Great American Beer Festival (GABF) and World Beer Cup (WBC). 
 
@@ -112,6 +118,7 @@ competition. These notes might solicit special information from brewers to be
 provided to judges so they may evaluate beer entries more accurately or provide 
 clarity to entering brewers regarding possibly confusing or overlapping aspects of 
 beer style categories. 
+
 3. Pouring: Beers entered and presented for evaluation in competitions should be 
 poured and presented as intended by the brewer. Most beers are intended to be 
 poured quietly; some beers are intended to be roused in order to present the beer 
@@ -233,6 +240,7 @@ Scottish-Style Light Ale
 Color: Gold to light brown 
 
 Clarity: Chill haze is acceptable at low temperatures 
+
 Perceived Malt Aroma &amp; Flavor: Malty, caramel 
 aroma may be present. A low to medium-low, soft 
 and chewy caramel malt flavor should be present. 
@@ -685,6 +693,7 @@ Sweet Stout or Cream Stout
 Color: Black 
 
 Clarity: Opaque 
+
 Perceived Malt Aroma &amp; Flavor: Medium to 
 medium-high. Malt sweetness, chocolate and 
 caramel should contribute to the aroma and should 
@@ -1014,7 +1023,7 @@ Original Gravity (°Plato) 1.038-1.052 (9.5-12.9
 (Volume) 3.0%-4.0% (3.7%-5.0%) • Hop Bitterness 
 (IBU) 30-55 • Color SRM (EBC) 3-12 (6-24 EBC) 
 
-American-Style Amber/Red Ale 
+American-Style Amber / Red Ale 
 
 Color: Amber to reddish-brown 
 
@@ -1028,6 +1037,7 @@ Perceived Hop Aroma &amp; Flavor: Low to medium-low,
 exhibiting a wide range of attributes 
 
 Perceived bitterness: Medium to medium-high 
+
 Fermentation Characteristics: Fruity esters, if 
 present, are low. Diacetyl is usually absent in these 
 beers but may be present at very low levels. 
@@ -1138,6 +1148,7 @@ Perceived bitterness: High
 
 Fermentation Characteristics: Fruity esters may be 
 low to high. Diacetyl should not be present. 
+
 Body: Medium 
 Original Gravity (°Plato) 1.050-1.060 (12.4-14.7 
 °Plato) • Apparent Extract/Final Gravity (°Plato) 
@@ -3011,6 +3022,7 @@ Original Gravity (°Plato) 1.047-1.056 (11.7-13.8
 Traditional Belgian-Style Gueuze 
 
 Color: Gold to medium amber 
+
 Clarity: Cloudiness is acceptable, as Gueuze is 
 traditionally bottle conditioned. 
 
@@ -3755,7 +3767,7 @@ Original Gravity (°Plato) 1.044-1.050 (11-12.4 °Plato)
 3.8%-4.4% (4.8%-5.6%) • Hop Bitterness (IBU) 18-25 
 • Color SRM (EBC) 4-5.5 (8-11 EBC) 
 
-Dortmunder/European-Style Export 
+Dortmunder / European-Style Export 
 
 Color: Straw to deep gold 
 
@@ -3791,6 +3803,7 @@ Color: Copper to reddish-brown
 
 Clarity: Appearance should be clear. Chill haze 
 should not be present 
+
 Perceived Malt Aroma &amp; Flavor: Characterized by 
 malty aroma and light malt sweetness, which should 
 have a lightly toasted malt character. 
@@ -3867,7 +3880,7 @@ Original Gravity (°Plato) 1.050-1.060 (12.4-14.7
 (Volume) 4.0%-4.7% (5.1%-6.0%) • Hop Bitterness 
 (IBU) 18-25 • Color SRM (EBC) 4-15 (8-30 EBC) 
 
-German-Style Oktoberfest/Wiesn 
+German-Style Oktoberfest / Wiesn 
 
 Color: Straw to gold 
 
@@ -3908,6 +3921,7 @@ Perceived Malt Aroma &amp; Flavor: Malt character is
 low to medium, with chocolate, roast, bread or 
 biscuit aromas and flavors contributed by using dark 
 Munich malt or other specialty malts. 
+
 Perceived Hop Aroma &amp; Flavor: Very low to low, 
 with attributes typical of noble-type hops. 
 
@@ -4022,6 +4036,7 @@ Original Gravity (°Plato) 1.044-1.050 (11-12.4 °Plato)
 Bamberg-Style Maerzen Rauchbier 
 
 Color: Pale to light brown 
+
 Clarity: Appearance should be clear. Chill haze 
 should not be present 
 
@@ -4079,7 +4094,7 @@ Original Gravity (°Plato) 1.066-1.074 (16.1-18 °Plato)
 5.0%-6.0% (6.3%-7.6%) • Hop Bitterness (IBU) 20-30 
 • Color SRM (EBC) 20-30 (40-60 EBC) 
 
-German-Style Heller Bock/Maibock 
+German-Style Heller Bock / Maibock 
 
 Color: Pale to light amber. The German word “helle” 
 means light-colored, thus Heller Bock is a pale beer. 
@@ -4488,7 +4503,7 @@ Original Gravity (°Plato) 1.042-1.056 (10.5-13.8
 (Volume) 3.8%-4.3% (4.8%-5.4%) • Hop Bitterness 
 (IBU) 18-30 • Color SRM (EBC) 6-14 (12-28 EBC) 
 
-American-Style Maerzen/Oktoberfest 
+American-Style Maerzen / Oktoberfest 
 
 Color: Pale to reddish brown 
 
@@ -5226,12 +5241,13 @@ Original Gravity (°Plato) 1.030-1.110 (7.6-25.9
 (Volume) 2.0%-9.5% (2.5%-12.0%) • Hop Bitterness 
 (IBU) 5-35 • Color SRM (EBC) 5-41 (10-100 EBC) 
 
-Pumpkin/Squash Beer 
+Pumpkin / Squash Beer 
 
 Color: Can range from pale to very dark depending 
 on the underlying style 
 
 Clarity: Clear to hazy is acceptable 
+
 Perceived Malt Aroma &amp; Flavor: Can vary from low 
 to medium-high depending on the underlying style 
 
@@ -5341,6 +5357,7 @@ Perceived Hop Aroma &amp; Flavor: Low to high
 depending on the underlying style 
 
 Perceived bitterness: Varies with underlying style 
+
 Fermentation Characteristics: Typical of underlying 
 style 
 
@@ -5554,6 +5571,7 @@ on intention of brewer
 
 Perceived Hop Aroma &amp; Flavor: Very low to very 
 high 
+
 Perceived bitterness: Very low to very high 
 
 Fermentation Characteristics: Honey Beers may be 

@@ -129,6 +129,12 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Янтарний
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ячмінне вино','Barleywine', 'uk','BJCP_2015');
 
 --Brewers Association
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'en','BJCP_2015');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'es','BJCP_2015');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'uk','BJCP_2015');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'en','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'es','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'uk','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Marzen','Maerzen', 'en','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Marzen','Maerzen', 'es','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Marzen','Maerzen', 'uk','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Oktoberfest', 'en','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Oktoberfest', 'es','BA_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Oktoberfest', 'uk','BA_2021');

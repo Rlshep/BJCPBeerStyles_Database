@@ -17,6 +17,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
@@ -106,7 +108,9 @@ public class LoadDomainFromXML {
                 childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory));
                 subCatOrder++;
             } else if (isSection(xpp)) {
-                sections.add(createSection(xpp, sectionOrder));
+                Section section = createSection(xpp, sectionOrder);
+                sections.add(section);
+                tags.addAll(createExamplesTags(section.getBody()));
                 sectionOrder++;
             } else if (isStartTag(xpp, XML_TAGS)) {
                 tags.addAll(createTags(xpp));
@@ -219,6 +223,104 @@ public class LoadDomainFromXML {
         return tags;
     }
 
+    private List<Tag> createExamplesTags(String str)  {
+        final Pattern pattern1 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
+        final Pattern pattern2 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
+        Pattern[] patterns = {pattern1, pattern2};
+
+        List<Tag> tags = new ArrayList<>();
+        Tag tag;
+
+        String s = cleanupExamples(str);
+        s = getRegExValue(s, patterns);
+
+        if (!StringUtils.isEmpty(s)) {
+            String[] tokens = s.split(DELIM);
+
+            for (String t : tokens) {
+                tag = new Tag();
+                tag.setTag(formatTag(t));
+                tags.add(tag);
+            }
+        }
+
+        return tags;
+    }
+
+    private String getRegExValue(String str, Pattern[] patterns) {
+        String regEx = "";
+
+        for (int i = 0; i < patterns.length; i++) {
+            Matcher matcher = patterns[i].matcher(str);
+
+            if (matcher.find()) {
+                regEx = matcher.group(1);
+                break;
+            }
+        }
+
+        return regEx;
+    }
+
+    private String formatTag(String s) {
+        StringBuilder tag = new StringBuilder();
+        s = s.trim();
+
+        if (!StringUtils.isEmpty(s)) {
+            String[] tokens = s.split(" ");
+
+            for (String t : tokens) {
+                if (!StringUtils.isEmpty(t)) {
+                    tag.append(t.trim());
+                    tag.append(" ");
+                }
+            }
+        }
+
+        return tag.toString().trim();
+    }
+
+    private String cleanupExamples(String str) {
+        String s = str.trim().replaceAll("[\n\r]", "");
+        s = s.replaceAll("'", "''");
+        s = s.replace("<strong> Dark Versions </strong> - ","");
+        s = s.replace("; <strong> Pale Versions </strong> - ","");
+        s = s.replace("<strong> Dark </strong> -","");
+        s = s.replace("; <strong> Pale </strong> -",",");
+        s = s.replace("<strong> American </strong> - ","");
+        s = s.replace("; <strong> English </strong> - ",",");
+        s = s.replace(" (standard)","");
+        s = s.replace(" (double)","");
+        s = s.replace("The only bottled version readily available is Cantillon Grand Cru Bruocsella of whatever                single batch vintage the brewer deems worthy to bottle. De Cam sometimes bottles their very old (5                years) lambic. In and around Brussels there are specialty cafes that often have draught lambics from                traditional brewers or blenders such as ","Cantillon Grand Cru Bruocsella,");
+        s = s.replace("Girardin.","Girardin");
+        s = s.replace("(Unfiltered)", "");
+        s = s.replace("(Black Label)", "");
+        s = s.replace("(brown and blond)", "");
+        s = s.replace("(amber and blond)", "");
+        s = s.replace("(all 3 versions)", "");
+        s = s.replace("(brown)", "");
+        s = s.replace("(blond)", "");
+        s = s.replace("[US]", "");
+        s = s.replace("(NY)", "");
+        s = s.replace("(MI)", "");
+        s = s.replace("(MA)", "");
+        s = s.replace("(WI)", "");
+        s = s.replace("(OR)", "");
+        s = s.replace("(NH)", "");
+        s = s.replace("(OR)", "");
+        s = s.replace("(MT)", "");
+        s = s.replace("[UK]", "");
+        s = s.replace("[France]", "");
+        s = s.replace("(various)", "");
+        s = s.replace("(IN).", "");
+        s = s.replace("[Canada]", "");
+        s = s.replace("(Quebec)", "");
+        s = s.replace("(CO)", "");
+        s = s.replace("(WA)", "");
+
+        return s;
+    }
+
     private VitalStatistics createVitalStatistics(XmlPullParser xpp) throws XmlPullParserException, IOException {
         VitalStatistics vitalStatistics = new VitalStatistics();
 
@@ -308,3 +410,4 @@ public class LoadDomainFromXML {
         return eventType != XmlPullParser.END_DOCUMENT && !(eventType == XmlPullParser.END_TAG && name.equals(xpp.getName()));
     }
 }
+
