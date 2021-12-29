@@ -69,7 +69,9 @@ public class BrewersAssociationTextToXML {
     private String preCleanUp(StringBuilder out) {
         String cleaned = out.toString();
 
+        cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n \n\n", "\n\n");
+        cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("CupSM", "Cup&#8480;");
         cleaned = cleaned.replace("&", "&amp;");
         cleaned = cleaned.replace("American-Style Brown Ale", "\nAmerican-Style Brown Ale");
@@ -113,9 +115,13 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("Alcohol by Weight (Volume) 6.4%+ (8%+)", "Alcohol by Weight (Volume) 6.4%-100.0% (8.0%-100.0%)");
         cleaned = cleaned.replace("(Volume) 2.0%-20+% (2.5%-25+%)", "(Volume) 2.0%-20.0% (2.5%-25.0%)");
         cleaned = cleaned.replace(" <0.5% abv.", " &#60;0.5% abv.");
-        cleaned = cleaned.replace("medium \nAdditional notes:", "medium \n\nAdditional notes:");
+        cleaned = cleaned.replace(" \nAdditional notes:", " \n\nAdditional notes:");
         cleaned = cleaned.replace("\n\nOriginal Gravity (°Plato)", "\nOriginal Gravity (°Plato)");
+        cleaned = cleaned.replace("brewers-\nassociation-beer-style-guidelines", "brewers-association-beer-style-guidelines");
+        cleaned = cleaned.replace("● None \n● Very low \n● Low \n● Medium-low \n● Medium \n● Medium-high \n● High \n● Very high \n● Intense", "<ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul>");
+        cleaned = cleaned.replace("Color Description \n\nSRM \n\nVery light \n\n1-1.5 \n\nStraw \n\n2-3 \n\nPale \n\n4 \n\nGold \n\n5-6 \n\nLight amber \n\n7 \n\nAmber \n\n8 \n\nMedium amber \n\n9 \n\nCopper/garnet \n\n10-12 \n\nLight brown \n\n13-15 \n\nBrown/Reddish brown/chestnut brown \n\n16-17 \n\nDark brown \n\n18-24 \n\nVery dark \n\n25-39 \n\nBlack \n\n40+ ","<table> <tr> <td> <b>Color Description</b> </td> <td> <b>SRM</b> </td> </tr> <tr> <td>Very light</td> <td>1-1.5</td> </tr> <tr> <td>Straw</td> <td>2-3</td> </tr> <tr> <td>Pale</td> <td>4</td> </tr> <tr> <td>Gold</td> <td>5-6</td> </tr> <tr> <td>Light amber</td> <td>7</td> </tr> <tr> <td>Amber </td> <td>8</td> </tr> <tr> <td>Medium amber </td> <td>9</td> </tr> <tr> <td>Copper/garnet </td> <td>10-12</td> </tr> <tr> <td>Light brown </td> <td>13-15</td> </tr> <tr> <td>Brown/Reddish brown/chestnut brown </td> <td>16-17</td> </tr> <tr> <td>Dark brown </td> <td>18-24</td> </tr> <tr> <td>Very dark </td> <td>25-39</td> </tr> <tr> <td>Black </td> <td>40+</td> </tr> </table>");
 
+        cleaned = addHtmlLinks(cleaned);
         return cleaned;
     }
 
@@ -177,6 +183,7 @@ public class BrewersAssociationTextToXML {
     private String getHeader() {
         return "<styleguide revision=\"" + BA_2021 + "\" language=\"en\">\n";
     }
+
     private String getFooter() {
         return CATEGORY_END + "</styleguide>\n";
     }
@@ -273,16 +280,16 @@ public class BrewersAssociationTextToXML {
         final Pattern highPattern = Pattern.compile("Original Gravity\\s\\(°Plato\\)\\s\\d.\\d+-(\\d.\\d+?)\\s");
         final Pattern titlePattern = Pattern.compile("Original Gravity\\s\\(°Plato\\)\\s(.*)?\\s•\\sApparent");
 
-        return getStats(str, XML_OG,  new Pattern[]{lowPattern},  new Pattern[]{highPattern},  new Pattern[]{titlePattern});
+        return getStats(str, XML_OG, new Pattern[]{lowPattern}, new Pattern[]{highPattern}, new Pattern[]{titlePattern});
     }
 
-        //Ex: Original Gravity (°Plato) 1.033-1.038 (8.3-9.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.006-1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 2.4%-3.3% (3.0%-4.2%) • Hop Bitterness (IBU) 20-35 • Color SRM (EBC) 5-12 (10-24 EBC)
+    //Ex: Original Gravity (°Plato) 1.033-1.038 (8.3-9.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.006-1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 2.4%-3.3% (3.0%-4.2%) • Hop Bitterness (IBU) 20-35 • Color SRM (EBC) 5-12 (10-24 EBC)
     private StringBuilder getFinalGravity(String str) {
         final Pattern lowPattern = Pattern.compile("Final Gravity\\s\\(°Plato\\)\\s(\\d.\\d+?)-");
         final Pattern highPattern = Pattern.compile("Final Gravity\\s\\(°Plato\\)\\s\\d.\\d+-(\\d.\\d+?)\\s\\(");
         final Pattern titlePattern = Pattern.compile("Final Gravity\\s\\(°Plato\\)\\s(.*)?\\s•\\sAlcohol");
 
-        return getStats(str, XML_FG,  new Pattern[]{lowPattern},  new Pattern[]{highPattern},  new Pattern[]{titlePattern});
+        return getStats(str, XML_FG, new Pattern[]{lowPattern}, new Pattern[]{highPattern}, new Pattern[]{titlePattern});
     }
 
     //Ex: Original Gravity (°Plato) 1.033-1.038 (8.3-9.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.006-1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 2.4%-3.3% (3.0%-4.2%) • Hop Bitterness (IBU) 20-35 • Color SRM (EBC) 5-12 (10-24 EBC)
@@ -292,7 +299,7 @@ public class BrewersAssociationTextToXML {
         final Pattern highPattern = Pattern.compile("\\s\\(IBU\\)\\s\\d+-(\\d+)?");
         final Pattern titlePattern = Pattern.compile("\\s\\(IBU\\)\\s(.*)?\\s•");
 
-        return getStats(str, XML_IBU,  new Pattern[]{lowPattern},  new Pattern[]{highPattern},  new Pattern[]{titlePattern});
+        return getStats(str, XML_IBU, new Pattern[]{lowPattern}, new Pattern[]{highPattern}, new Pattern[]{titlePattern});
     }
 
     //Ex: Original Gravity (°Plato) 1.033-1.038 (8.3-9.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.006-1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 2.4%-3.3% (3.0%-4.2%) • Hop Bitterness (IBU) 20-35 • Color SRM (EBC) 5-12 (10-24 EBC)
@@ -304,7 +311,7 @@ public class BrewersAssociationTextToXML {
         final Pattern titlePattern1 = Pattern.compile("\\s\\(EBC\\)\\s(.*)?\\s\\(");
         final Pattern titlePattern2 = Pattern.compile("\\s\\(EBC\\)\\s(.*)?\\s");
 
-        return getStats(str, XML_SRM, new Pattern[]{lowPattern},  new Pattern[]{highPattern}, new Pattern[]{titlePattern1, titlePattern2});
+        return getStats(str, XML_SRM, new Pattern[]{lowPattern}, new Pattern[]{highPattern}, new Pattern[]{titlePattern1, titlePattern2});
     }
 
     //Ex: Original Gravity (°Plato) 1.033-1.038 (8.3-9.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.006-1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 2.4%-3.3% (3.0%-4.2%) • Hop Bitterness (IBU) 20-35 • Color SRM (EBC) 5-12 (10-24 EBC)
@@ -317,7 +324,7 @@ public class BrewersAssociationTextToXML {
         final Pattern highPattern2 = Pattern.compile("\\s\\(Volume\\)\\s\\d+.\\d+%-\\d+.\\d+%\\sabw\\s\\(\\d+.\\d+%-(\\d+.\\d)?%\\sabv");
         final Pattern titlePattern = Pattern.compile("\\s\\(Volume\\)\\s(.*)?\\s•\\sHop");
 
-        return getStats(str, XML_ABV, new Pattern[]{lowPattern1, lowPattern2},  new Pattern[]{highPattern1, highPattern2}, new Pattern[]{titlePattern});
+        return getStats(str, XML_ABV, new Pattern[]{lowPattern1, lowPattern2}, new Pattern[]{highPattern1, highPattern2}, new Pattern[]{titlePattern});
     }
 
     private StringBuilder getStats(String str, String tag, Pattern[] lowPattern, Pattern[] highPattern, Pattern[] titlePattern) {
@@ -350,7 +357,7 @@ public class BrewersAssociationTextToXML {
         if (isTitleNeeded) {
             formatted.append(START_TITLE);
 
-            for (int i=0; i<titlePattern.length; i++) {
+            for (int i = 0; i < titlePattern.length; i++) {
                 String title = getRegExValue(str, titlePattern[i]);
 
                 if (!StringUtils.isEmpty(title)) {
@@ -374,7 +381,7 @@ public class BrewersAssociationTextToXML {
         StringBuilder formatted = new StringBuilder();
 
         String regEx = "";
-        for (int i=0; i<pattern.length; i++) {
+        for (int i = 0; i < pattern.length; i++) {
             String found = getRegExValue(str, pattern[i]);
 
             if (!StringUtils.isEmpty(found)) {
@@ -389,6 +396,19 @@ public class BrewersAssociationTextToXML {
 
         return formatted;
     }
+
+    private String addHtmlLinks(String str) {
+        final Pattern pattern = Pattern.compile("(http|ftp|https)://[\\w-]+(\\.[\\w-]+)+([\\w.,@?^=%&amp;:/~+#-]*[\\w@?^=%&amp;/~+#-])?");
+
+        String found = getAllRegExValue(str, pattern);
+
+        if (!StringUtils.isEmpty(found)) {
+            str = str.replace(found, "<a href=\"" + found + "\">" + found + "</a> ");
+        }
+
+        return str;
+    }
+
 
     private String postCleanUp(StringBuilder out) {
         String cleaned = out.toString();
@@ -421,6 +441,17 @@ public class BrewersAssociationTextToXML {
 
         if (matcher.find()) {
             regEx = matcher.group(1);
+        }
+
+        return regEx;
+    }
+
+    private String getAllRegExValue(String str, Pattern pattern) {
+        String regEx = "";
+        Matcher matcher = pattern.matcher(str);
+
+        if (matcher.find()) {
+            regEx = matcher.group(0);
         }
 
         return regEx;

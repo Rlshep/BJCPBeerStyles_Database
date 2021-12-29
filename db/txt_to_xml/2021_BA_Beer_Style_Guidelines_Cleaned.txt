@@ -45,8 +45,7 @@ not described in terms of ingredients or process. These guidelines attempt to em
 evaluation of the product and try not to proscribe the formulation or process by which it was 
 brewed, except in special circumstances whereby processing clearly defines a style or sensory 
 outcomes. Suggestions for adding or updating a beer style guideline may be submitted by 
-following the links on this page: https://www.brewersassociation.org/edu/brewers-
-association-beer-style-guidelines/#tab-submitsuggestions. 
+following the links on this page: <a href="https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#tab-submitsuggestions">https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#tab-submitsuggestions</a> . 
 
 The bitterness specifications (IBUs) given in these guidelines are based on standard 
 measurements for bitterness derived from kettle isomerization of naturally occurring alpha 
@@ -66,15 +65,7 @@ include bitterness, flavor, aroma, body, malt, sweetness, and hundreds of indivi
 flavor attributes. In order of increasing intensity, the descriptions used include: 
 
 
-● None 
-● Very low 
-● Low 
-● Medium-low 
-● Medium 
-● Medium-high 
-● High 
-● Very high 
-● Intense 
+<ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul> 
 
 
 2. Color Ranges: The American SRM (Standard Reference Method) and EBC (European 
@@ -85,61 +76,7 @@ perception of color lightness and darkness or hue. When in doubt the description
 color has priority. In order from lightest descriptor to darkest descriptor: 
 
 
-Color Description 
-
-SRM 
-
-Very light 
-
-1-1.5 
-
-Straw 
-
-2-3 
-
-Pale 
-
-4 
-
-Gold 
-
-5-6 
-
-Light amber 
-
-7 
-
-Amber 
-
-8 
-
-Medium amber 
-
-9 
-
-Copper/garnet 
-
-10-12 
-
-Light brown 
-
-13-15 
-
-Brown/Reddish brown/chestnut brown 
-
-16-17 
-
-Dark brown 
-
-18-24 
-
-Very dark 
-
-25-39 
-
-Black 
-
-40+ 
+<table> <tr> <td> <b>Color Description</b> </td> <td> <b>SRM</b> </td> </tr> <tr> <td>Very light</td> <td>1-1.5</td> </tr> <tr> <td>Straw</td> <td>2-3</td> </tr> <tr> <td>Pale</td> <td>4</td> </tr> <tr> <td>Gold</td> <td>5-6</td> </tr> <tr> <td>Light amber</td> <td>7</td> </tr> <tr> <td>Amber </td> <td>8</td> </tr> <tr> <td>Medium amber </td> <td>9</td> </tr> <tr> <td>Copper/garnet </td> <td>10-12</td> </tr> <tr> <td>Light brown </td> <td>13-15</td> </tr> <tr> <td>Brown/Reddish brown/chestnut brown </td> <td>16-17</td> </tr> <tr> <td>Dark brown </td> <td>18-24</td> </tr> <tr> <td>Very dark </td> <td>25-39</td> </tr> <tr> <td>Black </td> <td>40+</td> </tr> </table>
 
 
 
@@ -407,6 +344,7 @@ dioxide than is typical for lightly carbonated draft
 versions. 
 
 Body: Medium 
+
 Additional notes: These beers differ significantly 
 from Scotch Ale, especially regarding original gravity, 
 alcohol content and malt attributes. While there are 
@@ -1643,6 +1581,7 @@ medium-high to high and evident. Fruity esters are
 medium to high. Diacetyl should not be present. 
 
 Body: Medium to full 
+
 Additional notes: This style of beer should exhibit 
 the fresh character of hops. Oxidized or aged 
 character should not be present. Versions of this 

@@ -22,7 +22,7 @@ import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
 public class LoadDomainFromXML {
     private static final String XML_HOME = "db//";
-    private static final String[] ALLOWED_SECTIONS = {"notes", "body"};
+    private static final String[] ALLOWED_SECTIONS = {"notes", "body", "table", "td", "tr"};
     private final List<String> allowedSections = Arrays.asList(ALLOWED_SECTIONS);
     private final static HashMap<String, String> VALUES_TO_CONVERT = new HashMap<String, String>();
     private final static String DELIM = ",";
@@ -30,10 +30,10 @@ public class LoadDomainFromXML {
     private boolean allowHeaderTarget = false;
 
     static {
-        VALUES_TO_CONVERT.put("<ul>", "");
-        VALUES_TO_CONVERT.put("</ul>", "");
-        VALUES_TO_CONVERT.put("<li>", "<br>");
-        VALUES_TO_CONVERT.put("</li>", "<br>");
+//        VALUES_TO_CONVERT.put("<ul>", "");
+//        VALUES_TO_CONVERT.put("</ul>", "");
+//        VALUES_TO_CONVERT.put("<li>", "<br>");
+//        VALUES_TO_CONVERT.put("</li>", "<br>");
         VALUES_TO_CONVERT.put("<definitionlist>", "");
         VALUES_TO_CONVERT.put("</definitionlist>", "");
         VALUES_TO_CONVERT.put("<definitionitem>", "");
