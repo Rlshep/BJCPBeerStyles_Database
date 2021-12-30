@@ -10,7 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.DATABASE_NAME;
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.*;
 
 public class CreateBjcpDatabase {
 
@@ -38,10 +38,12 @@ public class CreateBjcpDatabase {
             bjcpDao.createTables(stmt);
 
             // Load database from xml file.
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_ENGLISH_2015));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH_2015));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN_2015));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_ENGLISH_2015, ENGLISH));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH_2015, SPANISH));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN_2015, UKRANIAN));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, ENGLISH));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, SPANISH));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, UKRANIAN));
 
             bjcpDao.addCategories(stmt, categories, -1);
             bjcpDao.addMetaData(stmt);

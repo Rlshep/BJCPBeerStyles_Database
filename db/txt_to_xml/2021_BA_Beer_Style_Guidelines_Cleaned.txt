@@ -1811,8 +1811,6 @@ include the underlying beer style upon which the
 entry is based, or other information unique to the 
 entry such as ingredients or processing which 
 influence perceived sensory outcomes. 
-
- 
 Original Gravity (°Plato) May vary widely • Apparent 
 Extract/Final Gravity (°Plato) May vary widely • 
 Alcohol by Weight (Volume) May vary widely • Hop 
@@ -1920,8 +1918,6 @@ than most English and Belgian-style ales. They are
 aged cold. Ale yeast is used for fermentation. Lager 
 yeast is sometimes used for bottle conditioning or 
 final cold conditioning. 
-
- 
 Original Gravity (°Plato) 1.042-1.048 (10.5-11.9 
 °Plato) • Apparent Extract/Final Gravity (°Plato) 
 1.006-1.010 (1.5-2.6 °Plato) • Alcohol by Weight 
@@ -2255,8 +2251,6 @@ Additional notes: These beers are made with at least
 50 percent wheat malt. They are often roused during 
 pouring, and when yeast is present, they will have a 
 yeasty flavor and a fuller mouthfeel. 
-
- 
 Original Gravity (°Plato) 1.048-1.056 (11.9-13.8 
 °Plato) • Apparent Extract/Final Gravity (°Plato) 
 1.008-1.016 (2.1-4.1 °Plato) • Alcohol by Weight 
@@ -3231,8 +3225,6 @@ otherwise defined in these guidelines or other
 information unique to the entry such as ingredients 
 or processing which influence perceived sensory 
 outcomes. 
-
- 
 Original Gravity (°Plato) Varies with style • Apparent 
 Extract/Final Gravity (°Plato) Varies with style • 
 Alcohol by Weight (Volume) 4.0%-100.0% (5.0%-100.0%) • Hop 
@@ -3689,8 +3681,6 @@ Body: Low to medium-low
 
 Additional notes: The head should be dense, pure 
 white and persistent. 
-
- 
 Original Gravity (°Plato) 1.044-1.052 (11-12.9 °Plato) 
 • Apparent Extract/Final Gravity (°Plato) 1.006-
 1.012 (1.5-3.1 °Plato) • Alcohol by Weight (Volume) 

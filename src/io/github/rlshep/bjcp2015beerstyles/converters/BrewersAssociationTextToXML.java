@@ -75,6 +75,7 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n\n\n \n\n", "\n\n");
+        cleaned = cleaned.replace("\n\n \n", "\n\n");
         cleaned = cleaned.replace("CupSM", "Cup&#8480;");
         cleaned = cleaned.replace("&", "&amp;");
         cleaned = cleaned.replace("American-Style Brown Ale", "\nAmerican-Style Brown Ale");
@@ -335,8 +336,8 @@ public class BrewersAssociationTextToXML {
     //Ex: Original Gravity (°Plato) 1.040-1.072 (10-17.5 °Plato) • Apparent Extract/Final Gravity (°Plato) 1.008-1.016 (2.1-4.1 °Plato) • Alcohol by Weight (Volume) 4.0%-7.0% (5.0%-8.9%) • Hop Bitterness (IBU) 15-21• Color SRM (EBC) Color takes on hue of fruit (Color takes on hue of fruit EBC)
     //Ex: Color SRM (EBC) Varies with style
     private StringBuilder getSRM(String str) {
-        final Pattern lowPattern = Pattern.compile("\\s\\(EBC\\)\\s(\\d+)?");
-        final Pattern highPattern = Pattern.compile("\\s\\(EBC\\)\\s\\d+-(\\d+)?");
+        final Pattern lowPattern = Pattern.compile("\\s\\(EBC\\)\\s(\\d+\\.*\\d*)?");
+        final Pattern highPattern = Pattern.compile("\\s\\(EBC\\)\\s\\d+\\.*\\d*-(\\d+\\.*\\d*)?");
         final Pattern titlePattern1 = Pattern.compile("\\s\\(EBC\\)\\s(.*)?\\s\\(");
         final Pattern titlePattern2 = Pattern.compile("\\s\\(EBC\\)\\s(.*)?\\s");
 
