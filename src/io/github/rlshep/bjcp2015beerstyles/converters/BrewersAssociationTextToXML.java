@@ -5,23 +5,17 @@ import org.apache.commons.lang.StringUtils;
 import java.io.*;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.BA_2021;
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
-public class BrewersAssociationTextToXML {
+public class BrewersAssociationTextToXML extends TextToXML {
 
     private static final String INPUT_FILE_NAME = "./db/txt_to_xml/2021_BA_Beer_Style_Guidelines_Final.txt";    //Exported from PDF Reader
     private static final String CLEANED_FILE = "./db/txt_to_xml/2021_BA_Beer_Style_Guidelines_Cleaned.txt";
-    private static final String OUTPUT_FILE_NAME = "./db/2021_BA_Beer_Style_Guidelines_Final.xml";
-
+    private static final String OUTPUT_FILE_NAME = "./db/txt_to_xml/2021_BA_Beer_Style_Guidelines_Final.xml";
     private static final String CATEGORY_START = "\t<category>\n";
-    private static final String CATEGORY_END = "\t</category>\n";
-    private static final String REVISION = "\t\t<revision number=\"1\">" + BA_2021 + "</revision>\n";
-    private static final String NAME_START = "\t\t<name>";
-    private static final String NAME_END = "</name>\n";
 
     private static final String[] IGNORED_LINES = {"LAGER STYLES", "HYBRID/MIXED LAGERS OR ALE"};
     private static final List<String> ignoredLines = Arrays.asList(IGNORED_LINES);
@@ -38,37 +32,27 @@ public class BrewersAssociationTextToXML {
     private static final String[] HEADER_WORDS = {"Color:", "Clarity:", "Body:", "Additional notes:", "Fermentation Characteristics:", "Perceived Malt Aroma &amp; Flavor:", "Perceived Hop Aroma &amp; Flavor:", "Perceived bitterness:"};
     private final List<String> headerWords = Arrays.asList(HEADER_WORDS);
 
-    private boolean skipNextLine = false;
-    private BufferedReader br;
+
+    public static void main(String args[]) {
+        BrewersAssociationTextToXML converter = new BrewersAssociationTextToXML();
+
+        converter.convert();
+    }
 
     public void convert() {
         try {
-            cleanUpTextFile();
-            convertToXml();
+            cleanUpTextFile(INPUT_FILE_NAME, CLEANED_FILE);
+            convertToXml(CLEANED_FILE, OUTPUT_FILE_NAME);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void cleanUpTextFile() throws IOException {
-        FileReader input = new FileReader(INPUT_FILE_NAME);
-        FileWriter output = new FileWriter(CLEANED_FILE);
-        BufferedReader br = new BufferedReader(input);
-        String str;
-        StringBuilder out = new StringBuilder();
-
-        while ((str = br.readLine()) != null) {
-            out.append(str + "\n");
-        }
-
-        output.write(preCleanUp(out));
-
-        br.close();
-        input.close();
-        output.close();
+    protected String preLineCleanUp(String str) {
+        return str;
     }
 
-    private String preCleanUp(StringBuilder out) {
+    protected String preCleanUp(StringBuilder out) {
         String cleaned = out.toString();
 
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
@@ -143,37 +127,13 @@ public class BrewersAssociationTextToXML {
         return str;
     }
 
-    public void convertToXml() throws IOException {
-        FileReader input = new FileReader(CLEANED_FILE);
-        FileWriter output = new FileWriter(OUTPUT_FILE_NAME);
-        br = new BufferedReader(input);
-        String str;
-        StringBuilder out = new StringBuilder();
-
-        while ((str = br.readLine()) != null) {
-            if (skipNextLine) {
-                skipNextLine = false;
-            } else {
-                out.append(formatLine(str));
-            }
-        }
-
-        out.append(getFooter());
-        output.write(postCleanUp(out));
-
-        br.close();
-        input.close();
-        output.close();
-    }
-
-    private StringBuilder formatLine(String str) throws IOException {
-        final String NOTES_END = "\t\t</notes>\n";
+    protected StringBuilder formatLine(String str) throws IOException {
         StringBuilder formattedLine = new StringBuilder();
 
         if (ignoredLines.contains(str.trim())) {
             // Ignore
         } else if (str.startsWith("Compiled by the Brewers Association")) {
-            formattedLine.append(getHeader());
+            formattedLine.append(getHeaderXml(BA_2021));
             formattedLine.append(getIntroduction());
             formattedLine.append("\t\t\t\t");
             formattedLine.append(str);
@@ -199,22 +159,12 @@ public class BrewersAssociationTextToXML {
 
         return formattedLine;
     }
-
-    private String getHeader() {
-        return "<styleguide revision=\"" + BA_2021 + "\" language=\"en\">\n";
-    }
-
-    private String getFooter() {
-        return CATEGORY_END + "</styleguide>\n";
-    }
-
     private StringBuilder getIntroduction() {
         final String INTRO = "Introduction";
-        final String NOTES = "\t\t<notes title=\"\">\n";
         StringBuilder formatted = new StringBuilder();
 
         formatted.append(CATEGORY_START);
-        formatted.append(REVISION);
+        formatted.append(getRevisionXml(BA_2021));
         formatted.append(NAME_START);
         formatted.append(INTRO);
         formatted.append(NAME_END);
@@ -228,7 +178,7 @@ public class BrewersAssociationTextToXML {
 
         formatted.append(CATEGORY_END);
         formatted.append(CATEGORY_START);
-        formatted.append(REVISION);
+        formatted.append(getRevisionXml(BA_2021));
         formatted.append(NAME_START);
         formatted.append(getTitleCase(str));
         formatted.append(NAME_END);
@@ -240,8 +190,6 @@ public class BrewersAssociationTextToXML {
 
     private StringBuilder formatSubCategory(String str) {
         StringBuilder formatted = new StringBuilder();
-        final String SUB_CATEGORY_START = "\t\t<subcategory>\n";
-        final String BODY_START = "\t\t\t<body>\n";
 
         formatted.append(SUB_CATEGORY_START);
         formatted.append("\t");
@@ -289,8 +237,6 @@ public class BrewersAssociationTextToXML {
 
     private StringBuilder formatStats(String str) {
         StringBuilder formatted = new StringBuilder();
-        final String SUB_CATEGORY_END = "\t\t</subcategory>\n";
-        final String BODY_END = "\t\t\t</body>\n";
 
         formatted.append(BODY_END);
         formatted.append(getOriginalGravity(str));
@@ -439,8 +385,7 @@ public class BrewersAssociationTextToXML {
         return str;
     }
 
-
-    private String postCleanUp(StringBuilder out) {
+    protected String postCleanUp(StringBuilder out) {
         String cleaned = out.toString();
 
         cleaned = cleaned.replace("<br/>\n<br/>\n\t\t\t</body>\n\t\t\t<stats>", "\n\t\t\t</body>\n\t\t\t<stats>");
@@ -463,39 +408,5 @@ public class BrewersAssociationTextToXML {
         }
 
         return word;
-    }
-
-    private String getRegExValue(String str, Pattern pattern) {
-        String regEx = "";
-        Matcher matcher = pattern.matcher(str);
-
-        if (matcher.find()) {
-            regEx = matcher.group(1);
-        }
-
-        return regEx;
-    }
-
-    private String getAllRegExValue(String str, Pattern pattern) {
-        String regEx = "";
-        Matcher matcher = pattern.matcher(str);
-
-        if (matcher.find()) {
-            regEx = matcher.group(0);
-        }
-
-        return regEx;
-    }
-
-    private String getTitleCase(String str) {
-        StringBuilder title = new StringBuilder();
-        String[] words = str.split(" ");
-
-        for (String word : words) {
-            title.append(StringUtils.capitalize(word.toLowerCase()));
-            title.append(" ");
-        }
-
-        return title.toString();
     }
 }
