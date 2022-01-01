@@ -924,11 +924,12 @@ To assist with regrouping styles for other purposes, we have added informational
 
 '''Style Comparison:''' A lighter-bodied, lower-alcohol, lower calorie version of an American Lager. Less hop character and bitterness than a German Leichtbier. 
 
-'''Vital Statistics:'''OG:1.028 – 1.040
-
-IBUs:8 – 12FG:0.998 – 1.008
-
-SRM:2 – 3ABV:2.8 – 4.2%
+'''Vital Statistics:''' 
+OG:1.028 – 1.040
+IBUs:8 – 12
+FG:0.998 – 1.008
+SRM:2 – 3
+ABV:2.8 – 4.2%
 
 '''Commercial Examples:''' Bud Light, Coors Light, Grain Belt Premium Light American Lager, Michelob Light, Miller Lite, Old Milwaukee Light
 
@@ -954,11 +955,12 @@ SRM:2 – 3ABV:2.8 – 4.2%
 
 '''Style Comparison:''' Stronger, more flavor and body than an American Light Lager. Less bitterness and flavor than an International Pale Lager. Significantly less flavor, hops, and bitterness than traditional European Pilsners.
 
-'''Vital Statistics:'''OG:1.040 – 1.050
-
-IBUs:8 – 18FG:1.004 – 1.010
-
-SRM:2 – 3.5ABV:4.2 – 5.3%
+'''Vital Statistics:''' 
+OG:1.040 – 1.050
+IBUs:8 – 18
+FG:1.004 – 1.010
+SRM:2 – 3.5
+ABV:4.2 – 5.3%
 
 '''Commercial Examples:''' Budweiser, Coors Original, Grain Belt Premium American Lager, Miller High Life, Old Style, Pabst Blue Ribbon, Special Export
 
@@ -985,11 +987,12 @@ SRM:2 – 3.5ABV:4.2 – 5.3%
 
 '''Style Comparison:''' Similar to a Standard American Lager, but with more character. Lighter body, smoother, and more carbonated than a Blonde Ale. May seem like a somewhat subtle Kölsch.
 
-'''Vital Statistics:'''OG:1.042 – 1.055 
-
-IBUs: 8 – 20FG:1.006 – 1.012
-
-SRM: 2 – 5ABV:4.2 – 5.6%
+'''Vital Statistics:''' 
+OG:1.042 – 1.055 
+IBUs: 8 – 20
+FG:1.006 – 1.012
+SRM: 2 – 5
+ABV:4.2 – 5.6%
 
 '''Commercial Examples:''' Genesee Cream Ale, Liebotschaner Cream Ale, Kiwanda Pre-Prohibition Cream Ale, Little Kings Cream Ale, Sleeman Cream Ale, Sun King Sunlight Cream Ale
 
@@ -1015,11 +1018,12 @@ SRM: 2 – 5ABV:4.2 – 5.6%
 
 '''Style Comparison:''' More hop character and less yeast character than Weissbier. Never with the banana and clove character of Weissbier. Generally has the same range and balance as Blonde Ales, but with a wheat character as the primary malt flavor.
 
-'''Vital Statistics:'''OG:1.040 – 1.055
-
-IBUs:15 – 30FG:1.008 – 1.013
-
-SRM:3 – 6ABV:4.0 – 5.5%
+'''Vital Statistics:''' 
+OG:1.040 – 1.055
+IBUs:15 – 30
+FG:1.008 – 1.013
+SRM:3 – 6
+ABV:4.0 – 5.5%
 
 '''Commercial Examples:''' Bell’s Oberon, Boulevard Unfiltered Wheat Beer, GoodLife Sweet As! Pacific Ale, Goose Island 312 Urban Wheat Ale, Widmer Hefeweizen
 
@@ -1051,11 +1055,12 @@ SRM:3 – 6ABV:4.0 – 5.5%
 
 '''Entry Instructions:''' Entrant may specify regional variations, if desired (Mexican lager, Dutch lager, etc.).
 
-'''Vital Statistics:'''OG:1.042 – 1.050
-
-IBUs:18 – 25FG:1.008 – 1.012
-
-SRM:2 – 6ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.042 – 1.050
+IBUs:18 – 25
+FG:1.008 – 1.012
+SRM:2 – 6
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Asahi Super Dry, Birra Moretti, Corona Extra, Devils Backbone Gold Leaf Lager, Full Sail Session Premium Lager, Heineken, Red Stripe, Singha
 
@@ -1081,11 +1086,12 @@ SRM:2 – 6ABV:4.5 – 6.0%
 
 '''Style Comparison:''' Less well-developed malt flavor than a Vienna Lager, often with an adjunct taste. Less robust flavor and bitterness than Altbier.
 
-'''Vital Statistics:'''OG:1.042 – 1.055
-
-IBUs:8 – 25FG:1.008 – 1.014
-
-SRM:6 – 14ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.042 – 1.055
+IBUs:8 – 25
+FG:1.008 – 1.014
+SRM:6 – 14
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Abita Amber Lager, Brooklyn Lager, Capital Wisconsin Amber Lager, Dos Equis Amber, Grain Belt NordEast, Yuengling Lager
 
@@ -1112,10 +1118,10 @@ SRM:6 – 14ABV:4.5 – 6.0%
 '''Style Comparison:''' Less flavor and richness than Munich Dunkel, Schwarzbier, or other dark lagers. Frequently uses adjuncts, as is typical of other International Lagers.
 
 '''Vital Statistics:''' OG:1.044 – 1.056
-
-IBUs:8 – 20FG:1.008 – 1.012
-
-SRM:14 – 30ABV:4.2 – 6.0%
+IBUs:8 – 20
+FG:1.008 – 1.012
+SRM:14 – 30
+ABV:4.2 – 6.0%
 
 '''Commercial Examples:''' Baltika #4 Original, Dixie Blackened Voodoo, Heineken Dark Lager, Saint Pauli Girl Special Dark, San Miguel Dark, Shiner Bock
 
@@ -1146,11 +1152,12 @@ SRM:14 – 30ABV:4.2 – 6.0%
 '''Style Comparison:''' A lighter-bodied, lower-intensity, refreshing, everyday version of Czech Premium Pale Lager.
 
 
-'''Vital Statistics:'''OG:1.028 – 1.044
-
-IBUs:20 – 35FG:1.008 – 1.014
-
-SRM:3 – 6ABV:3.0 – 4.1%
+'''Vital Statistics:''' 
+OG:1.028 – 1.044
+IBUs:20 – 35
+FG:1.008 – 1.014
+SRM:3 – 6
+ABV:3.0 – 4.1%
 
 '''Commercial Examples: '''Bernard světlé pivo 10, Březňák světlé výčepní pivo, Notch Session Pils, Primátor Antonín světlé výčepní, Radegast Rázna 10, Únětické pivo 10°
 
@@ -1178,11 +1185,12 @@ SRM:3 – 6ABV:3.0 – 4.1%
 
 '''Style Comparison:''' More color, malt richness, and body than a German Pils, with a fuller finish and a cleaner, softer impression. Stronger than a Czech Pale Lager.
 
-'''Vital Statistics:'''OG:1.044 – 1.060
-
-IBUs:30 – 45FG:1.013 – 1.017
-
-SRM:3.5 – 6ABV:4.2 – 5.8%
+'''Vital Statistics:''' 
+OG:1.044 – 1.060
+IBUs:30 – 45
+FG:1.013 – 1.017
+SRM:3.5 – 6
+ABV:4.2 – 5.8%
 
 '''Commercial Examples:''' Bernard světlé ležák 12°, Budvar 33 světlý ležák, Pilsner Urquell, Pivovar Jihlava Ježek 11%, Primátor Premium lager, Radegast Ryze hořká 12, Únětická pivo 12°
 
@@ -1208,11 +1216,12 @@ SRM:3.5 – 6ABV:4.2 – 5.8%
 
 '''Style Comparison:''' The style can be similar to a Vienna Lager but with stronger Czech late hop character, or that approaching a British Bitter but significantly richer with more of a deep caramel character. Large brewery versions are generally similar to Czech Premium Pale Lager with slightly darker malt flavors and less hop, while smaller breweries often make versions with considerable hop character, malt complexity, or residual sweetness.
 
-'''Vital Statistics:'''OG:1.044 – 1.060
-
-IBUs:20 – 35FG:1.013 – 1.017
-
-SRM:10 – 16ABV:4.4 – 5.8%
+'''Vital Statistics:''' 
+OG:1.044 – 1.060
+IBUs:20 – 35
+FG:1.013 – 1.017
+SRM:10 – 16
+ABV:4.4 – 5.8%
 
 
 '''Commercial Examples:''' Bernard Jantarový ležák 12°, Gambrinus Polotmavá 12°, Kozel Semi-Dark, Lobkowicz Démon 13, Primátor 13 polotmavé, Strakonický Dudák Klostermann polotmavý ležák
@@ -1239,11 +1248,12 @@ SRM:10 – 16ABV:4.4 – 5.8%
 
 '''Style Comparison:''' The beer is the Czech equivalent of a dark lager ranging in character from Munich Dunkel to Schwarzbier, but typically with greater malt richness and hop aroma, flavor, and bitterness.
 
-'''Vital Statistics:'''OG:1.044 – 1.060
-
-IBUs:18 – 34FG:1.013 – 1.017
-
-SRM:17 – 35ABV:4.4 – 5.8%
+'''Vital Statistics:''' 
+OG:1.044 – 1.060
+IBUs:18 – 34
+FG:1.013 – 1.017
+SRM:17 – 35
+ABV:4.4 – 5.8%
 
 '''Commercial Examples:''' Bernard černý ležák 12°, Budvar tmavý ležák, Herold lmavé silné pivo 13°, Kozel Dark , Krušovice černé, Primátor dark lager, U Fleků Flekovský tmavý ležák 13°
 
@@ -1276,11 +1286,12 @@ SRM:17 – 35ABV:4.4 – 5.8%
 
 '''Style Comparison:''' Similar in malt balance and bitterness to Munich Dunkel, but less malty-sweet in nature and pale rather than dark and rich. More body and malt presence than a German Pils, but less crisp and with less hop character throughout. Similar malt profile as a German Helles Exportbier, but with fewer hops in the balance and slightly less alcohol. Less body and alcohol than a Festbier.
 
-'''Vital Statistics:'''OG:1.044 – 1.048
-
-IBUs:16 – 22FG:1.006 – 1.012
-
-SRM:3 – 5ABV:4.7 – 5.4%
+'''Vital Statistics:''' 
+OG:1.044 – 1.048
+IBUs:16 – 22
+FG:1.006 – 1.012
+SRM:3 – 5
+ABV:4.7 – 5.4%
 
 '''Commercial Examples:''' Augustiner Lagerbier Hell, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Münchner Lager, Schönramer Hell, Spaten Münchner Hell, Weihenstephaner Original Heles
 
@@ -1306,11 +1317,12 @@ SRM:3 – 5ABV:4.7 – 5.4%
 
 '''Style Comparison:''' Less intense and less richly toasted than a Märzen. Stronger than a Munich Helles, with a bit more body, and hop and malt flavor. Less rich in malt intensity than a Helles Bock. The malt complexity is similar to a higher-gravity Czech Premium Pale Lager, although without the associated hops.
 
-'''Vital Statistics:'''OG:1.054 – 1.057
-
-IBUs:18 – 25FG:1.010 – 1.012
-
-SRM:4 – 6ABV:5.8 – 6.3%
+'''Vital Statistics:''' 
+OG:1.054 – 1.057
+IBUs:18 – 25
+FG:1.010 – 1.012
+SRM:4 – 6
+ABV:5.8 – 6.3%
 
 '''Commercial Examples:''' Augustiner Oktoberfest, Hacker-Pschorr Superior Festbier, Hofbräu Oktoberfestbier, Löwenbräu Oktoberfestbier, Paulaner Oktoberfest Bier, Weihenstephaner Festbier
 
@@ -1336,11 +1348,12 @@ SRM:4 – 6ABV:5.8 – 6.3%
 
 '''Style Comparison:''' Can be thought of as either a pale version of a Dunkles Bock, or a Munich Helles or Festbier brewed to bock strength. While quite malty, this beer typically has less dark and rich malt flavors, and can be drier, hoppier, and more bitter than a Dunkles Bock. Less strong than a pale Doppelbock, but with similar flavors.
 
-'''Vital Statistics:'''OG:1.064 – 1.072
-
-IBUs:23 – 35FG:1.011 – 1.018
-
-SRM:6 – 9ABV:6.3 – 7.4%
+'''Vital Statistics:''' 
+OG:1.064 – 1.072
+IBUs:23 – 35
+FG:1.011 – 1.018
+SRM:6 – 9
+ABV:6.3 – 7.4%
 
 '''Commercial Examples:''' Altenmünster Maibock, Ayinger Maibock, Chuckanut Maibock, Einbecker Mai-Ur-Bock, Hofbräu Maibock, Mahr’s Heller Bock
 
@@ -1370,11 +1383,12 @@ SRM:6 – 9ABV:6.3 – 7.4%
 
 '''Style Comparison:''' Like a lower-alcohol, lighter-bodied, slightly less aggressive German Pils or Munich Helles. More bitter and flavorful than an American Light Lager.
 
-'''Vital Statistics:'''OG:1.026 – 1.034
-
-IBUs:15 – 28FG:1.006 – 1.010
-
-SRM:1.5 – 4ABV:2.4 – 3.6%
+'''Vital Statistics:''' 
+OG:1.026 – 1.034
+IBUs:15 – 28
+FG:1.006 – 1.010
+SRM:1.5 – 4
+ABV:2.4 – 3.6%
 
 '''Commercial Examples:''' Autenrieder Schlossbräu Leicht, Greif Bräu Leicht, Hohenthanner Tannen Hell Leicht, Müllerbrau Heimer Leicht, Schönramer Surtaler Schankbier, Waldhaus Sommer Bier
 
@@ -1400,11 +1414,12 @@ SRM:1.5 – 4ABV:2.4 – 3.6%
 
 '''Style Comparison:''' Can be mistaken for a Cream Ale or somewhat subtle German Pils.
 
-'''Vital Statistics:'''OG:1.044 – 1.050
-
-IBUs:18 – 30FG:1.007 – 1.011
-
-SRM:3.5 – 5ABV:4.4 – 5.2%
+'''Vital Statistics:''' 
+OG:1.044 – 1.050
+IBUs:18 – 30
+FG:1.007 – 1.011
+SRM:3.5 – 5
+ABV:4.4 – 5.2%
 
 '''Commercial Examples:''' Früh Kölsch, Gaffel Kölsch, Mühlen Kölsch, Päffgen Kolsch, Reissdorf Kölsch, Sion Kölsch, Sünner Kölsch
 
@@ -1431,11 +1446,12 @@ SRM:3.5 – 5ABV:4.4 – 5.2%
 
 '''Style Comparison:''' Less finishing hops and more body than a German Pils. More bitter and drier than a Munich Helles. Stronger, drier, but less hoppy than a Czech Premium Pale Lager.
 
-'''Vital Statistics:'''OG:1.050 – 1.058
-
-IBUs:20 – 30FG:1.008 – 1.015
-
-SRM:4 – 6ABV:5.0 – 6.0%
+'''Vital Statistics:''' 
+OG:1.050 – 1.058
+IBUs:20 – 30
+FG:1.008 – 1.015
+SRM:4 – 6
+ABV:5.0 – 6.0%
 
 '''Commercial Examples:''' Chuckanut Export Dortmunder Lager, DAB Dortmunder Export, Dortmunder Kronen, Landshuter Edel Hell, Müllerbräu Export Gold, Schönramer Gold
 
@@ -1461,11 +1477,12 @@ SRM:4 – 6ABV:5.0 – 6.0%
 
 '''Style Comparison:''' Lighter in body and color, drier, crisper, more fully attenuated, more lingering bitterness, and higher carbonation than a Czech Premium Pale Lager. More hop character, malt flavor, and bitterness than International Pale Lager. More hop character and bitterness with a drier, crisper finish than a Munich Helles; the Helles has more malt intensity, but of the same character as the German Pils.
 
-'''Vital Statistics:'''OG:1.044 – 1.050
-
-IBUs:22 – 40FG:1.008 – 1.013
-
-SRM:2 – 4ABV:4.4 – 5.2%
+'''Vital Statistics:''' 
+OG:1.044 – 1.050
+IBUs:22 – 40
+FG:1.008 – 1.013
+SRM:2 – 4
+ABV:4.4 – 5.2%
 
 '''Commercial Examples:''' ABK Pils Anno 1907, Jever Pilsener, König Pilsener, Paulaner Pils, Bierstadt Slow-Pour Pils, Rothaus Pils, Schönramer Pils, Trumer Pils
 
@@ -1495,11 +1512,12 @@ SRM:2 – 4ABV:4.4 – 5.2%
 
 '''Style Comparison:''' Not as strong and rich as a Dunkles Bock. More malt depth and richness than a Festbier, with a heavier body and slightly less hops. Less hoppy but equally malty as a Czech Amber Lager, but with a different malt profile.
 
-'''Vital Statistics:'''OG:1.054 – 1.060
-
-IBUs:18 – 24FG:1.010 – 1.014
-
-SRM:8 – 17ABV:5.6 – 6.3%
+'''Vital Statistics:''' 
+OG:1.054 – 1.060
+IBUs:18 – 24
+FG:1.010 – 1.014
+SRM:8 – 17
+ABV:5.6 – 6.3%
 
 '''Commercial Examples:''' Hacker-Pschorr Oktoberfest Märzen, Hofmark Märzen, Paulaner Oktoberfest, Saalfelder Ur-Saalfelder, Weltenburger Kloster Anno 1050
 
@@ -1528,10 +1546,10 @@ The quality and character of the smoke is important; it should be cleanly smoky.
 '''Style Comparison:''' Like a Märzen with but with a balanced, sweet, smoky aroma and flavor and a somewhat darker color.
 
 Vital Statistics:OG:1.050 – 1.057
-
-IBUs:20 – 30FG:1.012 – 1.016
-
-SRM:12 – 22ABV:4.8 – 6%
+IBUs:20 – 30
+FG:1.012 – 1.016
+SRM:12 – 22
+ABV:4.8 – 6%
 
 '''Commercial Examples: '''Cervejaria Bamberg Rauchbier, Göller Rauchbier, Rittmayer Rauchbier, Schlenkerla Rauchbier Märzen, Spezial Rauchbier Märzen
 
@@ -1557,11 +1575,12 @@ SRM:12 – 22ABV:4.8 – 6%
 
 '''Style Comparison:''' Darker, with a richer malty flavor and less apparent bitterness than a Helles Bock. Less alcohol and malty richness than a Doppelbock. Stronger malt flavors and higher alcohol than a Märzen. Richer, less attenuated, and less hoppy than a Czech Amber Lager.
 
-'''Vital Statistics:'''OG:1.064 – 1.072
-
-IBUs:20 – 27FG:1.013 – 1.019
-
-SRM:14 – 22ABV:6.3 – 7.2%
+'''Vital Statistics:''' 
+OG:1.064 – 1.072
+IBUs:20 – 27
+FG:1.013 – 1.019
+SRM:14 – 22
+ABV:6.3 – 7.2%
 
 '''Commercial Examples:''' Aass Bock, Einbecker Ur-Bock Dunkel, Kneitinger Bock, Lindeboom Bock, Schell’s Bock, Penn Brewery St. Nikolaus Bock
 
@@ -1593,11 +1612,12 @@ SRM:14 – 22ABV:6.3 – 7.2%
 
 '''Style Comparison:''' Similar malt flavor as a Märzen, but lighter in intensity, and body, with a touch more bitterness and dryness in the balance. Lower in alcohol than Märzen or Festbier. Less rich, malty, and hoppy than Czech Amber Lager.
 
-'''Vital Statistics:'''OG:1.048 – 1.055
-
-IBUs:18 – 30FG:1.010 – 1.014
-
-SRM:9 – 15ABV:4.7 – 5.5%
+'''Vital Statistics:''' 
+OG:1.048 – 1.055
+IBUs:18 – 30
+FG:1.010 – 1.014
+SRM:9 – 15
+ABV:4.7 – 5.5%
 
 '''Commercial Examples:''' Chuckanut Vienna Lager, Devils Backbone Vienna Lager, Figueroa Mountain Red Lager, Heavy Seas Cutlass, Ottakringer Wiener Original, Schell’s Firebrick, Theresianer Vienna
 
@@ -1625,11 +1645,12 @@ SRM:9 – 15ABV:4.7 – 5.5%
 
 '''Style Comparison:''' More bitter and malty than International Amber Lagers. Somewhat similar to California Common, both in production technique and finished flavor and color, though not in ingredients. Less alcohol, less malty richness, and more bitterness than a Dunkles Bock. Drier, richer, and more bitter than a Vienna Lager.
 
-'''Vital Statistics:'''OG:1.044 – 1.052
-
-IBUs:25 – 50FG:1.008 – 1.014
-
-SRM:9 – 17ABV:4.3 – 5.5%
+'''Vital Statistics:''' 
+OG:1.044 – 1.052
+IBUs:25 – 50
+FG:1.008 – 1.014
+SRM:9 – 17
+ABV:4.3 – 5.5%
 
 '''Commercial Examples:''' Bolten Alt, Diebels Alt, Füchschen Alt, Original Schlüssel Alt, Schlösser Alt, Schumacher Alt, Uerige Altbier
 
@@ -1657,11 +1678,12 @@ SRM:9 – 17ABV:4.3 – 5.5%
 
 '''Style Comparison:''' Not as intense in maltiness or as strong as a Dunkles Bock. Lacking the more roasted flavors and often the hop bitterness of a Schwarzbier. Richer, more malt-centric, and less hoppy than a Czech Dark Lager.
 
-'''Vital Statistics:'''OG:1.048 – 1.056
-
-IBUs:18 – 28FG:1.010 – 1.016
-
-SRM:17 – 28ABV:4.5 – 5.6%
+'''Vital Statistics:''' 
+OG:1.048 – 1.056
+IBUs:18 – 28
+FG:1.010 – 1.016
+SRM:17 – 28
+ABV:4.5 – 5.6%
 
 '''Commercial Examples:''' Ayinger Altbairisch Dunkel, Ettaler Kloster-Dunkel, Eittinger Urtyp Dunkel, Hacker-Pschorr Münchner Dunkel, Hofbräuhaus Dunkel, Weltenburger Kloster Barock-Dunkel
 
@@ -1687,11 +1709,12 @@ SRM:17 – 28ABV:4.5 – 5.6%
 
 '''Style Comparison:''' In comparison with a Munich Dunkel, usually darker in color, drier on the palate, lighter in body, and with a noticeable (but not high) roasted malt edge to balance the malt base. Should not taste like an American Porter made with lager yeast. Drier, less malty, with less hop character than a Czech Dark Lager.
 
-'''Vital Statistics:'''OG:1.046 – 1.052
-
-IBUs:20 – 35FG:1.010 – 1.016
-
-SRM:19 – 30ABV:4.4 – 5.4%
+'''Vital Statistics:''' 
+OG:1.046 – 1.052
+IBUs:20 – 35
+FG:1.010 – 1.016
+SRM:19 – 30
+ABV:4.4 – 5.4%
 
 '''Commercial Examples:''' Chuckanut Schwarz Lager, Devils Backbone Schwartz Bier, Köstritzer Schwarzbier, Kulmbacher Mönchshof Schwarzbier, Nuezeller Original Badebier, pFriem Schwarzbier
 
@@ -1735,11 +1758,12 @@ Pale versions have a strong bready and toasty malt flavor, a light floral, spicy
 
 '''Entry Instructions:''' The entrant will specify whether the entry is a '''pale''' or a '''dark''' variant.
 
-'''Vital Statistics:'''OG:1.072 – 1.112
-
-IBUs:16 – 26FG:1.016 – 1.024
-
-SRM:6 – 25ABV:7.0 – 10.0%
+'''Vital Statistics:''' 
+OG:1.072 – 1.112
+IBUs:16 – 26
+FG:1.016 – 1.024
+SRM:6 – 25
+ABV:7.0 – 10.0%
 
 '''Commercial Examples:''' '''Dark Versions''' – Andechs Doppelbock Dunkel, Ayinger Celebrator, Paulaner Salvator, Spaten Optimator, Tröegs Troegenator, Weihenstephaner Korbinian; '''Pale Versions''' – Eggenberg Urbock 23º, Meinel Doppelbock Hell, Plank Bavarian Heller Doppelbock, Riegele Auris 19, Schönbuch Doppelbock Hell, Staffelberg-Bräu Zwergator
 
@@ -1765,11 +1789,12 @@ SRM:6 – 25ABV:7.0 – 10.0%
 
 '''Style Comparison:''' Eisbocks are not simply stronger Doppelbocks; the name refers to the process of freezing and concentrating the beer, and is ''not'' a statement on alcohol; some Doppelbocks are stronger than Eisbocks. Not as thick, rich, or sweet as a Wheatwine.
 
-'''Vital Statistics:'''OG:1.078 – 1.120
-
-IBUs:25 – 35FG:1.020 – 1.035
-
-SRM:17 – 30ABV:9.0 – 14.0%
+'''Vital Statistics:''' 
+OG:1.078 – 1.120
+IBUs:25 – 35
+FG:1.020 – 1.035
+SRM:17 – 30
+ABV:9.0 – 14.0%
 
 '''Commercial Examples:''' Kulmbacher Eisbock
 
@@ -1795,11 +1820,12 @@ SRM:17 – 30ABV:9.0 – 14.0%
 
 '''Style Comparison:''' Combines the body, maltiness, richness, and smoothness of a Doppelbock, the darker malt character of an English Porter, the roast flavors of a Schwarzbier, and alcohol and fruitiness of and Old Ale. Much less roasted and often lower in alcohol than an Imperial Stout. 
 
-'''Vital Statistics:'''OG:1.060 – 1.090
-
-IBUs:20 – 40FG:1.016 – 1.024
-
-SRM:17 – 30ABV:6.5 – 9.5% 
+'''Vital Statistics:''' 
+OG:1.060 – 1.090
+IBUs:20 – 40
+FG:1.016 – 1.024
+SRM:17 – 30
+ABV:6.5 – 9.5% 
 
 '''Commercial Examples:''' Aldaris Mežpils Porteris, Baltika 6 Porter, Devils Backbone Danzig, Okocim Mistrzowski Porter, Sinebrychoff Porter, Zywiec Porter
 
@@ -1831,11 +1857,12 @@ SRM:17 – 30ABV:6.5 – 9.5%
 
 '''Entry Instructions:''' The entrant may specify whether the yeast should be roused before serving.
 
-'''Vital Statistics:'''OG:1.044 – 1.053 
-
-IBUs:8 – 15FG:1.008 – 1.014
-
-SRM:2 – 6ABV:4.3 – 5.6%
+'''Vital Statistics:''' 
+OG:1.044 – 1.053 
+IBUs:8 – 15
+FG:1.008 – 1.014
+SRM:2 – 6
+ABV:4.3 – 5.6%
 
 '''Commercial Examples:''' Ayinger Bräuweisse, Distelhäuser Hell Weizen, Hacker-Pschorr Hefeweißbier, Hofbräuhaus Münchner Weisse, Schneider Weisse Original Weissbier, Weihenstephaner Hefeweißbier
 
@@ -1861,11 +1888,12 @@ SRM:2 – 6ABV:4.3 – 5.6%
 
 '''Style Comparison:''' Combines the yeast and wheat character of Weissbier with the malty richness of a Munich Dunkel. The banana-and-clove character is often less apparent than in a Weissbier due to the increased maltiness. Has a similar yeast character as Roggenbier, but without the rye flavor and increased body.
 
-'''Vital Statistics:'''OG:1.044 – 1.057
-
-IBUs:10 – 18FG:1.008 – 1.014
-
-SRM:14 – 23ABV:4.3 – 5.6%
+'''Vital Statistics:''' 
+OG:1.044 – 1.057
+IBUs:10 – 18
+FG:1.008 – 1.014
+SRM:14 – 23
+ABV:4.3 – 5.6%
 
 
 '''Commercial Examples:''' Ayinger Urweisse, Ettaler Benediktiner Weißbier Dunkel, Franziskaner Hefe-Weisse Dunkel, Hirsch Dunkel Weisse, Tucher Dunkles Hefe Weizen, Weihenstephaner Hefeweißbier Dunkel
@@ -1906,11 +1934,12 @@ Pale versions have a bready, toasty, grainy-sweet malt richness.
 
 '''Entry Instructions:''' The entrant will specify whether the entry is a '''pale''' (SRM 6-9) or a '''dark''' (SRM 10-25) version.
 
-'''Vital Statistics:'''OG:1.064 – 1.090
-
-IBUs:15 – 30FG:1.015 – 1.022
-
-SRM:6 – 25ABV:6.5 – 9.0%
+'''Vital Statistics:''' 
+OG:1.064 – 1.090
+IBUs:15 – 30
+FG:1.015 – 1.022
+SRM:6 – 25
+ABV:6.5 – 9.0%
 
 '''Commercial Examples:''' '''Dark''' – Plank Bavarian Dunkler Weizenbock, Penn Weizenbock, Schalchner Weisser Bock, Schneider Weisse Aventinus; '''Pale''' –Ayinger Weizenbock, Distelhäuser Weizen Bock, Ladenburger Weizenbock Hell, Weihenstephaner Vitus
 
@@ -1947,11 +1976,12 @@ SRM:6 – 25ABV:6.5 – 9.0%
 
 '''Style Comparison: '''Some modern variants are brewed exclusively with pale malt and are known as golden ales, summer ales, or golden bitters. Emphasis is on the bittering hop addition as opposed to the aggressive middle and late hopping seen in American ales.
 
-'''Vital Statistics:'''OG:1.030 – 1.039
-
-IBUs:25 – 35FG:1.007 – 1.011
-
-SRM:8 – 14ABV:3.2 – 3.8%
+'''Vital Statistics:''' 
+OG:1.030 – 1.039
+IBUs:25 – 35
+FG:1.007 – 1.011
+SRM:8 – 14
+ABV:3.2 – 3.8%
 
 '''Commercial Examples:''' Bateman’s XB, Brains Bitter, Brakspear Gravity, Fuller's Chiswick Bitter, Greene King IPA, Tetley’s Original Bitter
 
@@ -1977,11 +2007,12 @@ SRM:8 – 14ABV:3.2 – 3.8%
 
 '''Style Comparison:''' More alcohol than an ordinary bitter, and often using higher-quality ingredients. Less alcohol than a strong bitter. More caramel or base malt character and color than a British Golden Ale. Emphasis is on the bittering hop addition as opposed to the aggressive middle and late hopping seen in American ales.
 
-'''Vital Statistics:'''OG:1.040 – 1.048
-
-IBUs:25 – 40FG:1.008 – 1.012
-
-SRM:8 – 16ABV:3.8 – 4.6%
+'''Vital Statistics:''' 
+OG:1.040 – 1.048
+IBUs:25 – 40
+FG:1.008 – 1.012
+SRM:8 – 16
+ABV:3.8 – 4.6%
 
 '''Commercial Examples:''' Adnams Southwold Bitter, Fuller's London Pride, Harvey’s Sussex Best Bitter, Salopian Darwin’s Origin, Surrey Hills Shere Drop, Timothy Taylor Landlord
 
@@ -2007,11 +2038,12 @@ SRM:8 – 16ABV:3.8 – 4.6%
 
 '''Style Comparison:''' More evident malt and hop flavors than in a special or best bitter, as well as more alcohol. Stronger versions may overlap somewhat with British Strong Ales, although Strong Bitters will tend to be paler and more bitter. More malt flavor (particularly caramel) and esters than an American Pale Ale, with different finishing hop character.
 
-'''Vital Statistics:'''OG:1.048 – 1.060
-
-IBUs:30 – 50FG:1.010 – 1.016
-
-SRM:8 – 18ABV:4.6 – 6.2%
+'''Vital Statistics:''' 
+OG:1.048 – 1.060
+IBUs:30 – 50
+FG:1.010 – 1.016
+SRM:8 – 18
+ABV:4.6 – 6.2%
 
 '''Commercial Examples:''' Bass Ale, Bateman’s Triple XB, Robinsons Trooper, Samuel Smith’s Organic Pale Ale, Shepherd Neame Bishop's Finger, Summit Extra Pale Ale
 
@@ -2041,11 +2073,12 @@ SRM:8 – 18ABV:4.6 – 6.2%
 
 '''Style Comparison:''' More similar to an American Pale Ale than anything else, although it is often lower in alcohol and usually features British ingredients. Has no caramel and fewer esters compared to British Bitters and pale ales. Dry as Bitters but with less malt character to support the hops, giving a different balance. Often uses (and features) American hops, more so than most other modern British styles. Balance of hoppiness between a Blonde Ale and an American Pale Ale.
 
-'''Vital Statistics:'''OG:1.038 – 1.053
-
-IBUs: 20 – 45FG:1.006 – 1.012
-
-SRM: 2 – 5ABV:3.8 – 5.0%
+'''Vital Statistics:''' 
+OG:1.038 – 1.053
+IBUs: 20 – 45
+FG:1.006 – 1.012
+SRM: 2 – 5
+ABV:3.8 – 5.0%
 
 '''Commercial Examples:''' Adnams Explorer, Crouch Vale Brewers Gold, Golden Hill Exmoor Gold, Hop Back Summer Lightning, Oakham JHB, Spitfire Golden Ale
 
@@ -2071,11 +2104,12 @@ SRM: 2 – 5ABV:3.8 – 5.0%
 
 '''Style Comparison:''' Superficially similar to English Pale Ales, although much more highly carbonated, with less caramel, less late hops, and showcasing the signature yeast strain and hop variety. More bitter than IBUs might suggest due to high attenuation, low final gravity, and somewhat coarse hops. 
 
-'''Vital Statistics:'''OG:1.038 – 1.050
-
-IBUs:20 – 35FG:1.004 – 1.006
-
-SRM:4 – 7ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.038 – 1.050
+IBUs:20 – 35
+FG:1.004 – 1.006
+SRM:4 – 7
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Coopers Sparkling Ale
 
@@ -2109,11 +2143,12 @@ Modern examples are inspired by classic versions, but shouldn’t be assumed to 
 
 '''Style Comparison:''' Generally will have more late hops and less fruitiness and caramel than British pale ales and Bitters. Has less hop intensity and a more pronounced malt flavor than typical American IPAs.
 
-'''Vital Statistics:'''OG:1.050 – 1.070
-
-IBUs:40 – 60FG:1.010 – 1.015
-
-SRM:6 – 14ABV:5.0 – 7.5%
+'''Vital Statistics:''' 
+OG:1.050 – 1.070
+IBUs:40 – 60
+FG:1.010 – 1.015
+SRM:6 – 14
+ABV:5.0 – 7.5%
 
 '''Commercial Examples:''' Berkshire Lost Sailor IPA, Fuller's Bengal Lancer, Marston’s Old Empire IPA, Meantime London IPA, Thornbridge Jaipur, Worthington White Shield
 
@@ -2146,11 +2181,12 @@ SRM:6 – 14ABV:5.0 – 7.5%
 
 '''Characteristic Ingredients:''' Pale British base malts (often fairly dextrinous), crystal malt, dark malts or dark sugar adjuncts, may also include adjuncts such as flaked maize, and may be colored with brewer’s caramel. Characterful British ale yeast. Any type of hops, since their character is muted and rarely is noticeable.
 
-'''Vital Statistics:'''OG:1.030 – 1.038
-
-IBUs:10 – 25FG:1.008 – 1.013
-
-SRM:14 – 25ABV:3.0 – 3.8% 
+'''Vital Statistics:''' 
+OG:1.030 – 1.038
+IBUs:10 – 25
+FG:1.008 – 1.013
+SRM:14 – 25
+ABV:3.0 – 3.8% 
 
 '''Commercial Examples:''' Brain’s Dark, Greene King XX Mild, Hobson’s Champion Mild, Mighty Oak Oscar Wilde, Moorhouse Black Cat, Theakston Traditional Mild
 
@@ -2176,11 +2212,12 @@ SRM:14 – 25ABV:3.0 – 3.8%
 
 '''Style Comparison:''' More malty balance than British Bitters, with more malt flavors from darker grains. Stronger than a Dark Mild. Less roast than an English Porter. Stronger and much less sweet than London Brown Ale.
 
-'''Vital Statistics:'''OG:1.040 – 1.052
-
-IBUs:20 – 30FG:1.008 – 1.013
-
-SRM:12 – 22ABV:4.2 – 5.9%
+'''Vital Statistics:''' 
+OG:1.040 – 1.052
+IBUs:20 – 30
+FG:1.008 – 1.013
+SRM:12 – 22
+ABV:4.2 – 5.9%
 
 '''Commercial Examples:''' AleSmith Nut Brown Ale, Cigar City Maduro Brown Ale, Maxim Double Maxim, Newcastle Brown Ale, Riggwelter Yorkshire Ale, Samuel Smith’s Nut Brown Ale
 
@@ -2210,11 +2247,12 @@ The name is said to have been derived from its popularity with the London workin
 
 '''Style Comparison:''' Differs from American Porter in that it usually has softer, sweeter, and more caramelly flavors, lower gravities, and usually less alcohol; American Porter also usually has more hop character. More substance and roast than a British Brown Ale. Higher in gravity than a Dark Mild.
 
-'''Vital Statistics:'''OG:1.040 – 1.052
-
-IBUs:18 – 35FG:1.008 – 1.014
-
-SRM:20 – 30ABV:4.0 – 5.4%
+'''Vital Statistics:''' 
+OG:1.040 – 1.052
+IBUs:18 – 35
+FG:1.008 – 1.014
+SRM:20 – 30
+ABV:4.0 – 5.4%
 
 '''Commercial Examples:''' Bateman’s Salem Porter, Burton Bridge Burton Porter, Fuller's London Porter, Nethergate Old Growler Porter, RCH Old Slug Porter, Samuel Smith Taddy Porter
 
@@ -2254,11 +2292,12 @@ SRM:20 – 30ABV:4.0 – 5.4%
 
 '''Style Comparison:''' See category introduction. Similar to other Scottish Ales but lower in alcohol, and darker in color. Similar in strength to the low end of Dark Mild, but with a different flavor profile and balance.
 
-'''Vital Statistics:'''OG:1.030 – 1.035
-
-IBUs:10 – 20FG:1.010 – 1.013
-
-SRM:17 – 25ABV:2.5 – 3.3%
+'''Vital Statistics:''' 
+OG:1.030 – 1.035
+IBUs:10 – 20
+FG:1.010 – 1.013
+SRM:17 – 25
+ABV:2.5 – 3.3%
 
 '''Commercial Examples:''' Belhaven Best, McEwan's 60/-
 
@@ -2284,11 +2323,12 @@ SRM:17 – 25ABV:2.5 – 3.3%
 
 '''Style Comparison:''' See category introduction. Similar to other Scottish Ales in flavor profile, lighter in color and stronger than a Scottish Light. Similar in strength to Ordinary Bitter, but with a different flavor profile and balance.
 
-'''Vital Statistics:'''OG:1.035 – 1.040
-
-IBUs:10 – 20FG:1.010 – 1.015
-
-SRM:12 – 20ABV:3.3 – 3.9%
+'''Vital Statistics:''' 
+OG:1.035 – 1.040
+IBUs:10 – 20
+FG:1.010 – 1.015
+SRM:12 – 20
+ABV:3.3 – 3.9%
 
 '''Commercial Examples: '''McEwan's 70/-, Orkney Raven Ale
 
@@ -2314,11 +2354,12 @@ SRM:12 – 20ABV:3.3 – 3.9%
 
 '''Style Comparison:''' See category introduction. Stronger than other Scottish Ales, but with a similar flavor profile. Similar in strength to Best Bitter and Strong Bitter, but with a different flavor profile and balance.
 
-'''Vital Statistics:'''OG:1.040 – 1.060
-
-IBUs:15 – 30FG:1.010 – 1.016
-
-SRM:12 – 20ABV:3.9 – 6.0%
+'''Vital Statistics:''' 
+OG:1.040 – 1.060
+IBUs:15 – 30
+FG:1.010 – 1.016
+SRM:12 – 20
+ABV:3.9 – 6.0%
 
 '''Commercial Examples:''' Belhaven Scottish Ale, Broughton Wee Jock 80 Shilling, Caledonian Edinburgh Castle, McEwan’s 80/-, McEwan’s Export, Traquair Bear Ale
 
@@ -2348,11 +2389,12 @@ SRM:12 – 20ABV:3.9 – 6.0%
 
 '''Style Comparison:''' A less-bitter and hoppy Irish equivalent to an English Bitter, with a dryish finish due to roasted barley. More attenuated with less caramel flavor and body than equivalent-strength Scottish Ales.
 
-'''Vital Statistics:'''OG:1.036 – 1.046
-
-IBUs:18 – 28FG:1.010 – 1.014 
-
-SRM:9 – 14ABV:3.8 – 5.0%
+'''Vital Statistics:''' 
+OG:1.036 – 1.046
+IBUs:18 – 28
+FG:1.010 – 1.014 
+SRM:9 – 14
+ABV:3.8 – 5.0%
 
 '''Commercial Examples:''' Franciscan Well Rebel Red, Kilkenny Irish Beer, Murphy’s Irish Red, O’Hara’s Irish Red Ale, Porterhouse Nitro Red Ale, Smithwick’s Irish Ale
 
@@ -2378,11 +2420,12 @@ SRM:9 – 14ABV:3.8 – 5.0%
 
 '''Style Comparison:''' Lower strength than an Irish Extra Stout. Darker in color (black) than an English Porter (brown).
 
-'''Vital Statistics:'''OG:1.036 – 1.044
-
-IBUs:25 – 45FG:1.007 – 1.011
-
-SRM:25 – 40ABV:3.8 – 5.0%
+'''Vital Statistics:''' 
+OG:1.036 – 1.044
+IBUs:25 – 45
+FG:1.007 – 1.011
+SRM:25 – 40
+ABV:3.8 – 5.0%
 
 '''Commercial Examples:''' Beamish Irish Stout, Belhaven Black Stout, Guinness Draught, Murphy's Irish Stout, O’Hara’s Irish Stout, Porterhouse Irish Stout
 
@@ -2408,11 +2451,12 @@ SRM:25 – 40ABV:3.8 – 5.0%
 
 '''Style Comparison:''' Midway between an Irish Stout and a Foreign Extra Stout in strength and flavor intensity, although with a similar balance. More body, richness, and often malt complexity than an Irish Stout. Black in color, not brown like an English Porter.
 
-'''Vital Statistics:'''OG:1.052 – 1.062
-
-IBUs:35 – 50FG:1.010 – 1.014
-
-SRM:30 – 40ABV:5.0 – 6.5%
+'''Vital Statistics:''' 
+OG:1.052 – 1.062
+IBUs:35 – 50
+FG:1.010 – 1.014
+SRM:30 – 40
+ABV:5.0 – 6.5%
 
 '''Commercial Examples:''' Guinness Extra Stout, O’Hara’s Leann Folláin, Porterhouse XXXX, Sheaf Stout
 
@@ -2442,11 +2486,12 @@ SRM:30 – 40ABV:5.0 – 6.5%
 
 '''Style Comparison:''' Much sweeter and less bitter-tasting than other stouts, except the stronger Tropical Stout. The roast character is mild, not burnt like other stouts. Can be similar in balance to Oatmeal Stout, albeit with more sweetness.
 
-'''Vital Statistics:'''OG:1.044 – 1.060
-
-IBUs:20 – 40FG:1.012 – 1.024
-
-SRM:30 – 40ABV:4.0 – 6.0%
+'''Vital Statistics:''' 
+OG:1.044 – 1.060
+IBUs:20 – 40
+FG:1.012 – 1.024
+SRM:30 – 40
+ABV:4.0 – 6.0%
 
 '''Commercial Examples:''' Bristol Beer Factory Milk Stout, Firestone Nitro Merlin Milk Stout, Left Hand Milk Stout, Lancaster Milk Stout, Mackeson's XXX Stout, Marston’s Pearl Jet Stout
 
@@ -2472,11 +2517,12 @@ SRM:30 – 40ABV:4.0 – 6.0%
 
 '''Style Comparison:''' Most are like a cross between an Irish Extra Stout and a Sweet Stout with oatmeal added. Several variations exist, with the sweeter versions more like a Sweet Stout with oatmeal instead of lactose, and the drier versions more like a more nutty, flavorful Irish Extra Stout. Both tend to emphasize the body and mouthfeel.
 
-'''Vital Statistics:'''OG:1.045 – 1.065
-
-IBUs:25 – 40FG:1.010 – 1.018
-
-SRM:22 – 40ABV:4.2 – 5.9%
+'''Vital Statistics:''' 
+OG:1.045 – 1.065
+IBUs:25 – 40
+FG:1.010 – 1.018
+SRM:22 – 40
+ABV:4.2 – 5.9%
 
 '''Commercial Examples:''' Anderson Valley Barney Flats Oatmeal Stout, Broughton Stout Jock, St-Ambroise Oatmeal Stout, Samuel Smith Oatmeal Stout, Summit Oatmeal Stout, Young's London Stout
 
@@ -2503,11 +2549,12 @@ SRM:22 – 40ABV:4.2 – 5.9%
 
 '''Style Comparison:''' Tastes like a scaled-up Sweet Stout with higher fruitiness. Similar to some Imperial Stouts without the high bitterness, strong or burnt roastiness, and late hops, and with lower alcohol. Much sweeter and less hoppy than American Stouts. Much sweeter and less bitter than the similar-gravity Foreign Extra Stouts.
 
-'''Vital Statistics:'''OG:1.056 – 1.075
-
-IBUs:30 – 50FG:1.010 – 1.018
-
-SRM:30 – 40ABV:5.5 – 8.0%
+'''Vital Statistics:''' 
+OG:1.056 – 1.075
+IBUs:30 – 50
+FG:1.010 – 1.018
+SRM:30 – 40
+ABV:5.5 – 8.0%
 
 '''Commercial Examples:''' ABC Extra Stout, Bahamian Strong Back Stout, Dragon Stout, Jamaica Stout, Lion Stout, Royal Extra Stout
 
@@ -2533,11 +2580,12 @@ SRM:30 – 40ABV:5.5 – 8.0%
 
 '''Style Comparison:''' Similar in balance to an Irish Extra Stout, but with more alcohol. Not as big or intense as an Imperial Stout. Lacking the strong bitterness and high late hops of American Stout. Similar gravity as Tropical Stout, but with a drier finish and higher bitterness.
 
-'''Vital Statistics:'''OG:1.056 – 1.075
-
-IBUs:50 – 70FG:1.010 – 1.018
-
-SRM:30 – 40ABV:6.3 – 8.0%
+'''Vital Statistics:''' 
+OG:1.056 – 1.075
+IBUs:50 – 70
+FG:1.010 – 1.018
+SRM:30 – 40
+ABV:6.3 – 8.0%
 
 '''Commercial Examples:''' Coopers Best Extra Stout, Guinness Foreign Extra Stout, The Kernel Export Stout London 1890, La Cumbre Malpais Stout, Pelican Tsunami Export Stout, Ridgeway Foreign Export Stout
 
@@ -2567,11 +2615,12 @@ SRM:30 – 40ABV:6.3 – 8.0%
 
 '''Style Comparison:''' Significant overlap in gravity with Old Ale, but not having an aged character. A wide range of interpretations is possible. Should not be as rich or strong as an English Barley Wine. Stronger than the stronger everyday Strong Bitter, British Brown Ale, and English Porter. More specialty malt or sugar character than American Strong Ale.
 
-'''Vital Statistics:'''OG:1.055 – 1.080
-
-IBUs:30 – 60FG:1.015 – 1.022
-
-SRM:8 – 22ABV:5.5 – 8.0% 
+'''Vital Statistics:''' 
+OG:1.055 – 1.080
+IBUs:30 – 60
+FG:1.015 – 1.022
+SRM:8 – 22
+ABV:5.5 – 8.0% 
 
 '''Commercial Examples:''' Fuller’s 1845, Harvey’s Elizabethan Ale, J.W. Lees Moonraker, McEwan’s Champion, Samuel Smith’s Winter Welcome, Shepherd Neame 1698
 
@@ -2597,11 +2646,12 @@ SRM:8 – 22ABV:5.5 – 8.0%
 
 '''Style Comparison:''' Roughly overlapping the British Strong Ale and the lower end of the English Barley Wine styles, but always having an aged quality. The distinction between an Old Ale and a Barley Wine is somewhat arbitrary above 7% ABV, and generally means having a more significant aged quality. 
 
-'''Vital Statistics:'''OG:1.055 – 1.088
-
-IBUs:30 – 60FG:1.015 – 1.022
-
-SRM:10 – 22ABV:5.5 – 9.0% 
+'''Vital Statistics:''' 
+OG:1.055 – 1.088
+IBUs:30 – 60
+FG:1.015 – 1.022
+SRM:10 – 22
+ABV:5.5 – 9.0% 
 
 '''Commercial Examples:''' Avery Old Jubilation, Berlina Old Ale, Greene King Strong Suffolk Ale, Marston Owd Roger, Theakston Old Peculier
 
@@ -2629,11 +2679,12 @@ SRM:10 – 22ABV:5.5 – 9.0%
 
 '''Style Comparison:''' Somewhat similar to an English Barley Wine, but often darker and more caramelly.
 
-'''Vital Statistics:'''OG:1.070 – 1.130
-
-IBUs:17 – 35FG:1.018 – 1.040
-
-SRM:14 – 25ABV:6.5 – 10.0%
+'''Vital Statistics:''' 
+OG:1.070 – 1.130
+IBUs:17 – 35
+FG:1.018 – 1.040
+SRM:14 – 25
+ABV:6.5 – 10.0%
 
 '''Commercial Examples:''' Belhaven Wee Heavy, Broughton Old Jock, McEwan’s Scotch Ale, Orkney Skull Splitter, Traquair House Ale, The Duck-Rabbit Wee Heavy Scotch-Style Ale
 
@@ -2661,11 +2712,12 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
 
 '''Style Comparison:''' Less hoppy and bitter, maltier and fruitier than American Barleywine. Can overlap Old Ale on the lower end of the range, but without heavier signs of age. Not as caramelly and often not as sweet as a Wee Heavy.
 
-'''Vital Statistics:'''OG:1.080 – 1.120
-
-IBUs:35 – 70FG:1.018 – 1.030
-
-SRM:8 – 22ABV:8.0 – 12.0%
+'''Vital Statistics:''' 
+OG:1.080 – 1.120
+IBUs:35 – 70
+FG:1.018 – 1.030
+SRM:8 – 22
+ABV:8.0 – 12.0%
 
 '''Commercial Examples:''' Burton Bridge Thomas Sykes Old Ale, Coniston No. 9 Barley Wine, Fuller’s Golden Pride, Hogs Back A over T, J.W. Lee’s Vintage Harvest Ale, Robinson’s Old Tom
 
@@ -2693,11 +2745,12 @@ SRM:8 – 22ABV:8.0 – 12.0%
 
 '''Style Comparison:''' Typically has more flavor than American Lager and Cream Ale. Less bitterness than an American Pale Ale. Perhaps similar to some maltier examples of Kölsch.
 
-'''Vital Statistics:'''OG:1.038 – 1.054
-
-IBUs:15 – 28FG:1.008 – 1.013
-
-SRM:3 – 6ABV:3.8 – 5.5%
+'''Vital Statistics:''' 
+OG:1.038 – 1.054
+IBUs:15 – 28
+FG:1.008 – 1.013
+SRM:3 – 6
+ABV:3.8 – 5.5%
 
 '''Commercial Examples: '''Firestone Walker 805, Kona Big Wave Golden Ale, Real Ale Firemans #4 Blonde Ale, Russian River Aud Blonde, Victory Summer Love, Widmer Citra Summer Blonde Brew
 
@@ -2723,11 +2776,12 @@ SRM:3 – 6ABV:3.8 – 5.5%
 
 '''Style Comparison:''' Typically lighter in color, cleaner in fermentation profile, and having fewer caramel flavors than English counterparts. There can be some overlap in color between American Pale Ale and American Amber Ale. The American Pale Ale will generally be cleaner, have a less caramelly malt profile, less body, and often more finishing hops. Less bitterness in the balance and alcohol strength than an American IPA. Maltier, more balanced and drinkable, and less intensely hop-focused and bitter than session-strength American IPAs (aka Session IPAs). More bitter and hoppy than a Blonde Ale.
 
-'''Vital Statistics:'''OG:1.045 – 1.060
-
-IBUs:30 – 50FG:1.010 – 1.015
-
-SRM:5 – 10ABV:4.5 – 6.2%
+'''Vital Statistics:''' 
+OG:1.045 – 1.060
+IBUs:30 – 50
+FG:1.010 – 1.015
+SRM:5 – 10
+ABV:4.5 – 6.2%
 
 '''Commercial Examples:''' Deschutes Mirror Pond Pale Ale, Half Acre Daisy Cutter Pale Ale, Great Lakes Burning River, La Cumbre Acclimated APA, Sierra Nevada Pale Ale, Stone Pale Ale 2.0
 
@@ -2757,11 +2811,12 @@ SRM:5 – 10ABV:4.5 – 6.2%
 
 '''Style Comparison:''' Darker, more caramelly, more body, and generally less bitter in the balance than American Pale Ales. Less alcohol, bitterness, and hop character than Red IPAs. Less strength, malt, and hop character than American Strong Ales. Less chocolate and dark caramel than an American Brown Ale.
 
-'''Vital Statistics:'''OG:1.045 – 1.060
-
-IBUs:25 – 40FG:1.010 – 1.015
-
-SRM:10 – 17ABV:4.5 – 6.2%
+'''Vital Statistics:''' 
+OG:1.045 – 1.060
+IBUs:25 – 40
+FG:1.010 – 1.015
+SRM:10 – 17
+ABV:4.5 – 6.2%
 
 '''Commercial Examples:''' Anderson Valley Boont Amber Ale, Bell’s Amber Ale, Full Sail Amber, North Coast Red Seal Ale, Saint Arnold Amber Ale, Tröegs Hopback Amber Ale
 
@@ -2787,11 +2842,12 @@ SRM:10 – 17ABV:4.5 – 6.2%
 
 '''Style Comparison:''' Superficially similar to an American Amber Ale, but with specific choices for malt and hopping – the hop flavor and aroma is traditional (not modern) American hops, malt flavors are toastier, the hopping is always assertive, and a warm-fermented lager yeast is used. Less attenuated, less carbonated and less fruity than Australian Sparkling ale.
 
-'''Vital Statistics:'''OG:1.048 – 1.054
-
-IBUs:30 – 45FG:1.011 – 1.014
-
-SRM:9 – 14ABV:4.5 – 5.5%
+'''Vital Statistics:''' 
+OG:1.048 – 1.054
+IBUs:30 – 45
+FG:1.011 – 1.014
+SRM:9 – 14
+ABV:4.5 – 5.5%
 
 '''Commercial Examples:''' Anchor Steam, Steamworks Steam Engine Lager
 
@@ -2817,11 +2873,12 @@ SRM:9 – 14ABV:4.5 – 5.5%
 
 '''Style Comparison:''' More chocolate and caramel flavors than American Pale or Amber Ales, typically with less prominent bitterness in the balance. Less bitterness, alcohol, and hop character than Brown IPAs. More bitter and generally hoppier than English Brown Ales, with a richer malt presence, usually higher alcohol, and American or New World hop character.
 
-'''Vital Statistics:'''OG:1.045 – 1.060
-
-IBUs:20 – 30FG:1.010 – 1.016
-
-SRM:18 – 35ABV:4.3 – 6.2%
+'''Vital Statistics:''' 
+OG:1.045 – 1.060
+IBUs:20 – 30
+FG:1.010 – 1.016
+SRM:18 – 35
+ABV:4.3 – 6.2%
 
 '''Commercial Examples:''' Avery Ellie’s Brown Ale, Big Sky Moose Drool Brown Ale, Brooklyn Brown Ale, Bell’s Best Brown, Smuttynose Old Brown Dog Ale, Telluride Face Down Brown
 
@@ -2851,11 +2908,12 @@ SRM:18 – 35ABV:4.3 – 6.2%
 
 '''Style Comparison:''' More bitter and often stronger with more dark malt qualities and dryness than English Porters or Pre-Prohibition Porters. Less strong and assertive than American Stouts.
 
-'''Vital Statistics:'''OG:1.050 – 1.070
-
-IBUs:25 – 50FG:1.012 – 1.018
-
-SRM:22 – 40ABV:4.8 – 6.5%
+'''Vital Statistics:''' 
+OG:1.050 – 1.070
+IBUs:25 – 50
+FG:1.012 – 1.018
+SRM:22 – 40
+ABV:4.8 – 6.5%
 
 '''Commercial Examples:''' Anchor Porter, Bell’s Porter, Deschutes Black Butte Porter, Great Lakes Edmund Fitzgerald Porter, Sierra Nevada Porter, Smuttynose Robust Porter
 
@@ -2881,11 +2939,12 @@ SRM:22 – 40ABV:4.8 – 6.5%
 
 '''Style Comparison:''' Like a hoppy, bitter, strongly roasted Irish Extra Stout. Much more roast and body than a Black IPA. Bigger, stronger versions belong in the Imperial Stout style. Stronger and more assertive, particularly in the dark malt or grain additions and hop character, than American Porter.
 
-'''Vital Statistics:'''OG:1.050 – 1.075
-
-IBUs:35 – 75FG:1.010 – 1.022
-
-SRM:30 – 40ABV:5.0 – 7.0%
+'''Vital Statistics:''' 
+OG:1.050 – 1.075
+IBUs:35 – 75
+FG:1.010 – 1.022
+SRM:30 – 40
+ABV:5.0 – 7.0%
 
 '''Commercial Examples:''' Avery Out of Bounds Stout, Bell’s Kalamazoo Stout, Deschutes Obsidian Stout, Sierra Nevada Stout, Trillium Secret Stairs
 
@@ -2913,11 +2972,12 @@ SRM:30 – 40ABV:5.0 – 7.0%
 
 '''Style Comparison: '''Darker and more roasty than Barleywines, but with similar alcohol. More complex, with a broader range of possible flavors, than lower-gravity stouts. 
 
-'''Vital Statistics:'''OG:1.075 – 1.115
-
-IBUs:50 – 90FG:1.018 – 1.030
-
-SRM:30 – 40ABV:8.0 – 12.0%
+'''Vital Statistics:''' 
+OG:1.075 – 1.115
+IBUs:50 – 90
+FG:1.018 – 1.030
+SRM:30 – 40
+ABV:8.0 – 12.0%
 
 '''Commercial Examples:''' '''American''' – Bell’s Expedition Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Oskar Blues Ten Fidy, Sierra Nevada Narwhal Imperial Stout; '''English''' – 2SP Brewing Co The Russian, Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout, Thornbridge Saint Petersburg
 
@@ -2947,11 +3007,12 @@ SRM:30 – 40ABV:8.0 – 12.0%
 
 '''Style Comparison:''' Stronger and more highly hopped than American Pale Ale. Compared to English IPA, has less caramel, bread, and toast; often more American or New World hops; fewer yeast-derived esters; less body and often a more hoppy balance; and is slightly stronger than most examples. Less alcohol than a Double IPA, but with a similar balance.
 
-'''Vital Statistics:'''OG:1.056 – 1.070
-
-IBUs:40 – 70FG:1.008 – 1.014
-
-SRM:6 – 14ABV:5.5 – 7.5%
+'''Vital Statistics:''' 
+OG:1.056 – 1.070
+IBUs:40 – 70
+FG:1.008 – 1.014
+SRM:6 – 14
+ABV:5.5 – 7.5%
 
 '''Commercial Examples:''' Bell’s Two-Hearted Ale, Cigar City Jai Alai, Fat Heads Head Hunter IPA, Firestone Walker Union Jack, Maine Lunch, Russian River Blind Pig IPA
 
@@ -2987,11 +3048,14 @@ Entrants <u>may</u> specify specific '''hop varieties '''used, if entrants feel 
 
 '''Strength classifications:'''
 
-Session – ABV: 3.0 – 5.0%
+Session – 
+ABV: 3.0 – 5.0%
 
-Standard – ABV: 5.0 – 7.5%
+Standard – 
+ABV: 5.0 – 7.5%
 
-Double – ABV: 7.5 – 10.0%
+Double – 
+ABV: 7.5 – 10.0%
 
 === {{anchor|Toc418087825}} {{anchor|Toc91058188}} Specialty IPA: Belgian IPA ===
 
@@ -3013,11 +3077,12 @@ Double – ABV: 7.5 – 10.0%
 
 '''Style Comparison:''' A cross between an American IPA or Double IPA with a Belgian Golden Strong Ale or Belgian Tripel. This style is may be spicier, stronger, drier, and fruitier than an American IPA.
 
-'''Vital Statistics:'''OG:1.058 – 1.080
-
-IBUs:50 – 100FG:1.008 – 1.016
-
-SRM:5 – 8ABV:6.2 – 9.5%
+'''Vital Statistics:''' 
+OG:1.058 – 1.080
+IBUs:50 – 100
+FG:1.008 – 1.016
+SRM:5 – 8
+ABV:6.2 – 9.5%
 
 '''Commercial Examples:''' Brewery Vivant Triomphe, Green Flash Le Freak, Houblon Chouffe, Urthel Hop It
 
@@ -3043,11 +3108,12 @@ SRM:5 – 8ABV:6.2 – 9.5%
 
 '''Style Comparison:''' Balance and overall impression of an American or Double IPA with restrained roast similar to the type found in Schwarzbier. Not as rich and roasty as American Stout and Porter, and with less body and increased smoothness and drinkability. 
 
-'''Vital Statistics:'''OG:1.050 – 1.085
-
-IBUs:50 – 90FG:1.010 – 1.018
-
-SRM:25 – 40ABV:5.5 – 9.0%
+'''Vital Statistics:''' 
+OG:1.050 – 1.085
+IBUs:50 – 90
+FG:1.010 – 1.018
+SRM:25 – 40
+ABV:5.5 – 9.0%
 
 '''Commercial Examples:''' 21st Amendment Back in Black, Duck-Rabbit Hoppy Bunny ABA, Stone Sublimely Self-Righteous Black IPA
 
@@ -3073,11 +3139,12 @@ SRM:25 – 40ABV:5.5 – 9.0%
 
 '''Style Comparison:''' A stronger and more bitter version of an American Brown Ale, with the dry balance of an American IPA. Has less of a roasted flavor than Black IPA, but more chocolate flavors than a Red IPA.
 
-'''Vital Statistics:'''OG:1.056 – 1.070
-
-IBUs:40 – 70FG:1.008 – 1.016
-
-SRM:18 – 35ABV:5.5 – 7.5%
+'''Vital Statistics:''' 
+OG:1.056 – 1.070
+IBUs:40 – 70
+FG:1.008 – 1.016
+SRM:18 – 35
+ABV:5.5 – 7.5%
 
 '''Commercial Examples:''' Dogfish Head Indian Brown Ale, Harpoon Brown IPA, Russian River Janet’s Brown Ale
 
@@ -3103,11 +3170,12 @@ SRM:18 – 35ABV:5.5 – 7.5%
 
 '''Style Comparison:''' A stronger, hoppier, more bitter version of American Amber Ale. Not as malty and sweet as an American Strong Ale. Drier, less alcohol, and not as malty as American Barleywine. Less chocolate and caramel than Brown IPA, but otherwise similar balance.
 
-'''Vital Statistics:'''OG:1.056 – 1.070
-
-IBUs:40 – 70FG:1.008 – 1.016
-
-SRM:11 – 17ABV:5.5 – 7.5%
+'''Vital Statistics:''' 
+OG:1.056 – 1.070
+IBUs:40 – 70
+FG:1.008 – 1.016
+SRM:11 – 17
+ABV:5.5 – 7.5%
 
 '''Commercial Examples:''' Avery Hog Heaven, Cigar City Tocobaga Red IPA, Modern Times Blazing World, Tröegs Nugget Nectar
 
@@ -3134,11 +3202,12 @@ SRM:11 – 17ABV:5.5 – 7.5%
 
 '''Style Comparison:''' Drier, slightly spicier, and slightly creamier than an American IPA, with more of a lingering bitterness and spiciness in the finish. Does not have the intense rye malt or Weizen yeast character of a Roggenbier. 
 
-'''Vital Statistics:'''OG:1.056 – 1.075
-
-IBUs:50 – 75FG:1.008 – 1.014
-
-SRM:6 – 14ABV:5.5 – 8.0%
+'''Vital Statistics:''' 
+OG:1.056 – 1.075
+IBUs:50 – 75
+FG:1.008 – 1.014
+SRM:6 – 14
+ABV:5.5 – 8.0%
 
 '''Commercial Examples: '''Founders Red’s Rye IPA, Sierra Nevada Ruthless Rye
 
@@ -3164,11 +3233,12 @@ SRM:6 – 14ABV:5.5 – 8.0%
 
 '''Style Comparison:''' Bitter, hoppy, and stronger like an American IPA but fruity, spicy, and light like a Witbier. Typically late hops are not as prominent as in American IPA.
 
-'''Vital Statistics:'''OG:1.056 – 1.065
-
-IBUs:40 – 70FG:1.010 – 1.016
-
-SRM:5 – 6ABV:5.5 – 7.0%
+'''Vital Statistics:''' 
+OG:1.056 – 1.065
+IBUs:40 – 70
+FG:1.010 – 1.016
+SRM:5 – 6
+ABV:5.5 – 7.0%
 
 '''Commercial Examples: '''Lagunitas A Little Sumpin' Sumpin' Ale, New Belgium Accumulation
 
@@ -3194,11 +3264,12 @@ SRM:5 – 6ABV:5.5 – 7.0%
 
 '''Style Comparison:''' Less malt flavor, bitterness, and color than an American IPA, and much drier and more highly carbonated. Dry-hopped like an American IPA. Similar aroma and flavor as a Hazy IPA but without sweetness and with much less haze. Very pale, highly carbonated, and dry like a Belgian Golden Strong Ale but not as strong and without Belgian yeast character.
 
-'''Vital Statistics:'''OG:1.046 – 1.057
-
-IBUs:20 – 30FG:0.990 – 1.004
-
-SRM:2 – 4ABV:6.0 – 7.5%
+'''Vital Statistics:''' 
+OG:1.046 – 1.057
+IBUs:20 – 30
+FG:0.990 – 1.004
+SRM:2 – 4
+ABV:6.0 – 7.5%
 
 '''Commercial Examples: '''Drake’s Brightside Extra Brut IPA, Fair State Brewing Co-Op The Brut Squad, Ommegang Brut IPA
 
@@ -3226,11 +3297,12 @@ Heavy examples suggestive of milkshakes, creamsicles, or fruit smoothies are out
 
 '''Style Comparison:''' Has a fuller, softer mouthfeel, a more fruit-forward late hop expression, a more restrained perceived bitterness balance, and a hazier appearance than American IPA. Many modern American IPAs are fruity and somewhat hazy; examples with a dry, crisp finish, at most medium body, and high perceived bitterness should be entered as 21A American IPA. Noticeable additions of fruit, lactose, vanilla, etc. to increase the fruity, smooth character should be entered in a specialty category defined by the additives (e.g., 29A Fruit Beer, 29C Specialty Fruit Beer, 30D Specialty Spice Beer).
 
-'''Vital Statistics:'''OG:1.060 – 1.085
-
-IBUs:25 – 60FG:1.010 – 1.015
-
-SRM:3 – 7ABV:6.0 – 9.0%
+'''Vital Statistics:''' 
+OG:1.060 – 1.085
+IBUs:25 – 60
+FG:1.010 – 1.015
+SRM:3 – 7
+ABV:6.0 – 9.0%
 
 '''Commercial Examples:''' Belching Beaver Hazers Gonna Haze, Hill Farmstead Susan, Other Half Green Diamonds Double IPA, Pinthouse Electric Jellyfish, Tree House Julius, Trillium Congress Street, WeldWerks Juicy Bits
 
@@ -3260,11 +3332,12 @@ SRM:3 – 7ABV:6.0 – 9.0%
 
 '''Style Comparison:''' Bigger than English and American IPAs in alcohol strength, bitterness, and hoppiness. Less malty-rich, less body, drier, and with a greater overall hop balance than American Barleywine. 
 
-'''Vital Statistics:'''OG:1.065 – 1.085
-
-IBUs:60 – 100FG:1.008 – 1.018
-
-SRM:6 – 14ABV:7.5 – 10.0%
+'''Vital Statistics:''' 
+OG:1.065 – 1.085
+IBUs:60 – 100
+FG:1.008 – 1.018
+SRM:6 – 14
+ABV:7.5 – 10.0%
 
 '''Commercial Examples:''' Columbus Brewing Bohdi, Fat Head’s Hop Juju, Port Brewing Hop-15, Russian River Pliny the Elder, Stone Ruination Double IPA 2.0, Wicked Weed Freak of Nature
 
@@ -3292,11 +3365,12 @@ SRM:6 – 14ABV:7.5 – 10.0%
 
 '''Style Comparison: '''Generally not as strong and as rich as an American Barleywine. More malt balanced than an American or Double IPA. More American hop intensity than a British Strong Ale. Maltier and fuller-bodied than a Red IPA.
 
-'''Vital Statistics:'''OG:1.062 – 1.090
-
-IBUs:50 – 100FG:1.014 – 1.024
-
-SRM:7 – 18ABV:6.3 – 10.0% 
+'''Vital Statistics:''' 
+OG:1.062 – 1.090
+IBUs:50 – 100
+FG:1.014 – 1.024
+SRM:7 – 18
+ABV:6.3 – 10.0% 
 
 '''Commercial Examples:''' Arrogant Bastard Ale, Fat Head’s Bone Head, Great Lakes Nosferatu, Oskar Blues G’Knight, Port Brewing Shark Attack Double Red Ale
 
@@ -3322,11 +3396,12 @@ SRM:7 – 18ABV:6.3 – 10.0%
 
 '''Style Comparison:''' Greater emphasis on hop bitterness, flavor, and aroma than English Barley Wine, often featuring American hop varieties. Typically paler than the darker English Barley Wines and lacking their deeper malt flavors, but darker than the golden English Barley Wines. Differs from a Double IPA in that the hops are not extreme, the malt is more forward, and the body is fuller and often richer. American Barleywine typically has more residual sweetness than Double IPA, which affects the overall drinkability (sipping vs. drinking).
 
-'''Vital Statistics:'''OG:1.080 – 1.120
-
-IBUs:50 – 100FG:1.016 – 1.030
-
-SRM:9 – 18ABV:8.0 – 12.0%
+'''Vital Statistics:''' 
+OG:1.080 – 1.120
+IBUs:50 – 100
+FG:1.016 – 1.030
+SRM:9 – 18
+ABV:8.0 – 12.0%
 
 '''Commercial Examples:''' Anchor Old Foghorn, Bell’s Third Coast Old Ale, East End Gratitude, Hair of the Dog Doggie Claws, Sierra Nevada Bigfoot
 
@@ -3352,11 +3427,12 @@ SRM:9 – 18ABV:8.0 – 12.0%
 
 '''Style Comparison:''' More than simply a wheat-based Barleywine, many versions have very expressive fruity and hoppy notes, while others develop complexity through oak aging. Less emphasis on the hops than American Barleywine. Has roots in American Wheat Beer rather than any German wheat style, so should not have any Weizen yeast character.
 
-'''Vital Statistics:'''OG:1.080 – 1.120
-
-IBUs:30 – 60FG:1.016 – 1.030
-
-SRM:6 – 14ABV:8.0 – 12.0%
+'''Vital Statistics:''' 
+OG:1.080 – 1.120
+IBUs:30 – 60
+FG:1.016 – 1.030
+SRM:6 – 14
+ABV:8.0 – 12.0%
 
 '''Commercial Examples: '''The Bruery White Oak, Castelain Winter Ale, Perennial Heart of Gold, Two Brothers Bare Tree
 
@@ -3388,11 +3464,12 @@ In Germany, it is classified as a ''Schankbier'' denoting a small beer of starti
 
 '''Style Comparison:''' Compared to Lambic, has a clean lactic sourness with restrained to below sensory threshold Brett. Also lower in alcohol content. Compared to Straight Sour Beer and Catharina Sour, is lower gravity and may contain Brett.
 
-'''Vital Statistics:'''OG:1.028 – 1.032
-
-IBUs:3 – 8 FG:1.003 – 1.006
-
-SRM:2 – 3ABV:2.8 – 3.8%
+'''Vital Statistics:''' 
+OG:1.028 – 1.032
+IBUs:3 – 8 
+FG:1.003 – 1.006
+SRM:2 – 3
+ABV:2.8 – 3.8%
 
 '''Commercial Examples:''' Bayerischer Bahnhof Berliner Style Weisse, Berliner Berg Berliner Weisse, Brauerei Meierei Weiße, Lemke Berlin Budike Weisse, Schell's Brewing Company Schelltheiss, Urban Chestnut Ku’damm
 
@@ -3418,11 +3495,12 @@ SRM:2 – 3ABV:2.8 – 3.8%
 
 '''Style Comparison:''' Less malty-rich than an Oud Bruin, often with more of a fruity-tart and acetic profile.
 
-'''Vital Statistics:'''OG:1.048 – 1.057
-
-IBUs:10 – 25FG:1.002 – 1.012
-
-SRM:10 – 17ABV:4.6 – 6.5%
+'''Vital Statistics:''' 
+OG:1.048 – 1.057
+IBUs:10 – 25
+FG:1.002 – 1.012
+SRM:10 – 17
+ABV:4.6 – 6.5%
 
 '''Commercial Examples:''' Cuvée des Jacobins, Duchesse de Bourgogne, New Belgium La Folie, Rodenbach Classic, Rodenbach Grand Cru, Vichtenaar Flemish Ale 
 
@@ -3448,11 +3526,12 @@ SRM:10 – 17ABV:4.6 – 6.5%
 
 '''Style Comparison:''' A deeper malt character with more caramel, toffee, and chocolate flavors and darker color distinguishes these beers from Flanders Red Ale. The Oud Bruin is less acetic and maltier than a Flanders Red, and the fruity flavors are more malt-oriented. In modern times, Oud Bruin also tends to be higher in alcohol than is typically seen in Flanders Red Ales. Differs from Lambic in that they are not spontaneously fermented, and don’t contain wheat.
 
-'''Vital Statistics:'''OG:1.040 – 1.074
-
-IBUs:20 – 25FG:1.008 – 1.012
-
-SRM:17 – 22ABV:4.0 – 8.0%
+'''Vital Statistics:''' 
+OG:1.040 – 1.074
+IBUs:20 – 25
+FG:1.008 – 1.012
+SRM:17 – 22
+ABV:4.0 – 8.0%
 
 '''Commercial Examples:''' Ichtegem Oud Bruin, Liefmans Goudenband, Liefmans Oud Bruin, Petrus Roodbruin, pFriem Oud Bruin, VanderGhinste Roodbruin
 
@@ -3478,11 +3557,12 @@ SRM:17 – 22ABV:4.0 – 8.0%
 
 '''Style Comparison: '''Often has a simpler sourness and less complexity than a Gueuze, but more variability from batch to batch. Traditionally served uncarbonated from pitchers, while Gueuze is bottled and very highly carbonated. 
 
-'''Vital Statistics:'''OG:1.040 – 1.054
-
-IBUs:0 – 10FG:1.001 – 1.010
-
-SRM:3 – 6ABV:5.0 – 6.5% 
+'''Vital Statistics:''' 
+OG:1.040 – 1.054
+IBUs:0 – 10
+FG:1.001 – 1.010
+SRM:3 – 6
+ABV:5.0 – 6.5% 
 
 '''Commercial Examples:''' Cantillon Grand Cru Bruocsella. In the Brussels area, many specialty cafés have draught lambic from Boon, De Cam, Cantillon, Drie Fonteinen, Lindemans, Timmermans, Girardin and others.
 
@@ -3508,11 +3588,12 @@ SRM:3 – 6ABV:5.0 – 6.5%
 
 '''Style Comparison:''' More complex and carbonated than a Lambic. The sourness isn’t necessarily stronger, but it tends to have more of a well-developed wild character.
 
-'''Vital Statistics:'''OG:1.040 – 1.054
-
-IBUs:0 – 10FG:1.000 – 1.006
-
-SRM:5 – 6ABV:5.0 – 8.0%
+'''Vital Statistics:''' 
+OG:1.040 – 1.054
+IBUs:0 – 10
+FG:1.000 – 1.006
+SRM:5 – 6
+ABV:5.0 – 8.0%
 
 '''Commercial Examples:''' 3 Fonteinen Oud Gueuze, Cantillon Classic Gueuze 100% Lambic, Girardin Gueuze 1882 (Black label), Hanssens Oude Gueuze, Lindemans Gueuze Cuvée René, Oude Gueuze Boon
 
@@ -3540,11 +3621,12 @@ SRM:5 – 6ABV:5.0 – 8.0%
 
 '''Entry Instructions:''' The ''type of fruit ''used '''must''' be specified. The brewer '''must''' declare a ''carbonation ''level (low, medium, high) and a ''sweetness'' level (low/none, medium, high). 
 
-'''Vital Statistics:'''OG:1.040 – 1.060
-
-IBUs:0 – 10FG:1.000 – 1.010
-
-SRM:3 – 7 (varies w/ fruit)ABV:5.0 – 7.0%
+'''Vital Statistics:''' 
+OG:1.040 – 1.060
+IBUs:0 – 10
+FG:1.000 – 1.010
+SRM:3 – 7 (varies w/ fruit)
+ABV:5.0 – 7.0%
 
 '''Commercial Examples:''' 3 Fonteinen Schaerbeekse Kriek, Cantillon Fou’ Foune, Cantillon Lou Pepe Framboise, Cantillon Vigneronne, Hanssens Oude Kriek, Oude Kriek Boon
 
@@ -3570,11 +3652,12 @@ SRM:3 – 7 (varies w/ fruit)ABV:5.0 – 7.0%
 
 '''Style Comparison:''' Perceived acidity is not as intense as Berliner Weisse or Gueuze. Restrained use of salt, coriander, and Lacto – should not taste overtly salty. Coriander aroma can be similar to a Witbier. Haziness similar to a Weissbier.
 
-'''Vital Statistics:'''OG:1.036 – 1.056
-
-IBUs:5 – 12FG:1.006 – 1.010
-
-SRM:3 – 4ABV:4.2 – 4.8%
+'''Vital Statistics:''' 
+OG:1.036 – 1.056
+IBUs:5 – 12
+FG:1.006 – 1.010
+SRM:3 – 4
+ABV:4.2 – 4.8%
 
 '''Commercial Examples:''' Anderson Valley Gose, Bayerisch Bahnhof Leipziger Gose, Original Ritterguts Gose, Westbrook Gose
 
@@ -3604,11 +3687,12 @@ SRM:3 – 4ABV:4.2 – 4.8%
 
 '''Style Comparison:''' Low bitterness level with a balance similar to a Weissbier, but with spice and citrus character coming from additions more so than the yeast.
 
-'''Vital Statistics:'''OG:1.044 – 1.052
-
-IBUs:8 – 20FG:1.008 – 1.012
-
-SRM:2 – 4ABV:4.5 – 5.5% 
+'''Vital Statistics:''' 
+OG:1.044 – 1.052
+IBUs:8 – 20
+FG:1.008 – 1.012
+SRM:2 – 4
+ABV:4.5 – 5.5% 
 
 '''Commercial Examples:''' Allagash White, Blanche de Bruxelles, Celis White, Hoegaarden White, Ommegang Witte, St. Bernardus Wit
 
@@ -3634,11 +3718,12 @@ SRM:2 – 4ABV:4.5 – 5.5%
 
 '''Style Comparison:''' Fairly similar to pale ales from England ''(''11C Strong Bitter), typically with a slightly different yeast character and a more varied malt profile. Less yeast character than many other Belgian beers, though.
 
-'''Vital Statistics:'''OG:1.048 – 1.054
-
-IBUs:20 – 30FG:1.010 – 1.014
-
-SRM:8 – 14ABV:4.8 – 5.5% 
+'''Vital Statistics:''' 
+OG:1.048 – 1.054
+IBUs:20 – 30
+FG:1.010 – 1.014
+SRM:8 – 14
+ABV:4.8 – 5.5% 
 
 '''Commercial Examples:''' De Koninck Bolleke, De Ryck Special, Palm, Palm Dobble
 
@@ -3672,11 +3757,12 @@ Malt flavor, depth, richness, intensity, and complexity increases with beer colo
 
 '''Entry Instructions:''' Entrant '''must''' specify ''blond'', ''amber'', or ''brown'' Bière de Garde. If no color is specified, the judge should attempt to judge based on initial observation, expecting a malt flavor and balance that matches the color.
 
-'''Vital Statistics:'''OG:1.060 – 1.080
-
-IBUs:18 – 28FG:1.008 – 1.016
-
-SRM:6 – 19ABV:6.0 – 8.5% 
+'''Vital Statistics:''' 
+OG:1.060 – 1.080
+IBUs:18 – 28
+FG:1.008 – 1.016
+SRM:6 – 19
+ABV:6.0 – 8.5% 
 
 '''Commercial Examples:''' Ch’Ti Blonde, Jenlain Ambrée, La Choulette Brune, Russian River Perdition, Saint Sylvestre 3 Monts Blonde, Two Brothers Domaine Dupage
 
@@ -3709,11 +3795,12 @@ SRM:6 – 19ABV:6.0 – 8.5%
 
 '''Style Comparison:''' Similar strength and balance as a Belgian Dubbel but gold in color and without the darker malt flavors. Similar character as a Belgian Strong Golden Ale or Belgian Tripel, although a bit maltier, not as bitter, and lower in alcohol.
 
-'''Vital Statistics:'''OG:1.062 – 1.075
-
-IBUs:15 – 30FG:1.008 – 1.018
-
-SRM:4 – 6ABV:6.0 – 7.5%
+'''Vital Statistics:''' 
+OG:1.062 – 1.075
+IBUs:15 – 30
+FG:1.008 – 1.018
+SRM:4 – 6
+ABV:6.0 – 7.5%
 
 '''Commercial Examples:''' Affligem Blond, Corsendonk Blond, Grimbergen Blonde, La Trappe Blond, Leffe Blond, Val-Dieu Blonde
 
@@ -3753,15 +3840,15 @@ Often called Farmhouse ales in the US, but this term is not common in Europe whe
 
 '''Entry Instructions:''' The entrant '''must''' specify the ''strength'' (table, standard, super) and the ''color'' (pale, dark). The entrant '''may''' identify character grains used.
 
-'''Vital Statistics:'''OG:1.048 – 1.065 ''(standard)''
-
-IBUs:20 – 35FG:1.002 – 1.008 ''(standard)''
-
-SRM:5 – 14 ''(pale)''ABV:3.5 – 5.0% ''(table) ''
-
-15 – 22 ''(dark)''5.0 – 7.0% ''(standard)''
-
-7.0 – 9.5% ''(super)''
+'''Vital Statistics:''' 
+OG:1.048 – 1.065 ''(standard)''
+IBUs:20 – 35
+FG:1.002 – 1.008 ''(standard)''
+SRM:5 – 14 ''(pale)''
+ABV:3.5 – 5.0% ''(table) ''
+SRM:15 – 22 ''(dark)'
+ABV:'5.0 – 7.0% ''(standard)''
+ABV:7.0 – 9.5% ''(super)''
 
 '''Commercial Examples: '''Ellezelloise Saison 2000, Lefebvre Saison 1900, Saison Dupont, Saison de Pipaix, Saison Voisin, Boulevard Tank 7
 
@@ -3787,11 +3874,12 @@ SRM:5 – 14 ''(pale)''ABV:3.5 – 5.0% ''(table) ''
 
 '''Style Comparison:''' Often confused with Belgian Tripel, but is usually paler, lighter-bodied, crisper, and drier. Tends to use yeast that favor ester development (particularly pome fruit) over spiciness in the balance, and has more of a late hop character.
 
-'''Vital Statistics:'''OG:1.070 – 1.095
-
-IBUs:22 – 35FG:1.005 – 1.016
-
-SRM:3 – 6ABV:7.5 – 10.5%
+'''Vital Statistics:''' 
+OG:1.070 – 1.095
+IBUs:22 – 35
+FG:1.005 – 1.016
+SRM:3 – 6
+ABV:7.5 – 10.5%
 
 '''Commercial Examples:''' Brigand, Delirium Tremens, Duvel, Judas, Lucifer, Russian River Damnation
 
@@ -3825,11 +3913,12 @@ SRM:3 – 6ABV:7.5 – 10.5%
 
 '''Style Comparison:''' Like a top-fermented Belgian interpretation of a German Pils – pale, hoppy, and well-attenuated, but with a strong Belgian yeast character. Has less sweetness, higher attenuation, less character malt, and is more hop-centered than a Belgian Pale Ale. More like a much smaller, more highly-hopped Belgian Tripel (with its bitterness and dryness) than a smaller Belgian Blond Ale.
 
-'''Vital Statistics:'''OG:1.044 – 1.054
-
-IBUs:25 – 45FG:1.004 – 1.010
-
-SRM:3 – 5ABV:4.8 – 6.0%
+'''Vital Statistics:''' 
+OG:1.044 – 1.054
+IBUs:25 – 45
+FG:1.004 – 1.010
+SRM:3 – 5
+ABV:4.8 – 6.0%
 
 '''Commercial Examples:''' Chimay Gold, La Trappe Puur, Russian River Redemption, St. Bernardus Extra 4, Westmalle Extra, Westvleteren Blond
 
@@ -3855,11 +3944,12 @@ SRM:3 – 5ABV:4.8 – 6.0%
 
 '''Style Comparison:''' Perhaps similar to a Dunkles Bock but with a Belgian yeast and sugar character. Similar in strength and balance to a Belgian Blond Ale, but with a richer malt and ester profile. Less strong and intense than a Belgian Dark Strong Ale.
 
-'''Vital Statistics:'''OG:1.062 – 1.075
-
-IBUs:15 – 25FG:1.008 – 1.018
-
-SRM:10 – 17ABV:6.0 – 7.6%
+'''Vital Statistics:''' 
+OG:1.062 – 1.075
+IBUs:15 – 25
+FG:1.008 – 1.018
+SRM:10 – 17
+ABV:6.0 – 7.6%
 
 '''Commercial Examples: '''Chimay Red, Corsendonk Bruin, La Trappe Dubbel, Rochefort 6, St. Bernardus Pater 6, Westmalle Dubbel
 
@@ -3885,11 +3975,12 @@ SRM:10 – 17ABV:6.0 – 7.6%
 
 '''Style Comparison:''' May resemble a Belgian Golden Strong Ale but slightly darker and a bit fuller-bodied, with more emphasis on phenols and less on esters, and fewer late hops. Should not seem like a blond Barleywine.
 
-'''Vital Statistics:'''OG:1.075 – 1.085
-
-IBUs:20 – 40FG:1.008 – 1.014
-
-SRM:4.5 – 7ABV:7.5 – 9.5%
+'''Vital Statistics:''' 
+OG:1.075 – 1.085
+IBUs:20 – 40
+FG:1.008 – 1.014
+SRM:4.5 – 7
+ABV:7.5 – 9.5%
 
 '''Commercial Examples: '''Chimay Tripel, La Rulles Tripel, La Trappe Tripel, St. Bernardus Tripel, Val-Dieu Triple, Westmalle Tripel
 
@@ -3915,11 +4006,12 @@ SRM:4.5 – 7ABV:7.5 – 9.5%
 
 '''Style Comparison:''' Like a larger Belgian Dubbel, with a fuller body and increased malt richness. Not as bitter or hoppy as a Belgian Tripel, but of similar strength.
 
-'''Vital Statistics:'''OG:1.075 – 1.110
-
-IBUs:20 – 35FG:1.010 – 1.024
-
-SRM:12 – 22ABV:8.0 – 12.0%
+'''Vital Statistics:''' 
+OG:1.075 – 1.110
+IBUs:20 – 35
+FG:1.010 – 1.024
+SRM:12 – 22
+ABV:8.0 – 12.0%
 
 '''Commercial Examples:''' Achel Extra Bruin, Boulevard The Sixth Glass, Chimay Blue, Rochefort 10, St. Bernardus Abt 12, Westvleteren 12
 
@@ -3987,11 +4079,12 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
 
 '''Style Comparison:''' Like a darker-colored Cream Ale emphasizing corn, but with some light character malt flavor. Malt flavors and balance are probably closest to modern adjunct-driven International Amber or Dark Lagers, Irish Red Ales, or Belgian Pale Ales.
 
-'''Vital Statistics:'''OG:1.044 – 1.055
-
-IBUs:15 – 30FG:1.010 – 1.018
-
-SRM:11 – 20ABV:4.0 – 5.5%
+'''Vital Statistics:''' 
+OG:1.044 – 1.055
+IBUs:15 – 30
+FG:1.010 – 1.018
+SRM:11 – 20
+ABV:4.0 – 5.5%
 
 '''Commercial Examples:''' Apocalypse Brew Works 1912
 
@@ -4017,11 +4110,12 @@ SRM:11 – 20ABV:4.0 – 5.5%
 
 '''Style Comparison:''' In the same general historical lower-alcohol central European wheat beer family as Gose, Grodziskie, and Berliner Weisse; has elements of all of them but with its own unique balance – sour and smoke is not found in any of the other styles. Not as acidic as Berliner Weisse, probably more like a smoked Gose without coriander and salt, or a Grodziskie with Gose-like acidity.
 
-'''Vital Statistics:'''OG:1.032 – 1.040
-
-IBUs:5 – 12FG:1.004 – 1.008
-
-SRM:3 – 6ABV:3.5 – 4.7%
+'''Vital Statistics:''' 
+OG:1.032 – 1.040
+IBUs:5 – 12
+FG:1.004 – 1.008
+SRM:3 – 6
+ABV:3.5 – 4.7%
 
 '''Commercial Examples:''' Live Oak Lichtenhainer, Wöllnitzer Weissbier
 
@@ -4047,11 +4141,12 @@ SRM:3 – 6ABV:3.5 – 4.7%
 
 '''Style Comparison:''' May seem somewhat like a less roasty version of a Sweet Stout (and lower-gravity, at least for US sweet stout examples) or a sweet version of a Dark Mild.
 
-'''Vital Statistics:'''OG:1.033 – 1.038 
-
-IBUs:15 – 20FG:1.012 – 1.015
-
-SRM:22 – 35ABV:2.8 – 3.6%
+'''Vital Statistics:''' 
+OG:1.033 – 1.038 
+IBUs:15 – 20
+FG:1.012 – 1.015
+SRM:22 – 35
+ABV:2.8 – 3.6%
 
 '''Commercial Examples:''' Harveys Bloomsbury Brown Ale, Mann's Brown Ale
 
@@ -4077,11 +4172,12 @@ SRM:22 – 35ABV:2.8 – 3.6%
 
 '''Style Comparison:''' Similar in strength to a Berliner Weisse, but never sour and much more bitter. Has a smoked character but less intense than in a Rauchbier. Lower gravity than a Lichtenhainer, but more bitter and not sour. More bitter than a Gose, but no salt and spices.
 
-'''Vital Statistics:'''OG:1.028 – 1.032
-
-IBUs:20 – 35FG:1.006 – 1.012
-
-SRM:3 – 6ABV:2.5 – 3.3%
+'''Vital Statistics:''' 
+OG:1.028 – 1.032
+IBUs:20 – 35
+FG:1.006 – 1.012
+SRM:3 – 6
+ABV:2.5 – 3.3%
 
 '''Commercial Examples: '''Live Oak Grodziskie
 
@@ -4107,11 +4203,12 @@ SRM:3 – 6ABV:2.5 – 3.3%
 
 '''Style Comparison:''' Similar balance and bitterness as modern Czech Premium Pale Lagers, but exhibiting native American grains and hops from the era before US Prohibition. More robust, bitter, and flavorful than modern pale American Lagers, often with higher alcohol.
 
-'''Vital Statistics:'''OG:1.044 – 1.060
-
-IBUs:25 – 40FG:1.010 – 1.015
-
-SRM:3 – 6ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.044 – 1.060
+IBUs:25 – 40
+FG:1.010 – 1.015
+SRM:3 – 6
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Capital Supper Club, Coors Batch 19, Little Harpeth Chicken Scratch, Schell Deer Brand, Urban Chestnut Forest Park Pilsner
 
@@ -4137,11 +4234,12 @@ SRM:3 – 6ABV:4.5 – 6.0%
 
 '''Style Comparison:''' Smoother and less hoppy-bitter than a (modern) American Porter. Less caramelly and smoother than an English Porter with more of an adjunct or lager character. More bitterness and roast than an International Dark Lager.
 
-'''Vital Statistics:'''OG:1.046 – 1.060
-
-IBUs:20 – 30FG:1.010 – 1.016
-
-SRM:20 – 30ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.046 – 1.060
+IBUs:20 – 30
+FG:1.010 – 1.016
+SRM:20 – 30
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Stegmaier Porter, Yuengling Porter
 
@@ -4167,11 +4265,12 @@ SRM:20 – 30ABV:4.5 – 6.0%
 
 '''Style Comparison:''' A more distinctive variant of a Dunkles Weissbier using malted rye instead of malted wheat. American Rye Beers will not have the weizen yeast character, and likely more hops.
 
-'''Vital Statistics:'''OG:1.046 – 1.056
-
-IBUs:10 – 20FG:1.010 – 1.014
-
-SRM:14 – 19ABV:4.5 – 6.0%
+'''Vital Statistics:''' 
+OG:1.046 – 1.056
+IBUs:10 – 20
+FG:1.010 – 1.014
+SRM:14 – 19
+ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Thurn und Taxis Roggen
 
@@ -4197,11 +4296,12 @@ SRM:14 – 19ABV:4.5 – 6.0%
 
 '''Style Comparison:''' Passing resemblance to Weizenbocks, but sweet and thick with a rye and juniper character.
 
-'''Vital Statistics:'''OG:1.076 – 1.120
-
-IBUs:0 – 15FG:1.016 – 1.038
-
-SRM:4 – 22ABV:7.0 – 11.0%
+'''Vital Statistics:''' 
+OG:1.076 – 1.120
+IBUs:0 – 15
+FG:1.016 – 1.038
+SRM:4 – 22
+ABV:7.0 – 11.0%
 
 '''Commercial examples:''' Now made year-round by several breweries in Finland.
 
@@ -4412,11 +4512,12 @@ Hop aroma may be absent or balanced with the added ingredients, depending on the
 
 '''Style Comparison:''' Lower gravity examples can be very much like a Brett-free Berliner Weisse. Compared to a Lambic, is generally not as acidic and has a clean lactic sourness with restrained to below sensory threshold funk. Higher in alcohol content than both.
 
-'''Vital Statistics:'''OG:1.048 – 1.065
-
-IBUs:3 – 8 FG:1.006 – 1.013
-
-SRM:2 – 3ABV:4.5 – 7.0%
+'''Vital Statistics:''' 
+OG:1.048 – 1.065
+IBUs:3 – 8 
+FG:1.006 – 1.013
+SRM:2 – 3
+ABV:4.5 – 7.0%
 
 '''Commercial Examples:''' Rarely found, as this style is typically the base for other Specialty-Type Beers.
 
@@ -4535,11 +4636,12 @@ The specialty ingredients should complement the original style and not overwhelm
 
 '''Entry Instructions:''' The entrant '''must''' specify the type of grape used. The entrant '''may''' provide additional information about the base style or characteristic ingredients.
 
-'''Vital Statistics:'''OG:1.059 – 1.075
-
-IBUs:10 – 30FG:1.004 – 1.013
-
-SRM:4 – 8ABV:6.0 – 8.5%
+'''Vital Statistics:''' 
+OG:1.059 – 1.075
+IBUs:10 – 30
+FG:1.004 – 1.013
+SRM:4 – 8
+ABV:6.0 – 8.5%
 
 '''Commercial Examples:''' Montegioco Open Mind, Birrificio del Forte Il Tralcio, Luppolajo Mons Rubus, Firestone Walker Feral Vinifera, pFriem Family Brewers Druif, 4 Árvores Abbondanza 
 
@@ -4806,12 +4908,12 @@ The special ingredients should be supportive and balanced, not overshadowing the
 
 OG:varies with base style, typically above-average 
 
+
 FG:varies with base style
 
+
 ABV:varies with base style, typically above-average
-
 IBUs:varies with base style
-
 SRM:varies with base style, often darker than the unadulterated base style
 
 '''Commercial Examples:''' Bush Prestige, Cigar City Spanish Cedar Jai Alai, Firestone Walker Double Barrel Ale, Midnight Sun Arctic Devil, Petrus Aged Pale, Samuel Smith Yorkshire Stingo
@@ -4846,12 +4948,12 @@ Special wood-aged wild ales should be entered in the 28C Wild Specialty Beer''.'
 
 OG:varies with base style, typically above-average
 
+
 FG:varies with base style 
 
+
 ABV:varies with base style, typically above-average
-
 IBUs:varies with base style 
-
 SRM:varies with base style, often darker than the unadulterated base style
 
 '''Commercial Examples:''' AleSmith Barrel-Aged Old Numbskull, Founders Kentucky Breakfast Stout, Firestone Walker Parabola, Goose Island Bourbon County Stout, Great Divide Barrel Aged Yeti, The Lost Abbey Angel’s Share Ale
@@ -5634,9 +5736,7 @@ SRM:varies with base style, often darker than the unadulterated base style
 '''Ingredientes:''' usualmente solo malta pálida o pilsen, aunque puede incluir bajas proporciones de malta caramelizadas. Comúnmente lúpulo Cascade. Levaduras americanas limpias, británicas levemente frutadas o Kölsch, usualmente acondicionada en frío.
 
 '''Estadísticas vitales:'''D.I.:1.042 – 1.054
-
 IBUs:15 – 22D.F.:1.009 – 1.013
-
 SRM:3 – 5G.A.:4,3º – 5,5º
 
 
@@ -5658,11 +5758,13 @@ SRM:3 – 5G.A.:4,3º – 5,5º
 
 '''Ingredients:''' Usually only pale or pils malt, although may include low rates of caramelized malt. Commonly Cascade hops. Clean American yeast, slightly fruity British or Kölsch, usually packaged in cold. 
 
-'''Vital Statistics:'''OG:1.042 – 1.054
+'''Vital Statistics:''' 
+OG:1.042 – 1.054
 
-IBU:15 – 22FG:1.009 – 1.013
-
-SRM:3 – 5ABV:4.3% – 5.5%
+IBU:15 – 22
+FG:1.009 – 1.013
+SRM:3 – 5
+ABV:4.3% – 5.5%
 
 == {{anchor|Toc418087904}} {{anchor|Toc91058280}} X2. IPA Argenta ==
 
@@ -5689,7 +5791,6 @@ Sabor a malta bajo a medio, límpido, aunque son aceptables bajos niveles acaram
 '''Estadísticas vitales:'''DO:1055 – 1065
 
 IBU:35 – 60DF:1008 – 1015
-
 SRM:6 – 15GA5.0 – 6.5%.
 
 '''Ejemplos comerciales:''' Antares Ipa Argenta, Kerze Ipa Argenta.
@@ -5711,11 +5812,13 @@ SRM:6 – 15GA5.0 – 6.5%.
 
 '''Ingredients:''' Pale ale malt (well-modified and suitable for single-temperature infusion mashing) with up to 15% wheat, either malted or unmalted; Caramel malts should be limited and preferably be caramel wheat. Argentine hops like Cascade, Mapuche and Nugget are typical, although Spalt, Victoria or Bullion may be used to add complexity; American yeast that can give a clean or slightly fruity profile. Water character varies from soft to moderately sulfate. 
 
-'''Vital Statistics:'''OG:1.055 – 1.065
+'''Vital Statistics:''' 
+OG:1.055 – 1.065
 
-IBU: 35 – 60FG:1.008 – 1.015
-
-SRM: 6 – 15ABV:5.0 – 6.5%.
+IBU: 35 – 60
+FG:1.008 – 1.015
+SRM: 6 – 15
+ABV:5.0 – 6.5%.
 
 '''Commercial Examples:''' Antares Ipa Argenta, Kerze Ipa Argenta.
 
@@ -5744,7 +5847,9 @@ Breweries call “Wild IGA” or “Sour IGA” any wild/sour version of the sty
 
 '''Style Comparison: '''Similar to Fruit Beer but evolved as a standalone style due to the abundance of grapes varieties in Italy. 
 
-'''Vital Statistics:''' OG: 1.045 – 1.100IBUs: 6 – 30 FG: 1.005 – 1.015 SRM: 4 – 25 ABV: 4.5 – 12%
+'''Vital Statistics:''' OG: 1.045 – 1.100IBUs: 6 – 30 
+FG: 1.005 – 1.015 SRM: 4 – 25 
+ABV: 4.5 – 12%
 
 '''Commercial Examples:''' Montegioco Open Mind, Birrificio Barley BB5-10, Birrificio del Forte Il Tralcio, Viess Beer al mosto di gewurtztraminer, CRAK IGA Cabernet, Birrificio Apuano Ninkasi, Luppolajo Mons Rubus
 
@@ -5777,9 +5882,10 @@ Breweries call “Wild IGA” or “Sour IGA” any wild/sour version of the sty
 
 '''Estatisticas “Vitais”:'''OG:1.039 – 1.048
 
-IBU: 2 – 8FG:1.004 – 1.012
-
-SRM: 2 – 6 ABV:4.0 – 5.5%.
+IBU: 2 – 8
+FG:1.004 – 1.012
+SRM: 2 – 6 
+ABV:4.0 – 5.5%.
 
 '''Exemplos Comerciais:''' Armada Daenerys, Blumenau Catharina Sour Pêssego, Istepô Goiabêra, Itajahy Catharina Araçá Sour, Liffey Coroa Real, UNIKA Tangerina Clemenules
 
@@ -5810,11 +5916,13 @@ SRM: 2 – 6 ABV:4.0 – 5.5%.
 
 '''Style Comparison:''' Like a stronger Berliner Weisse, but with fresh fruit and no Brett. Less sour than Lambic and Gueuze, and without Brett character. As of the 2021 Guidelines, similar beer could be entered in the broader 28C Wild Specialty Beer style.
 
-'''Vital Statistics:'''OG:1.039 – 1.048
+'''Vital Statistics:''' 
+OG:1.039 – 1.048
 
-IBU: 2 – 8FG:1.004 – 1.012
-
-SRM: 2 – 6ABV:4.0 – 5.5%.
+IBU: 2 – 8
+FG:1.004 – 1.012
+SRM: 2 – 6
+ABV:4.0 – 5.5%.
 
 '''Commercial Examples:''' Armada Daenerys, Blumenau Catharina Sour Pêssego, Istepô Goiabêra, Itajahy Catharina Araçá Sour, Liffey Coroa Real, UNIKA Tangerina Clemenules
 
@@ -5845,11 +5953,13 @@ SRM: 2 – 6ABV:4.0 – 5.5%.
 
 '''Style Comparison:''' Compared to a German Pils, not as crisp and dry in the finish with a softer, maltier presentation and a fuller body. Compared to a Czech Premium Pale Lager, less malt complexity, a cleaner fermentation. Similar in balance to a Kolsch or British Golden Ale, but with a hoppier aroma. Compared to any of these German styles, showcasing New Zealand hop varieties with tropical, citrusy, fruity, grassy characteristics, often with a white wine-like character. Should not be as hoppy or bitter in balance as an IPA.
 
-'''Vital Statistics:'''OG:1.044 – 1.056
+'''Vital Statistics:''' 
+OG:1.044 – 1.056
 
-IBU: 25 – 45FG:1.009 – 1.014
-
-SRM: 2 – 6ABV:4.5 – 5.8%.
+IBU: 25 – 45
+FG:1.009 – 1.014
+SRM: 2 – 6
+ABV:4.5 – 5.8%.
 
 '''Commercial Examples:''' Croucher New Zealand Pilsner, Emerson’s Pilsner, Liberty Halo Pilsner, Panhead Port Road Pilsner, Sawmill Pilsner, Tuatara Mot Eureka
 

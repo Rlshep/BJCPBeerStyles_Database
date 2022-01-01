@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.regex.Pattern;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.BJCP_2021;
+import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
 public class BJCPTextToXML extends TextToXML {
     private static final String INPUT_FILE_NAME = "./db/txt_to_xml/2021_BJCP_Guidelines_Beer.txt";    //Exported from LibreWriter to wiki text
@@ -15,6 +16,12 @@ public class BJCPTextToXML extends TextToXML {
     private static final String INTRO1 = "= {{anchor|Toc418087720}} {{anchor|Toc91058084}} Introduction to the 2021 Guidelines =";
     private static final String INTRO2 = "= {{anchor|Toc91058090}} Introduction to Beer Styles =";
     private static final String START_STYLES = "= {{anchor|Toc91058103}} 1. Standard American Beer =";
+    private static final String START_VITALS = "'''Vital Statistics:'''";
+    private static final String OG = "OG:";
+    private static final String FG = "FG:";
+    private static final String SRM = "SRM:";
+    private static final String ABV = "ABV:";
+    private static final String IBU = "IBUs:";
 
     //= {{anchor|Toc418087720}} {{anchor|Toc91058084}} Introduction to the 2021 Guidelines =
     private static final Pattern introNamePattern = Pattern.compile("\\{\\{.*\\}\\}\\s\\{\\{.*\\}\\}\\s(.*?)\\s=");
@@ -24,6 +31,8 @@ public class BJCPTextToXML extends TextToXML {
 
     private boolean introFound = false;
     private boolean introEnd = false;
+    private boolean categoryEnd = false;
+    private StringBuilder formattedStats = new StringBuilder(); //Need to place at end of Sub Category
 
     public static void main(String args[]) {
         BJCPTextToXML converter = new BJCPTextToXML();
@@ -52,15 +61,23 @@ public class BJCPTextToXML extends TextToXML {
             int index = str.indexOf(ANCHOR2);
             out.insert(index, "\n\n").toString();
         }
+        str = out.toString();
 
-        return out.toString();
+        str = str.replace("'''Vital Statistics:'''OG:", "'''Vital Statistics:''' \nOG:");
+        str = str.replace("FG:", "\nFG:");
+        str = str.replace("ABV:", "\nABV:");
+        return str;
     }
 
     protected String preCleanUp(StringBuilder str) {
         String s = str.toString();
-        StringBuilder out = new StringBuilder(s);
 
-        return out.toString();
+        s = s.replace("\n\n" + IBU, "\n" + IBU);
+        s = s.replace("\n\n" + SRM, "\n" + SRM);
+        s = s.replace("\n15 – 22 ''(dark)''5.0 – 7.0% ''(standard)''", "SRM:15 – 22 ''(dark)'\n" + ABV + "'5.0 – 7.0% ''(standard)''");
+        s = s.replace("\n\n7.0 – 9.5% ''(super)''", "\n" + ABV + "7.0 – 9.5% ''(super)''");
+
+        return s;
     }
 
     protected StringBuilder formatLine(String str) {
@@ -84,10 +101,16 @@ public class BJCPTextToXML extends TextToXML {
             formatted.append(NOTES_END);
             formatted.append(getCategory(str));
             introEnd = true;
+            categoryEnd = true;
         } else if (introEnd && isStartCategory(str)) {
             formatted.append(getCategory(str));
+            categoryEnd = true;
         } else if (introEnd && isStartSubCategory(str)) {
             formatted.append(getSubCategory(str));
+        } else if (str.contains(START_VITALS)) {
+            //skip
+        } else if (isStatistic(str)) {
+            formattedStats.append(formatStats(str));
         } else {
             formatted.append(formatNormalLine(str));
         }
@@ -145,10 +168,8 @@ public class BJCPTextToXML extends TextToXML {
         final Pattern[] patterns = { Pattern.compile("=\\s\\{\\{.*\\}\\}\\s(\\d+\\.\\s.*?)?\\s=") };
         boolean isStart = false;
 
-        for (int i = 0; i < patterns.length; i++) {
-            if (!StringUtils.isEmpty(getRegExValue(str, patterns[i]))) {
-                isStart = true;
-            }
+        if (!StringUtils.isEmpty(getRegExValue(str, patterns))) {
+            isStart = true;
         }
 
         return isStart;
@@ -159,7 +180,6 @@ public class BJCPTextToXML extends TextToXML {
         final Pattern categoryCode = Pattern.compile("\\{\\{.*\\}\\}\\s(\\d+)?\\.\\s(.*?)\\s=");
         final Pattern categoryName = Pattern.compile("\\{\\{.*\\}\\}\\s\\d+\\.\\s(.*?)?\\s=");
         StringBuilder formatted = new StringBuilder();
-
 
         formatted.append(SUB_CATEGORY_END);
         formatted.append(CATEGORY_END);
@@ -180,13 +200,11 @@ public class BJCPTextToXML extends TextToXML {
     //{{anchor|Toc180319633}} {{anchor|Toc91058105}} {{anchor|Toc418087739}} '''1B. American Lager'''
     //== {{anchor|Toc91058106}} 1C. Cream Ale ==
     private boolean isStartSubCategory(String str) {
-        final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''(.*?)'''"), Pattern.compile("\\{\\{.*\\}\\}\\s(.*?)\\s==}") };
+        final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''(.*?)'''"), Pattern.compile("\\{\\{.*\\}\\}\\s(.*?)\\s==") };
         boolean isStart = false;
 
-        for (int i = 0; i < patterns.length; i++) {
-            if (!StringUtils.isEmpty(getRegExValue(str, patterns[i]))) {
-                isStart = true;
-            }
+        if (!StringUtils.isEmpty(getRegExValue(str, patterns))) {
+            isStart = true;
         }
 
         return isStart;
@@ -195,8 +213,16 @@ public class BJCPTextToXML extends TextToXML {
     private StringBuilder getSubCategory(String str) {
         StringBuilder formatted = new StringBuilder();
 
-        formatted.append(BODY_END);
-        formatted.append(SUB_CATEGORY_END);
+        if (categoryEnd) {
+            formatted.append(NOTES_END);
+            categoryEnd = false;
+        } else {
+            formatted.append(BODY_END);
+            formatted.append(formattedStats);
+            formatted.append(SUB_CATEGORY_END);
+            formattedStats = new StringBuilder();
+        }
+
         formatted.append(SUB_CATEGORY_START);
         formatted.append(getSubCategoryCode(str));
         formatted.append("\">\n\t");
@@ -214,19 +240,8 @@ public class BJCPTextToXML extends TextToXML {
     //== {{anchor|Toc91058106}} 1C. Cream Ale ==
     private String getSubCategoryCode(String str) {
         final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''([a-zA-Z0-9_]*)?\\.\\s"), Pattern.compile("\\{\\{.*\\}\\}\\s([a-zA-Z0-9_]*)?\\.\\s") };
-        String code = "";
 
-
-        for (int i = 0; i < patterns.length; i++) {
-            String regExValue = getRegExValue(str, patterns[i]);
-
-            if (!StringUtils.isEmpty(regExValue)) {
-                code = regExValue;
-                break;
-            }
-        }
-
-        return code;
+        return getRegExValue(str, patterns);
     }
 
     //''{{anchor|Toc418087738}} {{anchor|Toc91058104}} '''1A. American Light Lager'''
@@ -234,32 +249,114 @@ public class BJCPTextToXML extends TextToXML {
     //== {{anchor|Toc91058106}} 1C. Cream Ale ==
     private String getSubCategoryName(String str) {
         final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''[a-zA-Z0-9_]*\\.\\s(.*?)?'''"), Pattern.compile("\\{\\{.*\\}\\}\\s[a-zA-Z0-9_]*\\.\\s(.*?)?\\s==") };
-        String name = "";
 
-
-        for (int i = 0; i < patterns.length; i++) {
-            String regExValue = getRegExValue(str, patterns[i]);
-
-            if (!StringUtils.isEmpty(regExValue)) {
-                name = regExValue;
-                break;
-            }
-        }
-
-        return name;
+        return getRegExValue(str, patterns);
     }
 
     private StringBuilder formatNormalLine(String str) {
+        String s = formatHeader(str);
         StringBuilder formatted = new StringBuilder();
 
-        if (StringUtils.isEmpty(str)) {
+        if (StringUtils.isEmpty(s)) {
             formatted.append(BREAK);
             formatted.append("\t\t\t\t");
             formatted.append(BREAK);
         } else {
             formatted.append("\t\t\t\t");
-            formatted.append(str.replace("''", ""));
+            formatted.append(s.replace("''", ""));
         }
+
+        return formatted;
+    }
+
+    //'''Overall Impression:''' A highly carbonated
+    private String formatHeader(String str) {
+        String fullHeader = getFullHeader(str);
+        String header = getHeaderName(str);
+
+        if (!StringUtils.isEmpty(header)) {
+            StringBuilder formattedHeader = new StringBuilder();
+            formattedHeader.append("<big><b>");
+            formattedHeader.append(header);
+            formattedHeader.append("</b><big><br/>\n");
+
+            str = str.replace(fullHeader, formattedHeader.toString());
+        }
+
+        return str;
+    }
+
+    private String getFullHeader(String str) {
+        final Pattern[] patterns = { Pattern.compile("(\\'\\'\\'.*:\\'\\'\\'\\s)?") };
+
+        return getRegExValue(str, patterns);
+    }
+
+    private String getHeaderName(String str) {
+        final Pattern[] patterns = { Pattern.compile("\\'\\'\\'(.*?)?:\\'\\'\\'\\s") };
+
+        return getRegExValue(str, patterns);
+    }
+
+    private boolean isStatistic(String str) {
+        return (str.contains(OG) || str.contains(FG) || str.contains(SRM) || str.contains(ABV) || str.contains(IBU));
+    }
+
+    private StringBuilder formatStats(String str) {
+        StringBuilder formatted = new StringBuilder();
+
+        if (str.contains(OG)) {
+            formatted.append(getStats(str, OG, XML_OG));
+        } else if (str.contains(FG)) {
+            formatted.append(getStats(str, FG, XML_FG));
+        } else if (str.contains(SRM)) {
+            formatted.append(getStats(str, SRM, XML_SRM));
+        } else if (str.contains(ABV)) {
+            formatted.append(getStats(str, ABV, XML_ABV));
+        } else if (str.contains(IBU)) {
+            formatted.append(getStats(str, IBU, XML_IBU));
+        }
+
+        return formatted;
+    }
+
+//    '''Vital Statistics:'''
+//    OG:1.048 – 1.055
+//    IBUs:18 – 30
+//    FG:1.010 – 1.014
+//    SRM:9 – 15
+//    ABV:4.7 – 5.5%
+    private StringBuilder getStats(String str, String pattern, String target) {
+        final Pattern lowPattern = Pattern.compile(pattern + "(\\d+.?\\d*)?\\s–");
+        final Pattern highPattern = Pattern.compile(pattern + "\\d+.?\\d*\\s–\\s(\\d+.?\\d*)?\\n?\\s?%?'?");
+        final Pattern headerPattern = Pattern.compile("''(.*?)''");
+        StringBuilder formatted = new StringBuilder();
+
+        formatted.append("\t\t\t");
+        formatted.append(getStartTag(XML_STATS));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_TYPE));
+        formatted.append(target);
+        formatted.append(getEndTag(XML_TYPE));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_HEADER));
+        formatted.append(getRegExValue(str, headerPattern));
+        formatted.append(getEndTag(XML_HEADER));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_NOTES));
+        //No notes for now
+        formatted.append(getEndTag(XML_NOTES));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_LOW));
+        formatted.append(getRegExValue(str,lowPattern));
+        formatted.append(getEndTag(XML_LOW));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_HIGH));
+        formatted.append(getRegExValue(str,highPattern));
+        formatted.append(getEndTag(XML_HIGH));
+        formatted.append("\n\t\t\t");
+        formatted.append(getEndTag(XML_STATS));
+        formatted.append("\n");
 
         return formatted;
     }

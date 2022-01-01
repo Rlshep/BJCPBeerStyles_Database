@@ -144,7 +144,7 @@ public class LoadDomainFromXML {
             if (xpp.getEventType() == XmlPullParser.START_TAG) {
                 bodyText += createSectionStartTag(xpp);
             } else if (xpp.getEventType() == XmlPullParser.END_TAG) {
-                if (!BREAK.equalsIgnoreCase( xpp.getName())) {
+                if (!BREAK.equalsIgnoreCase(xpp.getName())) {
                     bodyText += convertValue(" </" + xpp.getName() + "> ");
                 }
             } else {
@@ -217,7 +217,7 @@ public class LoadDomainFromXML {
         return tags;
     }
 
-    private List<Tag> createExamplesTags(String str)  {
+    private List<Tag> createExamplesTags(String str) {
         final Pattern pattern1 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
         final Pattern pattern2 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
         final Pattern pattern3 = Pattern.compile("<big>\\s*<b>\\s*Ejemplos Comerciales\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
@@ -283,37 +283,37 @@ public class LoadDomainFromXML {
         String s = str.trim();
         s = s.replaceAll("[\n\r]", "");
         s = s.replaceAll("'", "''");
-        s = s.replaceAll("\\.","");
+        s = s.replaceAll("\\.", "");
         s = s.replace("(local) ", "");
         s = s.replace("(bottled)", ",");
         s = s.replace("(embotellada)", "");
-        s = s.replace("<strong> Dark Versions </strong> - ","");
-        s = s.replace("Versiones Oscuras –","");
-        s = s.replace("<strong> Темні </strong> : ","");
-        s = s.replace("; <strong> Pale Versions </strong> - ","");
-        s = s.replace("; Versiones Pálidas –","");
-        s = s.replace("<strong>Світлі</strong>: ","");
-        s = s.replace("<strong> Dark </strong> -","");
-        s = s.replace("Oscuras –","");
-        s = s.replace("<strong>Темні</strong>: ","");
-        s = s.replace("; <strong> Pale </strong> -",",");
-        s = s.replace("; Pálidas –",",");
-        s = s.replace("<strong>Світлі</strong>: ",",");
-        s = s.replace("(US version)","");
-        s = s.replace("(versión US)","");
-        s = s.replace("<strong> American </strong> - ","");
-        s = s.replace("Americanos –","");
-        s = s.replace("<strong> Американські </strong> :","");
-        s = s.replace("; <strong> English </strong> - ",",");
-        s = s.replace("; Ingleses –",",");
-        s = s.replace("<strong> Англійські </strong> :",",");
-        s = s.replace(" (standard)","");
-        s = s.replace(" (double)","");
-        s = s.replace(" (estándar)","");
-        s = s.replace(" (doble)","");
-        s = s.replace("The only bottled version readily available is Cantillon Grand Cru Bruocsella of whatever                single batch vintage the brewer deems worthy to bottle De Cam sometimes bottles their very old (5                years) lambic In and around Brussels there are specialty cafes that often have draught lambics from                traditional brewers or blenders such as","Cantillon Grand Cru Bruocsella,");
-        s = s.replace("La única versión embotellada fácilmente disponible es Cantillon Grand Cru                    Bruocsella de cualquier batch antiguo que el cervecero considere digno de embotellar De Cam a veces                    embotella su Lambic más antigua (5 años) En los alrededores de Bruselas hay cafés de especialidad                    que a                    menudo tienen proyectos Lambic de cerveceros tradicionales o mezcladores como","Cantillon Grand Cru Bruocsella,");
-        s = s.replace("Єдина пляшкова версія, яку можна придбати на постійній основі, це ламбік                Cantillon Grand Cru Bruocsella, який розливають у пляшки некупажованим з партій, які                пивовари вважатимуть годними до розливу De Cam інколи розливають дуже старі свої                ламбіки (5 річні) У брюсельських і навколишніх кафе часто бувають розливні ламбіки                від традиційних пивоварень і блендерій, таких як ","Cantillon Grand Cru Bruocsella,");
+        s = s.replace("<strong> Dark Versions </strong> - ", "");
+        s = s.replace("Versiones Oscuras –", "");
+        s = s.replace("<strong> Темні </strong> : ", "");
+        s = s.replace("; <strong> Pale Versions </strong> - ", "");
+        s = s.replace("; Versiones Pálidas –", "");
+        s = s.replace("<strong>Світлі</strong>: ", "");
+        s = s.replace("<strong> Dark </strong> -", "");
+        s = s.replace("Oscuras –", "");
+        s = s.replace("<strong>Темні</strong>: ", "");
+        s = s.replace("; <strong> Pale </strong> -", ",");
+        s = s.replace("; Pálidas –", ",");
+        s = s.replace("<strong>Світлі</strong>: ", ",");
+        s = s.replace("(US version)", "");
+        s = s.replace("(versión US)", "");
+        s = s.replace("<strong> American </strong> - ", "");
+        s = s.replace("Americanos –", "");
+        s = s.replace("<strong> Американські </strong> :", "");
+        s = s.replace("; <strong> English </strong> - ", ",");
+        s = s.replace("; Ingleses –", ",");
+        s = s.replace("<strong> Англійські </strong> :", ",");
+        s = s.replace(" (standard)", "");
+        s = s.replace(" (double)", "");
+        s = s.replace(" (estándar)", "");
+        s = s.replace(" (doble)", "");
+        s = s.replace("The only bottled version readily available is Cantillon Grand Cru Bruocsella of whatever                single batch vintage the brewer deems worthy to bottle De Cam sometimes bottles their very old (5                years) lambic In and around Brussels there are specialty cafes that often have draught lambics from                traditional brewers or blenders such as", "Cantillon Grand Cru Bruocsella,");
+        s = s.replace("La única versión embotellada fácilmente disponible es Cantillon Grand Cru                    Bruocsella de cualquier batch antiguo que el cervecero considere digno de embotellar De Cam a veces                    embotella su Lambic más antigua (5 años) En los alrededores de Bruselas hay cafés de especialidad                    que a                    menudo tienen proyectos Lambic de cerveceros tradicionales o mezcladores como", "Cantillon Grand Cru Bruocsella,");
+        s = s.replace("Єдина пляшкова версія, яку можна придбати на постійній основі, це ламбік                Cantillon Grand Cru Bruocsella, який розливають у пляшки некупажованим з партій, які                пивовари вважатимуть годними до розливу De Cam інколи розливають дуже старі свої                ламбіки (5 річні) У брюсельських і навколишніх кафе часто бувають розливні ламбіки                від традиційних пивоварень і блендерій, таких як ", "Cantillon Grand Cru Bruocsella,");
         s = s.replace("(Unfiltered)", "");
         s = s.replace("(Black Label)", "");
         s = s.replace("(brown and blond)", "");
@@ -363,10 +363,6 @@ public class LoadDomainFromXML {
     private VitalStatistics createVitalStatistics(XmlPullParser xpp) throws XmlPullParserException, IOException {
         VitalStatistics vitalStatistics = new VitalStatistics();
 
-        if (isStartTag(xpp, XML_STATS)) {
-            vitalStatistics.setHeader(getVitalStatisticsTitle(xpp));
-        }
-
         while (isNotTheEnd(xpp, XML_STATS)) {
             if (isStartTag(xpp, XML_EXCEPTIONS)) {
                 return null;
@@ -379,40 +375,19 @@ public class LoadDomainFromXML {
     }
 
     private VitalStatistics createVitalStatistic(XmlPullParser xpp, VitalStatistics vitalStatistics) throws XmlPullParserException, IOException {
-        if (isStartTag(xpp, XML_OG)) {
-            vitalStatistics.setOgStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
-            vitalStatistics.setOgEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
-            vitalStatistics.setHeaderTarget(XML_OG);
-
-        } else if (isStartTag(xpp, XML_FG)) {
-            vitalStatistics.setFgStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
-            vitalStatistics.setFgEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
-            vitalStatistics.setHeaderTarget(XML_FG);
-        } else if (isStartTag(xpp, XML_IBU)) {
-            vitalStatistics.setIbuStart(Integer.parseInt(getNextByName(xpp, XML_LOW)));
-            vitalStatistics.setIbuEnd(Integer.parseInt(getNextByName(xpp, XML_HIGH)));
-            vitalStatistics.setHeaderTarget(XML_IBU);
-        } else if (isStartTag(xpp, XML_SRM)) {
-            vitalStatistics.setSrmStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
-            vitalStatistics.setSrmEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
-            vitalStatistics.setHeaderTarget(XML_SRM);
-        } else if (isStartTag(xpp, XML_ABV)) {
-            vitalStatistics.setAbvStart(Double.parseDouble(getNextByName(xpp, XML_LOW)));
-            vitalStatistics.setAbvEnd(Double.parseDouble(getNextByName(xpp, XML_HIGH)));
-            vitalStatistics.setHeaderTarget(XML_ABV);
+        if (isStartTag(xpp, XML_TYPE)) {
+            vitalStatistics.setType(getNextText(xpp));
+        } else if (isStartTag(xpp, XML_HEADER)) {
+            vitalStatistics.setHeader(getNextText(xpp));
+        } else if (isStartTag(xpp, XML_NOTES)) {
+            vitalStatistics.setNotes(getNextText(xpp));
+        } else if (isStartTag(xpp, XML_LOW)) {
+            vitalStatistics.setStart(Double.parseDouble(getNextText(xpp)));
+        } else if (isStartTag(xpp, XML_HIGH)) {
+            vitalStatistics.setEnd(Double.parseDouble(getNextText(xpp)));
         }
 
         return vitalStatistics;
-    }
-
-    private String getVitalStatisticsTitle(XmlPullParser xpp) {
-        String title = xpp.getAttributeValue(null, XML_TITLE);
-
-        if (null == title) {
-            title = "";
-        }
-
-        return title;
     }
 
     private boolean isStartTag(XmlPullParser xpp, String name) throws XmlPullParserException {
@@ -426,18 +401,6 @@ public class LoadDomainFromXML {
         if (eventType != XmlPullParser.END_DOCUMENT
                 && eventType == XmlPullParser.TEXT) {
             text = xpp.getText();
-        }
-
-        return text;
-    }
-
-    private String getNextByName(XmlPullParser xpp, String name) throws IOException, XmlPullParserException {
-        String text = "";
-
-        while (isNotTheEnd(xpp, name)) {
-            if (isStartTag(xpp, name)) {
-                text = getNextText(xpp);
-            }
         }
 
         return text;

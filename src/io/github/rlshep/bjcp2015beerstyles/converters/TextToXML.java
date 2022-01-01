@@ -6,7 +6,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -94,7 +93,7 @@ public abstract class TextToXML {
             regEx = matcher.group(1);
         }
 
-        return regEx.trim();
+        return regEx;
     }
 
     protected String getAllRegExValue(String str, Pattern pattern) {
@@ -105,7 +104,22 @@ public abstract class TextToXML {
             regEx = matcher.group(0);
         }
 
-        return regEx.trim();
+        return regEx;
+    }
+
+    protected String getRegExValue(String str, Pattern[] patterns) {
+        String name = "";
+
+        for (int i = 0; i < patterns.length; i++) {
+            String regExValue = getRegExValue(str, patterns[i]);
+
+            if (!StringUtils.isEmpty(regExValue)) {
+                name = regExValue;
+                break;
+            }
+        }
+
+        return name;
     }
 
     protected String getTitleCase(String str) {
@@ -119,4 +133,13 @@ public abstract class TextToXML {
 
         return title.toString();
     }
+
+    protected String getStartTag(String name) {
+        return "<" + name + ">";
+    }
+
+    protected String getEndTag(String name) {
+        return "</" + name + ">";
+    }
+
 }

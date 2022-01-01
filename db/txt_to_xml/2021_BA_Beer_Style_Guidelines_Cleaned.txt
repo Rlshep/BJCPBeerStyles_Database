@@ -88,7 +88,6 @@ Straw: 2-3
 <br />Very dark : 25-39
 <br />Black : 40+
 
-
 3. Bitterness: In the beer world bitterness is analytically measured as “bittering units” or 
 “international bitterness units.” The numerical value is a measure of a specific hop 
 compound and will not consistently coincide with an individual’s perception of 
@@ -100,9 +99,6 @@ inclined towards representing average sensitivity to bitterness.
 b. Other beer ingredients can contribute perception of bitterness to beer. 
 c. The intensity and quality of hop flavor and aroma derived from oils, pellets, whole 
 hops, or other hop formats can greatly alter the perception of bitterness intensity. 
-
-
-
 
 Notes on Beer Competitions: Brewers Association Beer Style Guidelines form the basis for 
 the guidelines at the Great American Beer Festival (GABF) and World Beer Cup (WBC). 
@@ -125,7 +121,6 @@ poured quietly; some beers are intended to be roused in order to present the bee
 with yeast that may be present in the bottle. If practical, competition organizers 
 should allow brewers the opportunity to provide explicit pouring instructions and 
 present beers to judges in the manner requested by the brewer. 
-
 
 ALE STYLES 
 

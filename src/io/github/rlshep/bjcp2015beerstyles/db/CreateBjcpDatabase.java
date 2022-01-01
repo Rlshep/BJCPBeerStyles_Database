@@ -38,9 +38,9 @@ public class CreateBjcpDatabase {
             bjcpDao.createTables(stmt);
 
             // Load database from xml file.
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_ENGLISH_2015, ENGLISH));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH_2015, SPANISH));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN_2015, UKRANIAN));
+//            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_ENGLISH_2015, ENGLISH));
+//            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_SPANISH_2015, SPANISH));
+//            categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_UKRAINIAN_2015, UKRANIAN));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, ENGLISH));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, SPANISH));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(XML_BA_2021, UKRANIAN));
