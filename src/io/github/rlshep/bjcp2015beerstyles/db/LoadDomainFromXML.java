@@ -4,7 +4,7 @@ import io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants;
 import io.github.rlshep.bjcp2015beerstyles.domain.Category;
 import io.github.rlshep.bjcp2015beerstyles.domain.Section;
 import io.github.rlshep.bjcp2015beerstyles.domain.Tag;
-import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics;
+import io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistic;
 import org.apache.commons.lang.StringUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -88,7 +88,7 @@ public class LoadDomainFromXML {
     private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory) throws XmlPullParserException, IOException {
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
-        List<VitalStatistics> statistics = new ArrayList<VitalStatistics>();
+        List<VitalStatistic> statistics = new ArrayList<VitalStatistic>();
         List<Tag> tags = new ArrayList<>();
         int sectionOrder = 0;
         int subCatOrder = 1 + (orderNumber * 100);    // Increasing order number for search sort.
@@ -104,20 +104,18 @@ public class LoadDomainFromXML {
             } else if (isSection(xpp)) {
                 Section section = createSection(xpp, sectionOrder);
                 sections.add(section);
+                tags.addAll(createTags(section.getBody()));
                 tags.addAll(createExamplesTags(section.getBody()));
                 sectionOrder++;
-            } else if (isStartTag(xpp, XML_TAGS)) {
-                tags.addAll(createTags(xpp));
-                sectionOrder++;
             } else if (isStartTag(xpp, XML_STATS)) {
-                VitalStatistics vitalStatistics = createVitalStatistics(xpp);
+                VitalStatistic vitalStatistic = createVitalStatistic(xpp);
 
                 // If statistics is an exception then add to sections.
-                if (null == vitalStatistics) {
+                if (null == vitalStatistic) {
                     sections.add(createSection(xpp, sectionOrder));
                     sectionOrder++;
                 } else {
-                    statistics.add(vitalStatistics);
+                    statistics.add(vitalStatistic);
                 }
             }
         }
@@ -194,23 +192,25 @@ public class LoadDomainFromXML {
         return converted;
     }
 
-    private List<Tag> createTags(XmlPullParser xpp) throws IOException, XmlPullParserException {
+    private List<Tag> createTags(String str) {
+        final Pattern pattern1 = Pattern.compile("<big>\\t*\\s*<b>\\t*\\s*Tags\\s</b>\\t*\\s*</big>\\t*\\s*<br/>(.*)?");
+        final Pattern pattern2 = Pattern.compile("<big>\\t*\\s*<b>\\t*\\s*Etiquetas\\s</b>\\t*\\s*</big>\\t*\\s*<br/>(.*)?");
+        final Pattern pattern3 = Pattern.compile("<big>\\t*\\s*<b>\\t*\\s*Мітки\\s</b>\\t*\\s*</big>\\t*\\s*<br/>(.*)?");
+
+        Pattern[] patterns = {pattern1, pattern2, pattern3};
+
         List<Tag> tags = new ArrayList<>();
-        String name = xpp.getName();
         Tag tag;
 
-        while (isNotTheEnd(xpp, name)) {
-            if ((xpp.getEventType() != XmlPullParser.START_TAG)
-                    && (xpp.getEventType() != XmlPullParser.END_TAG)) {
+        String s = getRegExValue(str, patterns);
 
-                String s = xpp.getText().trim().replaceAll("[\n\r]", "");
-                String[] tokens = s.split(DELIM);
+        if (!StringUtils.isEmpty(s)) {
+            String[] tokens = s.split(DELIM);
 
-                for (String t : tokens) {
-                    tag = new Tag();
-                    tag.setTag(t.trim());
-                    tags.add(tag);
-                }
+            for (String t : tokens) {
+                tag = new Tag();
+                tag.setTag(formatTag(t));
+                tags.add(tag);
             }
         }
 
@@ -278,6 +278,10 @@ public class LoadDomainFromXML {
 
         return tag.toString().trim();
     }
+
+//    private String cleanupExamples(String str) {
+//
+//    }
 
     private String cleanupExamples(String str) {
         String s = str.trim();
@@ -360,8 +364,8 @@ public class LoadDomainFromXML {
         return s;
     }
 
-    private VitalStatistics createVitalStatistics(XmlPullParser xpp) throws XmlPullParserException, IOException {
-        VitalStatistics vitalStatistics = new VitalStatistics();
+    private VitalStatistic createVitalStatistic(XmlPullParser xpp) throws XmlPullParserException, IOException {
+        VitalStatistic vitalStatistics = new VitalStatistic();
 
         while (isNotTheEnd(xpp, XML_STATS)) {
             if (isStartTag(xpp, XML_EXCEPTIONS)) {
@@ -374,7 +378,7 @@ public class LoadDomainFromXML {
         return vitalStatistics;
     }
 
-    private VitalStatistics createVitalStatistic(XmlPullParser xpp, VitalStatistics vitalStatistics) throws XmlPullParserException, IOException {
+    private VitalStatistic createVitalStatistic(XmlPullParser xpp, VitalStatistic vitalStatistics) throws XmlPullParserException, IOException {
         if (isStartTag(xpp, XML_TYPE)) {
             vitalStatistics.setType(getNextText(xpp));
         } else if (isStartTag(xpp, XML_HEADER)) {
@@ -382,9 +386,9 @@ public class LoadDomainFromXML {
         } else if (isStartTag(xpp, XML_NOTES)) {
             vitalStatistics.setNotes(getNextText(xpp));
         } else if (isStartTag(xpp, XML_LOW)) {
-            vitalStatistics.setStart(Double.parseDouble(getNextText(xpp)));
+            vitalStatistics.setLow(Double.parseDouble(getNextText(xpp)));
         } else if (isStartTag(xpp, XML_HIGH)) {
-            vitalStatistics.setEnd(Double.parseDouble(getNextText(xpp)));
+            vitalStatistics.setHigh(Double.parseDouble(getNextText(xpp)));
         }
 
         return vitalStatistics;

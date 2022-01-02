@@ -1916,31 +1916,43 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-pálido, fermentación-baja, lagered, américa-del-norte,
+				intensidad-baja, color-pálido, fermentación-baja, lagered, américa-del-norte,
                     estilo-tradicional, familia-lager-pálida, balanceada
-				</tags>
+				</body>
 				<stats>
-					<og flexible="false">
-						<low>1.028</low>
-						<high>1.040</high>
-					</og>
-					<fg flexible="false">
-						<low>0.998</low>
-						<high>1.008</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>12</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>3</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.8</low>
-						<high>4.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.028</low>
+				<high>1.040</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.998</low>
+				<high>1.008</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>12</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>3</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.8</low>
+				<high>4.2</high>
 				</stats>
 			</subcategory>
 			<subcategory id="1B">
@@ -2046,30 +2058,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, américa-del-norte,
-                    estilo-tradicional, familia-lager-pálida, balanceada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, américa-del-norte,
+                    estilo-tradicional, familia-lager-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.050</high>
-					</og>
-					<fg flexible="false">
-						<low>1.004</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>18</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>4</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>5.3</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.050</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.004</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>18</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>4</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>5.3</high>
 				</stats>
 			</subcategory>
 			<subcategory id="1C">
@@ -2174,30 +2198,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
-                    estilo-tradicional, familia-ale-pálida, balanceada</tags>
+				intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
+                    estilo-tradicional, familia-ale-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.042</low>
-						<high>1.055</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2.5</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>5.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.042</low>
+				<high>1.055</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2.5</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>5.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="1D">
@@ -2297,30 +2333,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
-                    estilo-artesanal, familia-cerveza-trigo, balanceada</tags>
+				intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
+                    estilo-artesanal, familia-cerveza-trigo, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.055</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.055</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -2445,30 +2493,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, estilo-tradicional,
-                    familia-lager-pálida, balanceada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, estilo-tradicional,
+                    familia-lager-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.042</low>
-						<high>1.050</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.6</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.042</low>
+				<high>1.050</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.6</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="2B">
@@ -2563,30 +2623,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, lagered, estilo-tradicional,
-                    familia-lager-ámbar, maltosa</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, lagered, estilo-tradicional,
+                    familia-lager-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.042</low>
-						<high>1.055</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>7</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.6</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.042</low>
+				<high>1.055</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.6</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="2C">
@@ -2683,30 +2755,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-baja, lagered, estilo-tradicional,
-                    familia-lager-oscura, maltosa</tags>
+				intensidad-estándar, color-oscuro, fermentación-baja, lagered, estilo-tradicional,
+                    familia-lager-oscura, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -2836,30 +2920,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-pálida, amarga, lupulada</tags>
+				intensidad-baja, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-pálida, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.028</low>
-						<high>1.044</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.0</low>
-						<high>4.1</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.028</low>
+				<high>1.044</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.0</low>
+				<high>4.1</high>
 				</stats>
 			</subcategory>
 			<subcategory id="3B">
@@ -2965,30 +3061,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-pilsner, balanceada, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-pilsner, balanceada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.013</low>
-						<high>1.017</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3.5</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>5.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.013</low>
+				<high>1.017</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3.5</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>5.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="3C">
@@ -3087,30 +3195,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-ámbar, balanceada</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-ámbar, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.013</low>
-						<high>1.017</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>16</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.4</low>
-						<high>5.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.013</low>
+				<high>1.017</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>16</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.4</low>
+				<high>5.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="3D">
@@ -3215,30 +3335,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-oscura, balanceada</tags>
+				intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-oscura, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.013</low>
-						<high>1.017</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>34</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>35</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.4</low>
-						<high>5.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.013</low>
+				<high>1.017</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>34</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.4</low>
+				<high>5.8</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -3349,30 +3481,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-pálida, maltosa</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-pálida, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.048</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>16</low>
-						<high>22</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.7</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.048</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>16</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.7</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 			<subcategory id="4B">
@@ -3486,30 +3630,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-pálida, maltosa</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-pálida, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.054</low>
-						<high>1.057</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.8</low>
-						<high>6.3</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.054</low>
+				<high>1.057</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.8</low>
+				<high>6.3</high>
 				</stats>
 			</subcategory>
 			<subcategory id="4C">
@@ -3614,30 +3770,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-bock, maltosa</tags>
+				intensidad-alta, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-bock, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.064</low>
-						<high>1.072</high>
-					</og>
-					<fg flexible="false">
-						<low>1.011</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>23</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>11</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.3</low>
-						<high>7.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.064</low>
+				<high>1.072</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.011</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>23</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>11</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.3</low>
+				<high>7.4</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -3735,30 +3903,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-pálida, amarga, lupulada</tags>
+				intensidad-baja, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-pálida, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.026</low>
-						<high>1.034</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>28</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.4</low>
-						<high>3.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.026</low>
+				<high>1.034</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.4</low>
+				<high>3.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="5B">
@@ -3874,30 +4054,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, lagered, europa-central,
-                    estilo-tradicional, familia-ale-pálida, balancead</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, lagered, europa-central,
+                    estilo-tradicional, familia-ale-pálida, balancead</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.050</high>
-					</og>
-					<fg flexible="false">
-						<low>1.007</low>
-						<high>1.011</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3.5</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.4</low>
-						<high>5.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.050</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.007</low>
+				<high>1.011</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3.5</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.4</low>
+				<high>5.2</high>
 				</stats>
 			</subcategory>
 			<subcategory id="5C">
@@ -3989,30 +4181,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-pálida, balanceada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="5D">
@@ -4132,30 +4336,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-pilsner, amarga, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-pilsner, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.050</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>22</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.4</low>
-						<high>5.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.050</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>22</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.4</low>
+				<high>5.2</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -4280,30 +4496,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-ámbar, maltosa</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.054</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>24</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>17</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.8</low>
-						<high>6.3</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.054</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>24</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>17</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.8</low>
+				<high>6.3</high>
 				</stats>
 			</subcategory>
 			<subcategory id="6B">
@@ -4419,30 +4647,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-ámbar, maltosa, ahumada</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-ámbar, maltosa, ahumada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.050</low>
-						<high>1.057</high>
-					</og>
-					<fg flexible="false">
-						<low>1.012</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>12</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.057</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.012</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>12</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="6C">
@@ -4543,30 +4783,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-baja, lagered, europa-central, estilo-tradicional,
-                    familia-bock, maltosa</tags>
+				intensidad-alta, color-ámbar, fermentación-baja, lagered, europa-central, estilo-tradicional,
+                    familia-bock, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.064</low>
-						<high>1.072</high>
-					</og>
-					<fg flexible="false">
-						<low>1.013</low>
-						<high>1.019</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>27</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.3</low>
-						<high>7.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.064</low>
+				<high>1.072</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.013</low>
+				<high>1.019</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>27</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.3</low>
+				<high>7.2</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -4685,30 +4937,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-lager-ámbar, balanceada</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-lager-ámbar, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.055</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>9</low>
-						<high>15</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.7</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.055</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>9</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.7</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="7B">
@@ -4835,30 +5099,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, lagered, europa-central,
-                    estilo-tradicional, familia-ale-ámbar, amarga</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, lagered, europa-central,
+                    estilo-tradicional, familia-ale-ámbar, amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>11</low>
-						<high>17</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.3</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>11</low>
+				<high>17</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.3</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
             <subcategory id="7C">
@@ -5051,30 +5327,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, europa-central, estilo-tradicional,
-                    balanceada, familia-lager-pálida</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, europa-central, estilo-tradicional,
+                    balanceada, familia-lager-pálida</body>
 				<stats>
-					<og flexible="false">
-						<low>1.045</low>
-						<high>1.051</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.011</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.7</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.051</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.011</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.7</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 			<subcategory id="7C-amber">
@@ -5199,30 +5487,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, europa-central, estilo-tradicional,
-                    balanceada, familia-lager-ámbar</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, europa-central, estilo-tradicional,
+                    balanceada, familia-lager-ámbar</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.012</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>7</low>
-						<high>17</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.012</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>17</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -5345,30 +5645,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, maltosa, familia-lager-oscura</tags>
+				intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, maltosa, familia-lager-oscura</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>28</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>28</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>5.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>5.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="8B">
@@ -5475,30 +5787,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, balanceada, familia-lager-oscura</tags>
+				intensidad-estándar, color-oscuro, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, balanceada, familia-lager-oscura</body>
 				<stats>
-					<og flexible="false">
-						<low>1.046</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>17</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.4</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.046</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>17</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.4</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -5647,30 +5971,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, color-pálido, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-bock, maltosa</tags>
+				intensidad-alta, color-ámbar, color-pálido, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-bock, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.072</low>
-						<high>1.112</high>
-					</og>
-					<fg flexible="false">
-						<low>1.016</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>16</low>
-						<high>26</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>25</high>
-					</srm>
-					<abv flexible="false">
-						<low>7.0</low>
-						<high>10.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.072</low>
+				<high>1.112</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.016</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>16</low>
+				<high>26</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7.0</low>
+				<high>10.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="9B">
@@ -5776,30 +6112,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-ámbar, fermentación-baja, lagered, europa-central,
-                    estilo-tradicional, familia-bock, maltosa</tags>
+				intensidad-muy-alta, color-ámbar, fermentación-baja, lagered, europa-central,
+                    estilo-tradicional, familia-bock, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.078</low>
-						<high>1.120</high>
-					</og>
-					<fg flexible="false">
-						<low>1.020</low>
-						<high>1.035</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>18</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>9.0</low>
-						<high>14.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.078</low>
+				<high>1.120</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.020</low>
+				<high>1.035</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>9.0</low>
+				<high>14.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="9C">
@@ -5910,30 +6258,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, cualquier-fermentación, lagered, europa-del este,
-                    estilo-tradicional, familia-porter, maltosa</tags>
+				intensidad-alta, color-oscuro, cualquier-fermentación, lagered, europa-del este,
+                    estilo-tradicional, familia-porter, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.060</low>
-						<high>1.090</high>
-					</og>
-					<fg flexible="false">
-						<low>1.016</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>17</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.5</low>
-						<high>9.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.060</low>
+				<high>1.090</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.016</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>17</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.5</low>
+				<high>9.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -6054,30 +6414,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-tradicional,
-                    familia-cerveza-trigo, maltosa</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-tradicional,
+                    familia-cerveza-trigo, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>15</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.3</low>
-						<high>5.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.3</low>
+				<high>5.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="10B">
@@ -6194,30 +6566,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, europa-central, estilo-tradicional,
-                    familia-cerveza-trigo, maltosa</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, europa-central, estilo-tradicional,
+                    familia-cerveza-trigo, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>18</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>23</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.3</low>
-						<high>5.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>18</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>23</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.3</low>
+				<high>5.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="10C">
@@ -6352,30 +6736,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, color-pálido, fermentación-alta, europa-central,
-                    estilo-tradicional, familia-cerveza-trigo, maltosa</tags>
+				intensidad-alta, color-ámbar, color-pálido, fermentación-alta, europa-central,
+                    estilo-tradicional, familia-cerveza-trigo, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.064</low>
-						<high>1.090</high>
-					</og>
-					<fg flexible="false">
-						<low>1.015</low>
-						<high>1.022</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>25</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.5</low>
-						<high>9.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.064</low>
+				<high>1.090</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.015</low>
+				<high>1.022</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.5</low>
+				<high>9.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -6492,30 +6888,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, amarga</tags>
+				intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.030</low>
-						<high>1.039</high>
-					</og>
-					<fg flexible="false">
-						<low>1.007</low>
-						<high>1.011</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.2</low>
-						<high>3.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.030</low>
+				<high>1.039</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.007</low>
+				<high>1.011</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.2</low>
+				<high>3.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="11B">
@@ -6613,30 +7021,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, amarga</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.048</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>16</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.8</low>
-						<high>4.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.048</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>16</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.8</low>
+				<high>4.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="11C">
@@ -6760,30 +7180,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, amarga</tags>
+				intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>18</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.6</low>
-						<high>6.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>18</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.6</low>
+				<high>6.2</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -6897,30 +7329,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, islas-británicas, estilo-artesanal,
-                    familia-ale-pálida, amarga, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, islas-británicas, estilo-artesanal,
+                    familia-ale-pálida, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.038</low>
-						<high>1.053</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.8</low>
-						<high>5.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.038</low>
+				<high>1.053</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.8</low>
+				<high>5.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="12B">
@@ -7055,30 +7499,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, pacífico, estilo-tradicional,
-                    familia-ale-pálida, amarga</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, pacífico, estilo-tradicional,
+                    familia-ale-pálida, amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.038</low>
-						<high>1.050</high>
-					</og>
-					<fg flexible="false">
-						<low>1.004</low>
-						<high>1.006</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.038</low>
+				<high>1.050</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.004</low>
+				<high>1.006</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="12C">
@@ -7220,30 +7676,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ipa, amarga, lupulada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ipa, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.050</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -7366,30 +7834,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-marrón, maltosa</tags>
+				intensidad-baja, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-marrón, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.030</low>
-						<high>1.038</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>12</low>
-						<high>25</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.0</low>
-						<high>3.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.030</low>
+				<high>1.038</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>12</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.0</low>
+				<high>3.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="13B">
@@ -7493,30 +7973,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-marrón, maltosa</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-marrón, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>12</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>12</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 			<subcategory id="13C">
@@ -7636,30 +8128,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-porter, maltosa, tostada</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-porter, maltosa, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>5.4</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>5.4</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -7776,30 +8280,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, maltosa</tags>
+				intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.030</low>
-						<high>1.035</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>17</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.5</low>
-						<high>3.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.030</low>
+				<high>1.035</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>17</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.5</low>
+				<high>3.2</high>
 				</stats>
 			</subcategory>
 			<subcategory id="14B">
@@ -7898,30 +8414,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, maltosa</tags>
+				intensidad-baja, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.035</low>
-						<high>1.040</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>13</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.2</low>
-						<high>3.9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.035</low>
+				<high>1.040</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>13</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.2</low>
+				<high>3.9</high>
 				</stats>
 			</subcategory>
 			<subcategory id="14C">
@@ -8019,30 +8547,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, maltosa</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>13</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.9</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>13</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.9</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -8164,30 +8704,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-ámbar, balanceada</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-ámbar, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.036</low>
-						<high>1.046</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>28</high>
-					</ibu>
-					<srm flexible="false">
-						<low>9</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.8</low>
-						<high>5.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.036</low>
+				<high>1.046</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>9</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.8</low>
+				<high>5.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="15B">
@@ -8319,30 +8871,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, amarga, tostada</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, amarga, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.036</low>
-						<high>1.044</high>
-					</og>
-					<fg flexible="false">
-						<low>1.007</low>
-						<high>1.011</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>4.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.036</low>
+				<high>1.044</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.007</low>
+				<high>1.011</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>4.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="15C">
@@ -8450,30 +9014,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, amarga, tostada</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, amarga, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.052</low>
-						<high>1.062</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>35</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>6.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.052</low>
+				<high>1.062</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>35</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>6.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -8587,30 +9163,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, maltosa, tostada, dulce</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, maltosa, tostada, dulce</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.012</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>30</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.012</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="16B">
@@ -8724,30 +9312,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, balanceada, tostada</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, balanceada, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.045</low>
-						<high>1.065</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>22</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>5.9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.065</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>22</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>5.9</high>
 				</stats>
 			</subcategory>
 			<subcategory id="16C">
@@ -8841,30 +9441,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, maltosa, tostada, dulce</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, maltosa, tostada, dulce</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>30</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="16D">
@@ -8968,30 +9580,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-stout, balanceada, tostada</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-stout, balanceada, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>30</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.3</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.3</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -9124,30 +9748,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-fuerte, maltosa</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-fuerte, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.055</low>
-						<high>1.080</high>
-					</og>
-					<fg flexible="false">
-						<low>1.015</low>
-						<high>1.022</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.055</low>
+				<high>1.080</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.015</low>
+				<high>1.022</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="17A-burton">
@@ -9250,30 +9886,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-marrón, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-fuerte, maltosa, equilibrad</tags>
+				intensidad-alta, color-marrón, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-fuerte, maltosa, equilibrad</body>
 				<stats>
-					<og flexible="false">
-						<low>1.055</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.018</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.055</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.018</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="17B">
@@ -9405,30 +10053,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-fuerte, maltosa, envejecida</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-fuerte, maltosa, envejecida</body>
 				<stats>
-					<og flexible="false">
-						<low>1.055</low>
-						<high>1.088</high>
-					</og>
-					<fg flexible="false">
-						<low>1.015</low>
-						<high>1.022</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>9.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.055</low>
+				<high>1.088</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.015</low>
+				<high>1.022</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>9.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="17C">
@@ -9537,30 +10197,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-fuerte, maltosa</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-fuerte, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.070</low>
-						<high>1.130</high>
-					</og>
-					<fg flexible="false">
-						<low>1.018</low>
-						<high>1.040</high>
-					</fg>
-					<ibu flexible="false">
-						<low>17</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>25</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.5</low>
-						<high>10.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.070</low>
+				<high>1.130</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.018</low>
+				<high>1.040</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>17</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.5</low>
+				<high>10.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="17D">
@@ -9699,30 +10371,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
-                    familia-ale-fuerte, maltosa</tags>
+				intensidad-muy-alta, color-ámbar, fermentación-alta, islas-británicas, estilo-tradicional,
+                    familia-ale-fuerte, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.080</low>
-						<high>1.120</high>
-					</og>
-					<fg flexible="false">
-						<low>1.018</low>
-						<high>1.030</high>
-					</fg>
-					<ibu flexible="false">
-						<low>35</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>8.0</low>
-						<high>12.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.080</low>
+				<high>1.120</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.018</low>
+				<high>1.030</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>35</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>8.0</low>
+				<high>12.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -9832,30 +10516,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
-                    estilo-artesanal, familia-ale-pálida, balanceada</tags>
+				intensidad-estándar, color-pálido, cualquier-fermentación, américa-del-norte,
+                    estilo-artesanal, familia-ale-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.038</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>28</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.8</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.038</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.8</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="18B">
@@ -9989,30 +10685,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-pálida, amarga, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-pálida, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.045</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>5</low>
-						<high>10</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>10</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.2</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -10128,30 +10836,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-ámbar, balanceada, lupulada</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-ámbar, balanceada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.045</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>17</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>17</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.2</high>
 				</stats>
 			</subcategory>
 			<subcategory id="19B">
@@ -10254,30 +10974,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-baja, américa-del-norte, estilo-tradicional,
-                    familia-lager-ámbar, amarga, lupulada</tags>
+				intensidad-estándar, color-ámbar, fermentación-baja, américa-del-norte, estilo-tradicional,
+                    familia-lager-ámbar, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.011</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.011</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="19C">
@@ -10392,30 +11124,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-marrón, balanceada, lupulada</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-marrón, balanceada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.045</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>18</low>
-						<high>35</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.3</low>
-						<high>6.2</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.3</low>
+				<high>6.2</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -10537,30 +11281,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-porter, amarga, tostada, lupulada</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-porter, amarga, tostada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.050</low>
-						<high>1.070</high>
-					</og>
-					<fg flexible="false">
-						<low>1.012</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>50</high>
-					</ibu>
-					<srm flexible="false">
-						<low>22</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>6.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.012</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>50</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>22</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>6.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="20B">
@@ -10662,30 +11418,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-stout, amarga, tostada, lupulada</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-stout, amarga, tostada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.050</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.022</high>
-					</fg>
-					<ibu flexible="false">
-						<low>35</low>
-						<high>75</high>
-					</ibu>
-					<srm flexible="false">
-						<low>30</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>7.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.022</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>35</low>
+				<high>75</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>7.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="20C">
@@ -10834,30 +11602,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-oscuro, fermentación-alta, islas-británicas, américa-del-norte,
-                    estilo-tradicional, estilo-artesanal, familia-stout, maltosa, amarga, tostada</tags>
+				intensidad-muy-alta, color-oscuro, fermentación-alta, islas-británicas, américa-del-norte,
+                    estilo-tradicional, estilo-artesanal, familia-stout, maltosa, amarga, tostada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.075</low>
-						<high>1.115</high>
-					</og>
-					<fg flexible="false">
-						<low>1.018</low>
-						<high>1.030</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>90</high>
-					</ibu>
-					<srm flexible="false">
-						<low>30</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>8.0</low>
-						<high>12.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.075</low>
+				<high>1.115</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.018</low>
+				<high>1.030</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>90</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>8.0</low>
+				<high>12.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -10998,30 +11778,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, amarga, lupulada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.070</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B">
@@ -11252,30 +12044,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.058</low>
-						<high>1.080</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>100</high>
-					</ibu>
-					<srm flexible="false">
-						<low>5</low>
-						<high>15</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.2</low>
-						<high>9.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.058</low>
+				<high>1.080</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>100</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.2</low>
+				<high>9.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-white">
@@ -11373,30 +12177,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada, especiada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada, especiada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.065</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>5</low>
-						<high>8</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>7.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.065</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>8</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>7.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-rye">
@@ -11521,30 +12337,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>75</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>75</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-brown">
@@ -11668,30 +12496,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.070</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>11</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>11</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-black">
@@ -11812,30 +12652,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada</tags>
+				intensidad-alta, color-oscuro, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.050</low>
-						<high>1.085</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>90</high>
-					</ibu>
-					<srm flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>9.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.085</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>90</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>9.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-new_england">
@@ -11956,30 +12808,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    ipa-family, familia-ipa, amarga, lupulada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    ipa-family, familia-ipa, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.060</low>
-						<high>1.085</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.0</low>
-						<high>9.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.060</low>
+				<high>1.085</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.0</low>
+				<high>9.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="21B-red">
@@ -12108,30 +12972,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, cerveza-especial, amarga, lupulada</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, cerveza-especial, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.056</low>
-						<high>1.070</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>40</low>
-						<high>70</high>
-					</ibu>
-					<srm flexible="false">
-						<low>11</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.5</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.056</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>40</low>
+				<high>70</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>11</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.5</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -12267,30 +13143,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ipa, amarga, lupulada</tags>
+				intensidad-muy-alta, color-pálido, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ipa, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.065</low>
-						<high>1.085</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>60</low>
-						<high>120</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>7.5</low>
-						<high>10.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.065</low>
+				<high>1.085</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>60</low>
+				<high>120</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7.5</low>
+				<high>10.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="22B">
@@ -12426,30 +13314,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-fuerte, amarga, lupulada</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-fuerte, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.062</low>
-						<high>1.090</high>
-					</og>
-					<fg flexible="false">
-						<low>1.014</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>100</high>
-					</ibu>
-					<srm flexible="false">
-						<low>7</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.3</low>
-						<high>10.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.062</low>
+				<high>1.090</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.014</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>100</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.3</low>
+				<high>10.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="22C">
@@ -12583,30 +13483,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-fuerte, amarga, lupulada</tags>
+				intensidad-muy-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-fuerte, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.080</low>
-						<high>1.120</high>
-					</og>
-					<fg flexible="false">
-						<low>1.016</low>
-						<high>1.030</high>
-					</fg>
-					<ibu flexible="false">
-						<low>50</low>
-						<high>100</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>8.0</low>
-						<high>12.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.080</low>
+				<high>1.120</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.016</low>
+				<high>1.030</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>50</low>
+				<high>100</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>8.0</low>
+				<high>12.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="22D">
@@ -12723,30 +13635,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
-                    familia-ale-fuerte, familia-cerveza-trigo, balanceada, lupulada</tags>
+				intensidad-muy-alta, color-ámbar, fermentación-alta, américa-del-norte, estilo-artesanal,
+                    familia-ale-fuerte, familia-cerveza-trigo, balanceada, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.080</low>
-						<high>1.120</high>
-					</og>
-					<fg flexible="false">
-						<low>1.016</low>
-						<high>1.030</high>
-					</fg>
-					<ibu flexible="false">
-						<low>30</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>15</high>
-					</srm>
-					<abv flexible="false">
-						<low>8.0</low>
-						<high>12.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.080</low>
+				<high>1.120</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.016</low>
+				<high>1.030</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>30</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>8.0</low>
+				<high>12.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -12866,30 +13790,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-pálido, fermentación-alta, europa-central, estilo-tradicional,
-                    familia-cerveza-trigo, agria</tags>
+				intensidad-baja, color-pálido, fermentación-alta, europa-central, estilo-tradicional,
+                    familia-cerveza-trigo, agria</body>
 				<stats>
-					<og flexible="false">
-						<low>1.028</low>
-						<high>1.032</high>
-					</og>
-					<fg flexible="false">
-						<low>1.003</low>
-						<high>1.006</high>
-					</fg>
-					<ibu flexible="false">
-						<low>3</low>
-						<high>8</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>3</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.8</low>
-						<high>3.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.028</low>
+				<high>1.032</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.003</low>
+				<high>1.006</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>8</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>3</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.8</low>
+				<high>3.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="23B">
@@ -13016,30 +13952,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
-                    familia-ale-agria, balanceada, agria, madera</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
+                    familia-ale-agria, balanceada, agria, madera</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.057</high>
-					</og>
-					<fg flexible="false">
-						<low>1.002</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>16</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.6</low>
-						<high>6.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.057</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.002</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>16</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.6</low>
+				<high>6.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="23C">
@@ -13160,30 +14108,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, fermentación-alta, europa-oriental, estilo-tradicional,
-                    familia-ale-agria, maltosa, agria</tags>
+				intensidad-estándar, color-oscuro, fermentación-alta, europa-oriental, estilo-tradicional,
+                    familia-ale-agria, maltosa, agria</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.074</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>15</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.074</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="23D">
@@ -13322,30 +14282,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-salvaje, europa-occidental,
-                    estilo-tradicional, familia-cerveza-trigo, agria</tags>
+				intensidad-estándar, color-pálido, fermentación-salvaje, europa-occidental,
+                    estilo-tradicional, familia-cerveza-trigo, agria</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.001</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>0</low>
-						<high>10</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>6.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.001</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>0</low>
+				<high>10</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>6.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="23E">
@@ -13476,30 +14448,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-salvaje, europa-occidental, estilo-tradicional,
-                    familia-cerveza-trigo, envejecida, agria</tags>
+				intensidad-alta, color-pálido, fermentación-salvaje, europa-occidental, estilo-tradicional,
+                    familia-cerveza-trigo, envejecida, agria</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.000</low>
-						<high>1.006</high>
-					</fg>
-					<ibu flexible="false">
-						<low>0</low>
-						<high>10</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>8.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.000</low>
+				<high>1.006</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>0</low>
+				<high>10</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>8.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="23F">
@@ -13654,30 +14638,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-salvaje, europa-occidental,
-                    estilo-tradicional, familia-cerveza-trigo, agria, frutal</tags>
+				intensidad-estándar, color-pálido, fermentación-salvaje, europa-occidental,
+                    estilo-tradicional, familia-cerveza-trigo, agria, frutal</body>
 				<stats>
-					<og flexible="false">
-						<low>1.040</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.000</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>0</low>
-						<high>10</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>7.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.040</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.000</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>0</low>
+				<high>10</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>7.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -13806,30 +14802,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
-                    familia-cerveza-trigo, especiada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
+                    familia-cerveza-trigo, especiada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.052</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>8</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>4</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.052</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>4</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="24B">
@@ -13939,30 +14947,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
-                    familia-ale-pálida, balanceada</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
+                    familia-ale-pálida, balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>8</low>
-						<high>14</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>8</low>
+				<high>14</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="24C">
@@ -14098,30 +15118,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, color-ámbar, cualquier-fermentación, lagered,
-                    europa-occidental, estilo-tradicional, familia-ale-ámbar, maltosa</tags>
+				intensidad-alta, color-pálido, color-ámbar, cualquier-fermentación, lagered,
+                    europa-occidental, estilo-tradicional, familia-ale-ámbar, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.060</low>
-						<high>1.080</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>18</low>
-						<high>28</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.0</low>
-						<high>8.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.060</low>
+				<high>1.080</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>28</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.0</low>
+				<high>8.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -14227,30 +15259,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
-                    balanceada</tags>
+				intensidad-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
+                    balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.062</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.0</low>
-						<high>7.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.062</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.0</low>
+				<high>7.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="25B">
@@ -14433,52 +15477,64 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación alta, europa-occidental, estilo-tradicional,
-                    amarga</tags>
-				<stats title="todas">
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
+				intensidad-estándar, color-pálido, fermentación alta, europa-occidental, estilo-tradicional,
+                    amarga</body>
+				<stats>
+				<type>ibu</type>
+				<header>todas</header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+				<stats>
+				<type>srm</type>
+				<header>Pálida</header>
+				<notes></notes>
+				<low>5</low>
+				<high>14</high>
+			</stats>
+				<stats>
+				<type>srm</type>
+				<header>Oscura</header>
+				<notes></notes>
+				<low>15</low>
+				<high>22</high>
+			</stats>
+				<stats>
+				<type>abv</type>
+				<header>de mesa</header>
+				<notes></notes>
+				<low>3.5</low>
+				<high>5.0</high>
 				</stats>
-				<stats title="Pálida">
-					<srm flexible="false">
-						<low>5</low>
-						<high>14</high>
-					</srm>
-				</stats>
-				<stats title="Oscura">
-					<srm flexible="false">
-						<low>15</low>
-						<high>22</high>
-					</srm>
-				</stats>
-				<stats title="de mesa">
-					<abv flexible="false">
-						<low>3.5</low>
-						<high>5.0</high>
-					</abv>
-				</stats>
-				<stats title="estándar">
-					<og flexible="false">
-						<low>1.048</low>
-						<high>1.065</high>
-					</og>
-					<fg flexible="false">
-						<low>1.002</low>
-						<high>1.008</high>
-					</fg>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>7.0</high>
-					</abv>
-				</stats>
-				<stats title="muy alta">
-					<abv flexible="false">
-						<low>7.0</low>
-						<high>9.5</high>
-					</abv>
+				
+			<stats>
+				<type>og</type>
+				<header>estándar</header>
+				<notes></notes>
+				<low>1.048</low>
+				<high>1.065</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header>estándar</header>
+				<notes></notes>
+				<low>1.002</low>
+				<high>1.008</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header>estándar</header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>7.0</high>
+			</stats>
+				<stats>
+				<type>abv</type>
+				<header>muy alta</header>
+				<notes></notes>
+				<low>7.0</low>
+				<high>9.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="25C">
@@ -14586,30 +15642,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
-                    amarga</tags>
+				intensidad-muy-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
+                    amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.070</low>
-						<high>1.095</high>
-					</og>
-					<fg flexible="false">
-						<low>1.005</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>22</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>7.5</low>
-						<high>10.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.070</low>
+				<high>1.095</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.005</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>22</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7.5</low>
+				<high>10.5</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -14719,30 +15787,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, europa-occidental, estilo-artesanal,
-                    amarga, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, europa-occidental, estilo-artesanal,
+                    amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.004</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.004</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="26B">
@@ -14846,30 +15926,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
-                    maltosa</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
+                    maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.062</low>
-						<high>1.075</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>25</high>
-					</ibu>
-					<srm flexible="false">
-						<low>10</low>
-						<high>17</high>
-					</srm>
-					<abv flexible="false">
-						<low>6.0</low>
-						<high>7.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.062</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>25</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>17</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6.0</low>
+				<high>7.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="26C">
@@ -14984,30 +16076,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
-                    amarga</tags>
+				intensidad-alta, color-pálido, fermentación-alta, europa-occidental, estilo-tradicional,
+                    amarga</body>
 				<stats>
-					<og flexible="false">
-						<low>1.075</low>
-						<high>1.085</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4.5</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>7.5</low>
-						<high>9.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.075</low>
+				<high>1.085</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7.5</low>
+				<high>9.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="26D">
@@ -15117,30 +16221,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-muy-alta, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
-                    maltosa</tags>
+				intensidad-muy-alta, color-ámbar, fermentación-alta, europa-occidental, estilo-tradicional,
+                    maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.075</low>
-						<high>1.110</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.024</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>12</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>8.0</low>
-						<high>12.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.075</low>
+				<high>1.110</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.024</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>12</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>8.0</low>
+				<high>12.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -15268,30 +16384,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-histórico,
-                    familia-cerveza-trigo, agria, especiada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-histórico,
+                    familia-cerveza-trigo, agria, especiada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.036</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.010</high>
-					</fg>
-					<ibu flexible="false">
-						<low>5</low>
-						<high>12</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>4</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.2</low>
-						<high>4.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.036</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>12</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>4</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.2</low>
+				<high>4.8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-ky">
@@ -15430,30 +16558,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, américa-del-norte, estilo-histórico,
-                    balanceada</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, américa-del-norte, estilo-histórico,
+                    balanceada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.055</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.018</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>11</low>
-						<high>20</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.055</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.018</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>11</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-Lichtenhainer">
@@ -15543,30 +16683,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-histórico,
-                    familia-cerveza-trigo, agria, ahumada</tags>
+				intensidad-estándar, color-pálido, fermentación-alta, europa-central, estilo-histórico,
+                    familia-cerveza-trigo, agria, ahumada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.032</low>
-						<high>1.040</high>
-					</og>
-					<fg flexible="false">
-						<low>1.004</low>
-						<high>1.008</high>
-					</fg>
-					<ibu flexible="false">
-						<low>5</low>
-						<high>12</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>3.5</low>
-						<high>4.7</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.032</low>
+				<high>1.040</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.004</low>
+				<high>1.008</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>12</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3.5</low>
+				<high>4.7</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-Londinense-Marrón">
@@ -15671,30 +16823,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-oscuro, fermentación-alta, islas-británicas, estilo-histórico,
-                    familia-ale-marrón, maltosa, dulce</tags>
+				intensidad-baja, color-oscuro, fermentación-alta, islas-británicas, estilo-histórico,
+                    familia-ale-marrón, maltosa, dulce</body>
 				<stats>
-					<og flexible="false">
-						<low>1.033</low>
-						<high>1.038</high>
-					</og>
-					<fg flexible="false">
-						<low>1.012</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>22</low>
-						<high>35</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.8</low>
-						<high>3.6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.033</low>
+				<high>1.038</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.012</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>22</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.8</low>
+				<high>3.6</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-piwo">
@@ -15803,30 +16967,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-baja, color-pálido, fermentación-alta, europa-central, estilo-histórico,
-                    familia-cerveza-trigo, amarga, ahumada</tags>
+				intensidad-baja, color-pálido, fermentación-alta, europa-central, estilo-histórico,
+                    familia-cerveza-trigo, amarga, ahumada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.028</low>
-						<high>1.032</high>
-					</og>
-					<fg flexible="false">
-						<low>1.006</low>
-						<high>1.012</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>35</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>2.5</low>
-						<high>3.3</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.028</low>
+				<high>1.032</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.006</low>
+				<high>1.012</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>35</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>2.5</low>
+				<high>3.3</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-pre18">
@@ -15942,30 +17118,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-pálido, fermentación-baja, lagered, américa-del-norte;
-                    estilo-histórico, familia-pilsner, amarga, lupulada</tags>
+				intensidad-estándar, color-pálido, fermentación-baja, lagered, américa-del-norte;
+                    estilo-histórico, familia-pilsner, amarga, lupulada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>40</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>6</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>40</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-pre18-porter">
@@ -16065,30 +17253,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-oscuro, cualquier-fermentación, américa-del-norte,
-                    estilo-histórico, familia-porter, maltosa</tags>
+				intensidad-estándar, color-oscuro, cualquier-fermentación, américa-del-norte,
+                    estilo-histórico, familia-porter, maltosa</body>
 				<stats>
-					<og flexible="false">
-						<low>1.046</low>
-						<high>1.060</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.016</high>
-					</fg>
-					<ibu flexible="false">
-						<low>20</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>18</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.046</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>18</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-roggenbier">
@@ -16188,30 +17388,42 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-estándar, color-ámbar, fermentación-alta, europa-central, estilo-histórico,
-                    familia-cerveza-trigo</tags>
+				intensidad-estándar, color-ámbar, fermentación-alta, europa-central, estilo-histórico,
+                    familia-cerveza-trigo</body>
 				<stats>
-					<og flexible="false">
-						<low>1.046</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.010</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>20</high>
-					</ibu>
-					<srm flexible="false">
-						<low>14</low>
-						<high>19</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>6.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.046</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>20</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>14</low>
+				<high>19</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="27-sahti">
@@ -16314,29 +17526,41 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>intensidad-alta, color-ámbar, fermentación-alta, europa-central, estilo-histórico, especiada</tags>
+				intensidad-alta, color-ámbar, fermentación-alta, europa-central, estilo-histórico, especiada</body>
 				<stats>
-					<og flexible="false">
-						<low>1.076</low>
-						<high>1.120</high>
-					</og>
-					<fg flexible="false">
-						<low>1.016</low>
-						<high>1.020</high>
-					</fg>
-					<ibu flexible="false">
-						<low>7</low>
-						<high>15</high>
-					</ibu>
-					<srm flexible="false">
-						<low>4</low>
-						<high>22</high>
-					</srm>
-					<abv flexible="false">
-						<low>7.0</low>
-						<high>11.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.076</low>
+				<high>1.120</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.016</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>4</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7.0</low>
+				<high>11.0</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -16832,8 +18056,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, frutal</tags>
+				cerveza-especial, frutal</body>
 			</subcategory>
 			<subcategory id="29B">
 				<name>Fruit and Spice Beer</name>
@@ -17193,8 +18416,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, especiada</tags>
+				cerveza-especial, especiada</body>
 			</subcategory>
 			<subcategory id="30B">
 				<name>Autumn Seasonal Beer</name>
@@ -17337,8 +18559,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, especiada</tags>
+				cerveza-especial, especiada</body>
 			</subcategory>
 			<subcategory id="30C">
 				<name>Winter Seasonal Beer</name>
@@ -17501,8 +18722,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, especiada</tags>
+				cerveza-especial, especiada</body>
 			</subcategory>
 		</category>
 		<category id="31">
@@ -17603,8 +18823,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>cerveza-especia</tags>
+				cerveza-especia</body>
 				<stats>
 					<exceptions>OG, FG, IBUs, SRM y ABV variarán dependiendo de la cerveza base subyacente.</exceptions>
 				</stats>
@@ -17702,8 +18921,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial</tags>
+				cerveza-especial</body>
 			</subcategory>
 		</category>
 		<category id="32">
@@ -17838,8 +19056,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, ahumada</tags>
+				cerveza-especial, ahumada</body>
 			</subcategory>
 			<subcategory id="32B">
 				<name>Specialty Smoked Beer</name>
@@ -17959,8 +19176,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>cerveza-especial, ahumad</tags>
+				cerveza-especial, ahumad</body>
 				<stats>
 					<exceptions>Varían con el estilos de cerveza base.</exceptions>
 				</stats>
@@ -18111,8 +19327,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, madera</tags>
+				cerveza-especial, madera</body>
 			</subcategory>
 			<subcategory id="33B">
 				<name>Specialty Wood-Aged Beer</name>
@@ -18248,8 +19463,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial, madera</tags>
+				cerveza-especial, madera</body>
 			</subcategory>
 		</category>
 		<category id="34">
@@ -18321,8 +19535,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>cerveza-especial</tags>
+				cerveza-especial</body>
 				<stats>
 					<exceptions>OG, FG, IBUs, SRM y ABV variarán dependiendo de la cerveza declarada.</exceptions>
 				</stats>
@@ -18390,8 +19603,7 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-                <tags>cerveza-especial</tags>
+				cerveza-especial</body>
 			</subcategory>
 			<subcategory id="34C">
 				<name>Experimental Beer</name>
@@ -18555,26 +19767,39 @@
                     usualmente acondicionada en frío.
 				</body>
 				<stats>
-					<og flexible="false">
-						<low>1.042</low>
-						<high>1.054</high>
-					</og>
-					<fg flexible="false">
-						<low>1.009</low>
-						<high>1.013</high>
-					</fg>
-					<ibu flexible="false">
-						<low>15</low>
-						<high>22</high>
-					</ibu>
-					<srm flexible="false">
-						<low>3</low>
-						<high>5</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.3</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.042</low>
+				<high>1.054</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.009</low>
+				<high>1.013</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>15</low>
+				<high>22</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>5</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.3</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="X2">
@@ -18691,26 +19916,39 @@
 					<br/>Antares Argentine IPA, Kerze Argentine IPA.
 				</body>
 				<stats>
-					<og flexible="false">
-						<low>1.055</low>
-						<high>1.065</high>
-					</og>
-					<fg flexible="false">
-						<low>1.008</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>35</low>
-						<high>60</high>
-					</ibu>
-					<srm flexible="false">
-						<low>6</low>
-						<high>15</high>
-					</srm>
-					<abv flexible="false">
-						<low>5.0</low>
-						<high>6.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.055</low>
+				<high>1.065</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.008</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>35</low>
+				<high>60</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>15</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5.0</low>
+				<high>6.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="X3">
@@ -18829,26 +20067,39 @@
                     Gedeone PerBacco! Toccalmatto Jadis, Rocca dei Conti Tarì Giacchè.
 				</body>
 				<stats>
-					<og flexible="false">
-						<low>1.043</low>
-						<high>1.090</high>
-					</og>
-					<fg flexible="false">
-						<low>1.007</low>
-						<high>1.015</high>
-					</fg>
-					<ibu flexible="false">
-						<low>10</low>
-						<high>30</high>
-					</ibu>
-					<srm flexible="false">
-						<low>5</low>
-						<high>30</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.8</low>
-						<high>10.0</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.043</low>
+				<high>1.090</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.007</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>10</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.8</low>
+				<high>10.0</high>
 				</stats>
 			</subcategory>
 			<subcategory id="X4">
@@ -18963,29 +20214,41 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>estilo-artesanal, frutas, agrio, cerveza-especia</tags>
+				estilo-artesanal, frutas, agrio, cerveza-especia</body>
 				<stats>
-					<og flexible="false">
-						<low>1.039</low>
-						<high>1.048</high>
-					</og>
-					<fg flexible="false">
-						<low>1.002</low>
-						<high>1.008</high>
-					</fg>
-					<ibu flexible="false">
-						<low>2</low>
-						<high>8</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.0</low>
-						<high>5.5</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.039</low>
+				<high>1.048</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.002</low>
+				<high>1.008</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>8</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.0</low>
+				<high>5.5</high>
 				</stats>
 			</subcategory>
 			<subcategory id="X5">
@@ -19103,31 +20366,43 @@
 						<b>Ejemplos</b>
 					</big>
 					<br/>
-				</body>
-				<tags>color-pálido, intensidad-estándar, fermentación-baja, amarga, lupulada, familia-pilsner,
+				color-pálido, intensidad-estándar, fermentación-baja, amarga, lupulada, familia-pilsner,
                     lagered,
-                    estilo-artesanal, pacífic</tags>
+                    estilo-artesanal, pacífic</body>
 				<stats>
-					<og flexible="false">
-						<low>1.044</low>
-						<high>1.056</high>
-					</og>
-					<fg flexible="false">
-						<low>1.009</low>
-						<high>1.014</high>
-					</fg>
-					<ibu flexible="false">
-						<low>25</low>
-						<high>45</high>
-					</ibu>
-					<srm flexible="false">
-						<low>2</low>
-						<high>7</high>
-					</srm>
-					<abv flexible="false">
-						<low>4.5</low>
-						<high>5.8</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.044</low>
+				<high>1.056</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.009</low>
+				<high>1.014</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>25</low>
+				<high>45</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>2</low>
+				<high>7</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>5.8</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -19235,19 +20510,26 @@
 
 				</body>
 				<stats>
-					<og>
-						<low>1.045</low>
-						<high>1.065
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.065
 						</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>8</high>
-					</abv>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>8</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C1B">
@@ -19343,18 +20625,25 @@
                     Hill Medium, Aspall English Imperial.
 				</body>
 				<stats>
-					<og>
-						<low>1.050</low>
-						<high>1.075</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.015</high>
-					</fg>
-					<abv>
-						<low>6</low>
-						<high>9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.075</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.015</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>6</low>
+				<high>9</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C1C">
@@ -19443,18 +20732,25 @@
                     Dupont Organic, Bellot
 				</body>
 				<stats>
-					<og>
-						<low>1.050</low>
-						<high>1.065</high>
-					</og>
-					<fg>
-						<low>1.010</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>3</low>
-						<high>6</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.065</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>3</low>
+				<high>6</high>
 				</stats>
 
 			</subcategory>
@@ -19524,18 +20820,25 @@
 					<br/>[US] White Winter Paarynat (WI), Uncle John's Fruit House Winery Perry (MI)
 				</body>
 				<stats>
-					<og>
-						<low>1.050</low>
-						<high>1.060</high>
-					</og>
-					<fg>
-						<low>1.000</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>7</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.000</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>7</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C1E">
@@ -19615,18 +20918,25 @@
                     Perry.
 				</body>
 				<stats>
-					<og>
-						<low>1.050</low>
-						<high>1.070</high>
-					</og>
-					<fg>
-						<low>1.000</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.050</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.000</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>9</high>
 				</stats>
 			</subcategory>
 		</category>
@@ -19712,18 +21022,25 @@
 					<br/>[US] Snowdrift Semi-Dry (WA), Blackbird Cider Works New England Style (NY).
 				</body>
 				<stats>
-					<og>
-						<low>1.060</low>
-						<high>1.100</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>7</low>
-						<high>13</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.060</low>
+				<high>1.100</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>13</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C2B">
@@ -19784,18 +21101,25 @@
                     Winery Apple Cherry, Apple Blueberry, and Apricot Apple Hard Cider (MI)
 				</body>
 				<stats>
-					<og>
-						<low>1.045</low>
-						<high>1.070</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.010</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>9</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C2C">
@@ -19855,19 +21179,26 @@
 					<br/>[US] Uncle John's Fruit House Winery Fruit House Apple (MI), McClure's Sweet Apple Wine (IN).
 				</body>
 				<stats>
-					<og>
-						<low>1.070</low>
-						<high>1.100
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.070</low>
+				<high>1.100
 						</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>9</low>
-						<high>12</high>
-					</abv>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>9</low>
+				<high>12</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C2D">
@@ -19930,19 +21261,26 @@
                     Vergers de la Colline, and Cidrerie St-Nicolas (Quebec).
 				</body>
 				<stats>
-					<og>
-						<low>1.130</low>
-						<high>1.180
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.130</low>
+				<high>1.180
 						</high>
-					</og>
-					<fg>
-						<low>1.060</low>
-						<high>1.085</high>
-					</fg>
-					<abv>
-						<low>7</low>
-						<high>13</high>
-					</abv>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.060</low>
+				<high>1.085</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>7</low>
+				<high>13</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C2E">
@@ -20009,18 +21347,25 @@
 					<br/>[US] Colorado Cider Grasshop-ah (CO), Wandering Aengus Anthem Hops (OR).
 				</body>
 				<stats>
-					<og>
-						<low>1.045</low>
-						<high>1.070</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.010</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>9</high>
-					</abv>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.070</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.010</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>9</high>
 				</stats>
 			</subcategory>
 			<subcategory id="C2F">
@@ -20082,19 +21427,26 @@
 					<br/>[US] Finn River Fire Barrel (WA)
 				</body>
 				<stats>
-					<og>
-						<low>1.045</low>
-						<high>1.100
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.045</low>
+				<high>1.100
 						</high>
-					</og>
-					<fg>
-						<low>0.995</low>
-						<high>1.020</high>
-					</fg>
-					<abv>
-						<low>5</low>
-						<high>12</high>
-					</abv>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>0.995</low>
+				<high>1.020</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>5</low>
+				<high>12</high>
 				</stats>
 			</subcategory>
 		</category>

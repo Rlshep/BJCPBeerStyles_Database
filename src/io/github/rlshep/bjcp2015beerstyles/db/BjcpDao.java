@@ -75,9 +75,9 @@ public class BjcpDao {
         }
 
         //Insert sub-tables if available.
-        for (VitalStatistics vitalStatistics : category.getVitalStatisticses()) {
+        for (VitalStatistic vitalStatistics : category.getVitalStatisticses()) {
             vitalStatistics.setCategoryId(id);
-            addVitalStatistics(stmt, vitalStatistics);
+            addVitalStatistic(stmt, vitalStatistics);
         }
 
         if (!category.getChildCategories().isEmpty()) {
@@ -88,12 +88,17 @@ public class BjcpDao {
     private void addTag(Statement stmt, Tag tag) throws SQLException {
         String sql = "INSERT INTO " + TABLE_TAG + "(" + COLUMN_CAT_ID + " , "  + COLUMN_TAG + ") VALUES(";
         sql += tag.getCategoryId() + ", '" + tag.getTag() + "');";
-        stmt.executeUpdate(sql);
+        try {
+            stmt.executeUpdate(sql);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    private void addVitalStatistics(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics vitalStatistics) throws SQLException {
+    private void addVitalStatistic(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistic vitalStatistics) throws SQLException {
         String sql = "INSERT INTO " + TABLE_VITALS + "(" + COLUMN_CAT_ID + ", " + COLUMN_TYPE + ", " + COLUMN_HEADER + ", " + COLUMN_NOTES + ", " + COLUMN_LOW + ", " + COLUMN_HIGH + ")";
-        sql += "VALUES(" + vitalStatistics.getCategoryId() + ",'" + vitalStatistics.getType() + "','" + vitalStatistics.getHeader() + "','" + vitalStatistics.getNotes() + "'," + vitalStatistics.getStart() + "," + vitalStatistics.getEnd() + ") ";
+        sql += "VALUES(" + vitalStatistics.getCategoryId() + ",'" + vitalStatistics.getType() + "','" + vitalStatistics.getHeader() + "','" + vitalStatistics.getNotes() + "'," + vitalStatistics.getLow() + "," + vitalStatistics.getHigh() + ") ";
 
         //Write category to database.
         stmt.executeUpdate(sql);
