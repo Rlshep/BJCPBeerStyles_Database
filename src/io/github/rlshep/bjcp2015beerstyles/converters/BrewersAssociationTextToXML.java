@@ -416,4 +416,10 @@ public class BrewersAssociationTextToXML extends TextToXML {
 
         return word;
     }
+
+
+    protected StringBuilder getFooterXml() {
+
+        return new StringBuilder(CATEGORY_END + "</styleguide>\n");
+    }
 }

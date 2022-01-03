@@ -29,6 +29,7 @@ public abstract class TextToXML {
     protected abstract String preLineCleanUp(String str);
     protected abstract StringBuilder formatLine(String str) throws IOException;
     protected abstract String postCleanUp(StringBuilder out);
+    protected abstract StringBuilder getFooterXml();
 
     public void cleanUpTextFile(String i, String o) throws IOException {
         FileReader input = new FileReader(i);
@@ -78,11 +79,6 @@ public abstract class TextToXML {
 
     protected String getRevisionXml(String revision) {
         return "\t\t<revision number=\"1\">" + revision + "</revision>\n";
-    }
-
-    private String getFooterXml() {
-
-        return CATEGORY_END + "</styleguide>\n";
     }
 
     protected String getRegExValue(String str, Pattern pattern) {
