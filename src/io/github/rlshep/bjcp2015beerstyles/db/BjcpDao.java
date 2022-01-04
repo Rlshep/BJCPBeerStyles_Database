@@ -88,12 +88,7 @@ public class BjcpDao {
     private void addTag(Statement stmt, Tag tag) throws SQLException {
         String sql = "INSERT INTO " + TABLE_TAG + "(" + COLUMN_CAT_ID + " , "  + COLUMN_TAG + ") VALUES(";
         sql += tag.getCategoryId() + ", '" + tag.getTag() + "');";
-        try {
-            stmt.executeUpdate(sql);
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-        }
+        stmt.executeUpdate(sql);
     }
 
     private void addVitalStatistic(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistic vitalStatistics) throws SQLException {

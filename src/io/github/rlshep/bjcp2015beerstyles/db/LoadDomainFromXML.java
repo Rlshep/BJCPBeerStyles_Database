@@ -29,7 +29,7 @@ public class LoadDomainFromXML {
     private final static HashMap<String, String> VALUES_TO_CONVERT = new HashMap<String, String>();
     private final static String DELIM = ",";
     private final static String BREAK = "br";
-    private boolean allowHeaderTarget = false;
+    private int orderNumber = 0;
 
     static {
         VALUES_TO_CONVERT.put("<definitionlist>", "");
@@ -46,35 +46,44 @@ public class LoadDomainFromXML {
     }
 
     public List<Category> loadXmlFromFile(String xmlFileName, String language) throws Exception {
-        XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+        return loadXmlFromFile(xmlFileName, language, "");
+    }
+
+    public List<Category> loadXmlFromFile(String xmlFileName, String language, String revisionOverride) throws Exception {
+          XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
 
         InputStream is = new FileInputStream(XML_HOME + xmlFileName);
         xpp.setInput(is, null);
 
-        List<Category> categories = loadCategoriesFromXml(xpp, language);
+        List<Category> categories = loadCategoriesFromXml(xpp, language, revisionOverride);
 
         return categories;
     }
 
-    private List<Category> loadCategoriesFromXml(XmlPullParser xpp, String language) throws Exception {
-        List<Category> categories = new ArrayList<Category>();
+    private List<Category> loadCategoriesFromXml(XmlPullParser xpp, String language, String revisionOverride) throws Exception {
+        List<Category> categories = new ArrayList<>();
         int eventType = xpp.getEventType();
         Category transferCategory = new Category();
-        int orderNumber = 0;
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
             if (eventType == XmlPullParser.START_TAG && XML_HEAD.equals(xpp.getName())) {
                 if (BjcpConstants.allowedLanguages.contains(language)) {
                     transferCategory.setLanguage(language);
-                    transferCategory.setRevision(xpp.getAttributeValue(null, XML_REVISION));
+
+                    if (!StringUtils.isEmpty(revisionOverride)) {
+                        transferCategory.setRevision(revisionOverride);
+                    } else {
+                        transferCategory.setRevision(xpp.getAttributeValue(null, XML_REVISION));
+                    }
+
                 } else {
                     throw new Exception("Invalid language");
                 }
             }
             if (eventType == XmlPullParser.START_TAG && XML_CATEGORY.equals(xpp.getName())) {
-                categories.add(createCategory(xpp, orderNumber, XML_CATEGORY, transferCategory));
+                categories.add(createCategory(xpp, orderNumber, XML_CATEGORY, transferCategory, categories));
                 transferCategory.setOrderNumber(transferCategory.getOrderNumber() + 1);
                 orderNumber++;
             }
@@ -85,13 +94,13 @@ public class LoadDomainFromXML {
         return categories;
     }
 
-    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory) throws XmlPullParserException, IOException {
+    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory, List<Category> categories) throws XmlPullParserException, IOException {
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
         List<VitalStatistic> statistics = new ArrayList<VitalStatistic>();
         List<Tag> tags = new ArrayList<>();
         int sectionOrder = 0;
-        int subCatOrder = 1 + (orderNumber * 100);    // Increasing order number for search sort.
+        int subCatOrder = 1 + (orderNumber * 1000);    // Increasing order number for search sort.
         Category category = new Category(transferCategory);
         category.setCategoryCode(xpp.getAttributeValue(null, XML_ID));
 
@@ -99,7 +108,7 @@ public class LoadDomainFromXML {
             if (isStartTag(xpp, COLUMN_NAME)) {
                 category.setName(getNextText(xpp));
             } else if (isStartTag(xpp, XML_SUBCATEGORY)) {
-                childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory));
+                childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory, categories));
                 subCatOrder++;
             } else if (isSection(xpp)) {
                 Section section = createSection(xpp, sectionOrder);
@@ -220,12 +229,14 @@ public class LoadDomainFromXML {
     private List<Tag> createExamplesTags(String str) {
         final Pattern pattern1 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
         final Pattern pattern2 = Pattern.compile("<big>\\s*<b>\\s*Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
-        final Pattern pattern3 = Pattern.compile("<big>\\s*<b>\\s*Ejemplos Comerciales\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
-        final Pattern pattern4 = Pattern.compile("<big>\\s*<b>\\s*Ejemplos Comerciales\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
-        final Pattern pattern5 = Pattern.compile("<big>\\s*<b>\\s*Комерційні зразки\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
-        final Pattern pattern6 = Pattern.compile("<big>\\s*<b>\\s*Комерційні зразки\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
+        final Pattern pattern3 = Pattern.compile("<big>\\s*<b>\\s*Commercial Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
+        final Pattern pattern4 = Pattern.compile("<big>\\s*<b>\\s*Commercial Examples\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
+        final Pattern pattern5 = Pattern.compile("<big>\\s*<b>\\s*Ejemplos Comerciales\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
+        final Pattern pattern6 = Pattern.compile("<big>\\s*<b>\\s*Ejemplos Comerciales\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
+        final Pattern pattern7 = Pattern.compile("<big>\\s*<b>\\s*Комерційні зразки\\s*</b>\\s*</big>\\s*<br/>\\s*(.*?)?<br/>");
+        final Pattern pattern8 = Pattern.compile("<big>\\s*<b>\\s*Комерційні зразки\\s*</b>\\s*</big>\\s*<br/>\\s*(.*)?");
 
-        Pattern[] patterns = {pattern1, pattern2, pattern3, pattern4, pattern5, pattern6};
+        Pattern[] patterns = {pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8};
 
         List<Tag> tags = new ArrayList<>();
         Tag tag;
@@ -278,10 +289,6 @@ public class LoadDomainFromXML {
 
         return tag.toString().trim();
     }
-
-//    private String cleanupExamples(String str) {
-//
-//    }
 
     private String cleanupExamples(String str) {
         String s = str.trim();
@@ -386,9 +393,16 @@ public class LoadDomainFromXML {
         } else if (isStartTag(xpp, XML_NOTES)) {
             vitalStatistics.setNotes(getNextText(xpp));
         } else if (isStartTag(xpp, XML_LOW)) {
-            vitalStatistics.setLow(Double.parseDouble(getNextText(xpp)));
+            String value = getNextText(xpp);
+            if (!StringUtils.isEmpty(value)) {
+                vitalStatistics.setLow(Double.parseDouble(value));
+            }
+
         } else if (isStartTag(xpp, XML_HIGH)) {
-            vitalStatistics.setHigh(Double.parseDouble(getNextText(xpp)));
+            String value = getNextText(xpp);
+            if (!StringUtils.isEmpty(value)) {
+                vitalStatistics.setHigh(Double.parseDouble(value));
+            }
         }
 
         return vitalStatistics;

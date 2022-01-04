@@ -3,6 +3,7 @@ package io.github.rlshep.bjcp2015beerstyles.converters;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.IOException;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.BJCP_2021;
@@ -28,6 +29,9 @@ public class BJCPTextToXML extends TextToXML {
     //= {{anchor|Toc418087720}} {{anchor|Toc91058084}} Introduction to the 2021 Guidelines =
     private static final Pattern introNamePattern1 = Pattern.compile("\\{\\{.*\\}\\}\\s\\{\\{.*\\}\\}\\s(.*?)\\s=");
     private static final Pattern introNamePattern2 = Pattern.compile("\\{\\{.*\\}\\}\\s\\{\\{.*\\}\\}\\s'''(.*?)'''");
+    //=== Best Fit ===
+    private static final Pattern introNotesPattern = Pattern.compile("===?\\s(.*)\\s===?");
+    private static final Pattern statsExceptionPattern = Pattern.compile("'''Vital Statistics:'''\\s(.*)?");
 
     //= {{anchor|Toc91058103}} 1. Standard American Beer =
     private static final Pattern categoryPattern = Pattern.compile("\\{\\{.*\\}\\}\\s(.*?)\\s=");
@@ -58,7 +62,6 @@ public class BJCPTextToXML extends TextToXML {
         final String ANCHOR2 = "''{{anchor";
         StringBuilder out = new StringBuilder(str);
 
-
         if (str.contains(ANCHOR1) && !str.startsWith(ANCHOR1)) {
             int index = str.indexOf(ANCHOR1);
             out.insert(index, "\n\n").toString();
@@ -70,7 +73,8 @@ public class BJCPTextToXML extends TextToXML {
 
         str = str.replaceAll("\\{\\{anchor.*\\}\\}\\s'''Overall Impression:\\s?'''", "'''Overall Impression:'''");
         str = str.replaceAll("\\{\\{anchor.*\\}\\}\\s'''Tags:\\s?'''", "'''Tags:'''");
-        str = str.replace("'''Vital Statistics:'''OG:", "'''Vital Statistics:''' \nOG:");
+        str = str.replaceAll("'''Vital Statistics:'''\\s*OG:", "'''Vital Statistics:''' \nOG:");
+        str = str.replaceAll("Vital Statistics:OG:1.050 – 1.057", "'''Vital Statistics:''' \nOG:1.050 – 1.057");
         str = str.replace("FG:", "\nFG:");
         str = str.replace("ABV:", "\nABV:");
         str = str.replace("{{anchor|Hlk64894127}} ", "");
@@ -89,10 +93,10 @@ public class BJCPTextToXML extends TextToXML {
         str = str.replace("= {{anchor|Toc418087895}} {{anchor|Toc91058271}} Appendix A: Alternate Categorizations =", "= {{anchor|Toc418087895}} {{anchor|Toc91058271}} A. Appendix: Alternate Categorizations =");
         str = str.replace("1. Styles Sorted Using 2008 Categories (Strict)", "A1. Styles Sorted Using 2008 Categories (Strict)");
         str = str.replace("2. Styles Sorted Using 2008 Guidelines (Modified)", "A2. Styles Sorted Using 2008 Guidelines (Modified)");
-        str = str.replace("3. Styles Sorted Using Style Family", "3A. Styles Sorted Using Style Family");
-        str = str.replace("4. Styles Sorted Using Country of Origin", "4A. Styles Sorted Using Country of Origin");
-        str = str.replace("5. Styles Sorted Using History", "5A. Styles Sorted Using History");
-        str = str.replace("Introduction to Specialty-Type Beer", "A6. Introduction to Specialty-Type Beer");
+        str = str.replace("3. Styles Sorted Using Style Family", "A3. Styles Sorted Using Style Family");
+        str = str.replace("4. Styles Sorted Using Country of Origin", "A4. Styles Sorted Using Country of Origin");
+        str = str.replace("5. Styles Sorted Using History", "A5. Styles Sorted Using History");
+        str = str.replace("Introduction to Specialty-Type Beer", "I3. Introduction to Specialty-Type Beer"); // Manually moved to Appendixes section
         str = str.replace("}} Specialty IPA: Belgian IPA ===", "}} 21B-belgian. Specialty IPA: Belgian IPA ===");
         str = str.replace("}} Specialty IPA: Black IPA  ===", "}} 21B-black. Specialty IPA: Black IPA ===");
         str = str.replace("}} Specialty IPA: Brown IPA ===", "}} 21B-brown. Specialty IPA: Brown IPA ===");
@@ -106,7 +110,13 @@ public class BJCPTextToXML extends TextToXML {
         str = str.replace("IBU:", IBU);
         str = str.replace("'''Argentine IPA'''", "== X2A. Argentine IPA ==");
         str = str.replace("'''Catharina Sour'''", "== X4A. Catharina Sour ==");
-
+        str = str.replace("<div style=\"margin-left:0.5in;margin-right:0in;\">", "");
+        str = str.replace("</div>*", "");
+        str = str.replace("# <div style=\"margin-left:0.3752in;margin-right:0in;\">", "</div>");
+        str = str.replace("</div>", "");
+        str = str.replace("<div style=\"color:#2e74b5;\">", "");
+        str = str.replace("* '''", "'''");
+        
         return str;
     }
 
@@ -141,8 +151,8 @@ public class BJCPTextToXML extends TextToXML {
         s = s.replace("'''Vital Statistics:'''D.I.:1.042 – 1.054", "'''Vital Statistics:'''\nOG:1.042 – 1.054");
         s = s.replace("IBUs:15 – 22D.F.:1.009 – 1.013", "IBUs:15 – 22\nFG:1.009 – 1.013");
         s = s.replace("SRM:3 – 5G.A.:4,3º – 5,5º", "SRM:3 – 5");
-        s = s.replace("'''Vital Statistics:'''DO:1055 – 1065", "'''Vital Statistics:'''\nOG:1055 – 1065");
-        s = s.replace("IBUs:35 – 60DF:1008 – 1015", "IBUs:35 – 60\nFG:1008 – 1015");
+        s = s.replace("'''Vital Statistics:'''DO:1055 – 1065", "'''Vital Statistics:'''\nOG:1.055 – 1.065");
+        s = s.replace("IBUs:35 – 60DF:1008 – 1015", "IBUs:35 – 60\nFG:1.008 – 1.015");
         s = s.replace("SRM:6 – 15GA5.0 – 6.5%.", "SRM:6 – 15\nABV:5.0 – 6.5%.");
         s = s.replaceAll("== \\{\\{anchor\\|Toc91058281}} <span style=\"color:#1f4e79;\">Italian Styles</span> ==\n", "");
         s = s.replace("'''Vital Statistics:''' OG: 1.045 – 1.100IBUs: 6 – 30", "'''Vital Statistics:''' \nOG: 1.045 – 1.100\nIBUs: 6 – 30");
@@ -150,8 +160,7 @@ public class BJCPTextToXML extends TextToXML {
         s = s.replace("== {{anchor|Toc91058283}} <span style=\"color:#1f4e79;\">Brazilian Styles</span> ==\n", "");
         s = s.replace("'''Estatisticas “Vitais”:'''OG:1.039 – 1.048", "'''Vital Statistics:'''\nOG:1.039 – 1.048");
         s = s.replaceAll("== \\{\\{anchor\\|Toc91058285\\}\\} <span style=\"color:#1f4e79;\">New Zealand Styles</span> ==", "");
-
-        //TODO: FIX COMMERCIAL EXAMPLES IN LOCAL STYLES
+        s = s.replace("OG: 1.045 – 1.100IBUs: 6 – 30 ", "OG: 1.045 – 1.100\nIBUs: 6 – 30 ");
 
         return s;
     }
@@ -186,8 +195,10 @@ public class BJCPTextToXML extends TextToXML {
         } else if (introEnd && isStartSubCategory(str)) {
             formatted.append(getSubCategory(str));
             formattedStats = new StringBuilder();
+        } else if (str.contains(START_VITALS) && isStatsException(str)) {
+            formattedStats.append(getStats(str, XML_EXCEPTIONS, XML_ALL));
         } else if (str.contains(START_VITALS)) {
-            //TODO: Look for exceptions
+            // Nothing for now. Header in android app.
         } else if (isStatistic(str)) {
             formattedStats.append(formatStats(str));
         } else {
@@ -231,7 +242,8 @@ public class BJCPTextToXML extends TextToXML {
     private boolean isIntroNotes(String str) {
         return !StringUtils.isEmpty(getRegExValue(str, introNamePattern1)) ||
                 !StringUtils.isEmpty(getRegExValue(str, introNamePattern2)) ||
-                !StringUtils.isEmpty(getRegExValue(str, categoryPattern));
+                !StringUtils.isEmpty(getRegExValue(str, categoryPattern)) ||
+                !StringUtils.isEmpty(getRegExValue(str, introNotesPattern));
     }
 
     private StringBuilder formatIntroNotes(String str) {
@@ -248,6 +260,8 @@ public class BJCPTextToXML extends TextToXML {
             formatted.append(getRegExValue(str, introNamePattern2));
         } else if (!StringUtils.isEmpty(getRegExValue(str, categoryPattern))) {
             formatted.append(getRegExValue(str, categoryPattern));
+        } else if (!StringUtils.isEmpty(getRegExValue(str, introNotesPattern))) {
+            formatted.append(getRegExValue(str, introNotesPattern));
         }
 
         formatted.append("\">\n\t");
@@ -272,7 +286,7 @@ public class BJCPTextToXML extends TextToXML {
     //== {{anchor|Toc418087897}} {{anchor|Toc91058273}} 2. Styles Sorted Using 2008 Guidelines (Modified) =
     private StringBuilder getCategory(String str) {
         final Pattern categoryCode = Pattern.compile("\\{\\{.*\\}\\}\\s(([A-Z]+|[0-9_]+))?\\.\\s(.*?)\\s=");
-        final Pattern categoryName = Pattern.compile("\\{\\{.*\\}\\}\\s[A-Z0-9]\\.\\s(.*?)\\s=");
+        final Pattern categoryName = Pattern.compile("\\{\\{.*\\}\\}\\s[A-Z0-9]+\\.\\s(.*?)\\s=");
         StringBuilder formatted = new StringBuilder();
 
         if (introEnd) {
@@ -302,7 +316,7 @@ public class BJCPTextToXML extends TextToXML {
     private boolean isStartSubCategory(String str) {
         final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''(.*?)'''"),
                 Pattern.compile("\\{\\{.*\\}\\}\\s(.*?)\\s=+"),
-                Pattern.compile("==\\s[A-Z0-9]+\\.\\s(.*)\\s==")};
+                Pattern.compile("==\\s[A-Za-z0-9-]+\\.\\s(.*)\\s==")};
         boolean isStart = false;
 
         if (!StringUtils.isEmpty(getRegExValue(str, patterns))) {
@@ -343,7 +357,7 @@ public class BJCPTextToXML extends TextToXML {
     private String getSubCategoryCode(String str) {
         final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''([a-zA-Z0-9_]*)?\\.\\s"),
                 Pattern.compile("\\{\\{.*\\}\\}\\s([a-zA-Z0-9-]*)?\\.\\s"),
-                Pattern.compile("==\\s([A-Z0-9]+)?\\.\\s") };
+                Pattern.compile("==\\s([A-Za-z0-9-]+)?\\.\\s") };
 
         return getRegExValue(str, patterns);
     }
@@ -354,7 +368,7 @@ public class BJCPTextToXML extends TextToXML {
     private String getSubCategoryName(String str) {
         final Pattern[] patterns = { Pattern.compile("\\{\\{.*\\}\\}\\s'''[a-zA-Z0-9_]*\\.\\s(.*?)?'''"),
                 Pattern.compile("\\{\\{.*\\}\\}\\s[a-zA-Z0-9-]*\\.\\s(.*?)?\\s=+"),
-                Pattern.compile("==\\s[A-Z0-9]+\\.\\s(.*)\\s==") };
+                Pattern.compile("==\\s[A-Za-z0-9-]+\\.\\s(.*)\\s==") };
 
         return getRegExValue(str, patterns);
     }
@@ -369,6 +383,7 @@ public class BJCPTextToXML extends TextToXML {
             formatted.append(BREAK);
         } else {
             formatted.append("\t\t\t\t");
+            s = getBoldWords(s);
             formatted.append(s.replace("''", ""));
             formatted.append(BREAK);
         }
@@ -394,19 +409,37 @@ public class BJCPTextToXML extends TextToXML {
     }
 
     private String getFullHeader(String str) {
-        final Pattern[] patterns = { Pattern.compile("(\\'\\'\\'.*:\\'\\'\\'\\s)?") };
+        final Pattern[] patterns = { Pattern.compile("(\\'\\'\\'.*:\\s*?\\'\\'\\')?") };
 
         return getRegExValue(str, patterns);
     }
 
     private String getHeaderName(String str) {
-        final Pattern[] patterns = { Pattern.compile("\\'\\'\\'(.*?)?:\\'\\'\\'\\s") };
+        final Pattern[] patterns = { Pattern.compile("\\'\\'\\'(.*?)?:\\s*?\\'\\'\\'") };
 
         return getRegExValue(str, patterns);
+    }
+    private String getBoldWords(String str) {
+        final Pattern pattern = Pattern.compile("\\'\\'\\'(.*?)?\\'\\'\\'");
+        Matcher matcher = pattern.matcher(str);
+        String regEx;
+
+        while (matcher.find()) {
+            regEx = matcher.group(0);
+            str = str.replace(regEx, "<b>" + regEx + "</b>");
+        }
+
+        str = str.replace("'''", "");
+
+        return str;
     }
 
     private boolean isStatistic(String str) {
         return (str.contains(OG) || str.contains(FG) || str.contains(SRM) || str.contains(ABV) || str.contains(IBU));
+    }
+
+    private boolean isStatsException(String str) {
+        return !StringUtils.isEmpty(getRegExValue(str, statsExceptionPattern));
     }
 
     private StringBuilder formatStats(String str) {
@@ -427,15 +460,16 @@ public class BJCPTextToXML extends TextToXML {
         return formatted;
     }
 
-//    '''Vital Statistics:'''
-//    OG:1.048 – 1.055
-//    IBUs:18 – 30
-//    FG:1.010 – 1.014
-//    SRM:9 – 15
-//    ABV:4.7 – 5.5%
+    //    '''Vital Statistics:'''
+    //    OG:1.048 – 1.055
+    //    IBUs:18 – 30
+    //    FG:1.010 – 1.014
+    //    SRM:9 – 15
+    //    ABV:4.7 – 5.5%
+    // '''Vital Statistics:''' Variable by type, see individual styles
     private StringBuilder getStats(String str, String pattern, String target) {
         final Pattern lowPattern = Pattern.compile(pattern + "(\\s?\\d+.?\\d*)?%?\\s–");
-        final Pattern highPattern = Pattern.compile(pattern + "\\s?\\d+.?\\d*%?\\s–\\s(\\d+.?\\d*)?\\n?\\s?%?'?");
+        final Pattern highPattern = Pattern.compile(pattern + "\\s?\\d+.?\\d*%?\\s–\\s(\\d*\\.*\\d*)\\s?%?'?");
         final Pattern headerPattern = Pattern.compile("''(.*?)''");
         StringBuilder formatted = new StringBuilder();
 
@@ -447,11 +481,15 @@ public class BJCPTextToXML extends TextToXML {
         formatted.append(getEndTag(XML_TYPE));
         formatted.append("\n\t\t\t\t");
         formatted.append(getStartTag(XML_HEADER));
-        formatted.append(getRegExValue(str, headerPattern));
+
+        if (!XML_EXCEPTIONS.equals(pattern)) {
+            formatted.append(getRegExValue(str, headerPattern));
+        }
+
         formatted.append(getEndTag(XML_HEADER));
         formatted.append("\n\t\t\t\t");
         formatted.append(getStartTag(XML_NOTES));
-        //No notes for now
+        formatted.append(getRegExValue(str, statsExceptionPattern));
         formatted.append(getEndTag(XML_NOTES));
         formatted.append("\n\t\t\t\t");
         formatted.append(getStartTag(XML_LOW));
@@ -472,6 +510,9 @@ public class BJCPTextToXML extends TextToXML {
         String cleaned = out.toString();
 
         cleaned = cleaned.replace("<br/>\n<br/>\n\t\t\t</body>\n\t\t\t<stats>", "\n\t\t\t</body>\n\t\t\t<stats>");
+        cleaned = cleaned.replace("<br />", "<br/>");
+        cleaned = cleaned.replaceAll("(?:<br/>\\s*){3,}", "<br/>\n<br/>\n");
+        cleaned = cleaned.replaceAll("<br/>\\s<br/>\\s</body>", "</body>");
 
         return cleaned;
     }
@@ -487,3 +528,4 @@ public class BJCPTextToXML extends TextToXML {
         return  formatted;
     }
 }
+

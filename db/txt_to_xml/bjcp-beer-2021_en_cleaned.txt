@@ -1,64 +1,64 @@
-<div style="text-align:center;">'''Beer Judge Certification Program'''</div>
+<div style="text-align:center;">'''Beer Judge Certification Program'''
 
-<div style="text-align:center;">'''2021 Style Guidelines'''</div>
-
-
-<div style="text-align:center;"><span style="color:#1f4e79;">'''Beer Style Guidelines'''</span></div>
+<div style="text-align:center;">'''2021 Style Guidelines'''
 
 
-<div style="text-align:center;">[[Image:Picture 1.png|top]]</div>
+<div style="text-align:center;"><span style="color:#1f4e79;">'''Beer Style Guidelines'''</span>
 
 
-<div style="text-align:center;">'''Copyright © 2021, BJCP, Inc.'''</div>
-
-<div style="text-align:center;">''The BJCP grants the right to make copies for use in BJCP-sanctioned competitions or for educational/judge training purposes. ''</div>
-
-<div style="text-align:center;">''All other rights reserved.''</div>
-
-<div style="text-align:center;">'''Updates available at www.bjcp.org'''</div>
+<div style="text-align:center;">[[Image:Picture 1.png|top]]
 
 
-<div style="text-align:center;"></div>
+<div style="text-align:center;">'''Copyright © 2021, BJCP, Inc.'''
 
-<div style="text-align:center;">Authored by Gordon Strong</div>
+<div style="text-align:center;">''The BJCP grants the right to make copies for use in BJCP-sanctioned competitions or for educational/judge training purposes. ''
 
-<div style="text-align:center;">with</div>
+<div style="text-align:center;">''All other rights reserved.''
 
-<div style="text-align:center;">Kristen England</div>
-
-
+<div style="text-align:center;">'''Updates available at www.bjcp.org'''
 
 
-<div style="margin-left:1.1252in;margin-right:0in;">'''2021 Contributions:'''Dennis Mitchell, John Haven, Dan Pixley, Thomaz Pupo, Ron Pattinson</div>
+<div style="text-align:center;">
 
-<div style="margin-left:1.1252in;margin-right:0in;">'''2015 Guideline Analysis:'''Don Blake, Agatha Feltus, Tom Fitzpatrick, Mark Linsner, Jamil Zainasheff</div>
+<div style="text-align:center;">Authored by Gordon Strong
 
-<div style="margin-left:2.25in;margin-right:0in;">'''2015 Style Contributions:'''Drew Beechum, Craig Belanger, Dibbs Harting, Antony Hayes, Ben Jankowski, Andew Korty, Larry Nadeau, William Shawn Scott, Ron Smith, Lachlan Strong, Peter Symons, Michael Tonsmeire, Mike Winnie, Tony Wheeler</div>
+<div style="text-align:center;">with
 
-<div style="margin-left:2.25in;margin-right:0in;">'''2015 Review &amp; Comment:'''Ray Daniels, Roger Deschner, Rick Garvin, Jan Grmela, Bob Hall, Stan Hieronymus, Marek Mahut, Ron Pattinson, Steve Piatz, Evan Rail, Nathan Smith, Petra and Michal Vřes</div>
+<div style="text-align:center;">Kristen England
 
-<div style="margin-left:1.1252in;margin-right:0in;">'''2015 Final Review:'''Brian Eichhorn, Agatha Feltus, Dennis Mitchell, Michael Wilcox</div>__NOTOC__
-== <div style="text-align:center;">'''Table of Contents'''</div> ==
+
+
+
+<div style="margin-left:1.1252in;margin-right:0in;">'''2021 Contributions:'''Dennis Mitchell, John Haven, Dan Pixley, Thomaz Pupo, Ron Pattinson
+
+<div style="margin-left:1.1252in;margin-right:0in;">'''2015 Guideline Analysis:'''Don Blake, Agatha Feltus, Tom Fitzpatrick, Mark Linsner, Jamil Zainasheff
+
+<div style="margin-left:2.25in;margin-right:0in;">'''2015 Style Contributions:'''Drew Beechum, Craig Belanger, Dibbs Harting, Antony Hayes, Ben Jankowski, Andew Korty, Larry Nadeau, William Shawn Scott, Ron Smith, Lachlan Strong, Peter Symons, Michael Tonsmeire, Mike Winnie, Tony Wheeler
+
+<div style="margin-left:2.25in;margin-right:0in;">'''2015 Review &amp; Comment:'''Ray Daniels, Roger Deschner, Rick Garvin, Jan Grmela, Bob Hall, Stan Hieronymus, Marek Mahut, Ron Pattinson, Steve Piatz, Evan Rail, Nathan Smith, Petra and Michal Vřes
+
+<div style="margin-left:1.1252in;margin-right:0in;">'''2015 Final Review:'''Brian Eichhorn, Agatha Feltus, Dennis Mitchell, Michael Wilcox__NOTOC__
+== <div style="text-align:center;">'''Table of Contents''' ==
 
 [[#Toc91058084|Introduction to the 2021 Guidelines]][[#Toc91058084|iv]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058085|Styles and Categories]][[#Toc91058085|iv]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058085|Styles and Categories]][[#Toc91058085|iv]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058086|Naming of Styles and Categories]][[#Toc91058086|iv]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058086|Naming of Styles and Categories]][[#Toc91058086|iv]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058087|Using the Style Guidelines]][[#Toc91058087|iv]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058087|Using the Style Guidelines]][[#Toc91058087|iv]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058088|Format of a Style Description]][[#Toc91058088|vi]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058088|Format of a Style Description]][[#Toc91058088|vi]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058089|Style Description Language]][[#Toc91058089|vii]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058089|Style Description Language]][[#Toc91058089|vii]]
 
 [[#Toc91058090|Introduction to Beer Styles]][[#Toc91058090|ix]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058091|Basic Categorization]][[#Toc91058091|ix]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058091|Basic Categorization]][[#Toc91058091|ix]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058092|Common Attributes of All Beer Styles]][[#Toc91058092|ix]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058092|Common Attributes of All Beer Styles]][[#Toc91058092|ix]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058093|Glossary]][[#Toc91058093|ix]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058093|Glossary]][[#Toc91058093|ix]]
 
 === [[#Toc91058094|Hop Terms]][[#Toc91058094|x]] ===
 
@@ -72,181 +72,181 @@
 
 === [[#Toc91058099|Appearance Terms]][[#Toc91058099|xi]] ===
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058100|Color Reference]][[#Toc91058100|xii]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058100|Color Reference]][[#Toc91058100|xii]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058101|Style Organization]][[#Toc91058101|xii]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058101|Style Organization]][[#Toc91058101|xii]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058102|Style Tag Reference]][[#Toc91058102|xiii]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058102|Style Tag Reference]][[#Toc91058102|xiii]]
 
 [[#Toc91058103|1. Standard American Beer]][[#Toc91058103|1]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058104|1A. American Light Lager]][[#Toc91058104|1]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058104|1A. American Light Lager]][[#Toc91058104|1]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058105|1B. American Lager]][[#Toc91058105|1]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058105|1B. American Lager]][[#Toc91058105|1]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058106|1C. Cream Ale]][[#Toc91058106|2]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058106|1C. Cream Ale]][[#Toc91058106|2]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058107|1D. American Wheat Beer]][[#Toc91058107|2]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058107|1D. American Wheat Beer]][[#Toc91058107|2]]
 
 [[#Toc91058108|2. International Lager]][[#Toc91058108|3]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058109|2A. International Pale Lager]][[#Toc91058109|3]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058109|2A. International Pale Lager]][[#Toc91058109|3]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058110|2B. International Amber Lager]][[#Toc91058110|3]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058110|2B. International Amber Lager]][[#Toc91058110|3]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058111|2C. International Dark Lager]][[#Toc91058111|4]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058111|2C. International Dark Lager]][[#Toc91058111|4]]
 
 [[#Toc91058112|3. Czech Lager]][[#Toc91058112|4]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058113|3A. Czech Pale Lager]][[#Toc91058113|4]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058113|3A. Czech Pale Lager]][[#Toc91058113|4]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058114|3B. Czech Premium Pale Lager]][[#Toc91058114|5]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058114|3B. Czech Premium Pale Lager]][[#Toc91058114|5]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058115|3C. Czech Amber Lager]][[#Toc91058115|5]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058115|3C. Czech Amber Lager]][[#Toc91058115|5]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058116|3D. Czech Dark Lager]][[#Toc91058116|6]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058116|3D. Czech Dark Lager]][[#Toc91058116|6]]
 
 [[#Toc91058117|4. Pale Malty European Lager]][[#Toc91058117|7]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058118|4A. Munich Helles]][[#Toc91058118|7]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058118|4A. Munich Helles]][[#Toc91058118|7]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058119|4B. Festbier]][[#Toc91058119|7]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058119|4B. Festbier]][[#Toc91058119|7]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058120|4C. Helles Bock]][[#Toc91058120|8]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058120|4C. Helles Bock]][[#Toc91058120|8]]
 
 [[#Toc91058121|5. Pale Bitter European Beer]][[#Toc91058121|9]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058122|5A. German Leichtbier]][[#Toc91058122|9]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058122|5A. German Leichtbier]][[#Toc91058122|9]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058123|5B. Kölsch]][[#Toc91058123|9]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058123|5B. Kölsch]][[#Toc91058123|9]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058124|5C. German Helles Exportbier]][[#Toc91058124|10]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058124|5C. German Helles Exportbier]][[#Toc91058124|10]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058125|5D. German Pils]][[#Toc91058125|10]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058125|5D. German Pils]][[#Toc91058125|10]]
 
 [[#Toc91058126|6. Amber Malty European Lager]][[#Toc91058126|11]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058127|6A. Märzen]][[#Toc91058127|11]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058127|6A. Märzen]][[#Toc91058127|11]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058128|6B. Rauchbier]][[#Toc91058128|11]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058128|6B. Rauchbier]][[#Toc91058128|11]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058129|6C. Dunkles Bock]][[#Toc91058129|12]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058129|6C. Dunkles Bock]][[#Toc91058129|12]]
 
 [[#Toc91058130|7. Amber Bitter European Beer]][[#Toc91058130|13]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058131|7A. Vienna Lager]][[#Toc91058131|13]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058131|7A. Vienna Lager]][[#Toc91058131|13]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058132|7B. Altbier]][[#Toc91058132|13]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058132|7B. Altbier]][[#Toc91058132|13]]
 
 [[#Toc91058133|8. Dark European Lager]][[#Toc91058133|14]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058134|8A. Munich Dunkel]][[#Toc91058134|14]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058134|8A. Munich Dunkel]][[#Toc91058134|14]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058135|8B. Schwarzbier]][[#Toc91058135|14]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058135|8B. Schwarzbier]][[#Toc91058135|14]]
 
 [[#Toc91058136|9. Strong European Beer]][[#Toc91058136|15]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058137|9A. Doppelbock]][[#Toc91058137|15]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058137|9A. Doppelbock]][[#Toc91058137|15]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058138|9B. Eisbock]][[#Toc91058138|15]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058138|9B. Eisbock]][[#Toc91058138|15]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058139|9C. Baltic Porter]][[#Toc91058139|16]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058139|9C. Baltic Porter]][[#Toc91058139|16]]
 
 [[#Toc91058140|10. German Wheat Beer]][[#Toc91058140|17]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058141|10A. Weissbier]][[#Toc91058141|17]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058141|10A. Weissbier]][[#Toc91058141|17]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058142|10B. Dunkles Weissbier]][[#Toc91058142|17]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058142|10B. Dunkles Weissbier]][[#Toc91058142|17]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058143|10C. Weizenbock]][[#Toc91058143|18]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058143|10C. Weizenbock]][[#Toc91058143|18]]
 
 [[#Toc91058144|11. British Bitter]][[#Toc91058144|19]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058145|11A. Ordinary Bitter]][[#Toc91058145|19]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058145|11A. Ordinary Bitter]][[#Toc91058145|19]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058146|11B. Best Bitter]][[#Toc91058146|19]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058146|11B. Best Bitter]][[#Toc91058146|19]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058147|11C. Strong Bitter]][[#Toc91058147|20]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058147|11C. Strong Bitter]][[#Toc91058147|20]]
 
 [[#Toc91058148|12. Pale Commonwealth Beer]][[#Toc91058148|21]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058149|12A. British Golden Ale]][[#Toc91058149|21]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058149|12A. British Golden Ale]][[#Toc91058149|21]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058150|12B. Australian Sparkling Ale]][[#Toc91058150|21]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058150|12B. Australian Sparkling Ale]][[#Toc91058150|21]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058151|12C. English IPA]][[#Toc91058151|22]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058151|12C. English IPA]][[#Toc91058151|22]]
 
 [[#Toc91058152|13. Brown British Beer]][[#Toc91058152|23]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058153|13A. Dark Mild]][[#Toc91058153|23]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058153|13A. Dark Mild]][[#Toc91058153|23]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058154|13B. British Brown Ale]][[#Toc91058154|23]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058154|13B. British Brown Ale]][[#Toc91058154|23]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058155|13C. English Porter]][[#Toc91058155|24]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058155|13C. English Porter]][[#Toc91058155|24]]
 
 [[#Toc91058156|14. Scottish Ale]][[#Toc91058156|25]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058157|14A. Scottish Light]][[#Toc91058157|25]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058157|14A. Scottish Light]][[#Toc91058157|25]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058158|14B. Scottish Heavy]][[#Toc91058158|25]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058158|14B. Scottish Heavy]][[#Toc91058158|25]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058159|14C. Scottish Export]][[#Toc91058159|26]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058159|14C. Scottish Export]][[#Toc91058159|26]]
 
 [[#Toc91058160|15. Irish Beer]][[#Toc91058160|27]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058161|15A. Irish Red Ale]][[#Toc91058161|27]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058161|15A. Irish Red Ale]][[#Toc91058161|27]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058162|15B. Irish Stout]][[#Toc91058162|27]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058162|15B. Irish Stout]][[#Toc91058162|27]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058163|15C. Irish Extra Stout]][[#Toc91058163|28]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058163|15C. Irish Extra Stout]][[#Toc91058163|28]]
 
 [[#Toc91058164|16. Dark British Beer]][[#Toc91058164|29]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058165|16A. Sweet Stout]][[#Toc91058165|29]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058165|16A. Sweet Stout]][[#Toc91058165|29]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058166|16B. Oatmeal Stout]][[#Toc91058166|29]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058166|16B. Oatmeal Stout]][[#Toc91058166|29]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058167|16C. Tropical Stout]][[#Toc91058167|30]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058167|16C. Tropical Stout]][[#Toc91058167|30]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058168|16D. Foreign Extra Stout]][[#Toc91058168|30]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058168|16D. Foreign Extra Stout]][[#Toc91058168|30]]
 
 [[#Toc91058169|17. Strong British Ale]][[#Toc91058169|31]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058170|17A. British Strong Ale]][[#Toc91058170|31]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058170|17A. British Strong Ale]][[#Toc91058170|31]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058171|17B. Old Ale]][[#Toc91058171|31]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058171|17B. Old Ale]][[#Toc91058171|31]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058172|17C. Wee Heavy]][[#Toc91058172|32]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058172|17C. Wee Heavy]][[#Toc91058172|32]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058173|17D. English Barley Wine]][[#Toc91058173|32]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058173|17D. English Barley Wine]][[#Toc91058173|32]]
 
 [[#Toc91058174|18. Pale American Ale]][[#Toc91058174|33]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058175|18A. Blonde Ale]][[#Toc91058175|33]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058175|18A. Blonde Ale]][[#Toc91058175|33]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058176|18B. American Pale Ale]][[#Toc91058176|33]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058176|18B. American Pale Ale]][[#Toc91058176|33]]
 
 [[#Toc91058177|19. Amber and Brown American Beer]][[#Toc91058177|34]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058178|19A. American Amber Ale]][[#Toc91058178|34]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058178|19A. American Amber Ale]][[#Toc91058178|34]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058179|19B. California Common]][[#Toc91058179|34]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058179|19B. California Common]][[#Toc91058179|34]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058180|19C. American Brown Ale]][[#Toc91058180|35]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058180|19C. American Brown Ale]][[#Toc91058180|35]]
 
 [[#Toc91058181|20. American Porter and Stout]][[#Toc91058181|36]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058182|20A. American Porter]][[#Toc91058182|36]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058182|20A. American Porter]][[#Toc91058182|36]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058183|20B. American Stout]][[#Toc91058183|36]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058183|20B. American Stout]][[#Toc91058183|36]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058184|20C. Imperial Stout]][[#Toc91058184|37]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058184|20C. Imperial Stout]][[#Toc91058184|37]]
 
 [[#Toc91058185|21. IPA]][[#Toc91058185|38]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058186|21A. American IPA]][[#Toc91058186|38]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058186|21A. American IPA]][[#Toc91058186|38]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058187|21B. Specialty IPA]][[#Toc91058187|38]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058187|21B. Specialty IPA]][[#Toc91058187|38]]
 
 === [[#Toc91058188|Specialty IPA: Belgian IPA]][[#Toc91058188|39]] ===
 
@@ -262,59 +262,59 @@
 
 === [[#Toc91058194|Specialty IPA: Brut IPA]][[#Toc91058194|41]] ===
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058195|21C. Hazy IPA]][[#Toc91058195|42]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058195|21C. Hazy IPA]][[#Toc91058195|42]]
 
 [[#Toc91058196|22. Strong American Ale]][[#Toc91058196|43]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058197|22A. Double IPA]][[#Toc91058197|43]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058197|22A. Double IPA]][[#Toc91058197|43]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058198|22B. American Strong Ale]][[#Toc91058198|43]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058198|22B. American Strong Ale]][[#Toc91058198|43]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058199|22C. American Barleywine]][[#Toc91058199|44]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058199|22C. American Barleywine]][[#Toc91058199|44]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058200|22D. Wheatwine]][[#Toc91058200|44]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058200|22D. Wheatwine]][[#Toc91058200|44]]
 
 [[#Toc91058201|23. European Sour Ale]][[#Toc91058201|45]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058202|23A. Berliner Weisse]][[#Toc91058202|45]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058202|23A. Berliner Weisse]][[#Toc91058202|45]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058203|23B. Flanders Red Ale]][[#Toc91058203|45]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058203|23B. Flanders Red Ale]][[#Toc91058203|45]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058204|23C. Oud Bruin]][[#Toc91058204|46]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058204|23C. Oud Bruin]][[#Toc91058204|46]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058205|23D. Lambic]][[#Toc91058205|46]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058205|23D. Lambic]][[#Toc91058205|46]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058206|23E. Gueuze]][[#Toc91058206|47]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058206|23E. Gueuze]][[#Toc91058206|47]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058207|23F. Fruit Lambic]][[#Toc91058207|47]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058207|23F. Fruit Lambic]][[#Toc91058207|47]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058208|23G. Gose]][[#Toc91058208|48]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058208|23G. Gose]][[#Toc91058208|48]]
 
 [[#Toc91058209|24. Belgian Ale]][[#Toc91058209|49]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058210|24A. Witbier]][[#Toc91058210|49]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058210|24A. Witbier]][[#Toc91058210|49]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058211|24B. Belgian Pale Ale]][[#Toc91058211|49]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058211|24B. Belgian Pale Ale]][[#Toc91058211|49]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058212|24C. Bière de Garde]][[#Toc91058212|50]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058212|24C. Bière de Garde]][[#Toc91058212|50]]
 
 [[#Toc91058213|25. Strong Belgian Ale]][[#Toc91058213|51]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058214|25A. Belgian Blond Ale]][[#Toc91058214|51]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058214|25A. Belgian Blond Ale]][[#Toc91058214|51]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058215|25B. Saison]][[#Toc91058215|51]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058215|25B. Saison]][[#Toc91058215|51]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058216|25C. Belgian Golden Strong Ale]][[#Toc91058216|52]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058216|25C. Belgian Golden Strong Ale]][[#Toc91058216|52]]
 
 [[#Toc91058217|26. Monastic Ale]][[#Toc91058217|53]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058218|26A. Belgian Single]][[#Toc91058218|53]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058218|26A. Belgian Single]][[#Toc91058218|53]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058219|26B. Belgian Dubbel]][[#Toc91058219|53]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058219|26B. Belgian Dubbel]][[#Toc91058219|53]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058220|26C. Belgian Tripel]][[#Toc91058220|54]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058220|26C. Belgian Tripel]][[#Toc91058220|54]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058221|26D. Belgian Dark Strong Ale]][[#Toc91058221|54]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058221|26D. Belgian Dark Strong Ale]][[#Toc91058221|54]]
 
 [[#Toc91058222|27. Historical Beer]][[#Toc91058222|55]]
 
@@ -336,9 +336,9 @@
 
 === [[#Toc91058231|Historical Beer: Sahti]][[#Toc91058231|59]] ===
 
-[[#Toc91058232|A6. Introduction to Specialty-Type Beer]][[#Toc91058232|60]]
+[[#Toc91058232|I3. Introduction to Specialty-Type Beer]][[#Toc91058232|60]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058233|Entering Specialty-Type Beers]][[#Toc91058233|60]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058233|Entering Specialty-Type Beers]][[#Toc91058233|60]]
 
 === [[#Toc91058234|Entry Instructions]][[#Toc91058234|60]] ===
 
@@ -348,7 +348,7 @@
 
 === [[#Toc91058237|Best Fit]][[#Toc91058237|61]] ===
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058238|Judging Specialty-Type Beers]][[#Toc91058238|61]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058238|Judging Specialty-Type Beers]][[#Toc91058238|61]]
 
 === [[#Toc91058239|Overall Assessment]][[#Toc91058239|61]] ===
 
@@ -360,91 +360,91 @@
 
 [[#Toc91058243|28. American Wild Ale]][[#Toc91058243|62]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058244|28A. Brett Beer]][[#Toc91058244|62]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058244|28A. Brett Beer]][[#Toc91058244|62]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058245|28B. Mixed-Fermentation Sour Beer]][[#Toc91058245|62]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058245|28B. Mixed-Fermentation Sour Beer]][[#Toc91058245|62]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058246|28C. Wild Specialty Beer]][[#Toc91058246|63]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058246|28C. Wild Specialty Beer]][[#Toc91058246|63]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058247|28D. Straight Sour Beer]][[#Toc91058247|63]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058247|28D. Straight Sour Beer]][[#Toc91058247|63]]
 
 [[#Toc91058248|29. Fruit Beer]][[#Toc91058248|65]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058249|29A. Fruit Beer]][[#Toc91058249|65]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058249|29A. Fruit Beer]][[#Toc91058249|65]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058250|29B. Fruit and Spice Beer]][[#Toc91058250|65]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058250|29B. Fruit and Spice Beer]][[#Toc91058250|65]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058251|29C. Specialty Fruit Beer]][[#Toc91058251|66]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058251|29C. Specialty Fruit Beer]][[#Toc91058251|66]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058252|29D. Grape Ale]][[#Toc91058252|66]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058252|29D. Grape Ale]][[#Toc91058252|66]]
 
 [[#Toc91058253|30. Spiced Beer]][[#Toc91058253|68]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058254|30A. Spice, Herb, or Vegetable Beer]][[#Toc91058254|68]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058254|30A. Spice, Herb, or Vegetable Beer]][[#Toc91058254|68]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058255|30B. Autumn Seasonal Beer]][[#Toc91058255|68]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058255|30B. Autumn Seasonal Beer]][[#Toc91058255|68]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058256|30C. Winter Seasonal Beer]][[#Toc91058256|69]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058256|30C. Winter Seasonal Beer]][[#Toc91058256|69]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058257|30D. Specialty Spice Beer]][[#Toc91058257|69]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058257|30D. Specialty Spice Beer]][[#Toc91058257|69]]
 
 [[#Toc91058258|31. Alternative Fermentables Beer]][[#Toc91058258|71]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058259|31A. Alternative Grain Beer]][[#Toc91058259|71]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058259|31A. Alternative Grain Beer]][[#Toc91058259|71]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058260|31B. Alternative Sugar Beer]][[#Toc91058260|71]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058260|31B. Alternative Sugar Beer]][[#Toc91058260|71]]
 
 [[#Toc91058261|32. Smoked Beer]][[#Toc91058261|72]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058262|32A. Classic Style Smoked Beer]][[#Toc91058262|72]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058262|32A. Classic Style Smoked Beer]][[#Toc91058262|72]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058263|32B. Specialty Smoked Beer]][[#Toc91058263|72]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058263|32B. Specialty Smoked Beer]][[#Toc91058263|72]]
 
 [[#Toc91058264|33. Wood Beer]][[#Toc91058264|73]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058265|33A. Wood-Aged Beer]][[#Toc91058265|73]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058265|33A. Wood-Aged Beer]][[#Toc91058265|73]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058266|33B. Specialty Wood-Aged Beer]][[#Toc91058266|73]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058266|33B. Specialty Wood-Aged Beer]][[#Toc91058266|73]]
 
 [[#Toc91058267|34. Specialty Beer]][[#Toc91058267|75]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058268|34A. Commercial Specialty Beer]][[#Toc91058268|75]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058268|34A. Commercial Specialty Beer]][[#Toc91058268|75]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058269|34B. Mixed-Style Beer]][[#Toc91058269|75]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058269|34B. Mixed-Style Beer]][[#Toc91058269|75]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058270|34C. Experimental Beer]][[#Toc91058270|75]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058270|34C. Experimental Beer]][[#Toc91058270|75]]
 
 [[#Toc91058271|Appendix A: Alternate Categorizations]][[#Toc91058271|76]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058272|A1. Styles Sorted Using 2008 Categories (Strict)]][[#Toc91058272|76]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058272|A1. Styles Sorted Using 2008 Categories (Strict)]][[#Toc91058272|76]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058273|A2. Styles Sorted Using 2008 Guidelines (Modified)]][[#Toc91058273|77]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058273|A2. Styles Sorted Using 2008 Guidelines (Modified)]][[#Toc91058273|77]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058274|3A. Styles Sorted Using Style Family]][[#Toc91058274|78]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058274|A3. Styles Sorted Using Style Family]][[#Toc91058274|78]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058275|4A. Styles Sorted Using Country of Origin]][[#Toc91058275|79]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058275|A4. Styles Sorted Using Country of Origin]][[#Toc91058275|79]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058276|5A. Styles Sorted Using History]][[#Toc91058276|80]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058276|A5. Styles Sorted Using History]][[#Toc91058276|80]]
 
 [[#Toc91058277|Appendix B: Local Styles]][[#Toc91058277|82]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058278|Argentine Styles]][[#Toc91058278|82]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058278|Argentine Styles]][[#Toc91058278|82]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058279|X1. Dorada Pampeana]][[#Toc91058279|82]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058279|X1. Dorada Pampeana]][[#Toc91058279|82]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058280|X2. IPA Argenta]][[#Toc91058280|82]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058280|X2. IPA Argenta]][[#Toc91058280|82]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058281|Italian Styles]][[#Toc91058281|83]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058281|Italian Styles]][[#Toc91058281|83]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058282|X3. Italian Grape Ale]][[#Toc91058282|83]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058282|X3. Italian Grape Ale]][[#Toc91058282|83]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058283|Brazilian Styles]][[#Toc91058283|84]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058283|Brazilian Styles]][[#Toc91058283|84]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058284|X4. Catharina Sour]][[#Toc91058284|84]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058284|X4. Catharina Sour]][[#Toc91058284|84]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058285|New Zealand Styles]][[#Toc91058285|85]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058285|New Zealand Styles]][[#Toc91058285|85]]
 
-<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058286|X5. New Zealand Pilsner]][[#Toc91058286|85]]</div>
+<div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058286|X5. New Zealand Pilsner]][[#Toc91058286|85]]
 
 = {{anchor|Toc418087720}} {{anchor|Toc91058084}} Introduction to the 2021 Guidelines =
 
@@ -482,47 +482,47 @@ When we published previous versions of the style guidelines, we had no idea how 
 
 While we understand that our guidelines may have been misused in contexts beyond our original intent, we’ve also observed them being misused in competitions and for other BJCP purposes such as exam preparation and grading. Some people misinterpret the guidelines, and then often unknowingly instruct others in their misuse. Our hope is that the information in this section will help prevent many cases of misinterpretation and misuse in the future. If anyone encounters someone using the guidelines incorrectly, please refer them to this section.
 
-The following maxims express our original intent, and are designed to limit misuse, not to prevent the guidelines from being adopted for new uses:# <div style="margin-left:0.3752in;margin-right:0in;">'''The BJCP Style Guidelines are ''guidelines'' not ''specifications'''''. Take those words at face value, or their plain meaning. Guidelines are meant to describe general characteristics of the most common examples, and serve as an aid for judging; they are not meant to be rigorously-applied specifications that are used to punish slightly unusual examples. They are suggestions, not hard limits. Allow for some flexibility in judging so that well-crafted examples can be rewarded. The guidelines are written in detail to facilitate the process of the structured evaluation of beer as practiced in homebrewing competitions; don’t use each individual statement in style descriptions as a reason to disqualify a beer.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''The Style Guidelines are written primarily for homebrew competitions'''. Individual style descriptions are written primarily to aid in judging. We have, in some cases, sought to define clear lines between styles to create non-overlapping judging categories. We understand that some styles may overlap in the market, and some commercial examples may straddle boundaries. We have organized style categories for the purpose of organizing homebrew competitions, not for describing and communicating the styles of the world to a different audience.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''We know many people use our guidelines'''. We understand that other organizations or groups are using our guidelines for purposes well beyond our original intent. To the extent that those groups find value in our work, we are happy to have our guidelines used. We freely allow our naming and numbering system to be used by others. However, don’t make rash assumptions about the nature of beer and beer styles based on applications of the guidelines beyond their original intent. We also know some craft brewers are using our guidelines to rediscover historical styles, or to brew styles not native to their country – we are thrilled to be able to help advance craft beer in this way. Just remember that it’s not our original mission to do this; it’s just a happy side-effect.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Styles change over time'''. Beer styles change over the years, and some styles are open to interpretation and debate. Simply because a style ''name'' hasn’t changed over the years, doesn’t mean that ''the beers themselves'' haven’t also changed. Commercial brewers subject to government regulation and market forces definitely change their products over time. For example, because there is now a beer known as ''porter'' doesn’t mean that it has always been made that way throughout its history. Our beer styles are generally meant to describe modern beers currently available, unless otherwise specified (e.g., in the Historical Beer category).</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Not every commercial beer fits our styles'''. Don’t assume that every beer fits neatly into one of our categories. Some breweries revel in creating examples that don’t match our (or anyone else’s) guidelines. Some create beer called by a style name that deliberately doesn’t match our guidelines. It’s perfectly fine for a commercial beer to not match one of our styles; we have not attempted to categorize every commercial beer – that is neither our intent nor our mission.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''We have not defined every possible beer style'''. ''Of course'' we know of beer styles that aren’t defined in our guidelines. Perhaps they are obscure or unpopular, homebrewers aren’t making the styles, insufficient examples or research material exists to adequately define them to our standards, or they are from a part of the world we haven’t visited extensively. Maybe they are historical styles no longer made, or that we believe the styles are a passing fad. Regardless of our reasons, don’t believe that our guidelines represent the complete categorization of every beer style ever made – they aren’t. They do, however, describe the beers most commonly made today by homebrewers and many craft breweries.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Commercial examples change over time'''. Just like beer styles change, individual examples change as well. A beer that was once a great example of a style might not always remain so. Sometimes the beer changes (with ownership change, perhaps) or sometimes the style trend changes but the beer doesn’t. For example, Anchor Liberty helped define the American IPA style when it was created, but it seems much more like typical American Pale Ales today.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Ingredients change over time'''. Hops are a good example today; new varieties are coming to market with unique characteristics. Brewers looking for a differentiator may be rapidly adopting (and abandoning) ingredients. It is difficult to say that the profile of a beer style is fixed when its typical ingredients are changing constantly. Allow for these changes when judging beer. For example, not all American hops will be citrusy or piney. Don’t be rigid about judging based on what was commonly used at the time of this writing; understand what ingredients are typically used, and adapt judging to match the evolving character.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Most styles are fairly broad'''. Some believe that our styles inhibit brewer creativity by rigidly setting boundaries. That is not our intent – we think creativity drives innovation, and that interpretation by brewers should be allowed. However, not every innovation is a good idea, or results in a beer that is recognizable in the same grouping of others with the same name. Therefore, styles should be interpreted as having some flexibility, but within reason. </div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''The Style Guidelines are not the Ten Commandments'''. The words in this document are not due to divine inspiration – they were written by people making a good faith effort to describe beer as it is perceived. Don’t treat them as some kind of Holy Scripture. Don’t get so lost in parsing individual words that you lose sight of the overall intent. The most important part of any style is the overall balance and impression; that is, that the beer reminds you of the style, and is a nicely drinkable product. To get lost in the individual descriptions loses the essence of the style. The mere fact that style descriptions can change from one edition of the guidelines to the next should be the clearest illustration that the words themselves are not sacred.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Our Guidelines are extensible'''. We understand that our guidelines will change in the future, and that there may be years between revision cycles. The BJCP’s primary mission is to conduct exams, and if the references changed constantly, it would make studying nearly impossible. So, we have adopted a compromise: we have Provisional Styles listed on our website that can be used in the same way as styles in these guidelines. This allows us to add changes between editions. We also have a list of Style Entry Suggestions on our website to help understand where best to enter styles not defined in the guidelines or as a Provisional Style. These features, as well as the extensibility of some styles such as Specialty IPA and Historical Beer, allow brewer-defined styles to be used in competitions. Combined, these three features allow the guidelines to evolve between major updates.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''We are not the beer police.''' We categorize and describe beer styles that we see exist, and that are used. In no way are we telling commercial brewers what they can brew, or saying that they are wrong if their products don’t fit our guidelines. We also do not create styles in the hopes that they will become popular. The state of the overall beer market in any given country is not our concern.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''Different formats exist.''' Our guidelines appear in many third-party locations, on multiple mobile platforms, and are translated into other languages. Unfortunately, not all these versions contain the full text of our guidelines, or are completely accurate translations. Be careful when using a format supplied by someone other than the BJCP; when in doubt, always refer to the original source.</div>
-# <div style="margin-left:0.3752in;margin-right:0in;">'''The BJCP does not run competitions.''' Sometimes competitions use entry software that limits comments, or otherwise makes it difficult to comply with Entry Instructions in the guidelines. Report problems to competition organizers and to the software suppliers. Our intent is that all allowable information requested by the guidelines be supplied by brewers, be accepted by competitions, and be furnished to judges.</div>
+The following maxims express our original intent, and are designed to limit misuse, not to prevent the guidelines from being adopted for new uses:'''The BJCP Style Guidelines are ''guidelines'' not ''specifications'''''. Take those words at face value, or their plain meaning. Guidelines are meant to describe general characteristics of the most common examples, and serve as an aid for judging; they are not meant to be rigorously-applied specifications that are used to punish slightly unusual examples. They are suggestions, not hard limits. Allow for some flexibility in judging so that well-crafted examples can be rewarded. The guidelines are written in detail to facilitate the process of the structured evaluation of beer as practiced in homebrewing competitions; don’t use each individual statement in style descriptions as a reason to disqualify a beer.
+'''The Style Guidelines are written primarily for homebrew competitions'''. Individual style descriptions are written primarily to aid in judging. We have, in some cases, sought to define clear lines between styles to create non-overlapping judging categories. We understand that some styles may overlap in the market, and some commercial examples may straddle boundaries. We have organized style categories for the purpose of organizing homebrew competitions, not for describing and communicating the styles of the world to a different audience.
+'''We know many people use our guidelines'''. We understand that other organizations or groups are using our guidelines for purposes well beyond our original intent. To the extent that those groups find value in our work, we are happy to have our guidelines used. We freely allow our naming and numbering system to be used by others. However, don’t make rash assumptions about the nature of beer and beer styles based on applications of the guidelines beyond their original intent. We also know some craft brewers are using our guidelines to rediscover historical styles, or to brew styles not native to their country – we are thrilled to be able to help advance craft beer in this way. Just remember that it’s not our original mission to do this; it’s just a happy side-effect.
+'''Styles change over time'''. Beer styles change over the years, and some styles are open to interpretation and debate. Simply because a style ''name'' hasn’t changed over the years, doesn’t mean that ''the beers themselves'' haven’t also changed. Commercial brewers subject to government regulation and market forces definitely change their products over time. For example, because there is now a beer known as ''porter'' doesn’t mean that it has always been made that way throughout its history. Our beer styles are generally meant to describe modern beers currently available, unless otherwise specified (e.g., in the Historical Beer category).
+'''Not every commercial beer fits our styles'''. Don’t assume that every beer fits neatly into one of our categories. Some breweries revel in creating examples that don’t match our (or anyone else’s) guidelines. Some create beer called by a style name that deliberately doesn’t match our guidelines. It’s perfectly fine for a commercial beer to not match one of our styles; we have not attempted to categorize every commercial beer – that is neither our intent nor our mission.
+'''We have not defined every possible beer style'''. ''Of course'' we know of beer styles that aren’t defined in our guidelines. Perhaps they are obscure or unpopular, homebrewers aren’t making the styles, insufficient examples or research material exists to adequately define them to our standards, or they are from a part of the world we haven’t visited extensively. Maybe they are historical styles no longer made, or that we believe the styles are a passing fad. Regardless of our reasons, don’t believe that our guidelines represent the complete categorization of every beer style ever made – they aren’t. They do, however, describe the beers most commonly made today by homebrewers and many craft breweries.
+'''Commercial examples change over time'''. Just like beer styles change, individual examples change as well. A beer that was once a great example of a style might not always remain so. Sometimes the beer changes (with ownership change, perhaps) or sometimes the style trend changes but the beer doesn’t. For example, Anchor Liberty helped define the American IPA style when it was created, but it seems much more like typical American Pale Ales today.
+'''Ingredients change over time'''. Hops are a good example today; new varieties are coming to market with unique characteristics. Brewers looking for a differentiator may be rapidly adopting (and abandoning) ingredients. It is difficult to say that the profile of a beer style is fixed when its typical ingredients are changing constantly. Allow for these changes when judging beer. For example, not all American hops will be citrusy or piney. Don’t be rigid about judging based on what was commonly used at the time of this writing; understand what ingredients are typically used, and adapt judging to match the evolving character.
+'''Most styles are fairly broad'''. Some believe that our styles inhibit brewer creativity by rigidly setting boundaries. That is not our intent – we think creativity drives innovation, and that interpretation by brewers should be allowed. However, not every innovation is a good idea, or results in a beer that is recognizable in the same grouping of others with the same name. Therefore, styles should be interpreted as having some flexibility, but within reason. 
+'''The Style Guidelines are not the Ten Commandments'''. The words in this document are not due to divine inspiration – they were written by people making a good faith effort to describe beer as it is perceived. Don’t treat them as some kind of Holy Scripture. Don’t get so lost in parsing individual words that you lose sight of the overall intent. The most important part of any style is the overall balance and impression; that is, that the beer reminds you of the style, and is a nicely drinkable product. To get lost in the individual descriptions loses the essence of the style. The mere fact that style descriptions can change from one edition of the guidelines to the next should be the clearest illustration that the words themselves are not sacred.
+'''Our Guidelines are extensible'''. We understand that our guidelines will change in the future, and that there may be years between revision cycles. The BJCP’s primary mission is to conduct exams, and if the references changed constantly, it would make studying nearly impossible. So, we have adopted a compromise: we have Provisional Styles listed on our website that can be used in the same way as styles in these guidelines. This allows us to add changes between editions. We also have a list of Style Entry Suggestions on our website to help understand where best to enter styles not defined in the guidelines or as a Provisional Style. These features, as well as the extensibility of some styles such as Specialty IPA and Historical Beer, allow brewer-defined styles to be used in competitions. Combined, these three features allow the guidelines to evolve between major updates.
+'''We are not the beer police.''' We categorize and describe beer styles that we see exist, and that are used. In no way are we telling commercial brewers what they can brew, or saying that they are wrong if their products don’t fit our guidelines. We also do not create styles in the hopes that they will become popular. The state of the overall beer market in any given country is not our concern.
+'''Different formats exist.''' Our guidelines appear in many third-party locations, on multiple mobile platforms, and are translated into other languages. Unfortunately, not all these versions contain the full text of our guidelines, or are completely accurate translations. Be careful when using a format supplied by someone other than the BJCP; when in doubt, always refer to the original source.
+'''The BJCP does not run competitions.''' Sometimes competitions use entry software that limits comments, or otherwise makes it difficult to comply with Entry Instructions in the guidelines. Report problems to competition organizers and to the software suppliers. Our intent is that all allowable information requested by the guidelines be supplied by brewers, be accepted by competitions, and be furnished to judges.
 
 
 
 == Format of a Style Description ==
 
-We use a standard format for describing beer styles. The sections within this template have specific meanings that should be understood so as not to be misused:* '''Overall Impression'''. This section describes the essence of the style – those points that distinguish it from other styles, and that make it unique. It can also be thought of as an expanded consumer-level description useful for describing and differentiating the style to someone who isn’t a beer geek or judge. This section also acknowledges the many uses outside judging, and allows others to describe a beer simply without using the detail needed by judges.
-* '''Appearance, Aroma, Flavor, Mouthfeel'''. These four sections are the basic sensory building blocks defining the style, and are the standards against which a beer is judged in competition. These sections focus on the sensory perceptions derived from the ingredients, not the ingredients or process themselves. For example, saying that a Munich Helles tastes like continental Pils malt is a great shorthand for what is perceived; except, of course, if you have no idea what continental Pils malt actually tastes like. Our guidelines are written so that a trained judge who has not tasted examples of a given style can do a credible job judging it using the structured evaluation method and using our guidelines as a reference.
-* '''Comments'''. This section contains interesting trivia or additional notes about a style that do not affect the sensory assessment. Not every style has extensive comments; some are quite simple.
-* '''History'''. The BJCP is not a historical research organization. We rely on available information, often revising our summaries as new facts are published. Our histories are abridged summaries of some of the more important points of style development; please do not take these notes as the entire, complete history of styles.
-* '''Characteristic Ingredients'''. We identify typical or common ingredients or processes that drive the distinguishing character of the style. Please do not treat these notes as recipes, or as requirements. Beer can be made in many different ways.
-* '''Style Comparison'''. Since some might better understand an unfamiliar style if it could be described in terms of other known styles, we have provided notes on the key points that distinguish a style from similar or related styles. Not every possible style comparison is listed.
-* '''Entry Instructions'''. This section identifies the required information necessary for judges to evaluate a competition entry. This information should always be provided by the entrant, accepted by competition software, and provided to judges. Entrants should be able to supply optional comments about their entries, subject to review by competition organizers. 
-* '''Vital Statistics'''. The general characteristics of the style, expressed in Original Gravity (OG), Final Gravity (FG), Alcohol-by-Volume (ABV), International Bittering Units (IBUs), and Color as expressed in the Standard Reference Method (SRM) from the American Society of Brewing Chemists (ASBC). 
+We use a standard format for describing beer styles. The sections within this template have specific meanings that should be understood so as not to be misused:'''Overall Impression'''. This section describes the essence of the style – those points that distinguish it from other styles, and that make it unique. It can also be thought of as an expanded consumer-level description useful for describing and differentiating the style to someone who isn’t a beer geek or judge. This section also acknowledges the many uses outside judging, and allows others to describe a beer simply without using the detail needed by judges.
+'''Appearance, Aroma, Flavor, Mouthfeel'''. These four sections are the basic sensory building blocks defining the style, and are the standards against which a beer is judged in competition. These sections focus on the sensory perceptions derived from the ingredients, not the ingredients or process themselves. For example, saying that a Munich Helles tastes like continental Pils malt is a great shorthand for what is perceived; except, of course, if you have no idea what continental Pils malt actually tastes like. Our guidelines are written so that a trained judge who has not tasted examples of a given style can do a credible job judging it using the structured evaluation method and using our guidelines as a reference.
+'''Comments'''. This section contains interesting trivia or additional notes about a style that do not affect the sensory assessment. Not every style has extensive comments; some are quite simple.
+'''History'''. The BJCP is not a historical research organization. We rely on available information, often revising our summaries as new facts are published. Our histories are abridged summaries of some of the more important points of style development; please do not take these notes as the entire, complete history of styles.
+'''Characteristic Ingredients'''. We identify typical or common ingredients or processes that drive the distinguishing character of the style. Please do not treat these notes as recipes, or as requirements. Beer can be made in many different ways.
+'''Style Comparison'''. Since some might better understand an unfamiliar style if it could be described in terms of other known styles, we have provided notes on the key points that distinguish a style from similar or related styles. Not every possible style comparison is listed.
+'''Entry Instructions'''. This section identifies the required information necessary for judges to evaluate a competition entry. This information should always be provided by the entrant, accepted by competition software, and provided to judges. Entrants should be able to supply optional comments about their entries, subject to review by competition organizers. 
+'''Vital Statistics'''. The general characteristics of the style, expressed in Original Gravity (OG), Final Gravity (FG), Alcohol-by-Volume (ABV), International Bittering Units (IBUs), and Color as expressed in the Standard Reference Method (SRM) from the American Society of Brewing Chemists (ASBC). 
 
 
 
-<div style="margin-left:0.5in;margin-right:0in;">For those outside the United States that use the European Brewing Convention (EBC) color method, note that an EBC value is roughly double the equivalent SRM value. For those familiar with the Lovibond system, Lovibond is roughly equivalent to SRM for colors that exist in all but the darkest beers. For the purists out there, we’re talking about what is distinguishable to a judge using their eyes, not chemists using analytical equipment in a laboratory setting. </div>
+For those outside the United States that use the European Brewing Convention (EBC) color method, note that an EBC value is roughly double the equivalent SRM value. For those familiar with the Lovibond system, Lovibond is roughly equivalent to SRM for colors that exist in all but the darkest beers. For the purists out there, we’re talking about what is distinguishable to a judge using their eyes, not chemists using analytical equipment in a laboratory setting. 
 
-<div style="margin-left:0.5in;margin-right:0in;">Some style categories include multiple styles that represent a continuum, such as British Bitter or Scottish Ale. When we provide a dividing line between these styles, we typically use a single number to represent the upper bound of one style and the lower bound of the next. This does not imply that a beer with that borderline stat (e.g., ABV or OG) should be entered in both styles. No overlap is intended. In these cases, treat the upper bound as “ending just before” and the lower bound as “starting at” the listed numbers.</div>
+Some style categories include multiple styles that represent a continuum, such as British Bitter or Scottish Ale. When we provide a dividing line between these styles, we typically use a single number to represent the upper bound of one style and the lower bound of the next. This does not imply that a beer with that borderline stat (e.g., ABV or OG) should be entered in both styles. No overlap is intended. In these cases, treat the upper bound as “ending just before” and the lower bound as “starting at” the listed numbers.
 
-<div style="margin-left:0.5in;margin-right:0in;">Keep in mind that these Vital Statistics are still guidelines, not absolutes. Commercial outliers certainly exist, but these statistics are meant to describe where most examples are clustered. They help judges determine judging order, not whether an example should be disqualified.</div>* '''Commercial Examples'''. We include a selection of current commercial examples that we believe are representative of the style at the time of publication. We may publish additional examples on the BJCP website in the future. We cannot guarantee that breweries will continue to make these examples, that the names will stay the same, that the recipes won’t change, or that they will be available at your local bottle shop. Some are rotating, seasonal, pub-only, or otherwise difficult to find outside festivals, competitions, or local markets.
+Keep in mind that these Vital Statistics are still guidelines, not absolutes. Commercial outliers certainly exist, but these statistics are meant to describe where most examples are clustered. They help judges determine judging order, not whether an example should be disqualified. '''Commercial Examples'''. We include a selection of current commercial examples that we believe are representative of the style at the time of publication. We may publish additional examples on the BJCP website in the future. We cannot guarantee that breweries will continue to make these examples, that the names will stay the same, that the recipes won’t change, or that they will be available at your local bottle shop. Some are rotating, seasonal, pub-only, or otherwise difficult to find outside festivals, competitions, or local markets.
 
 
 
-<div style="margin-left:0.5in;margin-right:0in;">Do not assign any additional meaning to the order of examples within the guidelines. Do not assume that every commercial example would score perfectly when evaluated against the style descriptions. Simply because a commercial example is listed as a reference for a style does not mean that every example is going to be world-class. Some beers can be mishandled, and some examples change over time. </div>
+Do not assign any additional meaning to the order of examples within the guidelines. Do not assume that every commercial example would score perfectly when evaluated against the style descriptions. Simply because a commercial example is listed as a reference for a style does not mean that every example is going to be world-class. Some beers can be mishandled, and some examples change over time. 
 
-<div style="margin-left:0.5in;margin-right:0in;">Do not use commercial examples as the sole benchmark for a style – judge competition beers against the guidelines, not expectations from a single commercial example. One beer rarely defines the entire range of a style, so do not limit your expectations in such a restrictive way. Breweries often assign names to their beers that do not agree with our style guidelines. Be careful about selecting examples based on brewery-supplied names alone.</div>* '''Tags'''. To facilitate the sorting of styles into alternate groupings, we have applied tags to signify attributes or information about a style. The tags are in no particular order, and should not be used to infer any deeper meaning.
+Do not use commercial examples as the sole benchmark for a style – judge competition beers against the guidelines, not expectations from a single commercial example. One beer rarely defines the entire range of a style, so do not limit your expectations in such a restrictive way. Breweries often assign names to their beers that do not agree with our style guidelines. Be careful about selecting examples based on brewery-supplied names alone. '''Tags'''. To facilitate the sorting of styles into alternate groupings, we have applied tags to signify attributes or information about a style. The tags are in no particular order, and should not be used to infer any deeper meaning.
 
 
 
@@ -686,74 +686,154 @@ To assist with regrouping styles for other purposes, we have added informational
 
 == {{anchor|Toc91058093}} Strength ==
 
-session-strength: &amp;#60;4% ABV<br/>
-standard-strength: 4-6% ABV<br/>
-high-strength: 6-9% ABV<br/>
-very-high-strength: >9% ABV<br/>
+session-strength: &amp;#60;4% ABV
+standard-strength: 4-6% ABV
+high-strength: 6-9% ABV
+very-high-strength: >9% ABV
 
 == {{anchor|Toc91058093}} Color ==
 
-pale-color: straw to gold<br/>
-amber-color: amber to copper-brown<br/>
-dark-color: dark brown to black<br/>
+pale-color: straw to gold
+amber-color: amber to copper-brown
+dark-color: dark brown to black
 
 == {{anchor|Toc91058093}} Fermentation/Conditioning ==
 
-top-fermented: ale yeast<br/>
-bottom-fermented: lager yeast<br/>
-any-fermentation: ale yeast or lager yeast<br/>
-wild-fermented: non-Saccharomyces yeast/bacteria<br/>
-lagered: cold conditioned<br/>
-aged: long conditioning before release<br/>
+top-fermented: ale yeast
+bottom-fermented: lager yeast
+any-fermentation: ale yeast or lager yeast
+wild-fermented: non-Saccharomyces yeast/bacteria
+lagered: cold conditioned
+aged: long conditioning before release
 
 == {{anchor|Toc91058093}} Region of Origin ==
 
-british-isles: England, Wales, Scotland, Ireland<br/>
-western-europe: Belgium, France, Netherlands<br/>
-central-europe: Germany, Austria, Czech Republic, Scandinavia<br/>
-eastern-europe: Poland, Baltic States, Russia<br/>
-north-america: United States, Canada, Mexico<br/>
-pacific: Australia, New Zealand<br/>
+british-isles: England, Wales, Scotland, Ireland
+western-europe: Belgium, France, Netherlands
+central-europe: Germany, Austria, Czech Republic, Scandinavia
+eastern-europe: Poland, Baltic States, Russia
+north-america: United States, Canada, Mexico
+pacific: Australia, New Zealand
 
 
 == {{anchor|Toc91058093}} Style Family ==
 
-ipa-family<br/>
-brown-ale-family<br/>
-pale-ale-family<br/>
-pale-lager-family<br/>
-pilsner-family<br/>
-amber-ale-family<br/>
-amber-lager-family<br/>
-dark-lager-family<br/>
-porter-family<br/>
-stout-family<br/>
-bock-family<br/>
-strong-ale-family<br/>
-wheat-beer-family<br/>
-specialty-beer<br/>
+ipa-family
+brown-ale-family
+pale-ale-family
+pale-lager-family
+pilsner-family
+amber-ale-family
+amber-lager-family
+dark-lager-family
+porter-family
+stout-family
+bock-family
+strong-ale-family
+wheat-beer-family
+specialty-beer
 
 == {{anchor|Toc91058093}} Era ==
 
-craft-style: developed in the modern craft beer era<br/>
-traditional-style: developed before the modern craft beer era<br/>
-historical-style: no longer made, or very limited production<br/>
+craft-style: developed in the modern craft beer era
+traditional-style: developed before the modern craft beer era
+historical-style: no longer made, or very limited production
 
 == {{anchor|Toc91058093}} Dominant Flavor ==
 
-malty: malt-forward flavor<br/>
-bitter: bitter-forward flavor<br/>
-balanced: similar malt and bitter intensity<br/>
-hoppy: hop flavor<br/>
-roasty: roasted malt or grain<br/>
-sweet: noticeable residual sweetness or sugar flavor<br/>
-smoke: flavor of smoked malt or grain<br/>
-sour: noticeable sourness or intentionally elevated acidity<br/>
-wood: wood or barrel age character<br/>
-fruit: noticeable flavor or aroma of fruit<br/>
-spice: noticeable flavor or aroma of spices<br/>
+malty: malt-forward flavor
+bitter: bitter-forward flavor
+balanced: similar malt and bitter intensity
+hoppy: hop flavor
+roasty: roasted malt or grain
+sweet: noticeable residual sweetness or sugar flavor
+smoke: flavor of smoked malt or grain
+sour: noticeable sourness or intentionally elevated acidity
+wood: wood or barrel age character
+fruit: noticeable flavor or aroma of fruit
+spice: noticeable flavor or aroma of spices
 
-= {{anchor|Toc91058103}} 1. Standard American Beer =
+= {{anchor|Toc418087866}} {{anchor|Toc91058232}} I3. Introduction to Specialty-Type Beer =
+
+'''''Specialty-Type Beer''' is a broad term referring to style Categories 28 through 34, and is in contrast to the '''Classic Style '''beers of Categories 1 through 27. The Classic Styles are complete, standalone descriptions, but Specialty-Type styles involve a transformation of a Base Style using either a process or by adding one or more '''Specialty-Type Ingredients''' (yeast/bacteria, smoke, wood, fruit, spice, grain, or sugar). Specialty-Type Beer style descriptions usually describe how the Specialty-Type Ingredients or processes modify the Base Style.''
+
+''When a '''Base Style''' for Specialty-Type Beers is required, either a Classic Style or a broad style family (e.g., IPA, Blond Ale, Stout) may be used. In general, Specialty-Type beers may not be used as a Base Style for other Specialty-Type beers unless the Entry Instructions for the style specifically allow it. A few Specialty-Type Beer styles do not require a Base Style to be declared – read the Entry Instructions section of each style description carefully.''
+
+''Consult the Provisional Styles page on the BJCP website for additions to the master list of styles. These Provisional Styles can be cited as a Base Style when entering a Specialty-Type Beer. The Style Entry Suggestions page on the BJCP website clarifies where to enter some currently undefined styles.''
+
+''In general, when submitting a Specialty-Type Beer with a food-type ingredient, use the culinary rather than the botanical definition of ingredients. See the preamble in each style category for a detailed list of common ingredients.''
+
+''This introduction section is assumed to be incorporated into every Specialty-Type Beer style description. It describes in general how to enter and judge a Specialty-Type Beer. Specific Entry Instructions for each style are contained within individual style descriptions.
+
+'''Entering Specialty-Type Beers'''
+
+Many brewers have questions about where to enter their specialty beers, and how best to describe them. Follow these suggestions for better results:
+
+=== Entry Instructions ===
+
+Entering a Specialty-Type Beer in a competition requires more information than simply selecting the style. Examine the ''Entry Instruction'' section within the selected style description for the specific required information. Judges will expect this information, and they will not be able to judge your beer properly without it; your score will suffer if it is omitted.
+
+When deciding what optional information to supply, imagine yourself in the position of the judge. Give them pertinent information that will help them understand your beer and your intent. Avoid useless, irrelevant information that does not help the judge understand your beer. Do not use puffery or marketing-type descriptions. Refrain from using any information that could allow judges to determine your identity. Some competition software artificially limits the length of comments, so choose your words carefully.
+
+=== Base Style ===
+
+Most Specialty-Type Beers require either a Base Style to be identified, or at least a description of the beer – check the style’s ''Entry Instructions'' for requirements. If a Base Style is required, use one of the named styles from Categories 1 through 27, including beers from styles or categories with enumerated alternatives (like Historical Beer or Specialty IPA). Provisional Styles from the BJCP website and Local Styles from the Appendix may also be used as a Base Style.
+
+If the Entry Instructions say that a generic style family can be used, that means to state a broad style in the general sense – like IPA, Porter, or Stout. You are not required to pinpoint the specific type of Porter, for instance, but you should give a general description of the beer. Some beers that are designed to showcase a specialty ingredient have a fairly neutral base.
+
+Do not use Specialty-Type Beers as a Base Style in other Specialty-Type Beer styles unless the Entry Instructions for that style specifically allow it. Many Specialty-Type style categories have a ‘Specialty’ style that allows for certain other Specialty-Type Ingredients. Otherwise, the 34B Mixed-Style Beer style can be used.
+
+=== Specialty Ingredients ===
+
+The more specific or lavish you describe your specialty ingredient, the more judges will look for that character. Taste your beer, then highlight those ingredients that are identifiable. If only one Specialty-Type ingredient was used, it should contribute a recognizable character to the beer. If you mention multiple ingredients, they do not all need to be individually identifiable but they should contribute to the overall sensory experience.
+
+If you mention an unusual ingredient, you may want to describe its character, or at least be sure that a web search on that name will produce a useful reference for the judge. Providing a search term is a good alternative.
+
+A generic or simple name of an ingredient is often best, unless your specific ingredient has an uncommon profile. If you use a combination of ingredients, such as spices, you can often refer to the blend by its common name (e.g., pumpkin pie spice, curry powder) rather than the individual spices.
+
+If you use an ingredient that is a potential allergen, always declare it as such even if it cannot be perceived. Example: “allergen: peanuts” – judges should not penalize a beer when a declared allergen cannot be detected.
+
+=== Best Fit ===
+
+Placing a beer with a single Specialty-Type Ingredient and a Classic Base Style is obvious. Selecting the best style for a beer with a combination of Specialty-Type Ingredients takes some thought. When selecting a style in which to enter your Specialty-Type Beer, look for the ''best fit'' from the possible alternatives where the combination of ingredients is allowed. Select a style representing the dominant ingredient, or if the ingredients are equally balanced, select the first Specialty-Type style where it qualifies.
+
+Entering a beer in a Specialty-Type style is a signal to judges that your beer has certain identifiable elements. If you used an ingredient, but it cannot be perceived, then do not enter it in a style that requires the ingredient. If judges cannot detect it, they will believe it is absent and deduct points accordingly.
+
+== Judging Specialty-Type Beers ==
+
+''Judges should read and understand the directions given to entrants in the Entering Specialty-Type Beers section.''
+
+Overall balance and drinkability are the critical success factors for a Specialty-Type Beer. The entry should be a coherent fusion of the beer with the special ingredients, with neither overpowering the other. 
+
+Special ingredients should complement and enhance the underlying beer, and the resulting product should be pleasant to drink. The beer should contain recognizable components meeting entry requirements for the style, bearing in mind that some beers may fit in multiple styles.
+
+Judges should be aware that a creative element exists in brewing these styles, and that strange-sounding combinations should not be prejudiced. Keep an open mind because some unusual flavor pairings can be surprisingly delicious. Unusual does not necessarily mean better, however. Taste should always be the final deciding factor, not perceived creativity, difficulty in brewing, or rarity of ingredients.
+
+=== Overall Assessment ===
+
+Experienced judges will often first taste Specialty-Type Beers for overall drinking pleasure prior to assessing details. This quick assessment is designed to detect whether the combination works or doesn’t. If the beer has flavor clashes, it won’t be enjoyable regardless of its technical merit. 
+
+The old proverb about ''not missing the forest for the trees'' is quite applicable. Do not judge these styles as rigidly as Classic Styles, as you might miss the successful synergy of ingredients. 
+
+=== Base Style ===
+
+Judges should not be overly pedantic about seeking the full character of a specified Base Style beer. After all, the base beer does not usually contain the special ingredient, so the sensory character will not be the same as in the original beer. There can be interactions of flavor that produce additional sensory effects. 
+
+Judges should also understand that the fermentation process can transform some ingredients (particularly those with fermentable sugars), and that the special ingredient character in the beer may not be perceived the same as the specialty ingredient itself. Therefore, judges should look for the overall agreeability and balance of the resulting combination, as long as the beer suggests both the Base Style and the Specialty-Type Ingredient or process.
+
+=== Multiple Ingredients ===
+
+Judges do not need to taste every individual Specialty-Type Ingredient (such as spices) when multiple are declared. Often it is the resulting combination that contributes to a greater character, so allow for these ingredients to be used in varying intensities to produce a more pleasant tasting experience.
+
+Not every beer will fit a style perfectly. Some beers with multiple ingredients could be entered as several styles. Be lenient when evaluating these beers. Reward those beers that are well-made and are pleasant to drink rather than lecturing the entrant about where they should have entered it.
+
+If an entrant declares a potential allergen in the beer, do not deduct points if you cannot perceive it.
+
+=== Balance Effects of Specialty-Type Ingredients ===
+
+The Specialty-Type Ingredient character should be pleasant and supportive, not artificial or inappropriately overpowering, taking into account that some ingredients have an inherently prominent character. Aroma hops, fermentation byproducts, and malt components of the underlying beer may not be as noticeable when additional ingredients are present, and they may also be intentionally subdued to allow the ingredient character to be perceived more clearly in the final presentation. 
+
+Hop aroma may be absent or balanced with the added ingredients, depending on the style. The added ingredients should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation.= {{anchor|Toc91058103}} 1. Standard American Beer =
 
 ''This category describes everyday American beers that have a wide public appeal. Containing both ales and lagers, the beers of this category are not typically complex, and have smooth, accessible flavors. The ales tend to have lager-like qualities, or are designed to appeal to mass-market lager drinkers as crossover beers. Mass-market beers with a more international appeal or origin are described in the International Lager category.
 
@@ -968,7 +1048,8 @@ ABV:4.5 – 6.0%
 
 '''Style Comparison:''' Less flavor and richness than Munich Dunkel, Schwarzbier, or other dark lagers. Frequently uses adjuncts, as is typical of other International Lagers.
 
-'''Vital Statistics:''' OG:1.044 – 1.056
+'''Vital Statistics:''' 
+OG:1.044 – 1.056
 IBUs:8 – 20
 FG:1.008 – 1.012
 SRM:14 – 30
@@ -1386,7 +1467,8 @@ The quality and character of the smoke is important; it should be cleanly smoky.
 
 '''Style Comparison:''' Like a Märzen with but with a balanced, sweet, smoky aroma and flavor and a somewhat darker color.
 
-Vital Statistics:OG:1.050 – 1.057
+'''Vital Statistics:''' 
+OG:1.050 – 1.057
 IBUs:20 – 30
 FG:1.012 – 1.016
 SRM:12 – 22
@@ -4115,91 +4197,6 @@ ABV:7.0 – 11.0%
 
 '''Tags:''' high-strength, amber-color, top-fermented, central-europe, historical-style, spice
 
-
-
-
-= {{anchor|Toc418087866}} {{anchor|Toc91058232}} A6. Introduction to Specialty-Type Beer =
-
-'''''Specialty-Type Beer''' is a broad term referring to style Categories 28 through 34, and is in contrast to the '''Classic Style '''beers of Categories 1 through 27. The Classic Styles are complete, standalone descriptions, but Specialty-Type styles involve a transformation of a Base Style using either a process or by adding one or more '''Specialty-Type Ingredients''' (yeast/bacteria, smoke, wood, fruit, spice, grain, or sugar). Specialty-Type Beer style descriptions usually describe how the Specialty-Type Ingredients or processes modify the Base Style.''
-
-''When a '''Base Style''' for Specialty-Type Beers is required, either a Classic Style or a broad style family (e.g., IPA, Blond Ale, Stout) may be used. In general, Specialty-Type beers may not be used as a Base Style for other Specialty-Type beers unless the Entry Instructions for the style specifically allow it. A few Specialty-Type Beer styles do not require a Base Style to be declared – read the Entry Instructions section of each style description carefully.''
-
-''Consult the Provisional Styles page on the BJCP website for additions to the master list of styles. These Provisional Styles can be cited as a Base Style when entering a Specialty-Type Beer. The Style Entry Suggestions page on the BJCP website clarifies where to enter some currently undefined styles.''
-
-''In general, when submitting a Specialty-Type Beer with a food-type ingredient, use the culinary rather than the botanical definition of ingredients. See the preamble in each style category for a detailed list of common ingredients.''
-
-''This introduction section is assumed to be incorporated into every Specialty-Type Beer style description. It describes in general how to enter and judge a Specialty-Type Beer. Specific Entry Instructions for each style are contained within individual style descriptions.
-
-'''Entering Specialty-Type Beers'''
-
-Many brewers have questions about where to enter their specialty beers, and how best to describe them. Follow these suggestions for better results:
-
-=== Entry Instructions ===
-
-Entering a Specialty-Type Beer in a competition requires more information than simply selecting the style. Examine the ''Entry Instruction'' section within the selected style description for the specific required information. Judges will expect this information, and they will not be able to judge your beer properly without it; your score will suffer if it is omitted.
-
-When deciding what optional information to supply, imagine yourself in the position of the judge. Give them pertinent information that will help them understand your beer and your intent. Avoid useless, irrelevant information that does not help the judge understand your beer. Do not use puffery or marketing-type descriptions. Refrain from using any information that could allow judges to determine your identity. Some competition software artificially limits the length of comments, so choose your words carefully.
-
-=== Base Style ===
-
-Most Specialty-Type Beers require either a Base Style to be identified, or at least a description of the beer – check the style’s ''Entry Instructions'' for requirements. If a Base Style is required, use one of the named styles from Categories 1 through 27, including beers from styles or categories with enumerated alternatives (like Historical Beer or Specialty IPA). Provisional Styles from the BJCP website and Local Styles from the Appendix may also be used as a Base Style.
-
-If the Entry Instructions say that a generic style family can be used, that means to state a broad style in the general sense – like IPA, Porter, or Stout. You are not required to pinpoint the specific type of Porter, for instance, but you should give a general description of the beer. Some beers that are designed to showcase a specialty ingredient have a fairly neutral base.
-
-Do not use Specialty-Type Beers as a Base Style in other Specialty-Type Beer styles unless the Entry Instructions for that style specifically allow it. Many Specialty-Type style categories have a ‘Specialty’ style that allows for certain other Specialty-Type Ingredients. Otherwise, the 34B Mixed-Style Beer style can be used.
-
-=== Specialty Ingredients ===
-
-The more specific or lavish you describe your specialty ingredient, the more judges will look for that character. Taste your beer, then highlight those ingredients that are identifiable. If only one Specialty-Type ingredient was used, it should contribute a recognizable character to the beer. If you mention multiple ingredients, they do not all need to be individually identifiable but they should contribute to the overall sensory experience.
-
-If you mention an unusual ingredient, you may want to describe its character, or at least be sure that a web search on that name will produce a useful reference for the judge. Providing a search term is a good alternative.
-
-A generic or simple name of an ingredient is often best, unless your specific ingredient has an uncommon profile. If you use a combination of ingredients, such as spices, you can often refer to the blend by its common name (e.g., pumpkin pie spice, curry powder) rather than the individual spices.
-
-If you use an ingredient that is a potential allergen, always declare it as such even if it cannot be perceived. Example: “allergen: peanuts” – judges should not penalize a beer when a declared allergen cannot be detected.
-
-=== Best Fit ===
-
-Placing a beer with a single Specialty-Type Ingredient and a Classic Base Style is obvious. Selecting the best style for a beer with a combination of Specialty-Type Ingredients takes some thought. When selecting a style in which to enter your Specialty-Type Beer, look for the ''best fit'' from the possible alternatives where the combination of ingredients is allowed. Select a style representing the dominant ingredient, or if the ingredients are equally balanced, select the first Specialty-Type style where it qualifies.
-
-Entering a beer in a Specialty-Type style is a signal to judges that your beer has certain identifiable elements. If you used an ingredient, but it cannot be perceived, then do not enter it in a style that requires the ingredient. If judges cannot detect it, they will believe it is absent and deduct points accordingly.
-
-== Judging Specialty-Type Beers ==
-
-''Judges should read and understand the directions given to entrants in the Entering Specialty-Type Beers section.''
-
-Overall balance and drinkability are the critical success factors for a Specialty-Type Beer. The entry should be a coherent fusion of the beer with the special ingredients, with neither overpowering the other. 
-
-Special ingredients should complement and enhance the underlying beer, and the resulting product should be pleasant to drink. The beer should contain recognizable components meeting entry requirements for the style, bearing in mind that some beers may fit in multiple styles.
-
-Judges should be aware that a creative element exists in brewing these styles, and that strange-sounding combinations should not be prejudiced. Keep an open mind because some unusual flavor pairings can be surprisingly delicious. Unusual does not necessarily mean better, however. Taste should always be the final deciding factor, not perceived creativity, difficulty in brewing, or rarity of ingredients.
-
-=== Overall Assessment ===
-
-Experienced judges will often first taste Specialty-Type Beers for overall drinking pleasure prior to assessing details. This quick assessment is designed to detect whether the combination works or doesn’t. If the beer has flavor clashes, it won’t be enjoyable regardless of its technical merit. 
-
-The old proverb about ''not missing the forest for the trees'' is quite applicable. Do not judge these styles as rigidly as Classic Styles, as you might miss the successful synergy of ingredients. 
-
-=== Base Style ===
-
-Judges should not be overly pedantic about seeking the full character of a specified Base Style beer. After all, the base beer does not usually contain the special ingredient, so the sensory character will not be the same as in the original beer. There can be interactions of flavor that produce additional sensory effects. 
-
-Judges should also understand that the fermentation process can transform some ingredients (particularly those with fermentable sugars), and that the special ingredient character in the beer may not be perceived the same as the specialty ingredient itself. Therefore, judges should look for the overall agreeability and balance of the resulting combination, as long as the beer suggests both the Base Style and the Specialty-Type Ingredient or process.
-
-=== Multiple Ingredients ===
-
-Judges do not need to taste every individual Specialty-Type Ingredient (such as spices) when multiple are declared. Often it is the resulting combination that contributes to a greater character, so allow for these ingredients to be used in varying intensities to produce a more pleasant tasting experience.
-
-Not every beer will fit a style perfectly. Some beers with multiple ingredients could be entered as several styles. Be lenient when evaluating these beers. Reward those beers that are well-made and are pleasant to drink rather than lecturing the entrant about where they should have entered it.
-
-If an entrant declares a potential allergen in the beer, do not deduct points if you cannot perceive it.
-
-=== Balance Effects of Specialty-Type Ingredients ===
-
-The Specialty-Type Ingredient character should be pleasant and supportive, not artificial or inappropriately overpowering, taking into account that some ingredients have an inherently prominent character. Aroma hops, fermentation byproducts, and malt components of the underlying beer may not be as noticeable when additional ingredients are present, and they may also be intentionally subdued to allow the ingredient character to be perceived more clearly in the final presentation. 
-
-Hop aroma may be absent or balanced with the added ingredients, depending on the style. The added ingredients should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation.
-
 = {{anchor|Toc91058243}} 28. American Wild Ale =
 
 ''The name '''American Wild Ale''' is commonly used by craft brewers and homebrewers. However, the word ''Wild'' does not imply that these beers are necessarily spontaneously-fermented; rather, it indicates that they are influenced by microbes other than traditional brewer’s yeasts, or perhaps that they are mixed-fermentation beers. The use of the word ''American'' does not mean that the beer has to be based on a Classic Style American beer style, or that the methods are solely practiced in the United States. Base styles in this category do not have to be Classic Styles at all (although they can be); something like, “blond ale, 7%” would be fine, since the underlying style is often lost under the fermentation character.''
@@ -4336,7 +4333,7 @@ ABV:4.5 – 7.0%
 
 ''The Fruit Beer category is for beer made with any fruit or combination of fruit under the definitions of this category. The '''culinary, not botanical,''' definition of fruit is used here – fleshy, seed-associated structures of plants that are sweet or sour, and edible in the raw state. Examples include pome fruit (apple, pear, quince), stone fruit (cherry, plum, peach, apricot, mango, etc.), berries (any fruit with the word ‘berry’ in it), currants, citrus fruit, dried fruit (dates, prunes, raisins, etc.), tropical fruit (banana, pineapple, mango, guava, passionfruit, papaya, etc.), figs, pomegranate, prickly pear, and so on. It does not mean spices, herbs, or vegetables as defined in Category 30 – especially botanical fruit treated as culinary vegetables. Basically, if you have to justify a fruit using the word “technically” as part of the description, then that’s not what we mean. ''
 
-''See the A6. Introduction to Specialty-Type Beer section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+''See the I3. Introduction to Specialty-Type Beer section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
 
 ''{{anchor|Toc418087875}} {{anchor|Toc91058249}} '''29A. Fruit Beer'''
 
@@ -4455,7 +4452,7 @@ ABV:6.0 – 8.5%
 
 ''We use the common or culinary definitions of spices, herbs, and vegetables, not botanical or scientific ones. In general, spices are the dried seeds, seed pods, fruit, roots, bark, etc. of plants used for flavoring food. Herbs are leafy plants or parts of plants (leaves, flowers, petals, stalks) used for flavoring food. Vegetables are savory or less sweet edible plant products, used primarily for cooking or sometimes eating raw. Vegetables can include some botanical fruit. This category explicitly includes all culinary spices, herbs, and vegetables, as well as nuts (or anything with ‘nut’ in the name, including coconut), chile peppers, coffee, chocolate, spruce tips, rose hips, hibiscus, fruit peels/zest (but not juice), rhubarb, and the like. It does not include culinary fruit or grains. Flavorful fermentable sugars and syrups (e.g., agave nectar, maple syrup, molasses, sorghum, treacle, honey) or sweeteners (e.g., lactose) can be included only in combination with other allowable ingredients, and should not have a dominant character. Any combination of allowable ingredients may also be entered. ''
 
-''See Category 29 for a definition and examples of fruit. See the ''A6. Introduction to Specialty-Type Beer ''section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+''See Category 29 for a definition and examples of fruit. See the ''I3. Introduction to Specialty-Type Beer ''section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
 
 ''{{anchor|Toc418087879}} {{anchor|Toc91058254}} '''30A. Spice, Herb, or Vegetable Beer'''
 
@@ -4571,7 +4568,7 @@ The special ingredients should be supportive and balanced, not overshadowing the
 
 = {{anchor|Toc91058258}} 31. Alternative Fermentables Beer =
 
-''This category contains Specialty-Type Beers using either grain or sugar to add a distinctive character. See the ''A6. Introduction to Specialty-Type Beer'' section for additional comments, particularly on evaluating the balance of added ingredients to the base beer.
+''This category contains Specialty-Type Beers using either grain or sugar to add a distinctive character. See the ''I3. Introduction to Specialty-Type Beer'' section for additional comments, particularly on evaluating the balance of added ingredients to the base beer.
 
 ''{{anchor|Toc91058259}} '''31A. Alternative Grain Beer'''
 
@@ -5133,7 +5130,7 @@ SRM:varies with base style, often darker than the unadulterated base style
 
 
 
-== 3A. Styles Sorted Using Style Family ==
+== A3. Styles Sorted Using Style Family ==
 
 ''This system uses new categories based on the style family or beer style name without regard to country of origin or history; based primarily on color and yeast. Has fewer, broader categories.''# Pale Lager
 ## 1A. American Light Lager
@@ -5248,7 +5245,7 @@ SRM:varies with base style, often darker than the unadulterated base style
 
 
 
-== 4A. Styles Sorted Using Country of Origin ==
+== A4. Styles Sorted Using Country of Origin ==
 
 ''This system uses new categories based on country of origin. Specialty beers omitted.''# United States
 
@@ -5386,7 +5383,7 @@ SRM:varies with base style, often darker than the unadulterated base style
 
 
 
-== 5A. Styles Sorted Using History ==
+== A5. Styles Sorted Using History ==
 
 ''This system attempts to break the styles into groups based on historical development and derived styles in a more granular approach than the style family sorting.''# Pilsner
 ## 3A. Czech Pale Lager
@@ -5507,8 +5504,6 @@ SRM:varies with base style, often darker than the unadulterated base style
 
 
 
-<div style="color:#2e74b5;"></div>
-
 = {{anchor|Toc418087901}} {{anchor|Toc91058277}} X. Local Styles =
 
 ''This appendix contains style descriptions submitted by local BJCP judges or brewers within a single country or region for emerging styles of local importance that may or may not have wider popularity. The BJCP has reviewed, edited, and verified the style descriptions, which may be used by anyone, not just as an appellation in the local area (although judges outside the area may not be familiar with them). These local styles are part of the Style Guidelines, and are not provisional styles. 
@@ -5592,9 +5587,9 @@ Sabor a malta bajo a medio, límpido, aunque son aceptables bajos niveles acaram
 '''Ingredientes:''' malta pálida (bien modificada y disponible para maceración simple) y una cantidad de trigo como complemento que no debe superar el 15%; El trigo puede ser malteado o sin maltear. EN el caso de agregar caramelos, deben ser limitados y preferentemente utilizando trigo caramelo. Los lúpulos Argentinos como el Cascade, Mapuche y Nugget son los usuales, aunque puede tener Spalt, Victoria y Bullion para agregar complejidad. Levadura americana que da un perfil límpido o levemente frutal. El agua varía de blanda a moderadamente sulfatada.
 
 '''Vital Statistics:'''
-OG:1055 – 1065
+OG:1.055 – 1.065
 IBUs:35 – 60
-FG:1008 – 1015
+FG:1.008 – 1.015
 SRM:6 – 15
 ABV:5.0 – 6.5%.
 
