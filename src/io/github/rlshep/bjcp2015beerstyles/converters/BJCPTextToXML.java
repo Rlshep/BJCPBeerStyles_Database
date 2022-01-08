@@ -16,6 +16,7 @@ public class BJCPTextToXML extends TextToXML {
     private static final String CATEGORY_START = "\t<category id=\"";
     private static final String INTRO1 = "= {{anchor|Toc418087720}} {{anchor|Toc91058084}} Introduction to the 2021 Guidelines =";
     private static final String INTRO2 = "= {{anchor|Toc91058090}} Introduction to Beer Styles =";
+    private static final String INTRO3 = "= {{anchor|Toc418087866}} {{anchor|Toc91058232}} Introduction to Specialty-Type Beer =";
     private static final String START_STYLES = "= {{anchor|Toc91058103}} 1. Standard American Beer =";
     private static final String START_VITALS = "'''Vital Statistics:'''";
     private static final String START_VITALS_ES = "'''Estadísticas vitales:'''";
@@ -40,6 +41,7 @@ public class BJCPTextToXML extends TextToXML {
     private boolean introEnd = false;
     private boolean categoryNotesEnd = false;
     private StringBuilder formattedStats = new StringBuilder(); //Need to place at end of Sub Category
+    private int introCount = 1;
 
     public static void main(String args[]) {
         BJCPTextToXML converter = new BJCPTextToXML();
@@ -96,7 +98,6 @@ public class BJCPTextToXML extends TextToXML {
         str = str.replace("3. Styles Sorted Using Style Family", "A3. Styles Sorted Using Style Family");
         str = str.replace("4. Styles Sorted Using Country of Origin", "A4. Styles Sorted Using Country of Origin");
         str = str.replace("5. Styles Sorted Using History", "A5. Styles Sorted Using History");
-        str = str.replace("Introduction to Specialty-Type Beer", "I3. Introduction to Specialty-Type Beer"); // Manually moved to Appendixes section
         str = str.replace("}} Specialty IPA: Belgian IPA ===", "}} 21B-belgian. Specialty IPA: Belgian IPA ===");
         str = str.replace("}} Specialty IPA: Black IPA  ===", "}} 21B-black. Specialty IPA: Black IPA ===");
         str = str.replace("}} Specialty IPA: Brown IPA ===", "}} 21B-brown. Specialty IPA: Brown IPA ===");
@@ -116,7 +117,10 @@ public class BJCPTextToXML extends TextToXML {
         str = str.replace("</div>", "");
         str = str.replace("<div style=\"color:#2e74b5;\">", "");
         str = str.replace("* '''", "'''");
-        
+        str = str.replace("Straw2-3Yellow3-4Gold5-6Amber6-9Deep amber/light copper10-14Copper14-17Deep copper/light brown17-18Brown19-22Dark Brown22-30Very Dark Brown30-35Black30+Black, opaque40+", "Straw: 2-3\nYellow: 3-4\nGold: 5-6\nAmber: 6-9\nDeep amber/light copper: 10-14\nCopper: 14-17\nDeep copper/light brown: 17-18\nBrown: 19-22\nDark Brown: 22-30\nVery Dark Brown: 30-35\nBlack: 30+\nBlack, opaque: 40+\n\n");
+        str = str.replace("new uses:'''The BJCP", "new uses:\n'''The BJCP");
+        str = str.replace("disqualified. '''Commercial Examples'''", "disqualified.\n '''Commercial Examples'''");
+        str = str.replace("alone. '''Tags'''. ", "alone.\n '''Tags'''. ");
         return str;
     }
 
@@ -175,11 +179,14 @@ public class BJCPTextToXML extends TextToXML {
             skipNextLine = true;
             formatted.append(getHeaderXml(BJCP_2021));
             formatted.append(getIntroduction());
-            formatted.append(getIntroSubCategory(str, "I1", introNamePattern1));
-        } else if (str.contains(INTRO2)) {
+            formatted.append(getIntroSubCategory(str, "I" + introCount, introNamePattern1));
+            introCount++;
+        } else if (str.contains(INTRO2) || str.contains(INTRO3)) {
+            // Manually moved I3 to Intro section
             formatted.append(NOTES_END);
             formatted.append(SUB_CATEGORY_END);
-            formatted.append(getIntroSubCategory(str, "I2", categoryPattern));
+            formatted.append(getIntroSubCategory(str, "I" + introCount, categoryPattern));
+            introCount++;
         } else if (str.contains(START_STYLES)) {
             formatted.append("\t");
             formatted.append(NOTES_END);
@@ -252,19 +259,27 @@ public class BJCPTextToXML extends TextToXML {
         formatted.append("\t");
         formatted.append(NOTES_END);
         formatted.append("\t");
-        formatted.append(NOTES_TITLE);
+        formatted.append(NOTES);
 
         if (!StringUtils.isEmpty(getRegExValue(str, introNamePattern1))) {
+            formatted.append("\t\t\t\t<b>");
             formatted.append(getRegExValue(str, introNamePattern1));
+            formatted.append("</b>\n");
         } else if (!StringUtils.isEmpty(getRegExValue(str, introNamePattern2))) {
+            formatted.append("\t\t\t\t<b>");
             formatted.append(getRegExValue(str, introNamePattern2));
+            formatted.append("</b>\n");
         } else if (!StringUtils.isEmpty(getRegExValue(str, categoryPattern))) {
+            formatted.append("\t\t\t\t<b>");
             formatted.append(getRegExValue(str, categoryPattern));
+            formatted.append("</b>\n");
         } else if (!StringUtils.isEmpty(getRegExValue(str, introNotesPattern))) {
+            formatted.append("\t\t\t\t<b>");
             formatted.append(getRegExValue(str, introNotesPattern));
+            formatted.append("</b>\n");
         }
 
-        formatted.append("\">\n\t");
+        formatted.append("<br/>\n\t");
         skipNextLine = true;
 
         return formatted;
@@ -400,7 +415,7 @@ public class BJCPTextToXML extends TextToXML {
             StringBuilder formattedHeader = new StringBuilder();
             formattedHeader.append("<big><b>");
             formattedHeader.append(header);
-            formattedHeader.append("</b></big><br/>\n");
+            formattedHeader.append("</b></big><br/>\n\n");
 
             str = str.replace(fullHeader, formattedHeader.toString());
         }

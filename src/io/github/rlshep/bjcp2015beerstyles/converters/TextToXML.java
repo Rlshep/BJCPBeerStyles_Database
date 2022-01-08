@@ -17,8 +17,7 @@ public abstract class TextToXML {
     protected static final String BREAK = "<br />\n";
     protected static final String SUB_CATEGORY_START = "\t\t<subcategory id=\"";
     protected static final String SUB_CATEGORY_END = "\t\t</subcategory>\n";
-    protected static final String NOTES = "\t\t<notes title=\"\">\n";
-    protected static final String NOTES_TITLE = "\t\t<notes title=\"";
+    protected static final String NOTES = "\t\t<notes>\n";
     protected static final String BODY_START = "\t\t\t<body>\n";
     protected static final String BODY_END = "\t\t\t</body>\n";
 

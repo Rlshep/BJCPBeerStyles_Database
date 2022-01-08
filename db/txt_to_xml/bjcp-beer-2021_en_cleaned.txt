@@ -336,7 +336,7 @@
 
 === [[#Toc91058231|Historical Beer: Sahti]][[#Toc91058231|59]] ===
 
-[[#Toc91058232|I3. Introduction to Specialty-Type Beer]][[#Toc91058232|60]]
+[[#Toc91058232|Introduction to Specialty-Type Beer]][[#Toc91058232|60]]
 
 <div style="margin-left:0.2201in;margin-right:0in;">[[#Toc91058233|Entering Specialty-Type Beers]][[#Toc91058233|60]]
 
@@ -482,7 +482,8 @@ When we published previous versions of the style guidelines, we had no idea how 
 
 While we understand that our guidelines may have been misused in contexts beyond our original intent, we’ve also observed them being misused in competitions and for other BJCP purposes such as exam preparation and grading. Some people misinterpret the guidelines, and then often unknowingly instruct others in their misuse. Our hope is that the information in this section will help prevent many cases of misinterpretation and misuse in the future. If anyone encounters someone using the guidelines incorrectly, please refer them to this section.
 
-The following maxims express our original intent, and are designed to limit misuse, not to prevent the guidelines from being adopted for new uses:'''The BJCP Style Guidelines are ''guidelines'' not ''specifications'''''. Take those words at face value, or their plain meaning. Guidelines are meant to describe general characteristics of the most common examples, and serve as an aid for judging; they are not meant to be rigorously-applied specifications that are used to punish slightly unusual examples. They are suggestions, not hard limits. Allow for some flexibility in judging so that well-crafted examples can be rewarded. The guidelines are written in detail to facilitate the process of the structured evaluation of beer as practiced in homebrewing competitions; don’t use each individual statement in style descriptions as a reason to disqualify a beer.
+The following maxims express our original intent, and are designed to limit misuse, not to prevent the guidelines from being adopted for new uses:
+'''The BJCP Style Guidelines are ''guidelines'' not ''specifications'''''. Take those words at face value, or their plain meaning. Guidelines are meant to describe general characteristics of the most common examples, and serve as an aid for judging; they are not meant to be rigorously-applied specifications that are used to punish slightly unusual examples. They are suggestions, not hard limits. Allow for some flexibility in judging so that well-crafted examples can be rewarded. The guidelines are written in detail to facilitate the process of the structured evaluation of beer as practiced in homebrewing competitions; don’t use each individual statement in style descriptions as a reason to disqualify a beer.
 '''The Style Guidelines are written primarily for homebrew competitions'''. Individual style descriptions are written primarily to aid in judging. We have, in some cases, sought to define clear lines between styles to create non-overlapping judging categories. We understand that some styles may overlap in the market, and some commercial examples may straddle boundaries. We have organized style categories for the purpose of organizing homebrew competitions, not for describing and communicating the styles of the world to a different audience.
 '''We know many people use our guidelines'''. We understand that other organizations or groups are using our guidelines for purposes well beyond our original intent. To the extent that those groups find value in our work, we are happy to have our guidelines used. We freely allow our naming and numbering system to be used by others. However, don’t make rash assumptions about the nature of beer and beer styles based on applications of the guidelines beyond their original intent. We also know some craft brewers are using our guidelines to rediscover historical styles, or to brew styles not native to their country – we are thrilled to be able to help advance craft beer in this way. Just remember that it’s not our original mission to do this; it’s just a happy side-effect.
 '''Styles change over time'''. Beer styles change over the years, and some styles are open to interpretation and debate. Simply because a style ''name'' hasn’t changed over the years, doesn’t mean that ''the beers themselves'' haven’t also changed. Commercial brewers subject to government regulation and market forces definitely change their products over time. For example, because there is now a beer known as ''porter'' doesn’t mean that it has always been made that way throughout its history. Our beer styles are generally meant to describe modern beers currently available, unless otherwise specified (e.g., in the Historical Beer category).
@@ -516,13 +517,15 @@ For those outside the United States that use the European Brewing Convention (EB
 
 Some style categories include multiple styles that represent a continuum, such as British Bitter or Scottish Ale. When we provide a dividing line between these styles, we typically use a single number to represent the upper bound of one style and the lower bound of the next. This does not imply that a beer with that borderline stat (e.g., ABV or OG) should be entered in both styles. No overlap is intended. In these cases, treat the upper bound as “ending just before” and the lower bound as “starting at” the listed numbers.
 
-Keep in mind that these Vital Statistics are still guidelines, not absolutes. Commercial outliers certainly exist, but these statistics are meant to describe where most examples are clustered. They help judges determine judging order, not whether an example should be disqualified. '''Commercial Examples'''. We include a selection of current commercial examples that we believe are representative of the style at the time of publication. We may publish additional examples on the BJCP website in the future. We cannot guarantee that breweries will continue to make these examples, that the names will stay the same, that the recipes won’t change, or that they will be available at your local bottle shop. Some are rotating, seasonal, pub-only, or otherwise difficult to find outside festivals, competitions, or local markets.
+Keep in mind that these Vital Statistics are still guidelines, not absolutes. Commercial outliers certainly exist, but these statistics are meant to describe where most examples are clustered. They help judges determine judging order, not whether an example should be disqualified.
+ '''Commercial Examples'''. We include a selection of current commercial examples that we believe are representative of the style at the time of publication. We may publish additional examples on the BJCP website in the future. We cannot guarantee that breweries will continue to make these examples, that the names will stay the same, that the recipes won’t change, or that they will be available at your local bottle shop. Some are rotating, seasonal, pub-only, or otherwise difficult to find outside festivals, competitions, or local markets.
 
 
 
 Do not assign any additional meaning to the order of examples within the guidelines. Do not assume that every commercial example would score perfectly when evaluated against the style descriptions. Simply because a commercial example is listed as a reference for a style does not mean that every example is going to be world-class. Some beers can be mishandled, and some examples change over time. 
 
-Do not use commercial examples as the sole benchmark for a style – judge competition beers against the guidelines, not expectations from a single commercial example. One beer rarely defines the entire range of a style, so do not limit your expectations in such a restrictive way. Breweries often assign names to their beers that do not agree with our style guidelines. Be careful about selecting examples based on brewery-supplied names alone. '''Tags'''. To facilitate the sorting of styles into alternate groupings, we have applied tags to signify attributes or information about a style. The tags are in no particular order, and should not be used to infer any deeper meaning.
+Do not use commercial examples as the sole benchmark for a style – judge competition beers against the guidelines, not expectations from a single commercial example. One beer rarely defines the entire range of a style, so do not limit your expectations in such a restrictive way. Breweries often assign names to their beers that do not agree with our style guidelines. Be careful about selecting examples based on brewery-supplied names alone.
+ '''Tags'''. To facilitate the sorting of styles into alternate groupings, we have applied tags to signify attributes or information about a style. The tags are in no particular order, and should not be used to infer any deeper meaning.
 
 
 
@@ -667,7 +670,20 @@ Common species used in brewing include ''B. bruxellensis'' and ''B. anomalous'',
 
 ''Note that SRM is a measure of beer color density more than hue, tint, or shade. Keep this in mind when attempting to use only SRM numbers when describing beers. Within these Guidelines, beer color descriptors generally <u>approximate</u> this mapping to SRM values:''
 
-Straw2-3Yellow3-4Gold5-6Amber6-9Deep amber/light copper10-14Copper14-17Deep copper/light brown17-18Brown19-22Dark Brown22-30Very Dark Brown30-35Black30+Black, opaque40+
+Straw: 2-3
+Yellow: 3-4
+Gold: 5-6
+Amber: 6-9
+Deep amber/light copper: 10-14
+Copper: 14-17
+Deep copper/light brown: 17-18
+Brown: 19-22
+Dark Brown: 22-30
+Very Dark Brown: 30-35
+Black: 30+
+Black, opaque: 40+
+
+
 
 Do not be overly pedantic about ascribing perceived color names to SRM references, as viewing conditions often greatly influence this perception, individual perceptions vary, and hues outside of the yellow-to-brown spectrum can skew results. In the event of apparent contradictions, favor the named descriptions over the numbers.
 
@@ -753,7 +769,7 @@ wood: wood or barrel age character
 fruit: noticeable flavor or aroma of fruit
 spice: noticeable flavor or aroma of spices
 
-= {{anchor|Toc418087866}} {{anchor|Toc91058232}} I3. Introduction to Specialty-Type Beer =
+= {{anchor|Toc418087866}} {{anchor|Toc91058232}} Introduction to Specialty-Type Beer =
 
 '''''Specialty-Type Beer''' is a broad term referring to style Categories 28 through 34, and is in contrast to the '''Classic Style '''beers of Categories 1 through 27. The Classic Styles are complete, standalone descriptions, but Specialty-Type styles involve a transformation of a Base Style using either a process or by adding one or more '''Specialty-Type Ingredients''' (yeast/bacteria, smoke, wood, fruit, spice, grain, or sugar). Specialty-Type Beer style descriptions usually describe how the Specialty-Type Ingredients or processes modify the Base Style.''
 
@@ -4333,7 +4349,7 @@ ABV:4.5 – 7.0%
 
 ''The Fruit Beer category is for beer made with any fruit or combination of fruit under the definitions of this category. The '''culinary, not botanical,''' definition of fruit is used here – fleshy, seed-associated structures of plants that are sweet or sour, and edible in the raw state. Examples include pome fruit (apple, pear, quince), stone fruit (cherry, plum, peach, apricot, mango, etc.), berries (any fruit with the word ‘berry’ in it), currants, citrus fruit, dried fruit (dates, prunes, raisins, etc.), tropical fruit (banana, pineapple, mango, guava, passionfruit, papaya, etc.), figs, pomegranate, prickly pear, and so on. It does not mean spices, herbs, or vegetables as defined in Category 30 – especially botanical fruit treated as culinary vegetables. Basically, if you have to justify a fruit using the word “technically” as part of the description, then that’s not what we mean. ''
 
-''See the I3. Introduction to Specialty-Type Beer section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+''See the Introduction to Specialty-Type Beer section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
 
 ''{{anchor|Toc418087875}} {{anchor|Toc91058249}} '''29A. Fruit Beer'''
 
@@ -4452,7 +4468,7 @@ ABV:6.0 – 8.5%
 
 ''We use the common or culinary definitions of spices, herbs, and vegetables, not botanical or scientific ones. In general, spices are the dried seeds, seed pods, fruit, roots, bark, etc. of plants used for flavoring food. Herbs are leafy plants or parts of plants (leaves, flowers, petals, stalks) used for flavoring food. Vegetables are savory or less sweet edible plant products, used primarily for cooking or sometimes eating raw. Vegetables can include some botanical fruit. This category explicitly includes all culinary spices, herbs, and vegetables, as well as nuts (or anything with ‘nut’ in the name, including coconut), chile peppers, coffee, chocolate, spruce tips, rose hips, hibiscus, fruit peels/zest (but not juice), rhubarb, and the like. It does not include culinary fruit or grains. Flavorful fermentable sugars and syrups (e.g., agave nectar, maple syrup, molasses, sorghum, treacle, honey) or sweeteners (e.g., lactose) can be included only in combination with other allowable ingredients, and should not have a dominant character. Any combination of allowable ingredients may also be entered. ''
 
-''See Category 29 for a definition and examples of fruit. See the ''I3. Introduction to Specialty-Type Beer ''section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
+''See Category 29 for a definition and examples of fruit. See the ''Introduction to Specialty-Type Beer ''section for additional comments, particularly on evaluating the balance of added ingredients with the base beer.
 
 ''{{anchor|Toc418087879}} {{anchor|Toc91058254}} '''30A. Spice, Herb, or Vegetable Beer'''
 
@@ -4568,7 +4584,7 @@ The special ingredients should be supportive and balanced, not overshadowing the
 
 = {{anchor|Toc91058258}} 31. Alternative Fermentables Beer =
 
-''This category contains Specialty-Type Beers using either grain or sugar to add a distinctive character. See the ''I3. Introduction to Specialty-Type Beer'' section for additional comments, particularly on evaluating the balance of added ingredients to the base beer.
+''This category contains Specialty-Type Beers using either grain or sugar to add a distinctive character. See the ''Introduction to Specialty-Type Beer'' section for additional comments, particularly on evaluating the balance of added ingredients to the base beer.
 
 ''{{anchor|Toc91058259}} '''31A. Alternative Grain Beer'''
 
