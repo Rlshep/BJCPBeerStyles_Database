@@ -29,6 +29,38 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schonramer','Sch
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sunner','Sünner', 'en','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Troegs','Tröegs', 'en','BJCP_2015');
 
+-- BJCP 2021 English
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Altenmunster','Altenmünster', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Biere','Bière', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Brau','Bräu', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Burgerbrau','Bürgerbräu', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Dollnitzer','Döllnitzer', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Dusseldorf','Düsseldorf', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fruh','Früh', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fuchschen','Füchschen', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Gratzer','Grätzer', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hazy IPA','New England IPA', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hefeweizen','Weissbier', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Kolsch','Kölsch', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Koln','Köln', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Konig','König', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Kostritzer','Köstritzer', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Lowenbrau','Löwenbraü', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Marzen','Märzen', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Monchshof','Mönchshof', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Muhlen','Mühlen', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Munchner','Münchner', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Naturtrub','Naturtrüb', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('New England IPA','New England IPA', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Märzen', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Oktoberfest','Märzen', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schlosser','Schlösser', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schlussel','Schlüssel', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schonramer','Schönramer', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sunner','Sünner', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Troegs','Tröegs', 'en','BJCP_2021');
+
 --Spanish
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Acidas','Ácidas', 'es','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Altenmunster','Altenmünster', 'es','BJCP_2015');

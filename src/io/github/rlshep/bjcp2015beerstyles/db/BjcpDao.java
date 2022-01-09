@@ -36,7 +36,7 @@ public class BjcpDao {
         queries.add("CREATE TABLE " + TABLE_META + "(" + COLUMN_LOCALE + " TEXT DEFAULT '" + LOCALE + "')");
         queries.add("CREATE TABLE " + TABLE_CATEGORY + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_PARENT_ID + " INTEGER, " + COLUMN_CATEGORY_CODE + " TEXT, " + COLUMN_NAME + " TEXT, " + COLUMN_REVISION + " TEXT, " + COLUMN_LANG + " TEXT," + COLUMN_BOOKMARKED + " BOOLEAN, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_PARENT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
         queries.add("CREATE TABLE " + TABLE_SECTION + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER + " TEXT, " + COLUMN_BODY + " TEXT, " + COLUMN_ORDER + " INTEGER, FOREIGN KEY(" + COLUMN_CAT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
-        queries.add("CREATE TABLE " + TABLE_VITALS + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_HEADER_TARGET + " TEXT, "  + COLUMN_HEADER + " TEXT, " + COLUMN_OG_START + " REAL, " + COLUMN_OG_END + " REAL, " + COLUMN_FG_START + " REAL, " + COLUMN_FG_END + " REAL, " + COLUMN_IBU_START + " INTEGER, " + COLUMN_IBU_END + " INTEGER, " + COLUMN_SRM_START + " REAL, " + COLUMN_SRM_END + " REAL, " + COLUMN_ABV_START + " REAL, " + COLUMN_ABV_END + " REAL, FOREIGN KEY(" + COLUMN_CAT_ID + " ) REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
+        queries.add("CREATE TABLE " + TABLE_VITALS + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_TYPE + " TEXT NOT NULL, "  + COLUMN_HEADER + " TEXT, "  + COLUMN_NOTES + " TEXT, " + COLUMN_LOW + " REAL, " + COLUMN_HIGH + " REAL, " + " FOREIGN KEY(" + COLUMN_CAT_ID + " ) REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
         queries.add("CREATE TABLE " + TABLE_SYNONYMS + "(" + COLUMN_LEFT + " TEXT, " + COLUMN_RIGHT  + " TEXT," + COLUMN_REVISION + " TEXT, " + COLUMN_LANG + " TEXT); ");
         queries.add("CREATE TABLE " + TABLE_TAG + "(" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_CAT_ID + " INTEGER, " + COLUMN_TAG  + " TEXT, FOREIGN KEY(" + COLUMN_CAT_ID + ") REFERENCES " + TABLE_CATEGORY + "(" + COLUMN_ID + "));");
 
@@ -75,9 +75,9 @@ public class BjcpDao {
         }
 
         //Insert sub-tables if available.
-        for (VitalStatistics vitalStatistics : category.getVitalStatisticses()) {
+        for (VitalStatistic vitalStatistics : category.getVitalStatisticses()) {
             vitalStatistics.setCategoryId(id);
-            addVitalStatistics(stmt, vitalStatistics);
+            addVitalStatistic(stmt, vitalStatistics);
         }
 
         if (!category.getChildCategories().isEmpty()) {
@@ -91,9 +91,9 @@ public class BjcpDao {
         stmt.executeUpdate(sql);
     }
 
-    private void addVitalStatistics(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistics vitalStatistics) throws SQLException {
-        String sql = "INSERT INTO " + TABLE_VITALS + "(" + COLUMN_CAT_ID + ", " + COLUMN_OG_START + ", " + COLUMN_OG_END + ", " + COLUMN_FG_START + ", " + COLUMN_FG_END + ", " + COLUMN_IBU_START + ", " + COLUMN_IBU_END + ", " + COLUMN_SRM_START + ", " + COLUMN_SRM_END + ", " + COLUMN_ABV_START + ", " + COLUMN_ABV_END + ", " + COLUMN_HEADER + ", " + COLUMN_HEADER_TARGET + ")";
-        sql += "VALUES(" + vitalStatistics.getCategoryId() + "," + vitalStatistics.getOgStart() + "," + vitalStatistics.getOgEnd() + "," + vitalStatistics.getFgStart() + "," + vitalStatistics.getFgEnd() + "," + vitalStatistics.getIbuStart() + "," + vitalStatistics.getIbuEnd() + "," + vitalStatistics.getSrmStart() + "," + vitalStatistics.getSrmEnd() + "," + vitalStatistics.getAbvStart() + "," + vitalStatistics.getAbvEnd() + ", '" + vitalStatistics.getHeader() + "', '" + vitalStatistics.getHeaderTarget() + "') ";
+    private void addVitalStatistic(Statement stmt, io.github.rlshep.bjcp2015beerstyles.domain.VitalStatistic vitalStatistics) throws SQLException {
+        String sql = "INSERT INTO " + TABLE_VITALS + "(" + COLUMN_CAT_ID + ", " + COLUMN_TYPE + ", " + COLUMN_HEADER + ", " + COLUMN_NOTES + ", " + COLUMN_LOW + ", " + COLUMN_HIGH + ")";
+        sql += "VALUES(" + vitalStatistics.getCategoryId() + ",'" + vitalStatistics.getType() + "','" + vitalStatistics.getHeader() + "','" + vitalStatistics.getNotes() + "'," + vitalStatistics.getLow() + "," + vitalStatistics.getHigh() + ") ";
 
         //Write category to database.
         stmt.executeUpdate(sql);

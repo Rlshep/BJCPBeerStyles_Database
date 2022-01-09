@@ -5,23 +5,17 @@ import org.apache.commons.lang.StringUtils;
 import java.io.*;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.BA_2021;
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
-public class BrewersAssociationTextToXML {
+public class BrewersAssociationTextToXML extends TextToXML {
 
     private static final String INPUT_FILE_NAME = "./db/txt_to_xml/2021_BA_Beer_Style_Guidelines_Final.txt";    //Exported from PDF Reader
     private static final String CLEANED_FILE = "./db/txt_to_xml/2021_BA_Beer_Style_Guidelines_Cleaned.txt";
     private static final String OUTPUT_FILE_NAME = "./db/2021_BA_Beer_Style_Guidelines_Final.xml";
-
     private static final String CATEGORY_START = "\t<category>\n";
-    private static final String CATEGORY_END = "\t</category>\n";
-    private static final String REVISION = "\t\t<revision number=\"1\">" + BA_2021 + "</revision>\n";
-    private static final String NAME_START = "\t\t<name>";
-    private static final String NAME_END = "</name>\n";
 
     private static final String[] IGNORED_LINES = {"LAGER STYLES", "HYBRID/MIXED LAGERS OR ALE"};
     private static final List<String> ignoredLines = Arrays.asList(IGNORED_LINES);
@@ -38,37 +32,27 @@ public class BrewersAssociationTextToXML {
     private static final String[] HEADER_WORDS = {"Color:", "Clarity:", "Body:", "Additional notes:", "Fermentation Characteristics:", "Perceived Malt Aroma &amp; Flavor:", "Perceived Hop Aroma &amp; Flavor:", "Perceived bitterness:"};
     private final List<String> headerWords = Arrays.asList(HEADER_WORDS);
 
-    private boolean skipNextLine = false;
-    private BufferedReader br;
+
+    public static void main(String args[]) {
+        BrewersAssociationTextToXML converter = new BrewersAssociationTextToXML();
+
+        converter.convert();
+    }
 
     public void convert() {
         try {
-            cleanUpTextFile();
-            convertToXml();
+            cleanUpTextFile(INPUT_FILE_NAME, CLEANED_FILE);
+            convertToXml(CLEANED_FILE, OUTPUT_FILE_NAME);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void cleanUpTextFile() throws IOException {
-        FileReader input = new FileReader(INPUT_FILE_NAME);
-        FileWriter output = new FileWriter(CLEANED_FILE);
-        BufferedReader br = new BufferedReader(input);
-        String str;
-        StringBuilder out = new StringBuilder();
-
-        while ((str = br.readLine()) != null) {
-            out.append(str + "\n");
-        }
-
-        output.write(preCleanUp(out));
-
-        br.close();
-        input.close();
-        output.close();
+    protected String preLineCleanUp(String str) {
+        return str;
     }
 
-    private String preCleanUp(StringBuilder out) {
+    protected String preCleanUp(StringBuilder out) {
         String cleaned = out.toString();
 
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
@@ -76,6 +60,8 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n\n\n \n\n", "\n\n");
         cleaned = cleaned.replace("\n\n \n", "\n\n");
+        cleaned = cleaned.replace("\n\n\n\n\n", "\n\n");
+        cleaned = cleaned.replace("\n\n\n", "\n\n");
         cleaned = cleaned.replace("CupSM", "Cup&#8480;");
         cleaned = cleaned.replace("&", "&amp;");
         cleaned = cleaned.replace("American-Style Brown Ale", "\nAmerican-Style Brown Ale");
@@ -127,7 +113,7 @@ public class BrewersAssociationTextToXML {
         cleaned = cleaned.replace("\n\nOriginal Gravity (°Plato)", "\nOriginal Gravity (°Plato)");
         cleaned = cleaned.replace("brewers-\nassociation-beer-style-guidelines", "brewers-association-beer-style-guidelines");
         cleaned = cleaned.replace("* None \n* Very low \n* Low \n* Medium-low \n* Medium \n* Medium-high \n* High \n* Very high \n* Intense", "<ul><li>None</li><li>Very low</li><li>Low</li><li>Medium-low</li><li>Medium</li><li>Medium-high</li><li>High</li><li>Very high</li><li>Intense</li></ul>");
-        cleaned = cleaned.replace("Color Description \n\nSRM \n\nVery light \n\n1-1.5 \n\nStraw \n\n2-3 \n\nPale \n\n4 \n\nGold \n\n5-6 \n\nLight amber \n\n7 \n\nAmber \n\n8 \n\nMedium amber \n\n9 \n\nCopper/garnet \n\n10-12 \n\nLight brown \n\n13-15 \n\nBrown/Reddish brown/chestnut brown \n\n16-17 \n\nDark brown \n\n18-24 \n\nVery dark \n\n25-39 \n\nBlack \n\n40+ ","<b>Color Description: </b> <b>SRM </b><br />\nVery light: 1-1.5<br />\nStraw: 2-3\n<br />Pale: 4\n<br />Gold: 5-6\n<br />Light amber: 7\n<br />Amber : 8\n<br />Medium amber : 9\n<br />Copper/garnet : 10-12\n<br />Light brown : 13-15\n<br />Brown/Reddish brown/chestnut brown : 16-17\n<br />Dark brown : 18-24\n<br />Very dark : 25-39\n<br />Black : 40+");
+        cleaned = cleaned.replace("Color Description \n\nSRM \n\nVery light \n\n1-1.5 \n\nStraw \n\n2-3 \n\nPale \n\n4 \n\nGold \n\n5-6 \n\nLight amber \n\n7 \n\nAmber \n\n8 \n\nMedium amber \n\n9 \n\nCopper/garnet \n\n10-12 \n\nLight brown \n\n13-15 \n\nBrown/Reddish brown/chestnut brown \n\n16-17 \n\nDark brown \n\n18-24 \n\nVery dark \n\n25-39 \n\nBlack \n\n40+ ", "<b>Color Description: </b> <b>SRM </b><br />\nVery light: 1-1.5<br />\nStraw: 2-3\n<br />Pale: 4\n<br />Gold: 5-6\n<br />Light amber: 7\n<br />Amber : 8\n<br />Medium amber : 9\n<br />Copper/garnet : 10-12\n<br />Light brown : 13-15\n<br />Brown/Reddish brown/chestnut brown : 16-17\n<br />Dark brown : 18-24\n<br />Very dark : 25-39\n<br />Black : 40+");
         cleaned = cleaned.replace(" \n3. Pouring:", " \n\n3. Pouring:");
 
         cleaned = addHtmlLinks(cleaned);
@@ -143,37 +129,13 @@ public class BrewersAssociationTextToXML {
         return str;
     }
 
-    public void convertToXml() throws IOException {
-        FileReader input = new FileReader(CLEANED_FILE);
-        FileWriter output = new FileWriter(OUTPUT_FILE_NAME);
-        br = new BufferedReader(input);
-        String str;
-        StringBuilder out = new StringBuilder();
-
-        while ((str = br.readLine()) != null) {
-            if (skipNextLine) {
-                skipNextLine = false;
-            } else {
-                out.append(formatLine(str));
-            }
-        }
-
-        out.append(getFooter());
-        output.write(postCleanUp(out));
-
-        br.close();
-        input.close();
-        output.close();
-    }
-
-    private StringBuilder formatLine(String str) throws IOException {
-        final String NOTES_END = "\t\t</notes>\n";
+    protected StringBuilder formatLine(String str) throws IOException {
         StringBuilder formattedLine = new StringBuilder();
 
         if (ignoredLines.contains(str.trim())) {
             // Ignore
         } else if (str.startsWith("Compiled by the Brewers Association")) {
-            formattedLine.append(getHeader());
+            formattedLine.append(getHeaderXml(BA_2021));
             formattedLine.append(getIntroduction());
             formattedLine.append("\t\t\t\t");
             formattedLine.append(str);
@@ -192,7 +154,7 @@ public class BrewersAssociationTextToXML {
         } else if (isInList(boldWords, str)) {
             formattedLine.append(formatBoldWords(str));
         } else if (str.startsWith("Original Gravity (°Plato)")) {
-            formattedLine.append(formatStats(getAllStats(str)));
+            formattedLine.append(getAllStats(str));
         } else {
             formattedLine.append(str.trim() + " ");
         }
@@ -200,21 +162,12 @@ public class BrewersAssociationTextToXML {
         return formattedLine;
     }
 
-    private String getHeader() {
-        return "<styleguide revision=\"" + BA_2021 + "\" language=\"en\">\n";
-    }
-
-    private String getFooter() {
-        return CATEGORY_END + "</styleguide>\n";
-    }
-
     private StringBuilder getIntroduction() {
         final String INTRO = "Introduction";
-        final String NOTES = "\t\t<notes title=\"\">\n";
         StringBuilder formatted = new StringBuilder();
 
         formatted.append(CATEGORY_START);
-        formatted.append(REVISION);
+        formatted.append(getRevisionXml(BA_2021));
         formatted.append(NAME_START);
         formatted.append(INTRO);
         formatted.append(NAME_END);
@@ -228,7 +181,7 @@ public class BrewersAssociationTextToXML {
 
         formatted.append(CATEGORY_END);
         formatted.append(CATEGORY_START);
-        formatted.append(REVISION);
+        formatted.append(getRevisionXml(BA_2021));
         formatted.append(NAME_START);
         formatted.append(getTitleCase(str));
         formatted.append(NAME_END);
@@ -240,11 +193,9 @@ public class BrewersAssociationTextToXML {
 
     private StringBuilder formatSubCategory(String str) {
         StringBuilder formatted = new StringBuilder();
-        final String SUB_CATEGORY_START = "\t\t<subcategory>\n";
-        final String BODY_START = "\t\t\t<body>\n";
 
         formatted.append(SUB_CATEGORY_START);
-        formatted.append("\t");
+        formatted.append("\">\n\t");
         formatted.append(NAME_START);
         formatted.append(str.trim());
         formatted.append(NAME_END);
@@ -276,7 +227,7 @@ public class BrewersAssociationTextToXML {
         return str;
     }
 
-    private String getAllStats(String str) throws IOException {
+    private StringBuilder getAllStats(String str) throws IOException {
         String stat = "";
 
         // Append until new line
@@ -284,13 +235,11 @@ public class BrewersAssociationTextToXML {
             str += stat;
         }
 
-        return str;
+        return formatStats(str);
     }
 
     private StringBuilder formatStats(String str) {
         StringBuilder formatted = new StringBuilder();
-        final String SUB_CATEGORY_END = "\t\t</subcategory>\n";
-        final String BODY_END = "\t\t\t</body>\n";
 
         formatted.append(BODY_END);
         formatted.append(getOriginalGravity(str));
@@ -358,54 +307,56 @@ public class BrewersAssociationTextToXML {
     }
 
     private StringBuilder getStats(String str, String tag, Pattern[] lowPattern, Pattern[] highPattern, Pattern[] titlePattern) {
+        final String STATS_START = "\t\t\t<stats>\n";
         final String STATS_END = "\t\t\t</stats>\n";
-        final String START = "\t\t\t\t<" + tag + ">\n";
-        final String END = "\t\t\t\t</" + tag + ">\n";
-        final String LOW_ZERO = "\t\t\t\t\t<low>0</low>\n";
-        final String HIGH_ZERO = "\t\t\t\t\t<high>0</high>\n";
+        final String LOW_ZERO = "\t\t\t\t<low>0</low>\n";
+        final String HIGH_ZERO = "\t\t\t\t<high>0</high>\n";
         StringBuilder formatted = new StringBuilder();
 
         StringBuilder low = getHighLowRegEx(str, lowPattern, "low");
         StringBuilder high = getHighLowRegEx(str, highPattern, "high");
         boolean isTitleNeeded = LOW_ZERO.equals(low.toString()) && HIGH_ZERO.equals(high.toString());
 
-        formatted.append(getStatsStartTag(str, titlePattern, isTitleNeeded));
-        formatted.append(START);
+        formatted.append(STATS_START);
+        formatted.append("\t\t\t\t");
+        formatted.append(getStartTag(XML_TYPE));
+        formatted.append(tag);
+        formatted.append(getEndTag(XML_TYPE));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_HEADER));
+        //No Header for now
+        formatted.append(getEndTag(XML_HEADER));
+        formatted.append("\n\t\t\t\t");
+        formatted.append(getStartTag(XML_NOTES));
+        if (isTitleNeeded) {
+            formatted.append(getNotes(str, titlePattern));
+        }
+        formatted.append(getEndTag(XML_NOTES));
+        formatted.append("\n");
         formatted.append(low);
         formatted.append(high);
-        formatted.append(END);
         formatted.append(STATS_END);
 
         return formatted;
     }
 
-    private StringBuilder getStatsStartTag(String str, Pattern[] titlePattern, boolean isTitleNeeded) {
-        final String START = "\t\t\t<stats>\n";
-        final String START_TITLE = "\t\t\t<stats title=\"";
+    private StringBuilder getNotes(String str, Pattern[] titlePattern) {
         StringBuilder formatted = new StringBuilder();
 
-        if (isTitleNeeded) {
-            formatted.append(START_TITLE);
+        for (int i = 0; i < titlePattern.length; i++) {
+            String title = getRegExValue(str, titlePattern[i]);
 
-            for (int i = 0; i < titlePattern.length; i++) {
-                String title = getRegExValue(str, titlePattern[i]);
-
-                if (!StringUtils.isEmpty(title)) {
-                    formatted.append(title);
-                    break;
-                }
+            if (!StringUtils.isEmpty(title)) {
+                formatted.append(title);
+                break;
             }
-
-            formatted.append("\">\n");
-        } else {
-            formatted.append(START);
         }
 
         return formatted;
     }
 
     private StringBuilder getHighLowRegEx(String str, Pattern[] pattern, String highLow) {
-        final String START = "\t\t\t\t\t<" + highLow + ">";
+        final String START = "\t\t\t\t<" + highLow + ">";
         final String END = "</" + highLow + ">\n";
         final String ZERO = "0";
         StringBuilder formatted = new StringBuilder();
@@ -427,6 +378,7 @@ public class BrewersAssociationTextToXML {
         return formatted;
     }
 
+
     private String addHtmlLinks(String str) {
         final Pattern pattern = Pattern.compile("(http|ftp|https)://[\\w-]+(\\.[\\w-]+)+([\\w.,@?^=%&amp;:/~+#-]*[\\w@?^=%&amp;/~+#-])?");
 
@@ -439,11 +391,11 @@ public class BrewersAssociationTextToXML {
         return str;
     }
 
-
-    private String postCleanUp(StringBuilder out) {
+    protected String postCleanUp(StringBuilder out) {
         String cleaned = out.toString();
 
         cleaned = cleaned.replace("<br/>\n<br/>\n\t\t\t</body>\n\t\t\t<stats>", "\n\t\t\t</body>\n\t\t\t<stats>");
+        cleaned = cleaned.replace("Notes on <b>Beer Style Guidelines:</b>", "<b>Notes on Beer Style Guidelines:</b>");
 
         return cleaned;
     }
@@ -465,37 +417,9 @@ public class BrewersAssociationTextToXML {
         return word;
     }
 
-    private String getRegExValue(String str, Pattern pattern) {
-        String regEx = "";
-        Matcher matcher = pattern.matcher(str);
 
-        if (matcher.find()) {
-            regEx = matcher.group(1);
-        }
+    protected StringBuilder getFooterXml() {
 
-        return regEx;
-    }
-
-    private String getAllRegExValue(String str, Pattern pattern) {
-        String regEx = "";
-        Matcher matcher = pattern.matcher(str);
-
-        if (matcher.find()) {
-            regEx = matcher.group(0);
-        }
-
-        return regEx;
-    }
-
-    private String getTitleCase(String str) {
-        StringBuilder title = new StringBuilder();
-        String[] words = str.split(" ");
-
-        for (String word : words) {
-            title.append(StringUtils.capitalize(word.toLowerCase()));
-            title.append(" ");
-        }
-
-        return title.toString();
+        return new StringBuilder(CATEGORY_END + "</styleguide>\n");
     }
 }
