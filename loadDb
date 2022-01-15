@@ -1,2 +1,2 @@
-gradle loadDb
-copyDb
+./gradlew loadDb
+./copyDb

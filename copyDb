@@ -1,0 +1,1 @@
+cp -f /c/dev/GitHub/BJCPBeerStyles_Database/db/BjcpBeerStyles.db /c/dev/GitHub/BJCPBeerStyles_Android/bjcp_beer_styles/src/main/assets/

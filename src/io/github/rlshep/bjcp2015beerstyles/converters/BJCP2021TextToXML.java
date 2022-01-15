@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpConstants.BJCP_2021;
 import static io.github.rlshep.bjcp2015beerstyles.constants.BjcpContract.*;
 
-public class BJCPTextToXML extends TextToXML {
+public class BJCP2021TextToXML extends TextToXML {
     private static final String INPUT_FILE_NAME = "./db/txt_to_xml/bjcp-beer-2021_en.txt";    //Exported from LibreWriter to wiki text
     private static final String CLEANED_FILE = "./db/txt_to_xml/bjcp-beer-2021_en_cleaned.txt";
     private static final String OUTPUT_FILE_NAME = "./db/bjcp-beer-2021_en.xml";
@@ -44,7 +44,7 @@ public class BJCPTextToXML extends TextToXML {
     private int introCount = 1;
 
     public static void main(String args[]) {
-        BJCPTextToXML converter = new BJCPTextToXML();
+        BJCP2021TextToXML converter = new BJCP2021TextToXML();
 
         converter.convert();
     }
@@ -528,6 +528,7 @@ public class BJCPTextToXML extends TextToXML {
         cleaned = cleaned.replace("<br />", "<br/>");
         cleaned = cleaned.replaceAll("(?:<br/>\\s*){3,}", "<br/>\n<br/>\n");
         cleaned = cleaned.replaceAll("<br/>\\s<br/>\\s</body>", "</body>");
+        cleaned = cleaned.replace("</subcategory>\n\t\t<subcategory id=\"17B\">","</subcategory><subcategory id=\"17A-burton\"> <name>British Strong Ale: Burton Ale</name> <body> <big> <b>Impression</b> </big> <br/>A rich, malty, sweet, and bitter dark ale of moderately strong alcohol. Full bodied and chewy with a balanced hoppy finish and complex malty and hoppy aroma. Fruity notes accentuate the malt richness, while the hops help balance the sweeter finish. <br/> <br/> <big> <b>Aroma</b> </big> <br/>Moderately strong, rich, and sweet malty aroma with deep toast or dark caramel notes. No roasty or burnt malt apparent, but a bready and biscuity base is common. Dark or dried fruit (plums, figs, prunes, raisins) often present at up to a moderate level. A light alcohol presence may be noted, but should not be sharp. Hops can be light to moderate, and reflective of fruity, floral, woody, or spicy English varieties. The malt makes the strongest impression in the balance, but the other aspects add an aromatic complexity. <br/> <br/> <big> <b>Appearance</b> </big> <br/>Light copper to dark brown in color. Darker versions can be nearly opaque, but clarity should be good when noted. Moderate-sized, fine-textured, cream-colored head, persistent. <br/> <br/> <big> <b>Flavor</b> </big> <br/>Similar to the aroma, the malt is initially noted with a rich character and a somewhat sweet finish. The bitterness level is medium-high to high and helps balance the strong malt flavor. The malt flavors have a bready and biscuity character with substantial deep toast or dark caramel flavors; overly roasted and burnt flavors are inappropriate. Hop flavor can be medium to low, with a fruity, floral, spicy, or woody English quality. Dark or dried fruit flavors (plum, prune, fig, or raisin) are often present at up to a moderate level. A light alcohol flavor might be detected, but the sweetness in the finish usually masks it. The sweetness should be balanced by hops and never be cloying or clashing. <br/> <br/> <big> <b>Mouthfeel</b> </big> <br/>Medium-full to full body with a smooth, rich, luscious character. Warming alcohol should be noticeable in stronger versions. Moderate carbonation, lower when served on hand pump. <br/> <br/> <big> <b>Comments</b> </big> <br/>The beer has a long and storied history and many versions existed over time. The style represented her mostly represents the beer at its peak before WWI, although the parameters allow for later era lower-gravity versions as well. A keeping ale, the beer was typically aged before consuming. <br/> <br/> <big> <b>History</b> </big> <br/>Popular in Burton before IPAs were invented, widely exported to the Baltic countries. After 1822, reformulated to be less sweet and strong. Most popular in the Victorian Era, with several different strengths available in the family. The strongest versions evolved into English Barleywines. Became less popular after WWII, eventually dying out around 1970. Some versions exist as Winter Warmers, Barleywines, or Old Ales, but the name has lost favor in the market. <br/> <br/> <big> <b>Ingredients</b> </big> <br/>Bready and biscuity English base malts. Substantial portion of 'high kilned' malt. Historical versions often used brewing sugars and corn. More modern versions can use crystal malts for flavor and chocolate malt for color. English ale yeast. Traditional English hops, often dry hopped. <br/> <br/> <big> <b>Comparison</b> </big> <br/>Has some similarity in malt flavor to Wee Heavy, but with substantially more bitterness. Less strong than an English Barleywine. <br/> <br/> <big> <b>Examples</b> </big> <br/>The Laboratory Gone for a Burton <br/> <br/> <big> <b>Tags</b> </big> <br/> high-strength, brown-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty, balanced </body> <stats> <type>og</type> <header></header> <notes></notes> <low>1.055</low> <high>1.075</high> </stats> <stats> <type>fg</type> <header></header> <notes></notes> <low>1.018</low> <high>1.024</high> </stats> <stats> <type>ibu</type> <header></header> <notes></notes> <low>40</low> <high>50</high> </stats> <stats> <type>srm</type> <header></header> <notes></notes> <low>14</low> <high>22</high> </stats> <stats> <type>abv</type> <header></header> <notes></notes> <low>5.0</low> <high>7.5</high> </stats> </subcategory><subcategory id=\"17B\">");   // Manually add Provisional Style 17A Burton Ale
 
         return cleaned;
     }
@@ -543,4 +544,3 @@ public class BJCPTextToXML extends TextToXML {
         return  formatted;
     }
 }
-

@@ -40,7 +40,6 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Dusseldorf','Dü
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fruh','Früh', 'en','BJCP_2021');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fuchschen','Füchschen', 'en','BJCP_2021');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Gratzer','Grätzer', 'en','BJCP_2021');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hazy IPA','New England IPA', 'en','BJCP_2021');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hefeweizen','Weissbier', 'en','BJCP_2021');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Kolsch','Kölsch', 'en','BJCP_2021');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Koln','Köln', 'en','BJCP_2021');

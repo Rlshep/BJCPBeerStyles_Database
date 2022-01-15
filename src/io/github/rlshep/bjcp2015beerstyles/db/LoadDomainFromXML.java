@@ -83,7 +83,7 @@ public class LoadDomainFromXML {
                 }
             }
             if (eventType == XmlPullParser.START_TAG && XML_CATEGORY.equals(xpp.getName())) {
-                categories.add(createCategory(xpp, orderNumber, XML_CATEGORY, transferCategory, categories));
+                categories.add(createCategory(xpp, orderNumber, XML_CATEGORY, transferCategory));
                 transferCategory.setOrderNumber(transferCategory.getOrderNumber() + 1);
                 orderNumber++;
             }
@@ -94,7 +94,7 @@ public class LoadDomainFromXML {
         return categories;
     }
 
-    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory, List<Category> categories) throws XmlPullParserException, IOException {
+    private Category createCategory(XmlPullParser xpp, int orderNumber, String tagName, Category transferCategory) throws XmlPullParserException, IOException {
         List<Section> sections = new ArrayList<Section>();
         List<Category> childCategories = new ArrayList<Category>();
         List<VitalStatistic> statistics = new ArrayList<VitalStatistic>();
@@ -108,7 +108,7 @@ public class LoadDomainFromXML {
             if (isStartTag(xpp, COLUMN_NAME)) {
                 category.setName(getNextText(xpp));
             } else if (isStartTag(xpp, XML_SUBCATEGORY)) {
-                childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory, categories));
+                childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory));
                 subCatOrder++;
             } else if (isSection(xpp)) {
                 Section section = createSection(xpp, sectionOrder);
