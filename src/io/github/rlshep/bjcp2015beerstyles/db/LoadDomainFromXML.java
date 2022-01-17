@@ -107,6 +107,9 @@ public class LoadDomainFromXML {
         while (isNotTheEnd(xpp, tagName)) {
             if (isStartTag(xpp, COLUMN_NAME)) {
                 category.setName(getNextText(xpp));
+            } else if (isStartTag(xpp, XML_CATEGORY)) {
+                childCategories.add(createCategory(xpp, subCatOrder, XML_CATEGORY, transferCategory));
+                subCatOrder++;
             } else if (isStartTag(xpp, XML_SUBCATEGORY)) {
                 childCategories.add(createCategory(xpp, subCatOrder, XML_SUBCATEGORY, transferCategory));
                 subCatOrder++;
