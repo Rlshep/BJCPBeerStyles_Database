@@ -3752,8 +3752,8 @@ IBUs:20 – 35
 FG:1.002 – 1.008 ''(standard)''
 SRM:5 – 14 ''(pale)''
 ABV:3.5 – 5.0% ''(table) ''
-SRM:15 – 22 ''(dark)'
-ABV:'5.0 – 7.0% ''(standard)''
+SRM:15 – 22 ''(dark)''
+ABV:5.0 – 7.0% ''(standard)''
 ABV:7.0 – 9.5% ''(super)''
 
 '''Commercial Examples: '''Ellezelloise Saison 2000, Lefebvre Saison 1900, Saison Dupont, Saison de Pipaix, Saison Voisin, Boulevard Tank 7

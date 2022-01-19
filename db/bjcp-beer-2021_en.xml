@@ -695,7 +695,7 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 8</low>
 				<high>20</high>
 			</stats>
@@ -709,7 +709,7 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>5</high>
 			</stats>
@@ -3419,7 +3419,7 @@ Well-hopped, quenching beer with an emphasis on showcasing hops. Served colder t
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 20</low>
 				<high>45</high>
 			</stats>
@@ -3433,7 +3433,7 @@ Well-hopped, quenching beer with an emphasis on showcasing hops. Served colder t
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>5</high>
 			</stats>
@@ -5862,21 +5862,21 @@ Entrants <u>may</u> specify specific <b>hop varieties </b>used, if entrants feel
 			<stats>
 				<type>abv</type>
 				<header>(session)</header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 3.0</low>
 				<high>5.0</high>
 			</stats>
 			<stats>
 				<type>abv</type>
 				<header>(standard)</header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 5.0</low>
 				<high>7.5</high>
 			</stats>
 			<stats>
 				<type>abv</type>
 				<header>(double)</header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 7.5</low>
 				<high>10.0</high>
 			</stats>
@@ -7912,7 +7912,7 @@ Ellezelloise Saison 2000, Lefebvre Saison 1900, Saison Dupont, Saison de Pipaix,
 			</stats>
 			<stats>
 				<type>srm</type>
-				<header></header>
+				<header>(dark)</header>
 				<notes></notes>
 				<low>15</low>
 				<high>22</high>
@@ -7921,8 +7921,8 @@ Ellezelloise Saison 2000, Lefebvre Saison 1900, Saison Dupont, Saison de Pipaix,
 				<type>abv</type>
 				<header>(standard)</header>
 				<notes></notes>
-				<low></low>
-				<high></high>
+				<low>5.0</low>
+				<high>7.0</high>
 			</stats>
 			<stats>
 				<type>abv</type>
@@ -10100,35 +10100,35 @@ This category should not be used for base styles where wood-aging is a fundament
 			<stats>
 				<type>og</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, typically above-average </notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>fg</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style</notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>abv</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, typically above-average</notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style</notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, often darker than the unadulterated base style</notes>
 				<low></low>
 				<high></high>
 			</stats>
@@ -10182,35 +10182,35 @@ Special wood-aged wild ales should be entered in the 28C Wild Specialty Beer.<br
 			<stats>
 				<type>og</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, typically above-average</notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>fg</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style </notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>abv</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, typically above-average</notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style </notes>
 				<low></low>
 				<high></high>
 			</stats>
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes>varies with base style, often darker than the unadulterated base style</notes>
 				<low></low>
 				<high></high>
 			</stats>
@@ -11298,7 +11298,7 @@ Color ranges from medium gold to medium reddish copper; some versions can have a
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 35</low>
 				<high>60</high>
 			</stats>
@@ -11312,7 +11312,7 @@ Color ranges from medium gold to medium reddish copper; some versions can have a
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 6</low>
 				<high>15</high>
 			</stats>
@@ -11373,35 +11373,35 @@ Similar to Fruit Beer but evolved as a standalone style due to the abundance of 
 			<stats>
 				<type>og</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 1.045</low>
 				<high>1.100</high>
 			</stats>
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 6</low>
 				<high>30</high>
 			</stats>
 			<stats>
 				<type>fg</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 1.005</low>
 				<high>1.015</high>
 			</stats>
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 4</low>
 				<high>25</high>
 			</stats>
 			<stats>
 				<type>abv</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 4.5</low>
 				<high>12</high>
 			</stats>
@@ -11464,7 +11464,7 @@ Corpo baixo à médio-baixo. Carbonatação média à alta. Sem aquecimento alco
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>8</high>
 			</stats>
@@ -11478,7 +11478,7 @@ Corpo baixo à médio-baixo. Carbonatação média à alta. Sem aquecimento alco
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>6</high>
 			</stats>
@@ -11548,7 +11548,7 @@ Color is often fairly pale – straw to gold. Medium to high white head with fai
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>8</high>
 			</stats>
@@ -11562,7 +11562,7 @@ Color is often fairly pale – straw to gold. Medium to high white head with fai
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>6</high>
 			</stats>
@@ -11633,7 +11633,7 @@ bitter, pale-color, standard-strength, bottom-fermented, hoppy, pilsner-family, 
 			<stats>
 				<type>ibu</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 25</low>
 				<high>45</high>
 			</stats>
@@ -11647,7 +11647,7 @@ bitter, pale-color, standard-strength, bottom-fermented, hoppy, pilsner-family, 
 			<stats>
 				<type>srm</type>
 				<header></header>
-				<notes></notes>
+				<notes> </notes>
 				<low> 2</low>
 				<high>6</high>
 			</stats>

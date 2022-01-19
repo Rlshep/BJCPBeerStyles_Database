@@ -95,7 +95,6 @@ public class BjcpDao {
         String sql = "INSERT INTO " + TABLE_VITALS + "(" + COLUMN_CAT_ID + ", " + COLUMN_TYPE + ", " + COLUMN_HEADER + ", " + COLUMN_NOTES + ", " + COLUMN_LOW + ", " + COLUMN_HIGH + ")";
         sql += "VALUES(" + vitalStatistics.getCategoryId() + ",'" + vitalStatistics.getType() + "','" + vitalStatistics.getHeader() + "','" + vitalStatistics.getNotes() + "'," + vitalStatistics.getLow() + "," + vitalStatistics.getHigh() + ") ";
 
-        //Write category to database.
         stmt.executeUpdate(sql);
     }
 

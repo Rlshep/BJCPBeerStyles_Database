@@ -129,7 +129,7 @@ public class BJCP2021TextToXML extends TextToXML {
 
         s = s.replace("\n\n" + IBU, "\n" + IBU);
         s = s.replace("\n\n" + SRM, "\n" + SRM);
-        s = s.replace("\n15 – 22 ''(dark)''5.0 – 7.0% ''(standard)''", "SRM:15 – 22 ''(dark)'\n" + ABV + "'5.0 – 7.0% ''(standard)''");
+        s = s.replace("\n15 – 22 ''(dark)''5.0 – 7.0% ''(standard)''", "SRM:15 – 22 ''(dark)''\n" + ABV + "5.0 – 7.0% ''(standard)''");
         s = s.replace("\n\n7.0 – 9.5% ''(super)''", "\n" + ABV + "7.0 – 9.5% ''(super)''");
         s = s.replaceAll("\\{\\{anchor\\|.*\\}\\}\\s*\n", "");
         s = s.replace("malty= {{anchor|Toc91058140}}", "malty\n\n= {{anchor|Toc91058140}}");
@@ -504,7 +504,7 @@ public class BJCP2021TextToXML extends TextToXML {
         formatted.append(getEndTag(XML_HEADER));
         formatted.append("\n\t\t\t\t");
         formatted.append(getStartTag(XML_NOTES));
-        formatted.append(getRegExValue(str, statsExceptionPattern));
+        formatted.append(getNotes(str));
         formatted.append(getEndTag(XML_NOTES));
         formatted.append("\n\t\t\t\t");
         formatted.append(getStartTag(XML_LOW));
@@ -519,6 +519,21 @@ public class BJCP2021TextToXML extends TextToXML {
         formatted.append("\n");
 
         return formatted;
+    }
+
+
+    //OG:varies with base style, typically above-average
+    private StringBuilder getNotes(String str) {
+        final Pattern pattern = Pattern.compile(":(\\D+)");
+        StringBuilder notes = new StringBuilder();
+
+        if (isStatsException(str)) {
+            notes.append(getRegExValue(str, statsExceptionPattern));
+        } else {
+            notes.append(getRegExValue(str, pattern));
+        }
+
+        return notes;
     }
 
     protected String postCleanUp(StringBuilder out) {
