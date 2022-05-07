@@ -102,7 +102,8 @@ Pay careful attention to the modifiers used in style descriptions. Look for guid
 <br/>
 Phrases such as may have, can contain, might feature, is acceptable, is appropriate, is typical, optionally, etc. all indicators of <b>optional</b> elements. <b>Required</b> elements are generally written as declaratory phrases, or use words such as must or should. Elements that must <b>not</b> be present often use phrases such as is inappropriate, no, or must not. Again, take these words at their plain meaning.<br/>
 <br/>
-</notes>
+Do not overly focus on single words or phrases within style descriptions to the exclusion of the broader intent. Understand the overall impression of the style, the general balance, and how the style differs from related or similar styles. Do not disproportionately weight specific phrases if that would change the overall impression, balance, and meaning of the style, or if it would cause the beer to be disqualified or otherwise marked down for style issues.<br/>
+		</notes>
 		</subcategory>
 		<subcategory id="I2">
 			<name>Introduction to Beer Styles</name>
@@ -135,9 +136,11 @@ Lagers tend to be smooth, clean, and free of esters. Stronger and darker lagers 
 <br/>
 Styles made with a large amount of Pilsner malt may have low DMS notes; this is not a fault, but it is also not required unless otherwise noted. In both cases, the small amounts of sulfur or DMS should not be taken as meaning that prominent quantities are somehow desirable – they’re not. Just be aware that the use of some traditional ingredients often leaves small sensory indications of their presence that might be considered faults in other contexts; that is perfectly acceptable, although not required. <br/>
 <br/>
-</notes>
+Unless otherwise noted, assume all lagers to not have any fruitiness (esters). Ales tend to be less smooth than lagers, so unless otherwise noted, assume all ales may have some esters (not required, but not a fault).<br/>
+			</notes>
 			<notes>
-				<b>Glossary</b>
+<br/>
+<b>Glossary</b>
 <br/>
 					Some terminology used in the style guidelines may be unfamiliar to some readers. Rather than include a complete dictionary, we have highlighted a few terms that either may not be well understood, or that imply specific meanings within the guidelines. Sometimes ingredient names are used as a shorthand for the character they provide to beer. When judges use these terms, they don’t necessarily imply that those specific ingredients have been used, just that the perceived characteristics match those commonly provided by the mentioned ingredients.<br/>
 <br/>
@@ -465,7 +468,8 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 <br/>
 					The Specialty-Type Ingredient character should be pleasant and supportive, not artificial or inappropriately overpowering, taking into account that some ingredients have an inherently prominent character. Aroma hops, fermentation byproducts, and malt components of the underlying beer may not be as noticeable when additional ingredients are present, and they may also be intentionally subdued to allow the ingredient character to be perceived more clearly in the final presentation. <br/>
 <br/>
-</notes>
+Hop aroma may be absent or balanced with the added ingredients, depending on the style. The added ingredients should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation.<br/>
+			</notes>
 		</subcategory>
 	</category>
 	<category id="1">
@@ -938,7 +942,12 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Abita Amber Lager, Brooklyn Lager, Capital Wisconsin Amber Lager, Dos Equis Amber, Grain Belt NordEast, Yuengling Lager</body>
+ Abita Amber Lager, Brooklyn Lager, Capital Wisconsin Amber Lager, Dos Equis Amber, Grain Belt NordEast, Yuengling Lager<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, bottom-fermented, lagered, traditional-style, amber-lager-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -1016,7 +1025,11 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Baltika #4 Original, Dixie Blackened Voodoo, Heineken Dark Lager, Saint Pauli Girl Special Dark, San Miguel Dark, Shiner Bock</body>
+ Baltika #4 Original, Dixie Blackened Voodoo, Heineken Dark Lager, Saint Pauli Girl Special Dark, San Miguel Dark, Shiner Bock<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, dark-color, bottom-fermented, lagered, traditional-style, dark-lager-family, malty</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -1270,7 +1283,12 @@ Kvasnicové (“yeast beer”) versions are popular in the Czech Republic, and m
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Bernard Jantarový ležák 12°, Gambrinus Polotmavá 12°, Kozel Semi-Dark, Lobkowicz Démon 13, Primátor 13 polotmavé, Strakonický Dudák Klostermann polotmavý ležák</body>
+ Bernard Jantarový ležák 12°, Gambrinus Polotmavá 12°, Kozel Semi-Dark, Lobkowicz Démon 13, Primátor 13 polotmavé, Strakonický Dudák Klostermann polotmavý ležák<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, balanced<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -1438,7 +1456,12 @@ Medium to medium-high deep, complex maltiness dominates, typically with malty-ri
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Augustiner Lagerbier Hell, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Münchner Lager, Schönramer Hell, Spaten Münchner Hell, Weihenstephaner Original Heles</body>
+ Augustiner Lagerbier Hell, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Münchner Lager, Schönramer Hell, Spaten Münchner Hell, Weihenstephaner Original Heles<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -1598,7 +1621,12 @@ Moderate to strong grainy-sweet malt aroma, often with a lightly toasted quality
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Altenmünster Maibock, Ayinger Maibock, Chuckanut Maibock, Einbecker Mai-Ur-Bock, Hofbräu Maibock, Mahr’s Heller Bock</body>
+ Altenmünster Maibock, Ayinger Maibock, Chuckanut Maibock, Einbecker Mai-Ur-Bock, Hofbräu Maibock, Mahr’s Heller Bock<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ high-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -1930,7 +1958,12 @@ standard-strength, pale-color, bottom-fermented, lagered, central-europe, tradit
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- ABK Pils Anno 1907, Jever Pilsener, König Pilsener, Paulaner Pils, Bierstadt Slow-Pour Pils, Rothaus Pils, Schönramer Pils, Trumer Pils</body>
+ ABK Pils Anno 1907, Jever Pilsener, König Pilsener, Paulaner Pils, Bierstadt Slow-Pour Pils, Rothaus Pils, Schönramer Pils, Trumer Pils<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pilsner-family, bitter, hoppy<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -2182,7 +2215,12 @@ A strong, dark, malty German lager beer that emphasizes the malty-rich and somew
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Aass Bock, Einbecker Ur-Bock Dunkel, Kneitinger Bock, Lindeboom Bock, Schell’s Bock, Penn Brewery St. Nikolaus Bock</body>
+ Aass Bock, Einbecker Ur-Bock Dunkel, Kneitinger Bock, Lindeboom Bock, Schell’s Bock, Penn Brewery St. Nikolaus Bock<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ high-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -2352,7 +2390,11 @@ A strong, dark, malty German lager beer that emphasizes the malty-rich and somew
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Bolten Alt, Diebels Alt, Füchschen Alt, Original Schlüssel Alt, Schlösser Alt, Schumacher Alt, Uerige Altbier</body>
+ Bolten Alt, Diebels Alt, Füchschen Alt, Original Schlüssel Alt, Schlösser Alt, Schumacher Alt, Uerige Altbier<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, top-fermented, lagered, central-europe, traditional-style, amber-ale-family, bitter</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -2520,7 +2562,12 @@ A dark German lager that balances roasted yet smooth malt flavors with moderate 
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Chuckanut Schwarz Lager, Devils Backbone Schwartz Bier, Köstritzer Schwarzbier, Kulmbacher Mönchshof Schwarzbier, Nuezeller Original Badebier, pFriem Schwarzbier</body>
+ Chuckanut Schwarz Lager, Devils Backbone Schwartz Bier, Köstritzer Schwarzbier, Kulmbacher Mönchshof Schwarzbier, Nuezeller Original Badebier, pFriem Schwarzbier<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, balanced, dark-lager-family<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -2790,7 +2837,8 @@ Generally quite full-bodied and smooth, with a well-aged alcohol warmth that can
 <br/>
 <big><b>Tags</b></big><br/>
 
- high-strength, dark-color, any-fermentation, lagered, eastern-europe, traditional-style, porter-family, malty</body>
+ high-strength, dark-color, any-fermentation, lagered, eastern-europe, traditional-style, porter-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -3318,7 +3366,12 @@ Pale amber to medium copper color. Good to brilliant clarity. Low to moderate wh
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Bass Ale, Bateman’s Triple XB, Robinsons Trooper, Samuel Smith’s Organic Pale Ale, Shepherd Neame Bishop's Finger, Summit Extra Pale Ale</body>
+ Bass Ale, Bateman’s Triple XB, Robinsons Trooper, Samuel Smith’s Organic Pale Ale, Shepherd Neame Bishop's Finger, Summit Extra Pale Ale<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -3834,7 +3887,12 @@ The name is said to have been derived from its popularity with the London workin
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Bateman’s Salem Porter, Burton Bridge Burton Porter, Fuller's London Porter, Nethergate Old Growler Porter, RCH Old Slug Porter, Samuel Smith Taddy Porter</body>
+ Bateman’s Salem Porter, Burton Bridge Burton Porter, Fuller's London Porter, Nethergate Old Growler Porter, RCH Old Slug Porter, Samuel Smith Taddy Porter<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, dark-color, top-fermented, british-isles, traditional-style, porter-family, malty, roasty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -4092,7 +4150,12 @@ McEwan's 70/-, Orkney Raven Ale<br/>
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Belhaven Scottish Ale, Broughton Wee Jock 80 Shilling, Caledonian Edinburgh Castle, McEwan’s 80/-, McEwan’s Export, Traquair Bear Ale</body>
+ Belhaven Scottish Ale, Broughton Wee Jock 80 Shilling, Caledonian Edinburgh Castle, McEwan’s 80/-, McEwan’s Export, Traquair Bear Ale<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -4342,7 +4405,12 @@ Same roots as Irish Stout, but as a stronger product. Guinness Extra Stout (Extr
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Guinness Extra Stout, O’Hara’s Leann Folláin, Porterhouse XXXX, Sheaf Stout</body>
+ Guinness Extra Stout, O’Hara’s Leann Folláin, Porterhouse XXXX, Sheaf Stout<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -4674,7 +4742,12 @@ Surprisingly refreshing in a hot climate. Sweetness levels can vary significantl
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Coopers Best Extra Stout, Guinness Foreign Extra Stout, The Kernel Export Stout London 1890, La Cumbre Malpais Stout, Pelican Tsunami Export Stout, Ridgeway Foreign Export Stout</body>
+ Coopers Best Extra Stout, Guinness Foreign Extra Stout, The Kernel Export Stout London 1890, La Cumbre Malpais Stout, Pelican Tsunami Export Stout, Ridgeway Foreign Export Stout<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, balanced, roasty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -5009,7 +5082,11 @@ Some oxidative or vinous flavors may be present, and often complex alcohol flavo
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Burton Bridge Thomas Sykes Old Ale, Coniston No. 9 Barley Wine, Fuller’s Golden Pride, Hogs Back A over T, J.W. Lee’s Vintage Harvest Ale, Robinson’s Old Tom</body>
+ Burton Bridge Thomas Sykes Old Ale, Coniston No. 9 Barley Wine, Fuller’s Golden Pride, Hogs Back A over T, J.W. Lee’s Vintage Harvest Ale, Robinson’s Old Tom<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ very-high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -5177,7 +5254,12 @@ Firestone Walker 805, Kona Big Wave Golden Ale, Real Ale Firemans #4 Blonde Ale,
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Deschutes Mirror Pond Pale Ale, Half Acre Daisy Cutter Pale Ale, Great Lakes Burning River, La Cumbre Acclimated APA, Sierra Nevada Pale Ale, Stone Pale Ale 2.0</body>
+ Deschutes Mirror Pond Pale Ale, Half Acre Daisy Cutter Pale Ale, Great Lakes Burning River, La Cumbre Acclimated APA, Sierra Nevada Pale Ale, Stone Pale Ale 2.0<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, pale-color, top-fermented, north-america, craft-style, pale-ale-family, bitter, hoppy<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -5427,7 +5509,12 @@ An American style from the early modern craft beer era. Derived from English Bro
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Avery Ellie’s Brown Ale, Big Sky Moose Drool Brown Ale, Brooklyn Brown Ale, Bell’s Best Brown, Smuttynose Old Brown Dog Ale, Telluride Face Down Brown</body>
+ Avery Ellie’s Brown Ale, Big Sky Moose Drool Brown Ale, Brooklyn Brown Ale, Bell’s Best Brown, Smuttynose Old Brown Dog Ale, Telluride Face Down Brown<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, dark-color, top-fermented, north-america, craft-style, brown-ale-family, balanced, hoppy<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -5683,7 +5770,8 @@ Darker and more roasty than Barleywines, but with similar alcohol. More complex,
 <br/>
 <big><b>Tags</b></big><br/>
 
- very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty</body>
+ very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -6836,7 +6924,12 @@ Typically brewed with a combination of American two-row and American wheat. Styl
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
-The Bruery White Oak, Castelain Winter Ale, Perennial Heart of Gold, Two Brothers Bare Tree</body>
+The Bruery White Oak, Castelain Winter Ale, Perennial Heart of Gold, Two Brothers Bare Tree<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+very-high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, wheat-beer-family, balanced, hoppy<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -7973,7 +8066,12 @@ Developed by the Moortgat brewery after WWI as a response to the growing popular
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Brigand, Delirium Tremens, Duvel, Judas, Lucifer, Russian River Damnation</body>
+ Brigand, Delirium Tremens, Duvel, Judas, Lucifer, Russian River Damnation<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ very-high-strength, pale-color, top-fermented, western-europe, traditional-style, bitter<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -8473,7 +8571,12 @@ Some have speculated it was a dark variant of Cream Ale, created by immigrant Ge
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Apocalypse Brew Works 1912</body>
+ Apocalypse Brew Works 1912<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ standard-strength, amber-color, top-fermented, north-america, historical-style, balanced<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -8883,47 +8986,10 @@ Moderate grainy-bready malt flavor, with low levels of chocolate, burnt malt, bu
 <br/>
 <big><b>Tags</b></big><br/>
 
- standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty</body>
-			<stats>
-				<type>og</type>
-				<header></header>
-				<notes></notes>
-				<low>1.046</low>
-				<high>1.060</high>
-			</stats>
-			<stats>
-				<type>ibu</type>
-				<header></header>
-				<notes></notes>
-				<low>20</low>
-				<high>30</high>
-			</stats>
-			<stats>
-				<type>fg</type>
-				<header></header>
-				<notes></notes>
-				<low>1.010</low>
-				<high>1.016</high>
-			</stats>
-			<stats>
-				<type>srm</type>
-				<header></header>
-				<notes></notes>
-				<low>20</low>
-				<high>30</high>
-			</stats>
-			<stats>
-				<type>abv</type>
-				<header></header>
-				<notes></notes>
-				<low>4.5</low>
-				<high>6.0</high>
-			</stats>
-		</subcategory>
-		<subcategory id="27-roggen">
-			<name>Historical Beer: Roggenbier</name>
-			<body>
-				<big><b>Overall Impression</b></big><br/>
+ standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty<br/>
+				=== Historical Beer: Roggenbier ===<br/>
+<br/>
+<big><b>Overall Impression</b></big><br/>
 
  A Dunkles Weissbier made with rye rather than wheat, but with a greater body and light finishing hops. The rye gives a bready and peppery flavor, a creamy body, and a dry, grainy finish that blends with the distinctive banana-and-clove weizen yeast character.<br/>
 <br/>
@@ -8966,6 +9032,41 @@ Moderate grainy-bready malt flavor, with low levels of chocolate, burnt malt, bu
 <big><b>Tags</b></big><br/>
 
  standard-strength, amber-color, top-fermented, central-europe, historical-style, wheat-beer-family</body>
+			<stats>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.046</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
+			</stats>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -9569,7 +9670,12 @@ The Bruery Goses are Red, New Planet Raspberry Ale, Tired Hands Strawberry Milks
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Montegioco Open Mind, Birrificio del Forte Il Tralcio, Luppolajo Mons Rubus, Firestone Walker Feral Vinifera, pFriem Family Brewers Druif, 4 Árvores Abbondanza </body>
+ Montegioco Open Mind, Birrificio del Forte Il Tralcio, Luppolajo Mons Rubus, Firestone Walker Feral Vinifera, pFriem Family Brewers Druif, 4 Árvores Abbondanza <br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ specialty-beer, fruit<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>
@@ -10030,7 +10136,12 @@ The entrant <b><b>must</b></b> specify a Base Style. The entrant <b><b>must</b><
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- Fat Head’s Up in Smoke, Ommegang Bourbon Barrel Vanilla Smoked Porter</body>
+ Fat Head’s Up in Smoke, Ommegang Bourbon Barrel Vanilla Smoked Porter<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ specialty-beer, smoke<br/>
+			</body>
 			<stats>
 				<type>all</type>
 				<header></header>
@@ -10178,7 +10289,12 @@ Special wood-aged wild ales should be entered in the 28C Wild Specialty Beer.<br
 <br/>
 <big><b>Commercial Examples</b></big><br/>
 
- AleSmith Barrel-Aged Old Numbskull, Founders Kentucky Breakfast Stout, Firestone Walker Parabola, Goose Island Bourbon County Stout, Great Divide Barrel Aged Yeti, The Lost Abbey Angel’s Share Ale</body>
+ AleSmith Barrel-Aged Old Numbskull, Founders Kentucky Breakfast Stout, Firestone Walker Parabola, Goose Island Bourbon County Stout, Great Divide Barrel Aged Yeti, The Lost Abbey Angel’s Share Ale<br/>
+<br/>
+<big><b>Tags</b></big><br/>
+
+ specialty-beer, wood<br/>
+			</body>
 			<stats>
 				<type>og</type>
 				<header></header>

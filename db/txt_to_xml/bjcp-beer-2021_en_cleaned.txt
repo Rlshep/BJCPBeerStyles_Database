@@ -543,7 +543,8 @@ Pay careful attention to the modifiers used in style descriptions. Look for guid
 
 Phrases such as ''may have'', ''can contain'', ''might feature'', ''is acceptable'', ''is appropriate'', ''is typical'', ''optionally'', etc. all indicators of '''optional''' elements. '''Required''' elements are generally written as declaratory phrases, or use words such as ''must'' or ''should''. Elements that must '''not''' be present often use phrases such as ''is inappropriate'', ''no'', or ''must not''. Again, take these words at their plain meaning.
 
-Do not overly focus on single words or phrases within style descriptions to the exclusion of the broader intent. Understand the overall impression of the style, the general balance, and how the style differs from related or similar styles. Do not disproportionately weight specific phrases if that would change the overall impression, balance, and meaning of the style, or if it would cause the beer to be disqualified or otherwise marked down for style issues.= {{anchor|Toc91058090}} Introduction to Beer Styles =
+Do not overly focus on single words or phrases within style descriptions to the exclusion of the broader intent. Understand the overall impression of the style, the general balance, and how the style differs from related or similar styles. Do not disproportionately weight specific phrases if that would change the overall impression, balance, and meaning of the style, or if it would cause the beer to be disqualified or otherwise marked down for style issues.
+= {{anchor|Toc91058090}} Introduction to Beer Styles =
 
 ''In order to reduce the length of style descriptions, we use some basic shorthand or jargon to represent more complex thoughts, and we also omit some items that should only be noted in exceptional circumstances. Some terminology may have different meanings in certain parts of the world, so we define our usages to avoid confusion. We also identify certain characteristics that are assumed not to be present in all beer styles so that we don’t have to repeat those restrictions in every style.
 
@@ -569,7 +570,8 @@ Lagers tend to be smooth, clean, and free of esters. Stronger and darker lagers 
 
 Styles made with a large amount of Pilsner malt may have low DMS notes; this is not a fault, but it is also not required unless otherwise noted. In both cases, the small amounts of sulfur or DMS should not be taken as meaning that prominent quantities are somehow desirable – they’re not. Just be aware that the use of some traditional ingredients often leaves small sensory indications of their presence that might be considered faults in other contexts; that is perfectly acceptable, although not required. 
 
-Unless otherwise noted, assume all lagers to not have any fruitiness (esters). Ales tend to be less smooth than lagers, so unless otherwise noted, assume all ales may have some esters (not required, but not a fault).== {{anchor|Toc91058093}} Glossary ==
+Unless otherwise noted, assume all lagers to not have any fruitiness (esters). Ales tend to be less smooth than lagers, so unless otherwise noted, assume all ales may have some esters (not required, but not a fault).
+== {{anchor|Toc91058093}} Glossary ==
 
 ''Some terminology used in the style guidelines may be unfamiliar to some readers. Rather than include a complete dictionary, we have highlighted a few terms that either may not be well understood, or that imply specific meanings within the guidelines. Sometimes ingredient names are used as a shorthand for the character they provide to beer. When judges use these terms, they don’t necessarily imply that those specific ingredients have been used, just that the perceived characteristics match those commonly provided by the mentioned ingredients.''
 
@@ -849,7 +851,8 @@ If an entrant declares a potential allergen in the beer, do not deduct points if
 
 The Specialty-Type Ingredient character should be pleasant and supportive, not artificial or inappropriately overpowering, taking into account that some ingredients have an inherently prominent character. Aroma hops, fermentation byproducts, and malt components of the underlying beer may not be as noticeable when additional ingredients are present, and they may also be intentionally subdued to allow the ingredient character to be perceived more clearly in the final presentation. 
 
-Hop aroma may be absent or balanced with the added ingredients, depending on the style. The added ingredients should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation.= {{anchor|Toc91058103}} 1. Standard American Beer =
+Hop aroma may be absent or balanced with the added ingredients, depending on the style. The added ingredients should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation.
+= {{anchor|Toc91058103}} 1. Standard American Beer =
 
 ''This category describes everyday American beers that have a wide public appeal. Containing both ales and lagers, the beers of this category are not typically complex, and have smooth, accessible flavors. The ales tend to have lager-like qualities, or are designed to appeal to mass-market lager drinkers as crossover beers. Mass-market beers with a more international appeal or origin are described in the International Lager category.
 
@@ -1044,7 +1047,8 @@ ABV:4.5 – 6.0%
 
 '''Commercial Examples:''' Abita Amber Lager, Brooklyn Lager, Capital Wisconsin Amber Lager, Dos Equis Amber, Grain Belt NordEast, Yuengling Lager
 
-'''Tags:''' standard-strength, amber-color, bottom-fermented, lagered, traditional-style, amber-lager-family, malty== {{anchor|Toc91058111}} 2C. International Dark Lager ==
+'''Tags:''' standard-strength, amber-color, bottom-fermented, lagered, traditional-style, amber-lager-family, malty
+== {{anchor|Toc91058111}} 2C. International Dark Lager ==
 
 '''Overall Impression:''' A darker, richer, and somewhat sweeter version of international pale lager with a little more body and flavor, but equally restrained in bitterness. The low bitterness leaves the malt as the primary flavor element, and the low hop levels provide very little in the way of balance.
 
@@ -1073,7 +1077,9 @@ ABV:4.2 – 6.0%
 
 '''Commercial Examples:''' Baltika #4 Original, Dixie Blackened Voodoo, Heineken Dark Lager, Saint Pauli Girl Special Dark, San Miguel Dark, Shiner Bock
 
-'''Tags:''' standard-strength, dark-color, bottom-fermented, lagered, traditional-style, dark-lager-family, malty= {{anchor|Toc418087746}} {{anchor|Toc91058112}} 3. Czech Lager =
+'''Tags:''' standard-strength, dark-color, bottom-fermented, lagered, traditional-style, dark-lager-family, malty
+
+=  {{anchor|Toc91058112}} 3. Czech Lager =
 
 ''Czech lagers are generally divided by gravity class (draft, lager, special) and color (pale, amber, dark). The Czech names for these categories are ''světlé'' (pale), ''polotmavé'' (amber), and ''tmavé'' (dark). The gravity classes are ''výčepní'' (draft, 7–10 °P), ''ležák'' (lager, 11–12 °P), and ''speciální'' (special, 13 °P+). ''Pivo'' is of course the Czech word for beer. The division into gravity classes is similar to the German groupings of ''schankbier'', ''vollbier'', and ''starkbier'', although at different gravity ranges. Czech beers within the classes are often simply referenced by their gravity. There are often variations within the gravity-color groupings, particularly within the ''speciální'' class. The style guidelines combine some of these classes, while other beers in the Czech market are not described (such as the strong Czech Porter). This is not to imply that the categories below are the full coverage of Czech beers, simply a way of grouping some of the more commonly found types for judging purposes.''
 
@@ -1174,7 +1180,8 @@ ABV:4.4 – 5.8%
 
 '''Commercial Examples:''' Bernard Jantarový ležák 12°, Gambrinus Polotmavá 12°, Kozel Semi-Dark, Lobkowicz Démon 13, Primátor 13 polotmavé, Strakonický Dudák Klostermann polotmavý ležák
 
-'''Tags:''' standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, balanced== {{anchor|Toc91058116}} 3D. Czech Dark Lager ==
+'''Tags:''' standard-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, amber-lager-family, balanced
+== {{anchor|Toc91058116}} 3D. Czech Dark Lager ==
 
 '''Overall Impression:''' A rich, dark, malty Czech lager with a roast character that can vary from almost absent to quite prominent. Malty balance and an interesting and complex flavor profile, with variable levels of hopping that provides a range of possible interpretations.
 
@@ -1204,6 +1211,7 @@ ABV:4.4 – 5.8%
 '''Commercial Examples:''' Bernard černý ležák 12°, Budvar tmavý ležák, Herold lmavé silné pivo 13°, Kozel Dark , Krušovice černé, Primátor dark lager, U Fleků Flekovský tmavý ležák 13°
 
 '''Tags:''' standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, dark-lager-family, balanced
+
 
 
 = {{anchor|Toc91058117}} 4. Pale Malty European Lager =
@@ -1239,7 +1247,8 @@ ABV:4.7 – 5.4%
 
 '''Commercial Examples:''' Augustiner Lagerbier Hell, Hacker-Pschorr Münchner Gold, Löwenbraü Original, Paulaner Münchner Lager, Schönramer Hell, Spaten Münchner Hell, Weihenstephaner Original Heles
 
-'''Tags:''' standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty{{anchor|Toc91058119}} '''4B. Festbier'''
+'''Tags:''' standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pale-lager-family, malty
+{{anchor|Toc91058119}} '''4B. Festbier'''
 
 '''Overall Impression:''' A smooth, clean, pale German lager with a moderately strong malty flavor and a light hop character. Deftly balances strength and drinkability, with a palate impression and finish that encourages drinking. Showcases elegant German malt flavors without becoming too heavy or filling.
 
@@ -1299,7 +1308,8 @@ ABV:6.3 – 7.4%
 
 '''Commercial Examples:''' Altenmünster Maibock, Ayinger Maibock, Chuckanut Maibock, Einbecker Mai-Ur-Bock, Hofbräu Maibock, Mahr’s Heller Bock
 
-'''Tags:''' high-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty= {{anchor|Toc91058121}} 5. Pale Bitter European Beer =
+'''Tags:''' high-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty
+= {{anchor|Toc91058121}} 5. Pale Bitter European Beer =
 
 ''This category describes German-origin beers that are pale and have an even to bitter balance with a mild to moderately strong hoppy character featuring traditional German hops. They are generally bottom-fermented or are lagered to provide a smooth profile, and are well-attenuated as are most German beers.
 
@@ -1426,7 +1436,8 @@ ABV:4.4 – 5.2%
 
 '''Commercial Examples:''' ABK Pils Anno 1907, Jever Pilsener, König Pilsener, Paulaner Pils, Bierstadt Slow-Pour Pils, Rothaus Pils, Schönramer Pils, Trumer Pils
 
-'''Tags:''' standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pilsner-family, bitter, hoppy= {{anchor|Toc91058126}} 6. Amber Malty European Lager =
+'''Tags:''' standard-strength, pale-color, bottom-fermented, lagered, central-europe, traditional-style, pilsner-family, bitter, hoppy
+= {{anchor|Toc91058126}} 6. Amber Malty European Lager =
 
 ''This category groups amber-colored, German-origin, bottom-fermented lagerbiers that have a malty balance and are vollbier to starkbier in strength.
 
@@ -1523,7 +1534,8 @@ ABV:6.3 – 7.2%
 
 '''Commercial Examples:''' Aass Bock, Einbecker Ur-Bock Dunkel, Kneitinger Bock, Lindeboom Bock, Schell’s Bock, Penn Brewery St. Nikolaus Bock
 
-'''Tags:''' high-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty= {{anchor|Toc91058130}} 7. Amber Bitter European Beer =
+'''Tags:''' high-strength, amber-color, bottom-fermented, lagered, central-europe, traditional-style, bock-family, malty
+= {{anchor|Toc91058130}} 7. Amber Bitter European Beer =
 
 ''This category groups amber-colored, evenly balanced to bitter balanced beers of German or Austrian origin.
 
@@ -1589,7 +1601,9 @@ ABV:4.3 – 5.5%
 
 '''Commercial Examples:''' Bolten Alt, Diebels Alt, Füchschen Alt, Original Schlüssel Alt, Schlösser Alt, Schumacher Alt, Uerige Altbier
 
-'''Tags:''' standard-strength, amber-color, top-fermented, lagered, central-europe, traditional-style, amber-ale-family, bitter= {{anchor|Toc418087770}} {{anchor|Toc180319646}} {{anchor|Toc91058133}} 8. Dark European Lager =
+'''Tags:''' standard-strength, amber-color, top-fermented, lagered, central-europe, traditional-style, amber-ale-family, bitter
+
+= {{anchor|Toc91058133}} 8. Dark European Lager =
 
 ''This category contains German vollbier lagers darker than amber-brown color.
 
@@ -1653,7 +1667,8 @@ ABV:4.4 – 5.4%
 
 '''Commercial Examples:''' Chuckanut Schwarz Lager, Devils Backbone Schwartz Bier, Köstritzer Schwarzbier, Kulmbacher Mönchshof Schwarzbier, Nuezeller Original Badebier, pFriem Schwarzbier
 
-'''Tags:''' standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, balanced, dark-lager-family= {{anchor|Toc91058136}} 9. Strong European Beer =
+'''Tags:''' standard-strength, dark-color, bottom-fermented, lagered, central-europe, traditional-style, balanced, dark-lager-family
+= {{anchor|Toc91058136}} 9. Strong European Beer =
 
 ''This category contains more strongly flavored and higher alcohol lagers from Germany and the Baltic region. Most are dark, but some pale versions are known.
 
@@ -1763,7 +1778,6 @@ ABV:6.5 – 9.5%
 '''Commercial Examples:''' Aldaris Mežpils Porteris, Baltika 6 Porter, Devils Backbone Danzig, Okocim Mistrzowski Porter, Sinebrychoff Porter, Zywiec Porter
 
 '''Tags:''' high-strength, dark-color, any-fermentation, lagered, eastern-europe, traditional-style, porter-family, malty
-
 = {{anchor|Toc91058140}} 10. German Wheat Beer =
 
 ''This category contains vollbier- and starkbier-strength German wheat beers without sourness, in light and dark colors.
@@ -1879,6 +1893,7 @@ ABV:6.5 – 9.0%
 '''Tags:''' high-strength, amber-color, pale-color, top-fermented, central-europe, traditional-style, wheat-beer-family, malty
 
 
+
 = {{anchor|Toc91058144}} 11. British Bitter =
 
 ''The family of British bitters grew out of English pale ales as a draught product after the late 1800s. The use of crystal malts in bitters became more widespread after WWI. Traditionally served very fresh under no pressure (gravity or hand pump only) at cellar temperatures (i.e., “real ale”). Most bottled or kegged versions of UK-produced bitters are often higher-alcohol and more highly carbonated versions of cask products produced for export, and have a different character and balance than their draught counterparts in Britain (often being sweeter and less hoppy than the cask versions). These guidelines reflect the “real ale” version of the style, not the export formulations of commercial products. ''
@@ -1978,7 +1993,8 @@ ABV:4.6 – 6.2%
 
 '''Commercial Examples:''' Bass Ale, Bateman’s Triple XB, Robinsons Trooper, Samuel Smith’s Organic Pale Ale, Shepherd Neame Bishop's Finger, Summit Extra Pale Ale
 
-'''Tags:''' standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter= {{anchor|Toc91058148}} 12. Pale Commonwealth Beer =
+'''Tags:''' standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, bitter
+= {{anchor|Toc91058148}} 12. Pale Commonwealth Beer =
 
 ''This category contains pale, moderately-strong, hop-forward, bitter ales from countries within the former British Empire.
 
@@ -2084,6 +2100,7 @@ ABV:5.0 – 7.5%
 '''Tags:''' high-strength, pale-color, top-fermented, british-isles, traditional-style, ipa-family, bitter, hoppy
 
 
+
 = {{anchor|Toc91058152}} 13. Brown British Beer =
 
 ''While Dark Mild, Brown Ale, and English Porter may have long and storied histories, these guidelines describe the modern versions. They are grouped together for judging purposes only since they often have similar flavors and balance, not because of any implied common ancestry. The similar characteristics are low to moderate strength, dark color, generally malty balance, and British ancestry. These styles have no historic relationship to each other; especially, none of these styles evolved into any of the others, or was ever a component of another. The category name was never used historically to describe this grouping of beers; it is our name for the judging category. “Brown Beer” was a distinct and important historical product, and is not related to this category name.
@@ -2183,7 +2200,8 @@ ABV:4.0 – 5.4%
 
 '''Commercial Examples:''' Bateman’s Salem Porter, Burton Bridge Burton Porter, Fuller's London Porter, Nethergate Old Growler Porter, RCH Old Slug Porter, Samuel Smith Taddy Porter
 
-'''Tags:''' standard-strength, dark-color, top-fermented, british-isles, traditional-style, porter-family, malty, roasty= {{anchor|Toc91058156}} 14. Scottish Ale =
+'''Tags:''' standard-strength, dark-color, top-fermented, british-isles, traditional-style, porter-family, malty, roasty
+= {{anchor|Toc91058156}} 14. Scottish Ale =
 
 ''There are really only three traditional beer styles broadly available today in Scotland: the 70/- Scottish Heavy, the 80/- Scottish Export, and the Strong Scotch Ale (Wee Heavy, Style 17C). The 60/- Scottish Light is rare and often cask-only, but it does seem to be having a bit of a renaissance currently. All these styles took modern form after World War II, regardless of prior use of the same names. Currently, the 60/- is similar to a dark mild, the 70/- is similar to an ordinary bitter, and the 80/- similar to a best or strong bitter. The Scottish beers have a different balance and flavor profile, but fill a similar market position as those English beers.''
 
@@ -2286,7 +2304,8 @@ ABV:3.9 – 6.0%
 
 '''Commercial Examples:''' Belhaven Scottish Ale, Broughton Wee Jock 80 Shilling, Caledonian Edinburgh Castle, McEwan’s 80/-, McEwan’s Export, Traquair Bear Ale
 
-'''Tags:''' standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty= {{anchor|Toc91058160}} 15. Irish Beer =
+'''Tags:''' standard-strength, amber-color, top-fermented, british-isles, traditional-style, amber-ale-family, malty
+= {{anchor|Toc91058160}} 15. Irish Beer =
 
 ''The traditional beers of Ireland contained in this category are amber to dark, top-fermented beers of moderate to slightly strong strength, and are often widely misunderstood due to differences in export versions, or overly focusing on the specific attributes of beer produced by high-volume, well-known breweries. Each of the styles in this grouping has a wider range than is commonly believed.
 
@@ -2381,7 +2400,8 @@ ABV:5.0 – 6.5%
 
 '''Commercial Examples:''' Guinness Extra Stout, O’Hara’s Leann Folláin, Porterhouse XXXX, Sheaf Stout
 
-'''Tags:''' high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty= {{anchor|Toc91058164}} 16. Dark British Beer =
+'''Tags:''' high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, bitter, roasty
+= {{anchor|Toc91058164}} 16. Dark British Beer =
 
 ''This category contains average to strong, bitter to sweet, modern British and Irish stouts that originated in England even if some are now more widely associated with Ireland. In this case, “British” means the broader British Isles not Great Britain. 
 
@@ -2508,7 +2528,8 @@ ABV:6.3 – 8.0%
 
 '''Commercial Examples:''' Coopers Best Extra Stout, Guinness Foreign Extra Stout, The Kernel Export Stout London 1890, La Cumbre Malpais Stout, Pelican Tsunami Export Stout, Ridgeway Foreign Export Stout
 
-'''Tags:''' high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, balanced, roasty= {{anchor|Toc91058169}} 17. Strong British Ale =
+'''Tags:''' high-strength, dark-color, top-fermented, british-isles, traditional-style, stout-family, balanced, roasty
+= {{anchor|Toc91058169}} 17. Strong British Ale =
 
 ''This category contains stronger, non-roasty ales of the British Isles. Covers the style space above bitters, milds, and brown ales while excluding porters and stouts.
 
@@ -2638,7 +2659,9 @@ ABV:8.0 – 12.0%
 
 '''Commercial Examples:''' Burton Bridge Thomas Sykes Old Ale, Coniston No. 9 Barley Wine, Fuller’s Golden Pride, Hogs Back A over T, J.W. Lee’s Vintage Harvest Ale, Robinson’s Old Tom
 
-'''Tags:''' very-high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty= {{anchor|Toc418087811}} {{anchor|Toc180319655}} {{anchor|Toc91058174}} 18. Pale American Ale =
+'''Tags:''' very-high-strength, amber-color, top-fermented, british-isles, traditional-style, strong-ale-family, malty
+
+= {{anchor|Toc91058174}} 18. Pale American Ale =
 
 ''This category contains modern American ales of average strength and light color that are moderately malty to moderately bitter.
 
@@ -2702,7 +2725,8 @@ ABV:4.5 – 6.2%
 
 '''Commercial Examples:''' Deschutes Mirror Pond Pale Ale, Half Acre Daisy Cutter Pale Ale, Great Lakes Burning River, La Cumbre Acclimated APA, Sierra Nevada Pale Ale, Stone Pale Ale 2.0
 
-'''Tags:''' standard-strength, pale-color, top-fermented, north-america, craft-style, pale-ale-family, bitter, hoppy= {{anchor|Toc91058177}} 19. Amber and Brown American Beer =
+'''Tags:''' standard-strength, pale-color, top-fermented, north-america, craft-style, pale-ale-family, bitter, hoppy
+= {{anchor|Toc91058177}} 19. Amber and Brown American Beer =
 
 ''This category contains modern American amber and brown top-fermented ales and warm-fermented lagers of standard strength that can be balanced to bitter.
 
@@ -2797,7 +2821,8 @@ ABV:4.3 – 6.2%
 
 '''Commercial Examples:''' Avery Ellie’s Brown Ale, Big Sky Moose Drool Brown Ale, Brooklyn Brown Ale, Bell’s Best Brown, Smuttynose Old Brown Dog Ale, Telluride Face Down Brown
 
-'''Tags:''' standard-strength, dark-color, top-fermented, north-america, craft-style, brown-ale-family, balanced, hoppy= {{anchor|Toc91058181}} 20. American Porter and Stout =
+'''Tags:''' standard-strength, dark-color, top-fermented, north-america, craft-style, brown-ale-family, balanced, hoppy
+= {{anchor|Toc91058181}} 20. American Porter and Stout =
 
 ''These beers all evolved from their English namesakes to be wholly transformed by American craft brewers. Generally, these styles are bigger, stronger, more roast-forward, and more hop-centric than their traditional Anglo cousins. These styles are grouped together due to a similar shared history and flavor profile.
 
@@ -2895,7 +2920,6 @@ ABV:8.0 – 12.0%
 '''Commercial Examples:''' '''American''' – Bell’s Expedition Stout, Great Divide Yeti Imperial Stout, North Coast Old Rasputin Imperial Stout, Oskar Blues Ten Fidy, Sierra Nevada Narwhal Imperial Stout; '''English''' – 2SP Brewing Co The Russian, Courage Imperial Russian Stout, Le Coq Imperial Extra Double Stout, Samuel Smith Imperial Stout, Thornbridge Saint Petersburg
 
 '''Tags:''' very-high-strength, dark-color, top-fermented, british-isles, north-america, traditional-style, craft-style, stout-family, malty, bitter, roasty
-
 = {{anchor|Toc91058185}} 21. IPA =
 
 ''The IPA category is for modern American IPAs and their derivatives. This does not imply that English IPAs aren’t proper IPAs or that there isn’t a relationship between them. This is simply a method of grouping similar styles for competition purposes. English IPAs are grouped with other English-derived beers, and the stronger Double IPA is grouped with stronger American beers. The term “IPA” is intentionally not spelled out as “India Pale Ale” since none of these beers historically went to India, and many aren’t pale. However, the term IPA has come to be a balance-defined style in modern craft beer.
@@ -3346,7 +3370,8 @@ ABV:8.0 – 12.0%
 
 '''Commercial Examples: '''The Bruery White Oak, Castelain Winter Ale, Perennial Heart of Gold, Two Brothers Bare Tree
 
-'''Tags: '''very-high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, wheat-beer-family, balanced, hoppy= {{anchor|Toc91058201}} 23. European Sour Ale =
+'''Tags: '''very-high-strength, amber-color, top-fermented, north-america, craft-style, strong-ale-family, wheat-beer-family, balanced, hoppy
+= {{anchor|Toc91058201}} 23. European Sour Ale =
 
 ''This category contains the traditional sour beer styles of Europe that are still produced, many (but not all) with a wheat component. Most have low bitterness, with the sourness of the beer providing the balance that hop bitterness would otherwise contribute. Some are sweetened or flavored, whether at the brewery or upon consumption.
 
@@ -3677,6 +3702,7 @@ ABV:6.0 – 8.5%
 '''Tags:''' high-strength, pale-color, amber-color, any-fermentation, lagered, western-europe, traditional-style, amber-ale-family, malty
 
 
+
 = {{anchor|Toc91058213}} 25. Strong Belgian Ale =
 
 ''This category contains the pale, well-attenuated, balanced to bitter beers, often more driven by yeast character than malt flavors, with generally higher alcohol (although a range exists within styles).
@@ -3789,7 +3815,8 @@ ABV:7.5 – 10.5%
 
 '''Commercial Examples:''' Brigand, Delirium Tremens, Duvel, Judas, Lucifer, Russian River Damnation
 
-'''Tags:''' very-high-strength, pale-color, top-fermented, western-europe, traditional-style, bitter= {{anchor|Toc91058217}} 26. Monastic Ale =
+'''Tags:''' very-high-strength, pale-color, top-fermented, western-europe, traditional-style, bitter
+= {{anchor|Toc91058217}} 26. Monastic Ale =
 
 ''Religious institutions have a long history of brewing in Belgium, although often interrupted by conflict and occupation such as during the Napoleonic Wars and World War I. Very few such institutions actually brew today, although many have licensed their names to commercial breweries. Despite the limited production, the traditional styles derived from these breweries have been quite influential and have spread beyond Belgium. ''
 
@@ -3996,7 +4023,8 @@ ABV:4.0 – 5.5%
 
 '''Commercial Examples:''' Apocalypse Brew Works 1912
 
-'''Tags:''' standard-strength, amber-color, top-fermented, north-america, historical-style, balanced=== 27-lichtenhainer. Historical Beer: Lichtenhainer ===
+'''Tags:''' standard-strength, amber-color, top-fermented, north-america, historical-style, balanced
+=== 27-lichtenhainer. Historical Beer: Lichtenhainer ===
 
 '''Overall Impression:''' A sour, smoked, lower-gravity historical central European wheat beer. Complex yet refreshing character due to high attenuation and carbonation, along with low bitterness and moderate sourness. 
 
@@ -4150,8 +4178,7 @@ ABV:4.5 – 6.0%
 '''Commercial Examples:''' Stegmaier Porter, Yuengling Porter
 
 '''Tags:''' standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty
-
-=== 27-roggen. Historical Beer: Roggenbier ===
+=== Historical Beer: Roggenbier ===
 
 '''Overall Impression:''' A Dunkles Weissbier made with rye rather than wheat, but with a greater body and light finishing hops. The rye gives a bready and peppery flavor, a creamy body, and a dry, grainy finish that blends with the distinctive banana-and-clove weizen yeast character.
 
@@ -4345,6 +4372,7 @@ ABV:4.5 – 7.0%
 '''Tags:''' pale-color, top-fermented, sour
 
 
+
 = {{anchor|Toc91058248}} 29. Fruit Beer =
 
 ''The Fruit Beer category is for beer made with any fruit or combination of fruit under the definitions of this category. The '''culinary, not botanical,''' definition of fruit is used here – fleshy, seed-associated structures of plants that are sweet or sour, and edible in the raw state. Examples include pome fruit (apple, pear, quince), stone fruit (cherry, plum, peach, apricot, mango, etc.), berries (any fruit with the word ‘berry’ in it), currants, citrus fruit, dried fruit (dates, prunes, raisins, etc.), tropical fruit (banana, pineapple, mango, guava, passionfruit, papaya, etc.), figs, pomegranate, prickly pear, and so on. It does not mean spices, herbs, or vegetables as defined in Category 30 – especially botanical fruit treated as culinary vegetables. Basically, if you have to justify a fruit using the word “technically” as part of the description, then that’s not what we mean. ''
@@ -4464,7 +4492,8 @@ ABV:6.0 – 8.5%
 
 '''Commercial Examples:''' Montegioco Open Mind, Birrificio del Forte Il Tralcio, Luppolajo Mons Rubus, Firestone Walker Feral Vinifera, pFriem Family Brewers Druif, 4 Árvores Abbondanza 
 
-'''Tags:''' specialty-beer, fruit= {{anchor|Toc91058253}} 30. Spiced Beer =
+'''Tags:''' specialty-beer, fruit
+= {{anchor|Toc91058253}} 30. Spiced Beer =
 
 ''We use the common or culinary definitions of spices, herbs, and vegetables, not botanical or scientific ones. In general, spices are the dried seeds, seed pods, fruit, roots, bark, etc. of plants used for flavoring food. Herbs are leafy plants or parts of plants (leaves, flowers, petals, stalks) used for flavoring food. Vegetables are savory or less sweet edible plant products, used primarily for cooking or sometimes eating raw. Vegetables can include some botanical fruit. This category explicitly includes all culinary spices, herbs, and vegetables, as well as nuts (or anything with ‘nut’ in the name, including coconut), chile peppers, coffee, chocolate, spruce tips, rose hips, hibiscus, fruit peels/zest (but not juice), rhubarb, and the like. It does not include culinary fruit or grains. Flavorful fermentable sugars and syrups (e.g., agave nectar, maple syrup, molasses, sorghum, treacle, honey) or sweeteners (e.g., lactose) can be included only in combination with other allowable ingredients, and should not have a dominant character. Any combination of allowable ingredients may also be entered. ''
 
@@ -4693,7 +4722,8 @@ The special ingredients should be supportive and balanced, not overshadowing the
 
 '''Commercial Examples:''' Fat Head’s Up in Smoke, Ommegang Bourbon Barrel Vanilla Smoked Porter
 
-'''Tags:''' specialty-beer, smoke= {{anchor|Toc418087888}} {{anchor|Toc180319730}} {{anchor|Toc91058264}} 33. Wood Beer =
+'''Tags:''' specialty-beer, smoke
+ = {{anchor|Toc91058264}} 33. Wood Beer =
 
 ''This category contains Specialty-Type Beers with a wood-aged or barrel character, with or without added alcohol character.
 
@@ -4775,7 +4805,8 @@ SRM:varies with base style, often darker than the unadulterated base style
 
 '''Commercial Examples:''' AleSmith Barrel-Aged Old Numbskull, Founders Kentucky Breakfast Stout, Firestone Walker Parabola, Goose Island Bourbon County Stout, Great Divide Barrel Aged Yeti, The Lost Abbey Angel’s Share Ale
 
-'''Tags:''' specialty-beer, wood= {{anchor|Toc91058267}} 34. Specialty Beer =
+'''Tags:''' specialty-beer, wood
+= {{anchor|Toc91058267}} 34. Specialty Beer =
 
 ''While there are many Specialty-Type Beers in these guidelines, the Specialty Beer style category is intended for those beers that do not fit anywhere else. Please check each previous Specialty-Type category before entering a beer in one of these styles.
 
