@@ -110,7 +110,7 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schonramer','Sch
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sunner','Sünner', 'es','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Troegs','Tröegs', 'es','BJCP_2015');
 
--- Ukrainian
+-- BJCP 2015 Ukrainian
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Altenmunster','Altenmünster', 'uk','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Biere','Bière', 'uk','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'uk','BJCP_2015');
@@ -158,6 +158,55 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Тріпель',
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Хез','Gueuze', 'uk','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Янтарний','Amber', 'uk','BJCP_2015');
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ячмінне вино','Barleywine', 'uk','BJCP_2015');
+
+-- BJCP 2021 Ukrainian
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Altenmunster','Altenmünster', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Biere','Bière', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Brau','Bräu', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Burgerbrau','Bürgerbräu', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Dollnitzer','Döllnitzer', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Dusseldorf','Düsseldorf', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fruh','Früh', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Fuchschen','Füchschen', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Gratzer','Grätzer', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hazy IPA','New England IPA', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Hefeweizen','Weissbier', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Koln','Köln', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Kolsch','Kölsch', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Konig','König', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Kostritzer','Köstritzer', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Lowenbrau','Löwenbraü', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Marzen','Märzen', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Monchshof','Mönchshof', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Muhlen','Mühlen', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Munchner','Münchner', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Naturtrub','Naturtrüb', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('New England IPA','New England IPA', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Märzen', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Oktoberfest','Märzen', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schlosser','Schlösser', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schlussel','Schlüssel', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Schonramer','Schönramer', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sunner','Sünner', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Troegs','Tröegs', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('ІПА','IPA', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('ІРА','IPA', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Браун','Brown', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Гозе','Gose', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Дабл','Double', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Дюбель','Dubbel', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Копчений','Smoked', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Коричневий','Brown', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Кьольш','Kölsch', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Оуд','Oud', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Сайзон','Saison', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Сейзон','Saison', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Трипель','Tripel', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Тріпель','Tripel', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Хез','Gueuze', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Янтарний','Amber', 'uk','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ячмінне вино','Barleywine', 'uk','BJCP_2021');
 
 --Brewers Association
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('#bil','Barleywine', 'en','BA_2021');
