@@ -18,9 +18,10 @@ public class CreateBjcpDatabase {
     private static final String BJCP_BEER_EN_2015 = "bjcp-beer-2015_en.xml";
     private static final String BJCP_BEER_ES_2015 = "bjcp-beer-2015_es.xml";
     private static final String BJCP_BEER_UK_2015 = "bjcp-beer-2015_uk.xml";
+    private static final String BJCP_BEER_UK_2021 = "bjcp-beer-2021_uk.xml";
     private static final String BJCP_MEAD_EN_2015 = "bjcp-mead-2015_en.xml";
     private static final String BJCP_CIDER_EN_2015 = "bjcp-cider-2015_en.xml";
-    private static final String BA_BEER_EN_2021 = "ba-beer-2021_en.xml";
+    private static final String BA_BEER_EN_2021 = "bjcp-beer-2021_en.xml";
     private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
     private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
 
@@ -43,7 +44,7 @@ public class CreateBjcpDatabase {
             // Load database from xml file.
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_EN_2021, ENGLISH));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_EN_2021, SPANISH));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_EN_2021, UKRANIAN));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2021, UKRANIAN));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2021));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2021));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_EN_2015, ENGLISH));
