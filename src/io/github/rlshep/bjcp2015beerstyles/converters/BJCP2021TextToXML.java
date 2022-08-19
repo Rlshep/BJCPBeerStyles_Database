@@ -141,7 +141,7 @@ public class BJCP2021TextToXML extends TextToXML {
         s = s.replace("}} Historical Beer: Piwo Grodziskie ===", "}} 27-piwo. Historical Beer: Piwo Grodziskie ===");
         s = s.replace("}} Historical Beer: Pre-Prohibition Lager ===", "}} 27-preprolager. Historical Beer: Pre-Prohibition Lager ===");
         s = s.replace("}} Historical Beer: Pre-Prohibition Porter ===", "}} 27-preproporter. Historical Beer: Pre-Prohibition Porter ===");
-        s = s.replace("malty=== {{anchor|Toc91058230}} Historical Beer: Roggenbier ===", "malty\n\n=== {{anchor|Toc91058230}} 27-roggen. Historical Beer: Roggenbier ===");
+        s = s.replace("=== {{anchor|Toc91058230}} Historical Beer: Roggenbier ===", "=== {{anchor|Toc91058230}} 27-roggen. Historical Beer: Roggenbier ===");
         s = s.replace("}} Historical Beer: Sahti ===", "}} 27-sahti. Historical Beer: Sahti ===");
         s = s.replace("'''Strength classifications:'''", "");
         s = s.replaceAll("Session –\\s\\n\\s*ABV: 3.0 – 5.0%", "ABV: 3.0 – 5.0% ''(session)''");

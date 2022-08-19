@@ -8987,9 +8987,47 @@ Moderate grainy-bready malt flavor, with low levels of chocolate, burnt malt, bu
 <big><b>Tags</b></big><br/>
 
  standard-strength, dark-color, any-fermentation, north-america, historical-style, porter-family, malty<br/>
-				=== Historical Beer: Roggenbier ===<br/>
-<br/>
-<big><b>Overall Impression</b></big><br/>
+			</body>
+			<stats>
+				<type>og</type>
+				<header></header>
+				<notes></notes>
+				<low>1.046</low>
+				<high>1.060</high>
+			</stats>
+			<stats>
+				<type>ibu</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>fg</type>
+				<header></header>
+				<notes></notes>
+				<low>1.010</low>
+				<high>1.016</high>
+			</stats>
+			<stats>
+				<type>srm</type>
+				<header></header>
+				<notes></notes>
+				<low>20</low>
+				<high>30</high>
+			</stats>
+			<stats>
+				<type>abv</type>
+				<header></header>
+				<notes></notes>
+				<low>4.5</low>
+				<high>6.0</high>
+			</stats>
+		</subcategory>
+		<subcategory id="27-roggen">
+			<name>Historical Beer: Roggenbier</name>
+			<body>
+				<big><b>Overall Impression</b></big><br/>
 
  A Dunkles Weissbier made with rye rather than wheat, but with a greater body and light finishing hops. The rye gives a bready and peppery flavor, a creamy body, and a dry, grainy finish that blends with the distinctive banana-and-clove weizen yeast character.<br/>
 <br/>
@@ -9032,41 +9070,6 @@ Moderate grainy-bready malt flavor, with low levels of chocolate, burnt malt, bu
 <big><b>Tags</b></big><br/>
 
  standard-strength, amber-color, top-fermented, central-europe, historical-style, wheat-beer-family</body>
-			<stats>
-				<type>og</type>
-				<header></header>
-				<notes></notes>
-				<low>1.046</low>
-				<high>1.060</high>
-			</stats>
-			<stats>
-				<type>ibu</type>
-				<header></header>
-				<notes></notes>
-				<low>20</low>
-				<high>30</high>
-			</stats>
-			<stats>
-				<type>fg</type>
-				<header></header>
-				<notes></notes>
-				<low>1.010</low>
-				<high>1.016</high>
-			</stats>
-			<stats>
-				<type>srm</type>
-				<header></header>
-				<notes></notes>
-				<low>20</low>
-				<high>30</high>
-			</stats>
-			<stats>
-				<type>abv</type>
-				<header></header>
-				<notes></notes>
-				<low>4.5</low>
-				<high>6.0</high>
-			</stats>
 			<stats>
 				<type>og</type>
 				<header></header>
