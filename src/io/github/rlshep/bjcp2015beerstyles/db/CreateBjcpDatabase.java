@@ -52,10 +52,11 @@ public class CreateBjcpDatabase {
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2021, UKRANIAN));
 
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2015));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2015));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2021));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2021));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2021));
 
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2015));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2021));
 
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BA_BEER_EN_2021, ENGLISH));
