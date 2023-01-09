@@ -50,7 +50,7 @@ public class LoadDomainFromXML {
     }
 
     public List<Category> loadXmlFromFile(String xmlFileName, String language, String revisionOverride) throws Exception {
-          XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+        XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
         XmlPullParser xpp = factory.newPullParser();
 
