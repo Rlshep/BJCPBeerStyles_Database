@@ -26,6 +26,9 @@ dependencies {
 sourceSets.main.java.srcDirs = ['src']
 
 task( loadDb, dependsOn: jar, type: JavaExec ) {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
+    }
     main = 'io.github.rlshep.bjcp2015beerstyles.db.CreateBjcpDatabase'
     classpath = sourceSets.main.runtimeClasspath
 }
