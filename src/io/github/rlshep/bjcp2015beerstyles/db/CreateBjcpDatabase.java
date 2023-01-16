@@ -88,7 +88,8 @@ public class CreateBjcpDatabase {
 
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2015, UKRANIAN));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2021, UKRANIAN));
-//            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2021));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2015));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2021));
         }
 
         return categories;
