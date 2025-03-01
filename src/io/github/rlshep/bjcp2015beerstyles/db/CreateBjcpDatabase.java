@@ -23,6 +23,7 @@ public class CreateBjcpDatabase {
     private static final String BJCP_MEAD_EN_2015 = "bjcp-mead-2015_en.xml";
     private static final String BJCP_MEAD_UK_2015 = "bjcp-mead-2015_uk.xml";
     private static final String BJCP_CIDER_EN_2015 = "bjcp-cider-2015_en.xml";
+    private static final String BJCP_CIDER_EN_2025 = "bjcp-cider-2025_en.xml";
     private static final String BA_BEER_EN_2021 = "ba-beer-2021_en.xml";
     private static final String SYNONYM_FILE_NAME = "db//load_synonyms.sql";
     private static final String FTS_FILE_NAME = "db//load_fts_search.sql";
@@ -79,6 +80,7 @@ public class CreateBjcpDatabase {
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2021));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2015));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2021));
+        categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2025, ENGLISH, BJCP_2025));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BA_BEER_EN_2021, ENGLISH));
 
         if (!englishOnly) {
