@@ -15,12 +15,12 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile 'commons-lang:commons-lang:2.6'
-    compile 'org.xerial:sqlite-jdbc:3.8.10.2'
-    compile 'xmlpull:xmlpull:1.1.3.1'
-    compile 'xpp3:xpp3:1.1.4c'
-    compile 'io.github.rlshep:BJCPBeerStyles_Core:1.0.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.11'
+    implementation 'commons-lang:commons-lang:2.6'
+    implementation 'org.xerial:sqlite-jdbc:3.8.10.2'
+    implementation 'xmlpull:xmlpull:1.1.3.1'
+    implementation 'xpp3:xpp3:1.1.4c'
+    implementation 'io.github.rlshep:BJCPBeerStyles_Core:1.0.0'
 }
 
 sourceSets.main.java.srcDirs = ['src']

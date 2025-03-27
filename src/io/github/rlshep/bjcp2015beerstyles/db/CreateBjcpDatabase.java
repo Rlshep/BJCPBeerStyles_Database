@@ -79,21 +79,20 @@ public class CreateBjcpDatabase {
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2015));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, ENGLISH, BJCP_2021));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2015));
-        categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, ENGLISH, BJCP_2021));
-        categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2025, ENGLISH, BJCP_2025));
+        categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2025, ENGLISH, BJCP_2021));
         categories.addAll(loadDomainFromXML.loadXmlFromFile(BA_BEER_EN_2021, ENGLISH));
 
         if (!englishOnly) {
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_ES_2015, SPANISH));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_EN_2021, SPANISH));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BA_BEER_EN_2021, SPANISH));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2025, SPANISH, BJCP_2025));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2025, SPANISH, BJCP_2021));
+            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_EN_2015, SPANISH, BJCP_2021));
 
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2015, UKRANIAN));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_BEER_UK_2021, UKRANIAN));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2015));
             categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_MEAD_UK_2015, UKRANIAN, BJCP_2021));
-            categories.addAll(loadDomainFromXML.loadXmlFromFile(BJCP_CIDER_EN_2015, UKRANIAN, BJCP_2025));
         }
 
         return categories;

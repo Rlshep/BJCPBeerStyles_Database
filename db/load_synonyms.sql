@@ -229,17 +229,16 @@ INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Ok
 INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Octoberfest','Oktoberfest', 'uk','BA_2021');
 
 -- BJCP 2025 Cider English
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Aeppletreow','Æppeltreow', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Poire','Poiré', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ecologiques','Écologiques', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('petillant','pétillant', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Glace','Glacé', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sacre','Sacré', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Limon','Limón', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Montes','Montés', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Bouche','Bouché', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Cuvee','Cuvée', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ecusson','Écusson', 'en','BJCP_2025');
-INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('MLF','malolactic fermentation', 'en','BJCP_2025');
-
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Aeppletreow','Æppeltreow', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Poire','Poiré', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ecologiques','Écologiques', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('petillant','pétillant', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Glace','Glacé', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Sacre','Sacré', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Limon','Limón', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Montes','Montés', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Bouche','Bouché', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Cuvee','Cuvée', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('Ecusson','Écusson', 'en','BJCP_2021');
+INSERT INTO SYNONYMS (left, right, language, revision) VALUES ('MLF','malolactic fermentation', 'en','BJCP_2021');
 
