@@ -1,1 +1,5 @@
-cp -f /c/dev/GitHub/BJCPBeerStyles_Database/db/BjcpBeerStyles.db /c/dev/GitHub/BJCPBeerStyles_Android/bjcp_beer_styles/src/main/assets/
+# windows
+# cp -f /c/dev/GitHub/BJCPBeerStyles_Database/db/BjcpBeerStyles.db /c/dev/GitHub/BJCPBeerStyles_Android/bjcp_beer_styles/src/main/assets/
+
+# mac
+cp -f /Users/richardsheppard/dev/BJCPBeerStyles_Database/db/BjcpBeerStyles.db /Users/richardsheppard/dev/BJCPBeerStyles_Android/bjcp_beer_styles/src/main/assets/

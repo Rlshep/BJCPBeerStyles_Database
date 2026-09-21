@@ -1,2 +1,8 @@
 rootProject.name = 'LoadBjcpDb'
 
+includeBuild('../BJCPBeerStyles_Core') {
+	dependencySubstitution {
+		substitute module('io.github.rlshep:BJCPBeerStyles_Core') using project(':')
+	}
+}
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:complexType name="mixedContentType" mixed="true">
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="revisionType" mixed="true">
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="notesType" mixed="true">
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+    </xs:sequence>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="subcategoryType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="notes" type="notesType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="body" type="mixedContentType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="stats" type="mixedContentType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="subcategory" type="subcategoryType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="categoryType">
+    <xs:sequence>
+      <xs:element name="revision" type="revisionType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="notes" type="notesType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="subcategory" type="subcategoryType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="category" type="categoryType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="classType">
+    <xs:sequence>
+      <xs:element name="category" type="categoryType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="styleguide">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="category" type="categoryType"/>
+        <xs:element name="class" type="classType"/>
+      </xs:choice>
+      <xs:attribute name="revision" type="xs:string" use="required"/>
+      <xs:attribute name="language" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
