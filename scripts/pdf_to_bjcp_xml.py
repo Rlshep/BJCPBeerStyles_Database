@@ -17,6 +17,8 @@ The script is intentionally generic for BJCP-style PDFs that use section heading
 from __future__ import annotations
 
 import argparse
+from collections import defaultdict
+from html import escape
 import re
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -78,8 +80,43 @@ def extract_pdf_text(pdf_path: Path) -> str:
     reader = PdfReader(str(pdf_path))
     parts: List[str] = []
     for page in reader.pages:
-        text = page.extract_text() or ""
-        parts.append(text)
+        columns = [defaultdict(list), defaultdict(list)]
+        font_sizes = [dict(), dict()]
+        column_boundary = (float(page.cropbox.left) + float(page.cropbox.right)) / 2
+
+        def collect_text(text, current_matrix, text_matrix, font, font_size):
+            if not text.strip():
+                return
+            x = current_matrix[0] * text_matrix[4] + current_matrix[2] * text_matrix[5] + current_matrix[4]
+            y = current_matrix[1] * text_matrix[4] + current_matrix[3] * text_matrix[5] + current_matrix[5]
+            font_name = str(font.get("/BaseFont", "")) if font else ""
+            styles = []
+            if re.search(r"bold|black|heavy|demi", font_name, re.I):
+                styles.append("b")
+            if re.search(r"italic|oblique", font_name, re.I):
+                styles.append("i")
+            rendered = escape(text)
+            for tag in styles:
+                rendered = f"<{tag}>{rendered}</{tag}>"
+            column = 0 if x < column_boundary else 1
+            line_y = round(y, 1)
+            columns[column][line_y].append((x, rendered))
+            font_sizes[column][line_y] = max(font_sizes[column].get(line_y, 0), float(font_size or 0))
+
+        page.extract_text(visitor_text=collect_text)
+        page_lines = []
+        for column_index, column in enumerate(columns):
+            previous_y = None
+            previous_font_size = 0
+            for y in sorted(column, reverse=True):
+                line = "".join(text for _, text in sorted(column[y]))
+                current_font_size = font_sizes[column_index][y]
+                if previous_y is not None and previous_y - y > max(previous_font_size, current_font_size) * 1.7:
+                    page_lines.append("")
+                page_lines.append(line)
+                previous_y = y
+                previous_font_size = current_font_size
+        parts.append("\n".join(page_lines))
     return "\n".join(parts)
 
 
@@ -87,28 +124,29 @@ def strip_page_noise(text: str) -> str:
     lines = []
     for raw in text.splitlines():
         line = normalize_line(raw)
+        plain_line = re.sub(r"<[^>]+>", "", line)
         if not line:
             lines.append("")
             continue
 
-        if re.match(r"^(BJCP|BEER JUDGE CERTIFICATION PROGRAM|Mead Style Guidelines|Contents|Copyright|Updates available|Authored by|2026 Content|2026 Review|Proofreader|\d+)$", line, flags=re.I):
+        if re.match(r"^(BJCP|BEER JUDGE CERTIFICATION PROGRAM|Mead Style Guidelines|Contents|Copyright|Updates available|Authored by|2026 Content|2026 Review|Proofreader|\d+)$", plain_line, flags=re.I):
             continue
-        if re.match(r"^BJCP Mead Style Guidelines.*\d+$", line, flags=re.I):
+        if re.match(r"^BJCP Mead Style Guidelines.*\d+$", plain_line, flags=re.I):
             continue
-        if re.match(r"^\d+$", line):
+        if re.match(r"^\d+$", plain_line):
             continue
-        if re.match(r"^.*Page.*\d+.*$", line, flags=re.I):
+        if re.match(r"^.*Page.*\d+.*$", plain_line, flags=re.I):
             continue
 
         # Remove dotted page leaders such as:
         # "Aroma and Flavor........................................ 1"
-        if re.match(r"^(?:Aroma and Flavor|Appearance|Mouthfeel|Overall Impression|Ingredients|Entry Instructions|INTRODUCTION TO THE 2026 MEAD GUIDELINES|INTRODUCTION TO MEAD STYLES \(CATEGORIES M1-M4\)|M[1-4](?:[A-F])?\.?\s+[A-Z0-9].*)\s*\.+\s*\d*$", line, flags=re.I):
+        if re.match(r"^(?:Aroma and Flavor|Appearance|Mouthfeel|Overall Impression|Ingredients|Entry Instructions|INTRODUCTION TO THE 2026 MEAD GUIDELINES|INTRODUCTION TO MEAD STYLES \(CATEGORIES M1-M4\)|M[1-4](?:[A-F])?\.?\s+[A-Z0-9].*)\s*\.+\s*\d*$", plain_line, flags=re.I):
             continue
-        if re.search(r"\.{3,}\s*\d+$", line):
+        if re.search(r"\.{3,}\s*\d+$", plain_line):
             line = re.sub(r"\.{3,}\s*\d+$", "", line)
-        if re.search(r"\.{3,}\s*\d+\s*$", line):
+        if re.search(r"\.{3,}\s*\d+\s*$", plain_line):
             line = re.sub(r"\.{3,}\s*\d+\s*$", "", line)
-        if line.endswith(".") and line.count(".") > 1 and re.search(r"\d$", line):
+        if plain_line.endswith(".") and plain_line.count(".") > 1 and re.search(r"\d$", plain_line):
             line = re.sub(r"\.+\d*$", "", line)
 
         lines.append(line)
@@ -134,11 +172,14 @@ def scan_sections(raw_text: str) -> Dict[str, List[str]]:
                 current_lines.append("")
             continue
 
-        match = HEADING_RE.match(line)
+        plain_line = re.sub(r"<[^>]+>", "", line)
+        match = HEADING_RE.match(plain_line)
         if match:
             label = match.group("label")
             if label.startswith("INTRODUCTION"):
+                flush_current()
                 current_id = "MI"
+                current_lines = []
             elif label.startswith("M1") and label.startswith("M1."):
                 flush_current()
                 current_id = "M1"
@@ -184,17 +225,31 @@ def clean_paragraphs(text_blocks: List[str]) -> str:
     if paragraph:
         para_parts.append(" ".join(part for part in paragraph if part).strip())
 
-    joined = "\n\n".join(p for p in para_parts if p)
-    return re.sub(r"\s+", " ", joined).strip()
-
-
-def xml_escape(value: str) -> str:
-    return value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    joined = "<br/><br/>".join(p for p in para_parts if p)
+    return joined
 
 
 def make_notes_element(parent: ET.Element, text: str) -> None:
-    notes = ET.SubElement(parent, "notes")
-    notes.text = xml_escape(text)
+    parser = ET.XMLParser()
+    notes = ET.fromstring(f"<notes>{text}</notes>", parser=parser)
+    parent.append(notes)
+
+
+def indent_document(root: ET.Element, space: str = "  ") -> None:
+    def indent(element: ET.Element, level: int) -> None:
+        if element.tag == "notes":
+            return
+        children = list(element)
+        if not children:
+            return
+        if element.text is None or not element.text.strip():
+            element.text = "\n" + space * (level + 1)
+        for index, child in enumerate(children):
+            indent(child, level + 1)
+            if child.tail is None or not child.tail.strip():
+                child.tail = "\n" + space * (level if index == len(children) - 1 else level + 1)
+
+    indent(root, 0)
 
 
 def build_document(pdf_path: Path, revision: str = "BJCP_2026") -> ET.Element:
@@ -208,6 +263,22 @@ def build_document(pdf_path: Path, revision: str = "BJCP_2026") -> ET.Element:
 
     intro_blocks = sections.get("MI", [])
     intro_text = clean_paragraphs(intro_blocks)
+    intro_heading = "INTRODUCTION TO MEAD STYLES (CATEGORIES M1-M4)"
+    intro_text = re.sub(
+        rf"<b>\s*{re.escape(intro_heading)}\s*</b>(?:<br\s*/?>)*",
+        "",
+        intro_text,
+        count=1,
+        flags=re.I,
+    )
+    preamble_start = re.search(r"(?:<i>\s*)?This preamble\b", intro_text, flags=re.I)
+    if preamble_start:
+        before = re.sub(r"(?:<br\s*/?>)+\s*$", "", intro_text[:preamble_start.start()], flags=re.I)
+        after = intro_text[preamble_start.start():]
+        separator = "<br/><br/>" if before else ""
+        intro_text = f"{before}{separator}<b>{intro_heading}</b><br/><br/>{after}"
+    else:
+        intro_text = f"<b>{intro_heading}</b>" + (f"<br/><br/>{intro_text}" if intro_text else "")
     mi = ET.SubElement(category_m, "subcategory", {"id": "MI"})
     ET.SubElement(mi, "name").text = SECTION_HEADINGS["MI"]
     if intro_text:
@@ -256,7 +327,7 @@ def main() -> int:
 
     root = build_document(args.pdf, revision=args.revision)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    ET.indent(root, space="  ")
+    indent_document(root)
     ET.ElementTree(root).write(args.output, encoding="utf-8", xml_declaration=True)
 
     if args.validate:

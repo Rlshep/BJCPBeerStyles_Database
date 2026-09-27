@@ -47,7 +47,10 @@ def main() -> int:
 
     ok = True
     for pdf in pdfs:
-        output_name = pdf.name.replace(".pdf", ".xml")
+        if pdf.stem.lower() == "2026_guidelines_mead-final":
+            output_name = "bjcp-mead-2026_en.xml"
+        else:
+            output_name = pdf.with_suffix(".xml").name
         output_path = args.output_dir / output_name
         print(f"Converting {pdf} -> {output_path}")
         valid = convert_one(pdf, output_path, args.schema, args.revision, args.validate)
